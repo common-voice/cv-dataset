@@ -1,5 +1,5 @@
 # Common Voice Dataset
-This repo contains metadata and versioning details for the Common Voice dataset. Please visit https://voice.mozilla.org/datasets to download the full dataset.
+This repo contains release details and metadata for the Common Voice dataset. Please visit https://voice.mozilla.org/datasets to download the full dataset.
 
 ## About this repo
 
@@ -13,7 +13,7 @@ Please only use this repo to provide feedback on **technical issues** with the d
 
 This dataset features contributions from the Common Voice community on our [web platform](https://voice.mozilla.org). New datasets are released approximately every six months.
 
-All voice contributions are released as part of datasets, and we only remove clips from datasets at the request of the user. The clips are bundled and uploaded to S3 using the [Common Voice Bundler tool](https://github.com/Common-Voice/common-voice-bundler/).
+All voice contributions are released as part of datasets, regardless of validation status. We only remove clips from datasets at the request of the user. The clips are bundled and uploaded to S3 using the [Common Voice Bundler tool](https://github.com/Common-Voice/common-voice-bundler/).
 
 Each downloaded `.tar.gz` file will have the following structure, where `[lang]` represents the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language:
 
