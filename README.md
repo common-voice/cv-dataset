@@ -32,6 +32,21 @@ Each `.tsv` file contains a list of files, the annotation (original source sente
 
 As of Corpus 5.0, we are publishing a list of all of the sentences that have been flagged or reported by our contributors for each language, at the request of language communities that wish to use this data to do better quality control on their source sentences.
 
+## Fields
+Each row of a tsv file represents a single audio clip, and contains the following information:
+
+* client_id - hashed UUID of a given user
+* path - relative path of the audio file
+* text - supposed transcription of the audio
+* up_votes - number of people who said audio matches the text
+* down_votes - number of people who said audio does not match text
+* age - age of the speaker*
+* gender - gender of the speaker*
+* accent - accent of the speaker*
+* segment - if sentence belongs to a custom dataset segment, it will be listed here
+
+*For a full list of age, gender, and accent options, see the [demograpics spec](https://github.com/mozilla/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
+
 ## Use for machine-learning
 
 We use the [Mozilla Corpora Creator](https://github.com/mozilla/CorporaCreator) tool to parse through metadata to generate [test, train, and dev](https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets) sets. The Corpora Creator eliminates duplication in clips and maximized for speaker diversity.
