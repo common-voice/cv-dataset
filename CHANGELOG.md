@@ -44,8 +44,8 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
 
 Regularly scheduled dataset release for H2 of 2019.
 
-* **Date released**:
-* **Clip cut-off date**:
+* **Date released**: 14 Jan 2020
+* **Clip cut-off date**: 10 Dec 2019
 * **Total hours**: 4,257
 * **Total validated hours**: 3,401
 * **Number of languages**: 40
@@ -53,36 +53,42 @@ Regularly scheduled dataset release for H2 of 2019.
 **New languages since last major release**: Abkhazian, Arabic, Chinese (Hong Kong), Indonesian, Interlingua, Japanese, Latvian, Portuguese, Romansh (Sursilvan), Tamil, and Votic.
 
 
-### Corpus 3
+### Corpus 3 - [Discourse Update](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409/16)
+
+Minor update to Corpus 2 to correct an issue with file-naming.
 
 * **Date released**: 24 June 2019
-* **Clip cut-off date**:
-* **Total hours**:
-* **Total validated hours**:
-* **Number of languages**:
+* **Clip cut-off date**: 24 June 2019 (est)
+* **Total hours**: 2,454
+* **Total validated hours**: 1,979
+* **Number of languages**: 29
 
-**New languages since last major release**:
+**New languages since last major release**: Persian
 
-### Corpus 2
+### Corpus 2 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409)
+
+Regularly scheduled dataset release for H1 of 2019.
 
 * **Date released**: 11 June 2019
-* **Clip cut-off date**:
-* **Total hours**:
-* **Total validated hours**:
-* **Number of languages**:
+* **Clip cut-off date**: 11 June 2019 (est)
+* **Total hours**: 2,366
+* **Total validated hours**: 1,872
+* **Number of languages**: 28
 
-**New languages since last major release**:
+**New languages since last major release**: Basque, Spanish, Chinese (Mandarin), Mongolian, Yakut, Divehi, Kinyarwandan, Swedish, Russian
 
 
-### Corpus 1
+### Corpus 1 - [Mozilla Announcement](https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/)
+
+First multilingual release.
 
 * **Date released**: 25 February 2019
-* **Clip cut-off date**:
-* **Total hours**:
-* **Total validated hours**:
-* **Number of languages**:
+* **Clip cut-off date**: 25 Feburary 2019 (est)
+* **Total hours**: 1,368
+* **Total validated hours**: 1,096
+* **Number of languages**: 19
 
-**New languages since last major release**:
+**New languages since last major release**: German, French, Welsh, Breton, Chuvash, Turkish, Tatar, Kyrgyz, Irish, Kabyle, Catalan, Chinese (Taiwan), Slovenian, Italian, Dutch, Hakka Chin, Esperanto, Estonian
 
 
 ### English Corpus 1
