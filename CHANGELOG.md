@@ -2,18 +2,60 @@
 
 ## Current releases:
 
+### Corpus 6.1 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+
+Correction to Corpus 6.0, which had a bug that did not properly attribute demographics information.
+
+* **Date released**: 22 Dec 2020
+* **Clip cut-off date**: 11 Dec 2020
+* **Total hours**: 9,283
+* **Total validated hours**: 7,335
+* **Number of languages**: 60
+
+### Singleword Segment 6.1 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+
+Correction to Corpus 6.0, which had a bug that did not properly attribute demographics information.
+
+* **Date released**: 22 Dec 2020
+* **Clip cut-off date**: 11 Dec 2020
+* **Total hours**: 131
+* **Total validated hours**: 77
+* **Number of languages**: 31
+
+
+## Past releases
+
+Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
+
+### Corpus 6.0 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+
+Regularly scheduled dataset release for H2 of 2020.
+
+* **Date released**: 22 Dec 2020
+* **Clip cut-off date**: 11 Dec 2020
+* **Total hours**: 9,261
+* **Total validated hours**: 7,327
+* **Number of languages**: 60
+
+### Singleword Segment 6.0 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+
+Update to Singleword Segment 5.1
+
+* **Date released**: 22 Dec 2020
+* **Clip cut-off date**: 11 Dec 2020
+* **Total hours**: 131
+* **Total validated hours**: 77
+* **Number of languages**: 31
+
 ### Corpus 5.1 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/7)
 
-Correction to Corpus 5.0, which untintentionally altered the column order of the test/train/dev sets, and included some redundant metadata entries for clips that didn’t actually have valid audio.
+Correction to Corpus 5.0, which unintentionally altered the column order of the test/train/dev sets, and included some redundant metadata entries for clips that didn’t actually have valid audio.
 
 * **Date released**: 14 July 2020
 * **Clip cut-off date**: 22 June 2020
 * **Total hours**: 7,226
 * **Total validated hours**: 5,671*
 * **Number of languages**: 54
-
-*The increase in validated hours compared to Corpus 5.0 reflects the validations from the community in the two weeks between these two releases.
-
 
 ### Singleword Segment - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/)
 
@@ -24,8 +66,6 @@ This contains all of the voice data collected as part of the [Common Voice pilot
 * **Total hours**: 120
 * **Total validated hours**: 64
 * **Number of languages**: 18
-
-## Past releases
 
 ### Corpus 5.0 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/)
 
