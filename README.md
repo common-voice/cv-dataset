@@ -62,3 +62,25 @@ Each test/train/dev set is generated non-deterministically, meaning that they wi
 ## Dataset access
 
 We're aware that downloading large files (> 1-2 GB) over HTTP is not ideal, and we are working on improving our dataset access mechanisms to make it easier for researchers and developers to make use of our corpus. In the meantime, if you find that you are experiencing interruptions to your download, we suggest using `curl` on the command line for this, so that you can resume interrupted downloads with the `-C` option. For more information on how to use `curl`, please see [the man page documentation](https://www.mit.edu/afs.new/sipb/user/ssen/src/curl-7.11.1/docs/curl.html).
+
+## Citation
+
+If you use the data in a published academic work we would appreciate if you cite the following article:
+
+- Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "[Common Voice: A Massively-Multilingual Speech Corpus](https://arxiv.org/abs/1912.06670)". _Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)._ pp. 4211—4215
+
+The BiBTex is:
+
+```
+@inproceedings{commonvoice:2020,
+  author = {Ardila, R. and Branson, M. and Davis, K. and Henretty, M. and Kohler, M. and Meyer, J. and Morais, R. and Saunders, L. and Tyers, F. M. and Weber, G.},
+  title = {Common Voice: A Massively-Multilingual Speech Corpus},
+  booktitle = {Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)},
+  pages = {4211--4215},
+  year = 2020
+}
+```
+
+```
+
+```
