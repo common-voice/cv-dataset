@@ -1,5 +1,5 @@
 # Common Voice Dataset
-This repo contains release details and metadata for the Common Voice dataset. Please visit https://voice.mozilla.org/datasets to download the full dataset.
+This repo contains release details and metadata for the Common Voice dataset. Please visit https://commonvoice.mozilla.org/datasets to download the full dataset.
 
 ## About this repo
 
@@ -11,7 +11,7 @@ Please only use this repo to provide feedback on **technical issues** with the d
 
 ## About the Dataset
 
-This dataset features contributions from the Common Voice community on our [web platform](https://voice.mozilla.org). New datasets are released approximately every six months.
+This dataset features contributions from the Common Voice community on our [web platform](https://commonvoice.mozilla.org). New datasets are released approximately every six months.
 
 All voice contributions are released as part of datasets, regardless of validation status. We only remove clips from datasets at the request of the user. The clips are bundled and uploaded to S3 using the [Common Voice Bundler tool](https://github.com/Common-Voice/common-voice-bundler/).
 
@@ -51,7 +51,7 @@ Each row of a tsv file represents a single audio clip, and contains the followin
 * accent - accent of the speaker*
 * segment - if sentence belongs to a custom dataset segment, it will be listed here
 
-*For a full list of age, gender, and accent options, see the [demograpics spec](https://github.com/mozilla/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
+*For a full list of age, gender, and accent options, see the [demograpics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
 
 ## Use for machine-learning
 
