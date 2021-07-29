@@ -2,6 +2,30 @@
 
 ## Current releases:
 
+### Corpus 7.0
+
+Regularly scheduled dataset release for H1 of 2021.
+
+* **Date released**: 28 July 2021
+* **Clip cut-off date**: 21 July 2021
+* **Total hours**: 13,905
+* **Total validated hours**: 11,192
+* **Number of languages**: 76
+
+**New languages since last major release**: Basaa, Slovak, Northern Kurdish, Bulgarian, Kazakh, Bashkir, Galician, Uyghur, Armenian, Belarusian, Urdu, Guarani, Serbian, Uzbek, Azerbaijani, Hausa
+
+### Singleword Segment 7.0
+
+Update to Singleword Segment 6.1
+
+* **Date released**: 28 July 2021
+* **Clip cut-off date**: 21 July 2021
+* **Total hours**: 141
+* **Total validated hours**: 82
+* **Number of languages**: 34
+
+## Past releases
+
 ### Corpus 6.1 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Correction to Corpus 6.0, which had a bug that did not properly attribute demographics information.
@@ -22,8 +46,6 @@ Correction to Corpus 6.0, which had a bug that did not properly attribute demogr
 * **Total validated hours**: 77
 * **Number of languages**: 31
 
-
-## Past releases
 
 Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
 
