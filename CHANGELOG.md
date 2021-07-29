@@ -37,6 +37,8 @@ Regularly scheduled dataset release for H2 of 2020.
 * **Total validated hours**: 7,327
 * **Number of languages**: 60
 
+**New languages since last major release**: Hindi, Lithuanian, Luganda, Thai, Finnish, Hungarian
+
 ### Singleword Segment 6.0 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Update to Singleword Segment 5.1
