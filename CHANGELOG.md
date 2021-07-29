@@ -2,7 +2,7 @@
 
 ## Current releases:
 
-### Corpus 7.0
+### [Corpus 7.0](datasets/cv-corpus-7.0-2021-07-21.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-2021-mid-year-dataset-release/83812)
 
 Regularly scheduled dataset release for H1 of 2021.
 
@@ -14,7 +14,7 @@ Regularly scheduled dataset release for H1 of 2021.
 
 **New languages since last major release**: Basaa, Slovak, Northern Kurdish, Bulgarian, Kazakh, Bashkir, Galician, Uyghur, Armenian, Belarusian, Urdu, Guarani, Serbian, Uzbek, Azerbaijani, Hausa
 
-### Singleword Segment 7.0
+### [Singleword Segment 7.0](datasets/cv-corpus-7.0-singleword.json)
 
 Update to Singleword Segment 6.1
 
@@ -26,7 +26,9 @@ Update to Singleword Segment 6.1
 
 ## Past releases
 
-### Corpus 6.1 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
+
+### [Corpus 6.1](datasets/cv-corpus-6.1-2020-12-11.json) - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Correction to Corpus 6.0, which had a bug that did not properly attribute demographics information.
 
@@ -36,7 +38,7 @@ Correction to Corpus 6.0, which had a bug that did not properly attribute demogr
 * **Total validated hours**: 7,335
 * **Number of languages**: 60
 
-### Singleword Segment 6.1 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+### [Singleword Segment 6.1](datasets/cv-corpus-6.1-singleword.json) - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Correction to Corpus 6.0, which had a bug that did not properly attribute demographics information.
 
@@ -46,10 +48,7 @@ Correction to Corpus 6.0, which had a bug that did not properly attribute demogr
 * **Total validated hours**: 77
 * **Number of languages**: 31
 
-
-Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
-
-### Corpus 6.0 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+### [Corpus 6.0](datasets/cv-corpus-6.0-2020-12-11.json) - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Regularly scheduled dataset release for H2 of 2020.
 
@@ -61,7 +60,7 @@ Regularly scheduled dataset release for H2 of 2020.
 
 **New languages since last major release**: Hindi, Lithuanian, Luganda, Thai, Finnish, Hungarian
 
-### Singleword Segment 6.0 - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
+### [Singleword Segment 6.0](datasets/cv-corpus-6.0-singleword.json) - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
 Update to Singleword Segment 5.1
 
@@ -71,7 +70,7 @@ Update to Singleword Segment 5.1
 * **Total validated hours**: 77
 * **Number of languages**: 31
 
-### Corpus 5.1 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/7)
+### [Corpus 5.1](datasets/cv-corpus-5.1-2020-06-22.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/7)
 
 Correction to Corpus 5.0, which unintentionally altered the column order of the test/train/dev sets, and included some redundant metadata entries for clips that didn’t actually have valid audio.
 
@@ -81,17 +80,17 @@ Correction to Corpus 5.0, which unintentionally altered the column order of the 
 * **Total validated hours**: 5,671*
 * **Number of languages**: 54
 
-### Singleword Segment - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/)
+### [Singleword Segment 5.1](datasets/cv-corpus-5.1-singleword.json)
 
-This contains all of the voice data collected as part of the [Common Voice pilot target segment effort] collecting single-word utterances for a benchmark experiment.
+Correction to Singleword Segment 5.0, which was still optimizing for no repeated sentences during segmentation and thus resulted in disproportionately small test/dev/train sets.
 
-* **Date released**: 30 June 2020
+* **Date released**: 16 September 2020
 * **Clip cut-off date**: 22 June 2020
 * **Total hours**: 120
 * **Total validated hours**: 64
 * **Number of languages**: 18
 
-### Corpus 5.0 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/)
+### [Corpus 5.0](datasets/cv-corpus-5-2020-06-22.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-dataset-release-mid-year-2020/62938/)
 
 Regularly scheduled dataset release for H1 of 2020. This release introduced sha256 checksum values for each dataset, which you can find on the datasets page for each language, or in the [datasheet files](datasets/cv-corpus-5.1-2020-06-22.json).
 
@@ -103,8 +102,18 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
 
 **New languages since last major release**: Upper Sorbian, Romanian, Frisian, Czech, Greek, Romansh Vallader, Polish, Assamese, Ukranian, Maltese, Georgian, Punjabi, Odia, and Vietnamese
 
+### [Singleword Segment 5.0](datasets/cv-corpus-5-singleword.json)
 
-### Corpus 4
+This contains all of the voice data collected as part of the [Common Voice pilot target segment effort] collecting single-word utterances for a benchmark experiment.
+
+* **Date released**: 30 June 2020
+* **Clip cut-off date**: 22 June 2020
+* **Total hours**: 120
+* **Total validated hours**: 64
+* **Number of languages**: 18
+
+
+### [Corpus 4](datasets/cv-corpus-4-2019-12-10.json)
 
 Regularly scheduled dataset release for H2 of 2019.
 
@@ -117,7 +126,7 @@ Regularly scheduled dataset release for H2 of 2019.
 **New languages since last major release**: Abkhazian, Arabic, Chinese (Hong Kong), Indonesian, Interlingua, Japanese, Latvian, Portuguese, Romansh (Sursilvan), Tamil, and Votic.
 
 
-### Corpus 3 - [Discourse Update](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409/16)
+### [Corpus 3](datasets/cv-corpus-3.json) - [Discourse Update](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409/16)
 
 Minor update to Corpus 2 to correct an issue with file-naming.
 
@@ -129,7 +138,7 @@ Minor update to Corpus 2 to correct an issue with file-naming.
 
 **New languages since last major release**: Persian
 
-### Corpus 2 - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409)
+### [Corpus 2](datasets/cv-corpus-2.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409)
 
 Regularly scheduled dataset release for H1 of 2019.
 
@@ -142,7 +151,7 @@ Regularly scheduled dataset release for H1 of 2019.
 **New languages since last major release**: Basque, Spanish, Chinese (Mandarin), Mongolian, Yakut, Divehi, Kinyarwandan, Swedish, Russian
 
 
-### Corpus 1 - [Mozilla Announcement](https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/)
+### [Corpus 1](datasets/cv-corpus-1.json) - [Mozilla Announcement](https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/)
 
 First multilingual release.
 
