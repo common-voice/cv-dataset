@@ -2,6 +2,22 @@
 
 ## Current releases:
 
+### [Corpus 8.0](datasets/cv-corpus-8.0-2022-01-19.json) - [Discourse Announcement](https://discourse.mozilla.org/t/dataset-release-day-v-8/92083)
+
+Regularly scheduled dataset release.
+
+* **Date released**: 26 January 2022
+* **Clip cut-off date**: 19 January 2022
+* **Total hours**: 18,243
+* **Total validated hours**: 14,122
+* **Number of languages**: 87
+
+**New languages since last major release**: Igbo, Marathi, Danish, Norwegian Nynorsk, Central Kurdish, Malayalam, Swahili, Erzya, Moksha, Macedonian and Santali (Ol Chiki).
+
+## Past releases
+
+Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
+
 ### [Corpus 7.0](datasets/cv-corpus-7.0-2021-07-21.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-2021-mid-year-dataset-release/83812)
 
 Regularly scheduled dataset release for H1 of 2021.
@@ -23,10 +39,6 @@ Update to Singleword Segment 6.1
 * **Total hours**: 141
 * **Total validated hours**: 82
 * **Number of languages**: 34
-
-## Past releases
-
-Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
 
 ### [Corpus 6.1](datasets/cv-corpus-6.1-2020-12-11.json) - [Discourse Announcement](https://discourse.mozilla.org/t/2020-end-of-year-common-voice-dataset-release/72287/)
 
