@@ -1,7 +1,5 @@
 {
     "date": "2022-01-19",
-    "name": "Common Voice Corpus 8.0",
-    "multilingual": true,
     "locales": {
         "en": {
             "duration": 10390463635,
