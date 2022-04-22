@@ -1,5 +1,5 @@
 {
-    "bundleURLTemplate": "https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-9.0-2022-04-27/{locale}.tar.gz",
+    "date": "2022-04-27",
     "locales": {
         "en": {
             "duration": 10632910099,
@@ -3732,8 +3732,8 @@
             "validHrs": 0.18
         }
     },
-    "totalDuration": 189491280962,
-    "totalValidDurationSecs": 133302133,
-    "totalHrs": 52636,
-    "totalValidHrs": 37028
+    "totalDuration": 72782088097,
+    "totalValidDurationSecs": 53904443,
+    "totalHrs": 20217,
+    "totalValidHrs": 14973
 }
