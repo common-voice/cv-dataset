@@ -298,7 +298,7 @@
             "validHrs": 115.65
         },
         "eo": {
-            "duration": 52141276618,
+            "duration": 6712729612,
             "reportedSentences": 2113,
             "buckets": {
                 "dev": 14911,
@@ -335,10 +335,10 @@
             "users": 1498,
             "size": 40086922305,
             "checksum": "5b341a961cf9f680d5c97d0be4f817fedbdfe695a3cf18825363c4c9104899b7",
-            "avgDurationSecs": 47.133,
-            "validDurationSecs": 39988856.134,
-            "totalHrs": 14483.68,
-            "validHrs": 11108.01
+            "avgDurationSecs": 6.068,
+            "validDurationSecs": 5148297,
+            "totalHrs": 1864.65,
+            "validHrs": 1430.08
         },
         "zh-CN": {
             "reportedSentences": 445,
