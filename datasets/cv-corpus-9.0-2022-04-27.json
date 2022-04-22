@@ -167,10 +167,10 @@
             "users": 1237,
             "size": 2995697303,
             "checksum": "d29c81a1801ba01af97b7a90548dfd0409b9efa9b9d1291e28deee90267a746b",
-            "avgDurationSecs": 595.724,
-            "validDurationSecs": 44871148.591,
-            "totalHrs": 19939.72,
-            "validHrs": 12464.2
+            "avgDurationSecs": 4.169,
+            "validDurationSecs": 314017,
+            "totalHrs": 139.54,
+            "validHrs": 87.23
         },
         "zh-TW": {
             "reportedSentences": 139,
