@@ -12,7 +12,7 @@ Regularly scheduled dataset release Q1 2022.
 - **Total validated hours**: 14,973
 - **Number of languages**: 93
 
-**New languages since last major release**: Igbo, Marathi, Danish, Norwegian Nynorsk, Central Kurdish, Malayalam, Swahili, Erzya, Moksha, Macedonian and Santali (Ol Chiki).
+**New languages since last major release**: Tigre, Taiwanese (Minnan), Meadow Mari, Bengali, Toki Pona and Cantonese.
 
 ### [Corpus 8.0](datasets/cv-corpus-8.0-2022-01-19.json) - [Discourse Announcement](https://discourse.mozilla.org/t/dataset-release-day-v-8/92083)
 
