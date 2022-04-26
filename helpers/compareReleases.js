@@ -57,8 +57,11 @@ const main = (aPath, bPath, reportPath) => {
   }
 
   console.log(totalStats);
+  console.log("New Languages: ", newLanguages);
+  console.log("Removed Languages: ", removedLanguages);
+
   if (reportPath) {
-    fs.writeFileSync(reportPath, JSON.stringify(diffStats));
+    fs.writeFileSync(reportPath, JSON.stringify(totalStats));
     fs.writeFileSync(
       reportPath.split(".")[0] + "-total.json",
       JSON.stringify(diffStats)
