@@ -39,7 +39,7 @@
       "validHrs": 2275.28
     },
     "fa": {
-      "duration": 1371049,
+      "duration": 1371060000,
       "buckets": {
         "dev": 9937,
         "invalidated": 13320,
