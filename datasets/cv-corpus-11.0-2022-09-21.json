@@ -588,7 +588,6 @@
         "validated": 76208
       },
       "reportedSentences": 2066,
-      "duration": 71808175834,
       "clips": 126681,
       "splits": {
         "accent": { "": 1 },
@@ -605,12 +604,13 @@
         "gender": { "female": 0.18, "": 0.55, "male": 0.27, "other": 0 }
       },
       "users": 1309,
+      "duration": 528133089,
       "size": 3133096686,
       "checksum": "c5122a5fcb393f6091e81ef60ae8cfc8e1a80451eabee0c31fa600f7c92e99f2",
-      "avgDurationSecs": 566.843,
-      "validDurationSecs": 43197933.897,
-      "totalHrs": 19946.71,
-      "validHrs": 11999.42
+      "avgDurationSecs": 4.169,
+      "validDurationSecs": 317711.152,
+      "totalHrs": 146.704,
+      "validHrs": 88.253
     },
     "zh-TW": {
       "buckets": {
@@ -748,10 +748,10 @@
       "size": 40389394457,
       "checksum": "1346a519fa7f5e158122a1c76c66c7342c5e3b87a8a8549fbaf69b1c78d7f936",
       "avgDurationSecs": 6,
-      "validDurationSecs": 39748481.005,
+      "validDurationSecs": 5092086,
       "duration": 6686017200,
       "totalHrs": 1857.227,
-      "validHrs": 11041.24
+      "validHrs": 1414.47
     },
     "zh-CN": {
       "buckets": {
