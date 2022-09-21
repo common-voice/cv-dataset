@@ -70,10 +70,10 @@ const main = (aPath, bPath, reportPath) => {
   if (reportPath) {
     fs.writeFileSync(
       reportPath.split(".")[0] + "-total.json",
-      JSON.stringify({ ...diffStats, ...totalStats })
+      JSON.stringify({ locales: { ...diffStats }, ...totalStats })
     );
   } else {
-    process.stdout.write(JSON.stringify(diffStats));
+    process.stdout.write(JSON.stringify({ ...diffStats, ...totalStats }));
   }
 };
 
