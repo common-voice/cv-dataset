@@ -3296,7 +3296,7 @@
     }
   },
   "totalDuration": 87231600000,
-  "totalValidDurationSecs": 59145166,
+  "totalValidDurationSecs": 59145166000,
   "totalHrs": 24231,
   "totalValidHrs": 16429
 }
