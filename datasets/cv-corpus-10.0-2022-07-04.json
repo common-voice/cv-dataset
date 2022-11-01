@@ -718,7 +718,7 @@
       "validHrs": 120.64
     },
     "eo": {
-      "duration": 6740710,
+      "duration": 6740710000,
       "buckets": {
         "dev": 14907,
         "invalidated": 127293,
@@ -750,8 +750,8 @@
       "checksum": "2179bad54bb2b69cd12964bc2f6533b9538b7a3f943f9e65f8f9a463796fd901",
       "avgDurationSecs": 6.068,
       "validDurationSecs": 5148764,
-      "totalHrs": 1430.21,
-      "validHrs": 1872.42
+      "totalHrs": 1872.42,
+      "validHrs": 1430.21
     },
     "zh-CN": {
       "duration": 1614763392,

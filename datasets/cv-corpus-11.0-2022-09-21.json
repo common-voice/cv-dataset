@@ -747,11 +747,11 @@
       "users": 1581,
       "size": 40389394457,
       "checksum": "1346a519fa7f5e158122a1c76c66c7342c5e3b87a8a8549fbaf69b1c78d7f936",
-      "avgDurationSecs": 6,
-      "validDurationSecs": 5092086,
-      "duration": 6686017200,
-      "totalHrs": 1857.227,
-      "validHrs": 1414.47
+      "avgDurationSecs": 6.068,
+      "validDurationSecs": 5149796,
+      "duration": 6761790848,
+      "totalHrs": 1878.28,
+      "validHrs": 1430.499
     },
     "zh-CN": {
       "buckets": {
@@ -3295,8 +3295,8 @@
       "validHrs": 0.01
     }
   },
-  "totalDuration": 203940819230,
-  "totalValidDurationSecs": 136624074,
-  "totalHrs": 56650,
-  "totalValidHrs": 37951
+  "totalDuration": 87231600000,
+  "totalValidDurationSecs": 59145166,
+  "totalHrs": 24231,
+  "totalValidHrs": 16429
 }
