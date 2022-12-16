@@ -578,7 +578,7 @@
       "validHrs": 75.6
     },
     "ar": {
-      "duration": 71804112154,
+      "duration": 523410,
       "buckets": {
         "dev": 10354,
         "invalidated": 14919,
@@ -609,7 +609,7 @@
       "checksum": "4f81fec5272134b6e7de8195fc94e629975c3142691587ad3be961c3cb12a686",
       "avgDurationSecs": 4.164,
       "validDurationSecs": 315889.368,
-      "totalHrs": 145.41,
+      "totalHrs": 145.4,
       "validHrs": 87.747
     },
     "zh-TW": {
