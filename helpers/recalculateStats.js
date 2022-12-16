@@ -19,7 +19,6 @@ const main = (filePath) => {
   });
   console.log(a.sort((a, b) => a - b));
   console.log("Total validDurationSecs: ", calc.validDurationSecs);
-  console.log("Total validDurationSecs: ", calc.validDurationSecs);
   console.log("Total Hours: ", calc.totalHrs);
 };
 
