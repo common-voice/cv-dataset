@@ -578,7 +578,7 @@
       "validHrs": 75.6
     },
     "ar": {
-      "duration": 523410,
+      "duration": 523410000,
       "buckets": {
         "dev": 10354,
         "invalidated": 14919,
