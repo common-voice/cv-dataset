@@ -1040,9 +1040,9 @@
       "size": 16409764181,
       "checksum": "545c840317cd3ed7c0720bad8bbad010674fd1428d01c192e5d87c449c7c46b8",
       "avgDurationSecs": 4.349,
-      "validDurationSecs": -40480.23,
+      "validDurationSecs": 26080.953,
       "totalHrs": 790.89,
-      "validHrs": -11.25
+      "validHrs": 7.24
     },
     "tok": {
       "duration": 1215540,
