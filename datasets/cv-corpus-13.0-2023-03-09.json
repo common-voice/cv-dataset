@@ -1,0 +1,3550 @@
+{
+  "bundleURLTemplate": "https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz",
+  "locales": {
+    "de": {
+      "duration": 4821107393,
+      "buckets": {
+        "dev": 16143,
+        "invalidated": 50705,
+        "other": 6381,
+        "reported": 9131,
+        "test": 16143,
+        "train": 540437,
+        "validated": 868264
+      },
+      "reportedSentences": 9100,
+      "clips": 925350,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.18,
+          "fourties": 0.17,
+          "": 0.32,
+          "thirties": 0.16,
+          "teens": 0.03,
+          "sixties": 0.02,
+          "fifties": 0.11,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": { "male": 0.59, "": 0.32, "female": 0.08, "other": 0.01 }
+      },
+      "users": 17867,
+      "size": 33828262029,
+      "checksum": "71664fadd4189922f3c814889f640111e925fb511b290242e10e7a768bd7b1bb",
+      "avgDurationSecs": 5.21,
+      "validDurationSecs": 4523687.242,
+      "totalHrs": 1339.19,
+      "validHrs": 1256.57
+    },
+    "en": {
+      "buckets": {
+        "dev": 16372,
+        "invalidated": 264713,
+        "other": 278333,
+        "reported": 4732,
+        "test": 16372,
+        "train": 1013968,
+        "validated": 1689599
+      },
+      "reportedSentences": 4657,
+      "duration": 11550150103,
+      "clips": 2232645,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.37,
+          "twenties": 0.24,
+          "sixties": 0.04,
+          "thirties": 0.13,
+          "teens": 0.06,
+          "seventies": 0.01,
+          "fourties": 0.1,
+          "fifties": 0.05,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": { "": 0.37, "male": 0.46, "female": 0.16, "other": 0.02 }
+      },
+      "users": 86942,
+      "size": 82019442116,
+      "checksum": "e9af8ba157ea45d94b98490004b8e7e1b8432414e27be396b27b94e99e284421",
+      "avgDurationSecs": 5.173,
+      "validDurationSecs": 8740808.352,
+      "totalHrs": 3208.37,
+      "validHrs": 2428
+    },
+    "fa": {
+      "buckets": {
+        "dev": 10440,
+        "invalidated": 14071,
+        "other": 20673,
+        "reported": 2268,
+        "test": 10440,
+        "train": 28024,
+        "validated": 320143
+      },
+      "reportedSentences": 2259,
+      "duration": 1415098376,
+      "clips": 354887,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.25,
+          "twenties": 0.31,
+          "thirties": 0.37,
+          "fifties": 0.02,
+          "fourties": 0.02,
+          "teens": 0.03,
+          "sixties": 0
+        },
+        "gender": { "": 0.22, "male": 0.71, "female": 0.07, "other": 0 }
+      },
+      "users": 4188,
+      "size": 10368977174,
+      "checksum": "921ff70850b58468bcc232f1d6f8e7c5bf58aff2ee1efdd4f26de19e75f7ed2a",
+      "avgDurationSecs": 3.987,
+      "validDurationSecs": 1276558.001,
+      "totalHrs": 393.08,
+      "validHrs": 354.59
+    },
+    "fr": {
+      "buckets": {
+        "dev": 16114,
+        "invalidated": 58926,
+        "other": 31371,
+        "reported": 6922,
+        "test": 16114,
+        "train": 509300,
+        "validated": 676602
+      },
+      "reportedSentences": 6846,
+      "duration": 3839056354,
+      "clips": 766899,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.17,
+          "thirties": 0.16,
+          "": 0.37,
+          "teens": 0.03,
+          "fourties": 0.14,
+          "fifties": 0.1,
+          "sixties": 0.03,
+          "seventies": 0.01,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": { "male": 0.59, "": 0.3, "female": 0.1, "other": 0.01 }
+      },
+      "users": 17428,
+      "size": 27191480970,
+      "checksum": "a44e73aa19a6805838a1302c1d311b704e90de7463da187b4b4ac3bcfba053fd",
+      "avgDurationSecs": 5.006,
+      "validDurationSecs": 3387034.286,
+      "totalHrs": 1066.4,
+      "validHrs": 940.84
+    },
+    "es": {
+      "buckets": {
+        "dev": 15708,
+        "invalidated": 68143,
+        "other": 1167766,
+        "reported": 2095,
+        "test": 15708,
+        "train": 280329,
+        "validated": 356713
+      },
+      "reportedSentences": 2078,
+      "duration": 7746327810,
+      "clips": 1592622,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.1,
+          "": 0.13,
+          "fifties": 0.04,
+          "twenties": 0.55,
+          "teens": 0.08,
+          "fourties": 0.03,
+          "sixties": 0.08,
+          "eighties": 0,
+          "seventies": 0,
+          "nineties": 0
+        },
+        "gender": { "male": 0.55, "": 0.13, "other": 0, "female": 0.33 }
+      },
+      "users": 25096,
+      "size": 48860618846,
+      "checksum": "4d2b6be24bc13b4dce65bb8f63531225ed68b9590ef768c4245decfe319bc7cf",
+      "avgDurationSecs": 4.864,
+      "validDurationSecs": 1735010.462,
+      "totalHrs": 2151.75,
+      "validHrs": 481.94
+    },
+    "sl": {
+      "buckets": {
+        "dev": 1162,
+        "invalidated": 261,
+        "other": 2302,
+        "reported": 37,
+        "test": 1240,
+        "train": 1436,
+        "validated": 9909
+      },
+      "reportedSentences": 38,
+      "duration": 47128294,
+      "clips": 12472,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.47,
+          "teens": 0.07,
+          "": 0.18,
+          "sixties": 0.07,
+          "fifties": 0.06,
+          "fourties": 0.09,
+          "thirties": 0.05
+        },
+        "gender": { "female": 0.15, "male": 0.67, "": 0.18, "other": 0 }
+      },
+      "users": 141,
+      "size": 330113132,
+      "checksum": "cbd0b177478b176d3b3162b9a48e54ad3240f6be46b35308b45d6f7d5788c289",
+      "avgDurationSecs": 3.779,
+      "validDurationSecs": 37443.414,
+      "totalHrs": 13.09,
+      "validHrs": 10.4
+    },
+    "kab": {
+      "buckets": {
+        "dev": 14996,
+        "invalidated": 19513,
+        "other": 111915,
+        "reported": 9012,
+        "test": 14996,
+        "train": 151730,
+        "validated": 609062
+      },
+      "reportedSentences": 9007,
+      "duration": 2470790068,
+      "clips": 740490,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.09,
+          "thirties": 0.29,
+          "": 0.28,
+          "fifties": 0.19,
+          "twenties": 0.12,
+          "eighties": 0,
+          "teens": 0,
+          "sixties": 0.03,
+          "seventies": 0
+        },
+        "gender": { "male": 0.53, "": 0.26, "female": 0.2, "other": 0 }
+      },
+      "users": 1514,
+      "size": 18439964913,
+      "checksum": "9461233ae95d9850048bacf0c2d5d3102384e6bf8e542978cdd11732053dcf42",
+      "avgDurationSecs": 3.337,
+      "validDurationSecs": 2032254.778,
+      "totalHrs": 686.33,
+      "validHrs": 564.51
+    },
+    "cy": {
+      "buckets": {
+        "dev": 5293,
+        "invalidated": 4390,
+        "other": 18680,
+        "reported": 162,
+        "test": 5307,
+        "train": 7810,
+        "validated": 89159
+      },
+      "reportedSentences": 162,
+      "duration": 546587361,
+      "clips": 112229,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.16,
+          "twenties": 0.13,
+          "sixties": 0.06,
+          "fifties": 0.09,
+          "": 0.43,
+          "thirties": 0.09,
+          "seventies": 0.01,
+          "eighties": 0,
+          "teens": 0.02
+        },
+        "gender": { "male": 0.33, "female": 0.24, "": 0.41, "other": 0.01 }
+      },
+      "users": 1750,
+      "size": 4009004534,
+      "checksum": "c54adb86f51b50eb5813d793e3a7b21ddd69e9a69df8f73eb7a147e47957ca68",
+      "avgDurationSecs": 4.87,
+      "validDurationSecs": 434229.856,
+      "totalHrs": 151.82,
+      "validHrs": 120.61
+    },
+    "ca": {
+      "duration": 10415935674,
+      "buckets": {
+        "dev": 16380,
+        "invalidated": 86112,
+        "other": 493015,
+        "reported": 5738,
+        "test": 16380,
+        "train": 1046965,
+        "validated": 1325430
+      },
+      "reportedSentences": 5690,
+      "clips": 1904557,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.06,
+          "fifties": 0.17,
+          "fourties": 0.11,
+          "twenties": 0.05,
+          "": 0.34,
+          "sixties": 0.23,
+          "teens": 0.01,
+          "seventies": 0.04,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": { "male": 0.44, "": 0.34, "female": 0.21, "other": 0 }
+      },
+      "users": 31941,
+      "size": 63732227938,
+      "checksum": "7a7f050ea8e98ad8aa8082758ec2065d16024ebcc5300c6e8baa47a5dfdeecf2",
+      "avgDurationSecs": 5.469,
+      "validDurationSecs": 7248716.431,
+      "totalHrs": 2893.31,
+      "validHrs": 2013.53
+    },
+    "tt": {
+      "duration": 110016998,
+      "buckets": {
+        "dev": 3296,
+        "invalidated": 404,
+        "other": 34,
+        "reported": 4,
+        "test": 5117,
+        "train": 9553,
+        "validated": 28851
+      },
+      "reportedSentences": 5,
+      "clips": 29289,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.2,
+          "thirties": 0.72,
+          "twenties": 0.05,
+          "sixties": 0,
+          "fifties": 0.01,
+          "teens": 0,
+          "fourties": 0,
+          "seventies": 0.01
+        },
+        "gender": { "": 0.2, "male": 0.78, "female": 0.02 }
+      },
+      "users": 234,
+      "size": 811793536,
+      "checksum": "88f304cc84abff09d809698f58de875663516f9a2b7e85ed351f525dcec520ce",
+      "avgDurationSecs": 3.756,
+      "validDurationSecs": 108371.758,
+      "totalHrs": 30.56,
+      "validHrs": 30.1
+    },
+    "ta": {
+      "duration": 1404253896,
+      "buckets": {
+        "dev": 11937,
+        "invalidated": 5621,
+        "other": 87707,
+        "reported": 3343,
+        "test": 11973,
+        "train": 43350,
+        "validated": 132638
+      },
+      "reportedSentences": 3343,
+      "clips": 225966,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.08,
+          "thirties": 0.09,
+          "": 0.72,
+          "fourties": 0.03,
+          "seventies": 0.02,
+          "fifties": 0.03,
+          "teens": 0.03,
+          "sixties": 0,
+          "eighties": 0
+        },
+        "gender": { "male": 0.16, "": 0.71, "other": 0, "female": 0.13 }
+      },
+      "users": 850,
+      "size": 8408601882,
+      "checksum": "51c38e4ce57c21b1352f9d981dbe19702d01a093f230fc6271fb8bf97f8665d1",
+      "avgDurationSecs": 6.214,
+      "validDurationSecs": 824271.918,
+      "totalHrs": 390.07,
+      "validHrs": 228.96
+    },
+    "ru": {
+      "duration": 883818540,
+      "buckets": {
+        "dev": 10185,
+        "invalidated": 9523,
+        "other": 13491,
+        "reported": 391,
+        "test": 10186,
+        "train": 26269,
+        "validated": 148642
+      },
+      "reportedSentences": 385,
+      "clips": 171656,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.35,
+          "teens": 0.09,
+          "": 0.24,
+          "fourties": 0.14,
+          "thirties": 0.15,
+          "fifties": 0.03,
+          "sixties": 0,
+          "seventies": 0
+        },
+        "gender": { "male": 0.6, "": 0.24, "other": 0, "female": 0.15 }
+      },
+      "users": 2901,
+      "size": 6058265022,
+      "checksum": "0992166fab13d7a8a8df539b0667c4cd947de88f2b61f107c3805c04ceae0a43",
+      "avgDurationSecs": 5.149,
+      "validDurationSecs": 765324.576,
+      "totalHrs": 245.5,
+      "validHrs": 212.59
+    },
+    "nl": {
+      "duration": 411681817,
+      "buckets": {
+        "dev": 10930,
+        "invalidated": 5331,
+        "other": 2723,
+        "reported": 334,
+        "test": 10936,
+        "train": 31906,
+        "validated": 86798
+      },
+      "reportedSentences": 334,
+      "clips": 94852,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.41,
+          "twenties": 0.21,
+          "fourties": 0.15,
+          "thirties": 0.11,
+          "teens": 0.02,
+          "fifties": 0.08,
+          "sixties": 0.02,
+          "nineties": 0,
+          "eighties": 0,
+          "seventies": 0
+        },
+        "gender": { "": 0.42, "male": 0.47, "female": 0.11, "other": 0 }
+      },
+      "users": 1610,
+      "size": 2808697434,
+      "checksum": "2a8edc9005bbc8a3623ce25bfe95979bc9144e49a09468e8fd574ea76de30d94",
+      "avgDurationSecs": 4.34,
+      "validDurationSecs": 376725.407,
+      "totalHrs": 114.35,
+      "validHrs": 104.64
+    },
+    "it": {
+      "duration": 1327694592,
+      "buckets": {
+        "dev": 15086,
+        "invalidated": 17764,
+        "other": 209,
+        "reported": 5752,
+        "test": 15096,
+        "train": 162637,
+        "validated": 229467
+      },
+      "reportedSentences": 5748,
+      "clips": 247440,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.17,
+          "twenties": 0.22,
+          "": 0.29,
+          "fifties": 0.15,
+          "fourties": 0.14,
+          "seventies": 0,
+          "sixties": 0.03,
+          "teens": 0.01,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": { "female": 0.11, "male": 0.6, "": 0.28, "other": 0 }
+      },
+      "users": 6881,
+      "size": 9117088260,
+      "checksum": "38d09ee666b8b813415e37d2c149d804c25f1d4dc149e602325554c7ed5f2580",
+      "avgDurationSecs": 5.366,
+      "validDurationSecs": 1231256.446,
+      "totalHrs": 368.8,
+      "validHrs": 342.01
+    },
+    "eu": {
+      "duration": 538424295,
+      "buckets": {
+        "dev": 6591,
+        "invalidated": 5819,
+        "other": 28376,
+        "reported": 97,
+        "test": 6591,
+        "train": 10918,
+        "validated": 69567
+      },
+      "reportedSentences": 97,
+      "clips": 103762,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.13,
+          "thirties": 0.07,
+          "fifties": 0.13,
+          "twenties": 0.35,
+          "": 0.26,
+          "teens": 0.03,
+          "sixties": 0.02,
+          "seventies": 0
+        },
+        "gender": { "male": 0.46, "female": 0.25, "": 0.27, "other": 0.02 }
+      },
+      "users": 1252,
+      "size": 4040542343,
+      "checksum": "07e2c8846ad8307b9790f402fa45a66ce71a2f1c95df8ec8c82d6fb3e9214a33",
+      "avgDurationSecs": 5.189,
+      "validDurationSecs": 360985.36,
+      "totalHrs": 149.56,
+      "validHrs": 100.27
+    },
+    "tr": {
+      "duration": 353861415,
+      "buckets": {
+        "dev": 10837,
+        "invalidated": 4090,
+        "other": 156,
+        "reported": 356,
+        "test": 10839,
+        "train": 31091,
+        "validated": 93160
+      },
+      "reportedSentences": 357,
+      "clips": 97406,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.3,
+          "thirties": 0.08,
+          "twenties": 0.28,
+          "teens": 0.02,
+          "fourties": 0.03,
+          "fifties": 0.09,
+          "sixties": 0.16,
+          "eighties": 0.02,
+          "seventies": 0.03
+        },
+        "gender": { "": 0.3, "male": 0.47, "female": 0.22, "other": 0 }
+      },
+      "users": 1435,
+      "size": 2154735517,
+      "checksum": "c1a9adf7e17d82022f0ef16d9143560f8fdb426eba15dea385d1dcf64432a1b1",
+      "avgDurationSecs": 3.633,
+      "validDurationSecs": 338436.333,
+      "totalHrs": 98.29,
+      "validHrs": 94.01
+    },
+    "ar": {
+      "duration": 533060847,
+      "buckets": {
+        "dev": 10409,
+        "invalidated": 14994,
+        "other": 36192,
+        "reported": 2093,
+        "test": 10445,
+        "train": 28167,
+        "validated": 76677
+      },
+      "reportedSentences": 2085,
+      "clips": 127863,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.11,
+          "": 0.56,
+          "twenties": 0.28,
+          "fourties": 0.01,
+          "teens": 0.03,
+          "fifties": 0,
+          "sixties": 0,
+          "nineties": 0
+        },
+        "gender": { "female": 0.18, "": 0.56, "male": 0.27, "other": 0 }
+      },
+      "users": 1407,
+      "size": 3160282600,
+      "checksum": "b51f50ecee1a7323ecf6d5f0dae5c1140df0c583d978cb8b3cf05fe6cc1e2d38",
+      "avgDurationSecs": 4.169,
+      "validDurationSecs": 319666.413,
+      "totalHrs": 148.07,
+      "validHrs": 88.79
+    },
+    "zh-TW": {
+      "duration": 429109942,
+      "buckets": {
+        "dev": 4825,
+        "invalidated": 4657,
+        "other": 44705,
+        "reported": 142,
+        "test": 4825,
+        "train": 6799,
+        "validated": 79531
+      },
+      "reportedSentences": 143,
+      "clips": 128893,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.2,
+          "twenties": 0.31,
+          "teens": 0.06,
+          "": 0.27,
+          "fifties": 0.07,
+          "seventies": 0,
+          "fourties": 0.1,
+          "sixties": 0
+        },
+        "gender": { "male": 0.49, "": 0.26, "female": 0.23, "other": 0.02 }
+      },
+      "users": 2121,
+      "size": 2930301331,
+      "checksum": "2bfa61c1c915713204aa8875dfa8dd2dc1aa6fc56245cf90c2ed13fded6a7253",
+      "avgDurationSecs": 3.329,
+      "validDurationSecs": 264774.214,
+      "totalHrs": 119.19,
+      "validHrs": 73.54
+    },
+    "br": {
+      "duration": 86037091,
+      "buckets": {
+        "dev": 2142,
+        "invalidated": 846,
+        "other": 15235,
+        "reported": 274,
+        "test": 2129,
+        "train": 2618,
+        "validated": 11369
+      },
+      "reportedSentences": 274,
+      "clips": 27450,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.33,
+          "": 0.31,
+          "fifties": 0.05,
+          "fourties": 0.06,
+          "thirties": 0.07,
+          "sixties": 0.15,
+          "seventies": 0.02,
+          "teens": 0.01
+        },
+        "gender": { "male": 0.67, "": 0.31, "female": 0.02, "other": 0 }
+      },
+      "users": 181,
+      "size": 611265443,
+      "checksum": "ca761f982405be3e675b6d11e42938cf72f2ec1d1622f3da3d1c4df2e1758e45",
+      "avgDurationSecs": 3.134,
+      "validDurationSecs": 35634.087,
+      "totalHrs": 23.89,
+      "validHrs": 9.89
+    },
+    "pt": {
+      "duration": 707442559,
+      "buckets": {
+        "dev": 9072,
+        "invalidated": 6465,
+        "other": 33792,
+        "reported": 2544,
+        "test": 9072,
+        "train": 19948,
+        "validated": 133154
+      },
+      "reportedSentences": 2537,
+      "clips": 173411,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.23,
+          "twenties": 0.38,
+          "teens": 0.02,
+          "thirties": 0.19,
+          "fourties": 0.14,
+          "sixties": 0.02,
+          "fifties": 0.02,
+          "seventies": 0
+        },
+        "gender": { "": 0.23, "male": 0.69, "female": 0.06, "other": 0.02 }
+      },
+      "users": 3099,
+      "size": 4475741482,
+      "checksum": "7dc2dbf1ad261825ebca28ec594a3adc9b9d14d33a64e5f05e0fccad9ed44bd1",
+      "avgDurationSecs": 4.08,
+      "validDurationSecs": 543211.252,
+      "totalHrs": 196.51,
+      "validHrs": 150.89
+    },
+    "eo": {
+      "duration": 6787549508,
+      "buckets": {
+        "dev": 14909,
+        "invalidated": 127338,
+        "other": 142397,
+        "reported": 2210,
+        "test": 14913,
+        "train": 143984,
+        "validated": 848846
+      },
+      "reportedSentences": 2209,
+      "clips": 1118581,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.56,
+          "thirties": 0.12,
+          "": 0.2,
+          "fourties": 0.04,
+          "fifties": 0.02,
+          "seventies": 0,
+          "teens": 0.05,
+          "sixties": 0,
+          "eighties": 0
+        },
+        "gender": { "male": 0.69, "": 0.2, "female": 0.11, "other": 0 }
+      },
+      "users": 1616,
+      "size": 40520544051,
+      "checksum": "df26401578f024d2d1748438bc2bb8da1f4fcd066d26b5b1f1fb7dbc88ca4537",
+      "avgDurationSecs": 6.068,
+      "validDurationSecs": 5150797.528,
+      "totalHrs": 1885.43,
+      "validHrs": 1430.77
+    },
+    "zh-CN": {
+      "duration": 3779771748,
+      "buckets": {
+        "dev": 10624,
+        "invalidated": 56661,
+        "other": 594422,
+        "reported": 681,
+        "test": 10624,
+        "train": 29383,
+        "validated": 179473
+      },
+      "reportedSentences": 675,
+      "clips": 830556,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.94,
+          "teens": 0.01,
+          "twenties": 0.04,
+          "thirties": 0.01,
+          "fourties": 0,
+          "nineties": 0,
+          "fifties": 0,
+          "sixties": 0
+        },
+        "gender": { "": 0.94, "male": 0.05, "female": 0.01, "other": 0 }
+      },
+      "users": 6667,
+      "size": 22348267124,
+      "checksum": "c160d6c83e20424692ffacbbf2fc6480c6613c0913ae5cb1d2a2ddf7d1c239cc",
+      "avgDurationSecs": 4.551,
+      "validDurationSecs": 816762.476,
+      "totalHrs": 1049.93,
+      "validHrs": 226.87
+    },
+    "id": {
+      "duration": 226821756,
+      "buckets": {
+        "dev": 3292,
+        "invalidated": 2553,
+        "other": 29260,
+        "reported": 345,
+        "test": 3649,
+        "train": 5041,
+        "validated": 25027
+      },
+      "reportedSentences": 346,
+      "clips": 56840,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.25,
+          "twenties": 0.41,
+          "thirties": 0.1,
+          "teens": 0.23,
+          "fifties": 0,
+          "fourties": 0.02
+        },
+        "gender": { "": 0.25, "male": 0.44, "female": 0.27, "other": 0.04 }
+      },
+      "users": 492,
+      "size": 1427745911,
+      "checksum": "35e1c00612c9a306be8597d9544c032bafac35d892456f6a6186e53117a0933c",
+      "avgDurationSecs": 3.991,
+      "validDurationSecs": 99871.008,
+      "totalHrs": 63,
+      "validHrs": 27.74
+    },
+    "ia": {
+      "duration": 60756600,
+      "buckets": {
+        "dev": 1796,
+        "invalidated": 331,
+        "other": 2615,
+        "reported": 275,
+        "test": 1777,
+        "train": 5018,
+        "validated": 11583
+      },
+      "reportedSentences": 271,
+      "clips": 14529,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "seventies": 0.22,
+          "fourties": 0.3,
+          "": 0.38,
+          "twenties": 0.05,
+          "thirties": 0.02,
+          "teens": 0,
+          "fifties": 0.03,
+          "sixties": 0
+        },
+        "gender": { "male": 0.61, "": 0.38, "female": 0.01 }
+      },
+      "users": 62,
+      "size": 411366463,
+      "checksum": "cae091b1e805fb1bc4621b5547ca755dc8e655b872bf19c2d06c2218ef12ab13",
+      "avgDurationSecs": 4.182,
+      "validDurationSecs": 48437.174,
+      "totalHrs": 16.87,
+      "validHrs": 13.45
+    },
+    "lv": {
+      "duration": 61503893,
+      "buckets": {
+        "dev": 2246,
+        "invalidated": 448,
+        "other": 3247,
+        "reported": 37,
+        "test": 2295,
+        "train": 2756,
+        "validated": 13277
+      },
+      "reportedSentences": 38,
+      "clips": 16972,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.43,
+          "fourties": 0.04,
+          "": 0.3,
+          "twenties": 0.18,
+          "teens": 0.02,
+          "fifties": 0.03
+        },
+        "gender": { "male": 0.58, "female": 0.13, "": 0.3 }
+      },
+      "users": 321,
+      "size": 398577312,
+      "checksum": "717c7e08b7ea15f95a4629b7bdacfa416c74b66e1d0ea491ee8f1cf16715b359",
+      "avgDurationSecs": 3.624,
+      "validDurationSecs": 48113.787,
+      "totalHrs": 17.08,
+      "validHrs": 13.36
+    },
+    "ja": {
+      "duration": 621734109,
+      "buckets": {
+        "dev": 4961,
+        "invalidated": 5993,
+        "other": 73033,
+        "reported": 193,
+        "test": 4961,
+        "train": 7071,
+        "validated": 57527
+      },
+      "reportedSentences": 193,
+      "clips": 136553,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.5,
+          "": 0.21,
+          "teens": 0.05,
+          "fifties": 0.01,
+          "thirties": 0.09,
+          "fourties": 0.14,
+          "sixties": 0,
+          "seventies": 0,
+          "nineties": 0
+        },
+        "gender": { "male": 0.47, "": 0.21, "female": 0.32, "other": 0.01 }
+      },
+      "users": 1630,
+      "size": 3675036058,
+      "checksum": "14188e016cc264e7d4381e4835d1efd54623f35f0ffb85562004d1ae906fe5c4",
+      "avgDurationSecs": 4.553,
+      "validDurationSecs": 261923.928,
+      "totalHrs": 172.7,
+      "validHrs": 72.75
+    },
+    "rw": {
+      "duration": 8581498601,
+      "buckets": {
+        "dev": 15987,
+        "invalidated": 227795,
+        "other": 47246,
+        "reported": 629,
+        "test": 16213,
+        "train": 1003023,
+        "validated": 1438618
+      },
+      "reportedSentences": 630,
+      "clips": 1713659,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.05,
+          "twenties": 0.61,
+          "thirties": 0.12,
+          "teens": 0.2,
+          "fourties": 0.02,
+          "fifties": 0
+        },
+        "gender": { "": 0.1, "male": 0.57, "female": 0.33, "other": 0 }
+      },
+      "users": 1103,
+      "size": 60972955216,
+      "checksum": "9570b365918a227121b1111de3f2404a6624b51e0374683da7c2701a4327fb99",
+      "avgDurationSecs": 5.008,
+      "validDurationSecs": 7204174.433,
+      "totalHrs": 2383.74,
+      "validHrs": 2001.15
+    },
+    "sv-SE": {
+      "duration": 187757835,
+      "buckets": {
+        "dev": 5114,
+        "invalidated": 1381,
+        "other": 6313,
+        "reported": 580,
+        "test": 5120,
+        "train": 7407,
+        "validated": 39506
+      },
+      "reportedSentences": 581,
+      "clips": 47200,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.25,
+          "": 0.18,
+          "teens": 0.03,
+          "fifties": 0.03,
+          "twenties": 0.12,
+          "fourties": 0.38,
+          "sixties": 0,
+          "seventies": 0
+        },
+        "gender": { "male": 0.48, "": 0.19, "female": 0.32, "other": 0.01 }
+      },
+      "users": 791,
+      "size": 1188005367,
+      "checksum": "760816a9eb17ede1738f08fc44ff87d6e9f9e26a6e6f4fe4f979084aba8de708",
+      "avgDurationSecs": 3.978,
+      "validDurationSecs": 157151.717,
+      "totalHrs": 52.15,
+      "validHrs": 43.65
+    },
+    "cnh": {
+      "duration": 20675832,
+      "buckets": {
+        "dev": 761,
+        "invalidated": 436,
+        "other": 2908,
+        "reported": 8,
+        "test": 763,
+        "train": 817,
+        "validated": 2458
+      },
+      "reportedSentences": 9,
+      "clips": 5802,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.51,
+          "twenties": 0.36,
+          "fourties": 0.01,
+          "teens": 0.02,
+          "thirties": 0.08,
+          "fifties": 0.02
+        },
+        "gender": { "": 0.51, "male": 0.33, "female": 0.16 }
+      },
+      "users": 299,
+      "size": 161331878,
+      "checksum": "38066864bff36a1ee125d901be9602f6d25061ef9a5f30fcb8f0e953e3a37208",
+      "avgDurationSecs": 3.564,
+      "validDurationSecs": 8759.255,
+      "totalHrs": 5.74,
+      "validHrs": 2.43
+    },
+    "et": {
+      "duration": 195989330,
+      "buckets": {
+        "dev": 2638,
+        "invalidated": 6697,
+        "other": 506,
+        "reported": 490,
+        "test": 2638,
+        "train": 3138,
+        "validated": 21796
+      },
+      "reportedSentences": 487,
+      "clips": 28999,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.2,
+          "thirties": 0.08,
+          "twenties": 0.68,
+          "fourties": 0.04,
+          "fifties": 0,
+          "seventies": 0,
+          "teens": 0
+        },
+        "gender": { "": 0.2, "male": 0.54, "female": 0.26, "other": 0 }
+      },
+      "users": 809,
+      "size": 1336581339,
+      "checksum": "dfce8875a0c27ab49fa5167ab20b264d1e5773c052bb45c3524d1e2c3e400454",
+      "avgDurationSecs": 6.758,
+      "validDurationSecs": 147307.957,
+      "totalHrs": 54.44,
+      "validHrs": 40.91
+    },
+    "ky": {
+      "duration": 162502536,
+      "buckets": {
+        "dev": 1612,
+        "invalidated": 5618,
+        "other": 76,
+        "reported": 37,
+        "test": 1613,
+        "train": 1788,
+        "validated": 30117
+      },
+      "reportedSentences": 38,
+      "clips": 35811,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.08,
+          "": 0.07,
+          "fourties": 0.01,
+          "twenties": 0.66,
+          "teens": 0.18,
+          "fifties": 0
+        },
+        "gender": { "male": 0.54, "": 0.11, "female": 0.35, "other": 0 }
+      },
+      "users": 257,
+      "size": 1049223157,
+      "checksum": "d964f43dacf1b4dd69ec8e2ac32ee6ab745d46c760c4c23632752b00abaebc51",
+      "avgDurationSecs": 4.538,
+      "validDurationSecs": 136664.401,
+      "totalHrs": 45.13,
+      "validHrs": 37.96
+    },
+    "ro": {
+      "duration": 151497031,
+      "buckets": {
+        "dev": 3743,
+        "invalidated": 922,
+        "other": 21057,
+        "reported": 380,
+        "test": 3861,
+        "train": 5206,
+        "validated": 15960
+      },
+      "reportedSentences": 381,
+      "clips": 37939,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.13,
+          "teens": 0.02,
+          "": 0.11,
+          "fourties": 0.06,
+          "sixties": 0,
+          "twenties": 0.67,
+          "fifties": 0.01,
+          "eighties": 0
+        },
+        "gender": { "male": 0.74, "": 0.1, "female": 0.15, "other": 0.01 }
+      },
+      "users": 391,
+      "size": 944768429,
+      "checksum": "d4e66e8267946831ffb6af6e6e53957cbfa6dbf6621af23be0197482f25328f5",
+      "avgDurationSecs": 3.993,
+      "validDurationSecs": 63731.058,
+      "totalHrs": 42.08,
+      "validHrs": 17.7
+    },
+    "hsb": {
+      "duration": 10318356,
+      "buckets": {
+        "dev": 172,
+        "invalidated": 247,
+        "other": 15,
+        "reported": 86,
+        "test": 444,
+        "train": 808,
+        "validated": 1424
+      },
+      "reportedSentences": 87,
+      "clips": 1686,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.54,
+          "": 0.18,
+          "thirties": 0.1,
+          "sixties": 0,
+          "seventies": 0.03,
+          "twenties": 0.11,
+          "fifties": 0.03
+        },
+        "gender": { "male": 0.81, "": 0.18, "other": 0 }
+      },
+      "users": 21,
+      "size": 80367147,
+      "checksum": "3e9666e60a5da9bfd80879d8b1f015cce61d59729a15eee0912162b0bb5d93ce",
+      "avgDurationSecs": 6.12,
+      "validDurationSecs": 8714.91,
+      "totalHrs": 2.86,
+      "validHrs": 2.42
+    },
+    "el": {
+      "duration": 110402278,
+      "buckets": {
+        "dev": 1663,
+        "invalidated": 818,
+        "other": 10261,
+        "reported": 69,
+        "test": 1704,
+        "train": 1944,
+        "validated": 15637
+      },
+      "reportedSentences": 70,
+      "clips": 26716,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.37,
+          "fourties": 0.16,
+          "": 0.31,
+          "twenties": 0.12,
+          "fifties": 0.03,
+          "teens": 0.01,
+          "sixties": 0
+        },
+        "gender": { "male": 0.64, "": 0.31, "other": 0.02, "female": 0.03 }
+      },
+      "users": 360,
+      "size": 736695676,
+      "checksum": "77499bae45f5a2308de48f71e20fec3ed92a54a7a7583b255f1c0a80c1d027df",
+      "avgDurationSecs": 4.132,
+      "validDurationSecs": 64618.971,
+      "totalHrs": 30.66,
+      "validHrs": 17.94
+    },
+    "cs": {
+      "duration": 920669619,
+      "buckets": {
+        "dev": 8769,
+        "invalidated": 1970,
+        "other": 145750,
+        "reported": 883,
+        "test": 8829,
+        "train": 18877,
+        "validated": 58629
+      },
+      "reportedSentences": 877,
+      "clips": 206349,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.07,
+          "": 0.23,
+          "thirties": 0.48,
+          "teens": 0.02,
+          "twenties": 0.18,
+          "fifties": 0.01,
+          "sixties": 0,
+          "seventies": 0
+        },
+        "gender": { "male": 0.54, "": 0.23, "female": 0.23, "other": 0 }
+      },
+      "users": 876,
+      "size": 5640424340,
+      "checksum": "68e53a82eb28d99cc10a90d7ec32a7a98930d7a7f764d2e321ae413eb0924558",
+      "avgDurationSecs": 4.462,
+      "validDurationSecs": 261585.659,
+      "totalHrs": 255.74,
+      "validHrs": 72.66
+    },
+    "pl": {
+      "duration": 617355218,
+      "buckets": {
+        "dev": 8534,
+        "invalidated": 6266,
+        "other": 3824,
+        "reported": 553,
+        "test": 8534,
+        "train": 17518,
+        "validated": 126997
+      },
+      "reportedSentences": 553,
+      "clips": 137087,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.28,
+          "": 0.24,
+          "teens": 0.02,
+          "thirties": 0.33,
+          "fourties": 0.12,
+          "fifties": 0.01,
+          "nineties": 0.01,
+          "sixties": 0
+        },
+        "gender": { "male": 0.6, "": 0.25, "female": 0.14, "other": 0.01 }
+      },
+      "users": 3183,
+      "size": 4411276400,
+      "checksum": "017a81af2eb81a533410e03f7d0b67cce4e5bcfa40683852d261a3421ec35264",
+      "avgDurationSecs": 4.503,
+      "validDurationSecs": 571916.087,
+      "totalHrs": 171.48,
+      "validHrs": 158.86
+    },
+    "rm-sursilv": {
+      "duration": 38788025,
+      "buckets": {
+        "dev": 1352,
+        "invalidated": 677,
+        "other": 2140,
+        "reported": 16,
+        "test": 1347,
+        "train": 1554,
+        "validated": 4260
+      },
+      "reportedSentences": 17,
+      "clips": 7077,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.03,
+          "twenties": 0.1,
+          "": 0.64,
+          "teens": 0.06,
+          "fourties": 0.17
+        },
+        "gender": { "male": 0.17, "female": 0.19, "": 0.64, "other": 0 }
+      },
+      "users": 87,
+      "size": 292892713,
+      "checksum": "adef75ee647c88a0ec20a1b8977b4f89ae3bafee1d491862e92e77f869ae3140",
+      "avgDurationSecs": 5.481,
+      "validDurationSecs": 23348.451,
+      "totalHrs": 10.77,
+      "validHrs": 6.48
+    },
+    "rm-vallader": {
+      "duration": 15115550,
+      "buckets": {
+        "dev": 377,
+        "invalidated": 394,
+        "other": 709,
+        "reported": 36,
+        "test": 442,
+        "train": 672,
+        "validated": 1498
+      },
+      "reportedSentences": 35,
+      "clips": 2601,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.36,
+          "fourties": 0.41,
+          "twenties": 0.14,
+          "thirties": 0.06,
+          "fifties": 0,
+          "sixties": 0.03
+        },
+        "gender": { "": 0.36, "male": 0.44, "female": 0.19, "other": 0.01 }
+      },
+      "users": 52,
+      "size": 115424323,
+      "checksum": "f303f525cf8ee884a1538c895b433f62b99fcfdfaeeaea5e81312f06ddc0c969",
+      "avgDurationSecs": 5.811,
+      "validDurationSecs": 8705.534,
+      "totalHrs": 4.19,
+      "validHrs": 2.41
+    },
+    "mn": {
+      "duration": 69547436,
+      "buckets": {
+        "dev": 1767,
+        "invalidated": 767,
+        "other": 3522,
+        "reported": 31,
+        "test": 1877,
+        "train": 2275,
+        "validated": 8396
+      },
+      "reportedSentences": 32,
+      "clips": 12685,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.23,
+          "": 0.28,
+          "twenties": 0.41,
+          "fourties": 0.01,
+          "teens": 0.02,
+          "nineties": 0.06,
+          "fifties": 0
+        },
+        "gender": { "male": 0.36, "": 0.28, "female": 0.31, "other": 0.06 }
+      },
+      "users": 488,
+      "size": 526725245,
+      "checksum": "919edfde38ca1b875cfda0da52157b3074f323e010acf6c8b0ae28ba534f3a87",
+      "avgDurationSecs": 5.483,
+      "validDurationSecs": 46032.343,
+      "totalHrs": 19.31,
+      "validHrs": 12.78
+    },
+    "zh-HK": {
+      "duration": 491515152,
+      "buckets": {
+        "dev": 5593,
+        "invalidated": 4345,
+        "other": 21594,
+        "reported": 671,
+        "test": 5593,
+        "train": 8425,
+        "validated": 91509
+      },
+      "reportedSentences": 660,
+      "clips": 117448,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.13,
+          "thirties": 0.11,
+          "": 0.39,
+          "teens": 0.02,
+          "fifties": 0.02,
+          "seventies": 0,
+          "sixties": 0.01,
+          "twenties": 0.33
+        },
+        "gender": { "male": 0.42, "": 0.35, "female": 0.22, "other": 0.01 }
+      },
+      "users": 2971,
+      "size": 3518822638,
+      "checksum": "d1e4e28bc38aa02d32919a4bd4bee55dc1a195963a7e2487da1057095a3b94d0",
+      "avgDurationSecs": 4.185,
+      "validDurationSecs": 382961.481,
+      "totalHrs": 136.53,
+      "validHrs": 106.37
+    },
+    "ab": {
+      "duration": 303841224,
+      "buckets": {
+        "dev": 9160,
+        "invalidated": 5275,
+        "other": 11948,
+        "reported": 220,
+        "test": 9116,
+        "train": 21027,
+        "validated": 41972
+      },
+      "reportedSentences": 219,
+      "clips": 59195,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "seventies": 0.01,
+          "thirties": 0.13,
+          "": 0.18,
+          "teens": 0.28,
+          "twenties": 0.18,
+          "fifties": 0.06,
+          "sixties": 0.05,
+          "fourties": 0.09,
+          "eighties": 0.01
+        },
+        "gender": { "male": 0.18, "female": 0.64, "": 0.18 }
+      },
+      "users": 400,
+      "size": 1734407911,
+      "checksum": "f50ed6c61818d641ecc81d9fb6eeb2b713adf2ac0ad5eca60c7e9869b83247fd",
+      "avgDurationSecs": 5.133,
+      "validDurationSecs": 215437.518,
+      "totalHrs": 84.4,
+      "validHrs": 59.84
+    },
+    "cv": {
+      "duration": 98308740,
+      "buckets": {
+        "dev": 1158,
+        "invalidated": 2120,
+        "other": 457,
+        "reported": 143,
+        "test": 1288,
+        "train": 1540,
+        "validated": 16840
+      },
+      "reportedSentences": 139,
+      "clips": 19417,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.51,
+          "": 0.22,
+          "fourties": 0.06,
+          "thirties": 0.01,
+          "teens": 0.19,
+          "fifties": 0.01
+        },
+        "gender": { "male": 0.54, "": 0.19, "female": 0.27 }
+      },
+      "users": 108,
+      "size": 668315995,
+      "checksum": "75c84a1c2b8cef32a2eed9a692c156c55e4cc16f511f482832a1ea53768debb5",
+      "avgDurationSecs": 5.063,
+      "validDurationSecs": 85261.327,
+      "totalHrs": 27.3,
+      "validHrs": 23.68
+    },
+    "uk": {
+      "duration": 316242528,
+      "buckets": {
+        "dev": 8377,
+        "invalidated": 2531,
+        "other": 0,
+        "reported": 606,
+        "test": 8383,
+        "train": 16911,
+        "validated": 63928
+      },
+      "reportedSentences": 607,
+      "clips": 66459,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.25,
+          "teens": 0.1,
+          "": 0.26,
+          "fourties": 0.12,
+          "thirties": 0.27,
+          "fifties": 0,
+          "sixties": 0
+        },
+        "gender": { "male": 0.58, "female": 0.15, "": 0.26 }
+      },
+      "users": 818,
+      "size": 2137250020,
+      "checksum": "a00db74b6941d8f735ec7be3e84154eac0972707c523063f52126174d23fc341",
+      "avgDurationSecs": 4.758,
+      "validDurationSecs": 304198.864,
+      "totalHrs": 87.84,
+      "validHrs": 84.49
+    },
+    "mt": {
+      "duration": 61454772,
+      "buckets": {
+        "dev": 1593,
+        "invalidated": 321,
+        "other": 6259,
+        "reported": 9,
+        "test": 1644,
+        "train": 1943,
+        "validated": 6383
+      },
+      "reportedSentences": 10,
+      "clips": 12963,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.19,
+          "": 0.26,
+          "fourties": 0.17,
+          "thirties": 0.09,
+          "teens": 0.03,
+          "fifties": 0.25,
+          "sixties": 0.01
+        },
+        "gender": { "male": 0.25, "": 0.26, "female": 0.48, "other": 0.01 }
+      },
+      "users": 211,
+      "size": 456683345,
+      "checksum": "7f8c9084a18a7789b9d1b227df6cbf27bcbd8576f999dfbf238c9be9b18165ef",
+      "avgDurationSecs": 4.741,
+      "validDurationSecs": 30260.419,
+      "totalHrs": 17.07,
+      "validHrs": 8.4
+    },
+    "as": {
+      "duration": 11755685,
+      "buckets": {
+        "dev": 508,
+        "invalidated": 203,
+        "other": 195,
+        "reported": 9,
+        "test": 548,
+        "train": 612,
+        "validated": 1668
+      },
+      "reportedSentences": 10,
+      "clips": 2066,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "twenties": 0.36, "": 0.59, "thirties": 0.04, "teens": 0 },
+        "gender": { "male": 0.41, "": 0.59, "female": 0 }
+      },
+      "users": 44,
+      "size": 73430340,
+      "checksum": "a536305b88375d09560d5a30b2d99c6ac90dcc38f480e3da7c4b499d7419225e",
+      "avgDurationSecs": 5.69,
+      "validDurationSecs": 9491.037,
+      "totalHrs": 3.26,
+      "validHrs": 2.63
+    },
+    "ka": {
+      "duration": 160786692,
+      "buckets": {
+        "dev": 4424,
+        "invalidated": 1495,
+        "other": 9739,
+        "reported": 243,
+        "test": 4532,
+        "train": 6379,
+        "validated": 18962
+      },
+      "reportedSentences": 243,
+      "clips": 30196,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.28,
+          "thirties": 0.17,
+          "": 0.27,
+          "fourties": 0.05,
+          "fifties": 0.17,
+          "teens": 0.01,
+          "sixties": 0.06
+        },
+        "gender": { "male": 0.45, "female": 0.28, "": 0.27 }
+      },
+      "users": 523,
+      "size": 959259578,
+      "checksum": "bf45a832f2765d39f0d83c1d9c09649723f82d00def1cab320cccc719bd89a64",
+      "avgDurationSecs": 5.325,
+      "validDurationSecs": 100968.249,
+      "totalHrs": 44.66,
+      "validHrs": 28.04
+    },
+    "fy-NL": {
+      "duration": 751674303,
+      "buckets": {
+        "dev": 3170,
+        "invalidated": 3773,
+        "other": 102007,
+        "reported": 535,
+        "test": 3169,
+        "train": 3917,
+        "validated": 49112
+      },
+      "reportedSentences": 533,
+      "clips": 154892,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.57,
+          "fifties": 0.1,
+          "thirties": 0.11,
+          "twenties": 0.04,
+          "fourties": 0.06,
+          "sixties": 0.13,
+          "seventies": 0,
+          "teens": 0,
+          "eighties": 0
+        },
+        "gender": { "": 0.57, "male": 0.12, "female": 0.31 }
+      },
+      "users": 1969,
+      "size": 4506898320,
+      "checksum": "9324a2ee92e9651ddb0630d0ea534960288f2fa4534903b8644cff661ce2baac",
+      "avgDurationSecs": 4.853,
+      "validDurationSecs": 238335.281,
+      "totalHrs": 208.79,
+      "validHrs": 66.2
+    },
+    "dv": {
+      "duration": 227748735,
+      "buckets": {
+        "dev": 2227,
+        "invalidated": 1653,
+        "other": 16395,
+        "reported": 55,
+        "test": 2212,
+        "train": 2677,
+        "validated": 26964
+      },
+      "reportedSentences": 56,
+      "clips": 45012,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.22,
+          "twenties": 0.18,
+          "thirties": 0.36,
+          "fourties": 0.22,
+          "teens": 0.01,
+          "nineties": 0,
+          "fifties": 0.02
+        },
+        "gender": { "": 0.21, "male": 0.29, "female": 0.5 }
+      },
+      "users": 331,
+      "size": 1442355118,
+      "checksum": "942e0269c339009b7d7d6ac17337ae5f593249926926fee6c37d64aa5c25a2b5",
+      "avgDurationSecs": 5.06,
+      "validDurationSecs": 136430.661,
+      "totalHrs": 63.26,
+      "validHrs": 37.89
+    },
+    "pa-IN": {
+      "duration": 14215922,
+      "buckets": {
+        "dev": 285,
+        "invalidated": 77,
+        "other": 1414,
+        "reported": 249,
+        "test": 459,
+        "train": 712,
+        "validated": 1456
+      },
+      "reportedSentences": 244,
+      "clips": 2947,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.3,
+          "fourties": 0.04,
+          "fifties": 0.05,
+          "thirties": 0.38,
+          "twenties": 0.23,
+          "sixties": 0,
+          "teens": 0
+        },
+        "gender": { "": 0.3, "male": 0.69, "female": 0.01 }
+      },
+      "users": 62,
+      "size": 100051978,
+      "checksum": "b6f1ba247777341e72d91a83f34e9114b739110b3ad4f60fb05e63eec8b1b825",
+      "avgDurationSecs": 4.824,
+      "validDurationSecs": 7023.543,
+      "totalHrs": 3.94,
+      "validHrs": 1.95
+    },
+    "vi": {
+      "duration": 65730176,
+      "buckets": {
+        "dev": 392,
+        "invalidated": 350,
+        "other": 11486,
+        "reported": 186,
+        "test": 1225,
+        "train": 2462,
+        "validated": 4732
+      },
+      "reportedSentences": 185,
+      "clips": 16568,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.02,
+          "twenties": 0.19,
+          "": 0.25,
+          "teens": 0.21,
+          "seventies": 0,
+          "fourties": 0.02,
+          "sixties": 0.3
+        },
+        "gender": { "male": 0.53, "": 0.25, "female": 0.2, "other": 0.02 }
+      },
+      "users": 252,
+      "size": 381782157,
+      "checksum": "0c012f9c8aa77bf5de9c5263fe30a64218afb2c48534b868d55f100583239746",
+      "avgDurationSecs": 3.967,
+      "validDurationSecs": 18773.249,
+      "totalHrs": 18.25,
+      "validHrs": 5.21
+    },
+    "or": {
+      "duration": 38655420,
+      "buckets": {
+        "dev": 342,
+        "invalidated": 176,
+        "other": 6284,
+        "reported": 23,
+        "test": 227,
+        "train": 482,
+        "validated": 1227
+      },
+      "reportedSentences": 24,
+      "clips": 7687,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.19,
+          "": 0.08,
+          "thirties": 0.73,
+          "fourties": 0,
+          "teens": 0
+        },
+        "gender": { "male": 0.88, "": 0.08, "female": 0.05 }
+      },
+      "users": 94,
+      "size": 274647208,
+      "checksum": "0df8ef262d2b0e69b4ed0601620e6c581fa283632fb3f39efbd8fb8902217baa",
+      "avgDurationSecs": 5.029,
+      "validDurationSecs": 6170.183,
+      "totalHrs": 10.73,
+      "validHrs": 1.71
+    },
+    "ga-IE": {
+      "duration": 36168975,
+      "buckets": {
+        "dev": 506,
+        "invalidated": 882,
+        "other": 4226,
+        "reported": 27,
+        "test": 511,
+        "train": 549,
+        "validated": 5022
+      },
+      "reportedSentences": 28,
+      "clips": 10130,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.26,
+          "": 0.37,
+          "thirties": 0.25,
+          "fourties": 0.06,
+          "sixties": 0.01,
+          "teens": 0.01,
+          "fifties": 0.05
+        },
+        "gender": { "male": 0.5, "": 0.37, "female": 0.13, "other": 0 }
+      },
+      "users": 175,
+      "size": 247174669,
+      "checksum": "3cf9de0620073155dab06d73c89b6200f33b08f9bf410089ec4abe0fdb10d5e6",
+      "avgDurationSecs": 3.57,
+      "validDurationSecs": 17930.957,
+      "totalHrs": 10.04,
+      "validHrs": 4.98
+    },
+    "fi": {
+      "duration": 66664227,
+      "buckets": {
+        "dev": 1694,
+        "invalidated": 235,
+        "other": 5900,
+        "reported": 54,
+        "test": 1748,
+        "train": 2105,
+        "validated": 8356
+      },
+      "reportedSentences": 55,
+      "clips": 14491,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.18,
+          "": 0.34,
+          "twenties": 0.11,
+          "fourties": 0.33,
+          "teens": 0.01,
+          "fifties": 0.04,
+          "seventies": 0
+        },
+        "gender": { "male": 0.32, "": 0.34, "female": 0.34, "other": 0 }
+      },
+      "users": 208,
+      "size": 397079516,
+      "checksum": "b78d40a194095854d5682d6714ea25a3f311bb824f4e351cef9a1f32562e6ec2",
+      "avgDurationSecs": 4.6,
+      "validDurationSecs": 38440.845,
+      "totalHrs": 18.51,
+      "validHrs": 10.67
+    },
+    "hu": {
+      "duration": 297940429,
+      "buckets": {
+        "dev": 7688,
+        "invalidated": 1838,
+        "other": 23308,
+        "reported": 338,
+        "test": 7875,
+        "train": 15516,
+        "validated": 31212
+      },
+      "reportedSentences": 339,
+      "clips": 56358,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "teens": 0.03,
+          "": 0.29,
+          "thirties": 0.16,
+          "twenties": 0.17,
+          "fifties": 0.17,
+          "fourties": 0.14,
+          "sixties": 0.02,
+          "seventies": 0.01
+        },
+        "gender": { "male": 0.35, "": 0.3, "female": 0.34, "other": 0.01 }
+      },
+      "users": 920,
+      "size": 1769841289,
+      "checksum": "01ab3d2fa87729761f250cbd4c1304f1e3e2c38a9fc050a88a584114ad126d6a",
+      "avgDurationSecs": 5.287,
+      "validDurationSecs": 165004.377,
+      "totalHrs": 82.76,
+      "validHrs": 45.83
+    },
+    "th": {
+      "duration": 1497189504,
+      "buckets": {
+        "dev": 11002,
+        "invalidated": 9117,
+        "other": 204730,
+        "reported": 4168,
+        "test": 11002,
+        "train": 32477,
+        "validated": 143263
+      },
+      "reportedSentences": 4168,
+      "clips": 357110,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.23,
+          "": 0.41,
+          "thirties": 0.07,
+          "fourties": 0.04,
+          "teens": 0.04,
+          "fifties": 0.2,
+          "eighties": 0,
+          "sixties": 0
+        },
+        "gender": { "male": 0.42, "": 0.41, "female": 0.17, "other": 0.01 }
+      },
+      "users": 7784,
+      "size": 8707281050,
+      "checksum": "3b3bc4c1bad6ff2590a7e764941592fa89435a827cadd4e2c5371980adefc31b",
+      "avgDurationSecs": 4.193,
+      "validDurationSecs": 600632.466,
+      "totalHrs": 415.88,
+      "validHrs": 166.84
+    },
+    "lt": {
+      "duration": 88824932,
+      "buckets": {
+        "dev": 4215,
+        "invalidated": 651,
+        "other": 1704,
+        "reported": 185,
+        "test": 4319,
+        "train": 6205,
+        "validated": 14917
+      },
+      "reportedSentences": 185,
+      "clips": 17272,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.36,
+          "": 0.21,
+          "thirties": 0.31,
+          "fifties": 0.04,
+          "sixties": 0.01,
+          "teens": 0.03,
+          "fourties": 0.04
+        },
+        "gender": { "male": 0.56, "": 0.21, "female": 0.22 }
+      },
+      "users": 273,
+      "size": 541352467,
+      "checksum": "5b9308a384488b8964896bfdf654400825a1ec4bd973c7357269f4a11d16bab5",
+      "avgDurationSecs": 5.143,
+      "validDurationSecs": 76713.844,
+      "totalHrs": 24.67,
+      "validHrs": 21.3
+    },
+    "lg": {
+      "duration": 2011525119,
+      "buckets": {
+        "dev": 13389,
+        "invalidated": 39159,
+        "other": 36922,
+        "reported": 6450,
+        "test": 13420,
+        "train": 70813,
+        "validated": 271640
+      },
+      "reportedSentences": 6445,
+      "clips": 347721,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.26,
+          "thirties": 0.22,
+          "twenties": 0.38,
+          "fourties": 0.07,
+          "fifties": 0.05,
+          "teens": 0.01,
+          "nineties": 0,
+          "sixties": 0.02,
+          "seventies": 0,
+          "eighties": 0
+        },
+        "gender": { "": 0.25, "female": 0.39, "male": 0.36 }
+      },
+      "users": 646,
+      "size": 11779660819,
+      "checksum": "ce391d09f447bdd33da0b3249362580179ddf3d7cc522f3902a706ce7b35669d",
+      "avgDurationSecs": 5.785,
+      "validDurationSecs": 1571405.475,
+      "totalHrs": 558.75,
+      "validHrs": 436.5
+    },
+    "hi": {
+      "duration": 67634340,
+      "buckets": {
+        "dev": 2281,
+        "invalidated": 706,
+        "other": 3487,
+        "reported": 132,
+        "test": 2947,
+        "train": 4479,
+        "validated": 9751
+      },
+      "reportedSentences": 133,
+      "clips": 13944,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.33,
+          "fourties": 0.03,
+          "": 0.34,
+          "thirties": 0.26,
+          "teens": 0.01,
+          "fifties": 0.01,
+          "sixties": 0.01
+        },
+        "gender": { "male": 0.62, "female": 0.04, "": 0.34, "other": 0 }
+      },
+      "users": 365,
+      "size": 398945100,
+      "checksum": "d8df02f35f6fb84ec14bfa3ca491e8f8090cfc52475b84f4e8b79ce0d66d3765",
+      "avgDurationSecs": 4.85,
+      "validDurationSecs": 47296.504,
+      "totalHrs": 18.78,
+      "validHrs": 13.13
+    },
+    "bas": {
+      "duration": 10040580,
+      "buckets": {
+        "dev": 457,
+        "invalidated": 508,
+        "other": 10,
+        "reported": 7,
+        "test": 528,
+        "train": 763,
+        "validated": 1748
+      },
+      "reportedSentences": 8,
+      "clips": 2266,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.98, "fourties": 0.01, "teens": 0.01 },
+        "gender": { "": 0.98, "female": 0.02 }
+      },
+      "users": 33,
+      "size": 55827418,
+      "checksum": "83f512a6347ebac5df13162cee85ad2986fb99d3fecc6488c1d734051d505002",
+      "avgDurationSecs": 4.431,
+      "validDurationSecs": 7745.337,
+      "totalHrs": 2.78,
+      "validHrs": 2.15
+    },
+    "sk": {
+      "duration": 87440076,
+      "buckets": {
+        "dev": 2492,
+        "invalidated": 793,
+        "other": 2329,
+        "reported": 47,
+        "test": 2552,
+        "train": 3227,
+        "validated": 18222
+      },
+      "reportedSentences": 48,
+      "clips": 21344,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.46,
+          "thirties": 0.22,
+          "twenties": 0.08,
+          "fourties": 0.16,
+          "teens": 0.09
+        },
+        "gender": { "": 0.45, "male": 0.46, "female": 0.07, "other": 0.01 }
+      },
+      "users": 185,
+      "size": 492582779,
+      "checksum": "5d4904324f11e6a17b4d6fe1aec4278ac58ed71ae84fcb86b67dd7339b583bb6",
+      "avgDurationSecs": 4.097,
+      "validDurationSecs": 74650.162,
+      "totalHrs": 24.28,
+      "validHrs": 20.73
+    },
+    "kmr": {
+      "duration": 347753052,
+      "buckets": {
+        "dev": 3491,
+        "invalidated": 2368,
+        "other": 31131,
+        "reported": 1030,
+        "test": 3485,
+        "train": 4451,
+        "validated": 52411
+      },
+      "reportedSentences": 1025,
+      "clips": 85910,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.49,
+          "twenties": 0.35,
+          "thirties": 0.07,
+          "fourties": 0.03,
+          "fifties": 0.04,
+          "teens": 0.01,
+          "sixties": 0
+        },
+        "gender": { "": 0.49, "male": 0.41, "female": 0.1, "other": 0 }
+      },
+      "users": 545,
+      "size": 1831680486,
+      "checksum": "af6a3a2865cca9d90c2e377c6bd1fe2d80f3865845c3e5a780d588b1c242571d",
+      "avgDurationSecs": 4.048,
+      "validDurationSecs": 212153.244,
+      "totalHrs": 96.59,
+      "validHrs": 58.93
+    },
+    "bg": {
+      "duration": 66152520,
+      "buckets": {
+        "dev": 2358,
+        "invalidated": 586,
+        "other": 3272,
+        "reported": 181,
+        "test": 2463,
+        "train": 3385,
+        "validated": 8222
+      },
+      "reportedSentences": 182,
+      "clips": 12080,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fourties": 0.25,
+          "thirties": 0.22,
+          "": 0.39,
+          "twenties": 0.12,
+          "teens": 0,
+          "sixties": 0,
+          "fifties": 0
+        },
+        "gender": { "male": 0.56, "female": 0.05, "": 0.39 }
+      },
+      "users": 96,
+      "size": 386104092,
+      "checksum": "69f56f3125411a9d9c1c7d907d0cf7b0116316113b3d273805415fc9185ba823",
+      "avgDurationSecs": 5.476,
+      "validDurationSecs": 45025.333,
+      "totalHrs": 18.37,
+      "validHrs": 12.5
+    },
+    "kk": {
+      "duration": 7002288,
+      "buckets": {
+        "dev": 369,
+        "invalidated": 197,
+        "other": 1,
+        "reported": 41,
+        "test": 396,
+        "train": 453,
+        "validated": 1223
+      },
+      "reportedSentences": 42,
+      "clips": 1421,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.51,
+          "thirties": 0.03,
+          "twenties": 0.31,
+          "teens": 0.05,
+          "fifties": 0.09
+        },
+        "gender": { "": 0.52, "male": 0.46, "female": 0.02 }
+      },
+      "users": 90,
+      "size": 40191047,
+      "checksum": "088026aa813183a4d5a61ba8788c079b2f9253df77cef68546d426ee5868e777",
+      "avgDurationSecs": 4.928,
+      "validDurationSecs": 6026.6,
+      "totalHrs": 1.94,
+      "validHrs": 1.67
+    },
+    "ba": {
+      "duration": 960572412,
+      "buckets": {
+        "dev": 14507,
+        "invalidated": 7913,
+        "other": 131,
+        "reported": 866,
+        "test": 14580,
+        "train": 119038,
+        "validated": 208963
+      },
+      "reportedSentences": 863,
+      "clips": 217007,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.17,
+          "": 0.3,
+          "fourties": 0.06,
+          "fifties": 0.05,
+          "twenties": 0.17,
+          "sixties": 0.2,
+          "seventies": 0,
+          "teens": 0.04
+        },
+        "gender": { "male": 0.3, "": 0.3, "female": 0.4 }
+      },
+      "users": 904,
+      "size": 5383162213,
+      "checksum": "95a8b68a7b66484e7726fea9abbb0b5fc7773a01da36fcc58a75242b197d9cd8",
+      "avgDurationSecs": 4.426,
+      "validDurationSecs": 924965.982,
+      "totalHrs": 266.82,
+      "validHrs": 256.93
+    },
+    "gl": {
+      "duration": 213131016,
+      "buckets": {
+        "dev": 6397,
+        "invalidated": 1871,
+        "other": 17121,
+        "reported": 355,
+        "test": 6546,
+        "train": 10951,
+        "validated": 24179
+      },
+      "reportedSentences": 355,
+      "clips": 43171,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.31,
+          "thirties": 0.18,
+          "fifties": 0.07,
+          "twenties": 0.21,
+          "fourties": 0.19,
+          "teens": 0.02,
+          "sixties": 0.01,
+          "seventies": 0
+        },
+        "gender": { "": 0.36, "male": 0.35, "female": 0.3, "other": 0 }
+      },
+      "users": 997,
+      "size": 1222354918,
+      "checksum": "433a9dd928cb2f0d9f92c60e0d10e8a7d1aca1005e9cdd092f6a5bdfe9df7e37",
+      "avgDurationSecs": 4.937,
+      "validDurationSecs": 119369.365,
+      "totalHrs": 59.2,
+      "validHrs": 33.15
+    },
+    "ug": {
+      "duration": 435382452,
+      "buckets": {
+        "dev": 3555,
+        "invalidated": 3927,
+        "other": 0,
+        "reported": 284,
+        "test": 3555,
+        "train": 4521,
+        "validated": 68366
+      },
+      "reportedSentences": 285,
+      "clips": 72293,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.6,
+          "fifties": 0.01,
+          "twenties": 0.11,
+          "thirties": 0.15,
+          "fourties": 0.12,
+          "teens": 0.01,
+          "eighties": 0
+        },
+        "gender": { "": 0.6, "male": 0.32, "female": 0.08, "other": 0 }
+      },
+      "users": 887,
+      "size": 2530721785,
+      "checksum": "b09aff4bec1cda909cfdf10f021bba6421206d13da6d9037d281b657960b2bdf",
+      "avgDurationSecs": 6.022,
+      "validDurationSecs": 411732.211,
+      "totalHrs": 120.93,
+      "validHrs": 114.37
+    },
+    "hy-AM": {
+      "duration": 16940484,
+      "buckets": {
+        "dev": 364,
+        "invalidated": 105,
+        "other": 1230,
+        "reported": 44,
+        "test": 442,
+        "train": 631,
+        "validated": 1438
+      },
+      "reportedSentences": 45,
+      "clips": 2773,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.37,
+          "thirties": 0.13,
+          "twenties": 0.37,
+          "fifties": 0.04,
+          "teens": 0.09
+        },
+        "gender": { "": 0.37, "male": 0.22, "female": 0.41 }
+      },
+      "users": 66,
+      "size": 99409773,
+      "checksum": "109b4522d04e14184142ac022527346abe18c7bb6200d5ea98aedaea240e7f08",
+      "avgDurationSecs": 6.109,
+      "validDurationSecs": 8784.86,
+      "totalHrs": 4.7,
+      "validHrs": 2.44
+    },
+    "be": {
+      "duration": 5334186312,
+      "buckets": {
+        "dev": 15880,
+        "invalidated": 30692,
+        "other": 75973,
+        "reported": 3134,
+        "test": 15879,
+        "train": 347355,
+        "validated": 1013522
+      },
+      "reportedSentences": 3133,
+      "clips": 1120187,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.84,
+          "fourties": 0.05,
+          "thirties": 0.05,
+          "twenties": 0.04,
+          "teens": 0.01,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0
+        },
+        "gender": { "": 0.84, "male": 0.07, "female": 0.09, "other": 0 }
+      },
+      "users": 8052,
+      "size": 30184769413,
+      "checksum": "00a53691d285774e98f5d62a7f9f513b3e237ee580f5665083e009b9430f208f",
+      "avgDurationSecs": 4.762,
+      "validDurationSecs": 4826261.311,
+      "totalHrs": 1481.71,
+      "validHrs": 1340.62
+    },
+    "ur": {
+      "duration": 507179196,
+      "buckets": {
+        "dev": 3302,
+        "invalidated": 3312,
+        "other": 85366,
+        "reported": 50,
+        "test": 3304,
+        "train": 4129,
+        "validated": 41882
+      },
+      "reportedSentences": 50,
+      "clips": 130560,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.88,
+          "": 0.1,
+          "fourties": 0.01,
+          "thirties": 0,
+          "teens": 0.01,
+          "fifties": 0,
+          "sixties": 0
+        },
+        "gender": { "male": 0.7, "": 0.1, "female": 0.2 }
+      },
+      "users": 202,
+      "size": 2947911505,
+      "checksum": "22e848a2ad547205dbb78c929ef0e21b02ce82e5c926ddfe805b7e03fcc0cee9",
+      "avgDurationSecs": 3.885,
+      "validDurationSecs": 162696.684,
+      "totalHrs": 140.88,
+      "validHrs": 45.19
+    },
+    "gn": {
+      "duration": 34785252,
+      "buckets": {
+        "dev": 352,
+        "invalidated": 142,
+        "other": 5426,
+        "reported": 35,
+        "test": 811,
+        "train": 1414,
+        "validated": 2655
+      },
+      "reportedSentences": 36,
+      "clips": 8223,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.2,
+          "twenties": 0.21,
+          "thirties": 0.41,
+          "sixties": 0,
+          "fourties": 0.15,
+          "teens": 0.02
+        },
+        "gender": { "": 0.2, "male": 0.6, "female": 0.19 }
+      },
+      "users": 90,
+      "size": 199897821,
+      "checksum": "4a2932b1ea10d2b47fbf26a46d3ddc77e7b1a68cd4fdbbb24319218779fa5fa6",
+      "avgDurationSecs": 4.23,
+      "validDurationSecs": 11231.283,
+      "totalHrs": 9.66,
+      "validHrs": 3.11
+    },
+    "sr": {
+      "duration": 16845480,
+      "buckets": {
+        "dev": 1276,
+        "invalidated": 119,
+        "other": 1529,
+        "reported": 28,
+        "test": 1263,
+        "train": 1499,
+        "validated": 4330
+      },
+      "reportedSentences": 29,
+      "clips": 5978,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.36,
+          "": 0.24,
+          "fifties": 0.2,
+          "fourties": 0.07,
+          "thirties": 0.13,
+          "teens": 0
+        },
+        "gender": { "male": 0.51, "": 0.24, "female": 0.25 }
+      },
+      "users": 134,
+      "size": 92911009,
+      "checksum": "768c88391cc827b95c05bba2377ec5564cf19935e9b56e5016d765ab56fab0c3",
+      "avgDurationSecs": 2.818,
+      "validDurationSecs": 12201.56,
+      "totalHrs": 4.67,
+      "validHrs": 3.38
+    },
+    "uz": {
+      "duration": 943613712,
+      "buckets": {
+        "dev": 12061,
+        "invalidated": 13811,
+        "other": 127766,
+        "reported": 1823,
+        "test": 12321,
+        "train": 48286,
+        "validated": 85995
+      },
+      "reportedSentences": 1806,
+      "clips": 227572,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.4,
+          "": 0.41,
+          "thirties": 0.01,
+          "teens": 0.18,
+          "fifties": 0,
+          "fourties": 0.01,
+          "nineties": 0
+        },
+        "gender": { "male": 0.44, "": 0.41, "female": 0.15, "other": 0 }
+      },
+      "users": 2109,
+      "size": 5261185727,
+      "checksum": "64d120e4adf234f10b244d6f3dcf7a0ac889a6e669458fd16c7b57f4c049e93b",
+      "avgDurationSecs": 4.146,
+      "validDurationSecs": 356573.134,
+      "totalHrs": 262.11,
+      "validHrs": 99.04
+    },
+    "mr": {
+      "duration": 98491032,
+      "buckets": {
+        "dev": 1783,
+        "invalidated": 2251,
+        "other": 2799,
+        "reported": 58,
+        "test": 1735,
+        "train": 2226,
+        "validated": 10854
+      },
+      "reportedSentences": 59,
+      "clips": 15904,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.13,
+          "sixties": 0,
+          "twenties": 0.29,
+          "": 0.05,
+          "teens": 0.53
+        },
+        "gender": { "male": 0.19, "female": 0.76, "": 0.05 }
+      },
+      "users": 83,
+      "size": 577008222,
+      "checksum": "a71e722038eb3690641f30d8a8046b65c4c8d33210ad716e0286d2751d1e8498",
+      "avgDurationSecs": 6.193,
+      "validDurationSecs": 67217.157,
+      "totalHrs": 27.35,
+      "validHrs": 18.67
+    },
+    "da": {
+      "duration": 42516504,
+      "buckets": {
+        "dev": 2222,
+        "invalidated": 354,
+        "other": 841,
+        "reported": 379,
+        "test": 2160,
+        "train": 2746,
+        "validated": 9015
+      },
+      "reportedSentences": 379,
+      "clips": 10210,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.32,
+          "thirties": 0.26,
+          "twenties": 0.18,
+          "sixties": 0,
+          "fourties": 0.21,
+          "fifties": 0.03,
+          "teens": 0
+        },
+        "gender": { "": 0.32, "female": 0.08, "male": 0.61 }
+      },
+      "users": 228,
+      "size": 243857551,
+      "checksum": "6c85261bcf8dffe5c06ad29c82760cda5cd1fdc7d9c1c99b6285a425f11d105e",
+      "avgDurationSecs": 4.164,
+      "validDurationSecs": 37540.282,
+      "totalHrs": 11.81,
+      "validHrs": 10.42
+    },
+    "myv": {
+      "duration": 11274696,
+      "buckets": {
+        "dev": 239,
+        "invalidated": 21,
+        "other": 0,
+        "reported": 30,
+        "test": 449,
+        "train": 1241,
+        "validated": 1939
+      },
+      "reportedSentences": 31,
+      "clips": 1960,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "sixties": 0.26,
+          "": 0.39,
+          "thirties": 0.25,
+          "twenties": 0.09,
+          "teens": 0.01
+        },
+        "gender": { "male": 0.54, "": 0.39, "female": 0.07 }
+      },
+      "users": 12,
+      "size": 65894328,
+      "checksum": "741e516b505e2552aa54adf74c10811a3230d2084edb02fd4d6783b2b20f4e72",
+      "avgDurationSecs": 5.752,
+      "validDurationSecs": 11153.896,
+      "totalHrs": 3.13,
+      "validHrs": 3.09
+    },
+    "nn-NO": {
+      "duration": 3677832,
+      "buckets": {
+        "dev": 197,
+        "invalidated": 42,
+        "other": 16,
+        "reported": 22,
+        "test": 230,
+        "train": 314,
+        "validated": 746
+      },
+      "reportedSentences": 23,
+      "clips": 804,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.37,
+          "thirties": 0.32,
+          "twenties": 0.23,
+          "fourties": 0.04,
+          "fifties": 0.01,
+          "teens": 0.03
+        },
+        "gender": { "": 0.37, "female": 0.23, "male": 0.37, "other": 0.03 }
+      },
+      "users": 29,
+      "size": 20884241,
+      "checksum": "f39f03129e67eb69534db439c127e62bdc2d39a02ef92e5e2daddc3358208512",
+      "avgDurationSecs": 4.574,
+      "validDurationSecs": 3412.516,
+      "totalHrs": 1.02,
+      "validHrs": 0.94
+    },
+    "ha": {
+      "duration": 43793136,
+      "buckets": {
+        "dev": 580,
+        "invalidated": 169,
+        "other": 6660,
+        "reported": 32,
+        "test": 659,
+        "train": 1926,
+        "validated": 3277
+      },
+      "reportedSentences": 32,
+      "clips": 10106,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.18,
+          "thirties": 0.68,
+          "twenties": 0.12,
+          "fourties": 0,
+          "fifties": 0.02
+        },
+        "gender": { "": 0.16, "male": 0.59, "female": 0.25 }
+      },
+      "users": 39,
+      "size": 256132468,
+      "checksum": "dde8d350a4f0a109108adfc8e55a53b2d7d26a08ec537ecc4060836213ded990",
+      "avgDurationSecs": 4.333,
+      "validDurationSecs": 14200.486,
+      "totalHrs": 12.16,
+      "validHrs": 3.94
+    },
+    "ckb": {
+      "duration": 456040944,
+      "buckets": {
+        "dev": 4940,
+        "invalidated": 7379,
+        "other": 7350,
+        "reported": 2380,
+        "test": 4940,
+        "train": 7035,
+        "validated": 102012
+      },
+      "reportedSentences": 2380,
+      "clips": 116741,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.35,
+          "thirties": 0.12,
+          "twenties": 0.48,
+          "fourties": 0.03,
+          "teens": 0.02,
+          "fifties": 0.02
+        },
+        "gender": { "": 0.33, "male": 0.61, "female": 0.07, "other": 0 }
+      },
+      "users": 1269,
+      "size": 2470127013,
+      "checksum": "6592784e044be63d085d9b288db2dfa61d82a227e70803022c48b9758d68c840",
+      "avgDurationSecs": 3.906,
+      "validDurationSecs": 398503.086,
+      "totalHrs": 126.67,
+      "validHrs": 110.69
+    },
+    "ml": {
+      "duration": 14479308,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 16,
+        "other": 2817,
+        "reported": 115,
+        "test": 215,
+        "train": 509,
+        "validated": 724
+      },
+      "reportedSentences": 116,
+      "clips": 3557,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.33,
+          "twenties": 0.35,
+          "thirties": 0.04,
+          "fourties": 0.29
+        },
+        "gender": { "": 0.33, "male": 0.67 }
+      },
+      "users": 33,
+      "size": 84013164,
+      "checksum": "0c53537225d238bcbf6ae11d8e3ecbffbaf8f74922bbd2a4989ea3f5931e3321",
+      "avgDurationSecs": 4.071,
+      "validDurationSecs": 2947.152,
+      "totalHrs": 4.02,
+      "validHrs": 0.81
+    },
+    "mdf": {
+      "duration": 1811340,
+      "buckets": {
+        "dev": 54,
+        "invalidated": 8,
+        "other": 1,
+        "reported": 14,
+        "test": 107,
+        "train": 175,
+        "validated": 336
+      },
+      "reportedSentences": 15,
+      "clips": 345,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "sixties": 0.06,
+          "": 0.58,
+          "fourties": 0.34,
+          "twenties": 0.02
+        },
+        "gender": { "male": 0.08, "": 0.58, "female": 0.34 }
+      },
+      "users": 11,
+      "size": 10631887,
+      "checksum": "33f38dce47f710bef75e57e5b40e98e61f1877cd136775e6e3e7f1dc45895413",
+      "avgDurationSecs": 5.25,
+      "validDurationSecs": 1764.088,
+      "totalHrs": 0.5,
+      "validHrs": 0.49
+    },
+    "sw": {
+      "duration": 3264314328,
+      "buckets": {
+        "dev": 11274,
+        "invalidated": 64047,
+        "other": 324868,
+        "reported": 1866,
+        "test": 11271,
+        "train": 34980,
+        "validated": 231468
+      },
+      "reportedSentences": 1861,
+      "clips": 620383,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.34,
+          "twenties": 0.44,
+          "thirties": 0.13,
+          "teens": 0,
+          "fifties": 0.05,
+          "fourties": 0.04,
+          "sixties": 0.01
+        },
+        "gender": { "": 0.32, "male": 0.36, "female": 0.32, "other": 0 }
+      },
+      "users": 1103,
+      "size": 19044510370,
+      "checksum": "a04acaa50b6fe75d5f8ece78660b2827716a91d99e93600d78c09ebecce42e72",
+      "avgDurationSecs": 5.262,
+      "validDurationSecs": 1217932.001,
+      "totalHrs": 906.75,
+      "validHrs": 338.31
+    },
+    "sat": {
+      "duration": 3624516,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 9,
+        "other": 364,
+        "reported": 6,
+        "test": 144,
+        "train": 292,
+        "validated": 436
+      },
+      "reportedSentences": 7,
+      "clips": 809,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.43,
+          "twenties": 0.43,
+          "fourties": 0.01,
+          "fifties": 0.01,
+          "teens": 0.01,
+          "thirties": 0.1
+        },
+        "gender": { "": 0.41, "male": 0.58, "female": 0.01 }
+      },
+      "users": 14,
+      "size": 19983401,
+      "checksum": "c58f2434a2974518e727897fceae8030be7ea5403b2dc18652e4921c046ba2cc",
+      "avgDurationSecs": 4.48,
+      "validDurationSecs": 1953.386,
+      "totalHrs": 1,
+      "validHrs": 0.54
+    },
+    "tig": {
+      "duration": 103284,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 12,
+        "other": 0,
+        "reported": 0,
+        "test": 1,
+        "train": 10,
+        "validated": 11
+      },
+      "reportedSentences": 1,
+      "clips": 23,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.78, "twenties": 0.22 },
+        "gender": { "": 0.78, "male": 0.22 }
+      },
+      "users": 5,
+      "size": 602992,
+      "checksum": "b0a1697ef65f1f5f30476c789aac7e6f54acc7dc99c82112642e2c87cd5665f6",
+      "avgDurationSecs": 4.491,
+      "validDurationSecs": 49.397,
+      "totalHrs": 0.02,
+      "validHrs": 0.01
+    },
+    "ig": {
+      "duration": 31531356,
+      "buckets": {
+        "dev": 2,
+        "invalidated": 3,
+        "other": 5754,
+        "reported": 15,
+        "test": 4,
+        "train": 8,
+        "validated": 14
+      },
+      "reportedSentences": 15,
+      "clips": 5771,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.56,
+          "twenties": 0.32,
+          "teens": 0.05,
+          "eighties": 0,
+          "thirties": 0.04,
+          "sixties": 0.02,
+          "fourties": 0
+        },
+        "gender": { "": 0.56, "male": 0.14, "female": 0.3 }
+      },
+      "users": 112,
+      "size": 184140356,
+      "checksum": "7a580953242f8f1072d1b816859e9b9a00fa2f34311a9af0ebfda6120ae0806a",
+      "avgDurationSecs": 5.464,
+      "validDurationSecs": 76.493,
+      "totalHrs": 8.75,
+      "validHrs": 0.02
+    },
+    "nan-tw": {
+      "duration": 38958552,
+      "buckets": {
+        "dev": 755,
+        "invalidated": 294,
+        "other": 10569,
+        "reported": 140,
+        "test": 1139,
+        "train": 1833,
+        "validated": 3737
+      },
+      "reportedSentences": 141,
+      "clips": 14600,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.25,
+          "": 0.13,
+          "twenties": 0.36,
+          "fourties": 0.22,
+          "teens": 0.02,
+          "fifties": 0.01,
+          "sixties": 0
+        },
+        "gender": { "male": 0.53, "": 0.13, "other": 0.12, "female": 0.22 }
+      },
+      "users": 120,
+      "size": 214575545,
+      "checksum": "c253dbed21c6e4100dc9e3f3ebbde78e32ca38b7d47128d596732f60fdb5ab37",
+      "avgDurationSecs": 2.668,
+      "validDurationSecs": 9971.788,
+      "totalHrs": 10.82,
+      "validHrs": 2.76
+    },
+    "mhr": {
+      "duration": 745755624,
+      "buckets": {
+        "dev": 13132,
+        "invalidated": 4762,
+        "other": 41051,
+        "reported": 77,
+        "test": 13752,
+        "train": 86150,
+        "validated": 114848
+      },
+      "reportedSentences": 76,
+      "clips": 160661,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "fifties": 0.05,
+          "": 0.16,
+          "sixties": 0.05,
+          "thirties": 0.29,
+          "fourties": 0.15,
+          "twenties": 0.22,
+          "teens": 0.07,
+          "seventies": 0.01
+        },
+        "gender": { "male": 0.23, "": 0.16, "female": 0.61 }
+      },
+      "users": 388,
+      "size": 4162732159,
+      "checksum": "fdc30f70750bb13213f0d5c699f31be429445533a4acc29e7aacbd4ba438f332",
+      "avgDurationSecs": 4.642,
+      "validDurationSecs": 533101.013,
+      "totalHrs": 207.15,
+      "validHrs": 148.08
+    },
+    "bn": {
+      "duration": 4559272416,
+      "buckets": {
+        "dev": 9230,
+        "invalidated": 7683,
+        "other": 994175,
+        "reported": 1862,
+        "test": 9230,
+        "train": 20729,
+        "validated": 43362
+      },
+      "reportedSentences": 1856,
+      "clips": 1045220,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.03,
+          "twenties": 0.67,
+          "": 0.22,
+          "teens": 0.07,
+          "fourties": 0.01,
+          "fifties": 0
+        },
+        "gender": { "male": 0.54, "": 0.22, "female": 0.23, "other": 0 }
+      },
+      "users": 22817,
+      "size": 26255160682,
+      "checksum": "fa3f3cfc75b68741dac50f0bb271a7e83ca28a3191e920042d881a6f8badf112",
+      "avgDurationSecs": 4.362,
+      "validDurationSecs": 189145.989,
+      "totalHrs": 1266.46,
+      "validHrs": 52.54
+    },
+    "tok": {
+      "duration": 43560792,
+      "buckets": {
+        "dev": 1883,
+        "invalidated": 234,
+        "other": 2261,
+        "reported": 129,
+        "test": 1907,
+        "train": 2732,
+        "validated": 9033
+      },
+      "reportedSentences": 130,
+      "clips": 11528,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.41,
+          "twenties": 0.18,
+          "teens": 0.3,
+          "thirties": 0.1,
+          "fourties": 0
+        },
+        "gender": { "": 0.41, "male": 0.4, "other": 0.12, "female": 0.07 }
+      },
+      "users": 119,
+      "size": 253192772,
+      "checksum": "1de25832d6417466aa16561594ced6d4a2b72da694910e1198f69f1c22e3ff5e",
+      "avgDurationSecs": 3.779,
+      "validDurationSecs": 34132.949,
+      "totalHrs": 12.1,
+      "validHrs": 9.48
+    },
+    "yue": {
+      "duration": 251348868,
+      "buckets": {
+        "dev": 2485,
+        "invalidated": 1629,
+        "other": 39882,
+        "reported": 868,
+        "test": 2526,
+        "train": 3030,
+        "validated": 20081
+      },
+      "reportedSentences": 864,
+      "clips": 61592,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.21,
+          "": 0.32,
+          "twenties": 0.4,
+          "fourties": 0.03,
+          "sixties": 0.01,
+          "fifties": 0,
+          "teens": 0.03
+        },
+        "gender": { "male": 0.26, "": 0.36, "female": 0.37, "other": 0.01 }
+      },
+      "users": 827,
+      "size": 1406690648,
+      "checksum": "1d51745b0e7b4dd79f9eb25f8129d9f90dcc7346ec2ff3aaa4ab9a69f5aaff66",
+      "avgDurationSecs": 4.081,
+      "validDurationSecs": 81947.925,
+      "totalHrs": 69.81,
+      "validHrs": 22.76
+    },
+    "sah": {
+      "duration": 24741156,
+      "buckets": {
+        "dev": 1083,
+        "invalidated": 102,
+        "other": 1,
+        "reported": 2,
+        "test": 1270,
+        "train": 1594,
+        "validated": 4015
+      },
+      "reportedSentences": 3,
+      "clips": 4118,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.36,
+          "twenties": 0.03,
+          "fourties": 0.07,
+          "thirties": 0.43,
+          "teens": 0.1,
+          "fifties": 0
+        },
+        "gender": { "": 0.36, "male": 0.53, "female": 0.11 }
+      },
+      "users": 55,
+      "size": 187502644,
+      "checksum": "e6970ac845dd0f3377404eaba252c0407f3c64b1d931aabd75ec7c6f7aed132d",
+      "avgDurationSecs": 6.008,
+      "validDurationSecs": 24122.327,
+      "totalHrs": 6.87,
+      "validHrs": 6.7
+    },
+    "mk": {
+      "duration": 1110348,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 11,
+        "other": 57,
+        "reported": 8,
+        "test": 26,
+        "train": 115,
+        "validated": 141
+      },
+      "reportedSentences": 9,
+      "clips": 209,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "thirties": 0.43, "": 0.33, "twenties": 0.17, "teens": 0.07 },
+        "gender": { "male": 0.67, "": 0.33 }
+      },
+      "users": 7,
+      "size": 6527029,
+      "checksum": "c2275e2901850f3a54cef485a8099714fc38c48fab148838f7d89c37296a4c8f",
+      "avgDurationSecs": 5.313,
+      "validDurationSecs": 749.086,
+      "totalHrs": 0.3,
+      "validHrs": 0.2
+    },
+    "sc": {
+      "duration": 5936256,
+      "buckets": {
+        "dev": 234,
+        "invalidated": 25,
+        "other": 284,
+        "reported": 2,
+        "test": 177,
+        "train": 476,
+        "validated": 1036
+      },
+      "reportedSentences": 3,
+      "clips": 1345,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.62, "thirties": 0.31, "twenties": 0.08 },
+        "gender": { "": 0.62, "female": 0.31, "male": 0.08 }
+      },
+      "users": 12,
+      "size": 34282030,
+      "checksum": "5848ec3b17ae8c47e3e15ee762d930e7757701a1f91c8f195b0384c5a5db2193",
+      "avgDurationSecs": 4.414,
+      "validDurationSecs": 4572.462,
+      "totalHrs": 1.64,
+      "validHrs": 1.27
+    },
+    "skr": {
+      "duration": 23051304,
+      "buckets": {
+        "dev": 1026,
+        "invalidated": 428,
+        "other": 1967,
+        "reported": 16,
+        "test": 834,
+        "train": 1327,
+        "validated": 3192
+      },
+      "reportedSentences": 2,
+      "clips": 5587,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.35,
+          "twenties": 0.25,
+          "fifties": 0.39,
+          "teens": 0,
+          "fourties": 0,
+          "thirties": 0.01
+        },
+        "gender": { "": 0.35, "male": 0.65 }
+      },
+      "users": 41,
+      "size": 131854098,
+      "checksum": "b6c3c9ee1e9661de973298e331efe26f523589e300eddaa1e23b74969f2e4f42",
+      "avgDurationSecs": 4.126,
+      "validDurationSecs": 13169.816,
+      "totalHrs": 6.4,
+      "validHrs": 3.65
+    },
+    "ti": {
+      "duration": 132912,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 10,
+        "reported": 1,
+        "test": 3,
+        "train": 10,
+        "validated": 13
+      },
+      "reportedSentences": 2,
+      "clips": 23,
+      "splits": { "accent": { "": 1 }, "age": { "": 1 }, "gender": { "": 1 } },
+      "users": 4,
+      "size": 784757,
+      "checksum": "317936e0faac748f4a73ab5f3b17d4fb6909d553e6bc67c456666b3d11d415ab",
+      "avgDurationSecs": 5.779,
+      "validDurationSecs": 75.124,
+      "totalHrs": 0.03,
+      "validHrs": 0.02
+    },
+    "mrj": {
+      "duration": 104076468,
+      "buckets": {
+        "dev": 3297,
+        "invalidated": 272,
+        "other": 10180,
+        "reported": 49,
+        "test": 4428,
+        "train": 7272,
+        "validated": 15125
+      },
+      "reportedSentences": 50,
+      "clips": 25577,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "twenties": 0.29,
+          "": 0.12,
+          "thirties": 0.24,
+          "sixties": 0.04,
+          "fourties": 0.15,
+          "fifties": 0.14,
+          "teens": 0.01
+        },
+        "gender": { "male": 0.26, "female": 0.63, "": 0.12 }
+      },
+      "users": 48,
+      "size": 575489473,
+      "checksum": "42877608f77aa7a1a548bce9fea0d5aee628a75d2688340923b008648a976273",
+      "avgDurationSecs": 4.069,
+      "validDurationSecs": 61545.786,
+      "totalHrs": 28.91,
+      "validHrs": 17.09
+    },
+    "tw": {
+      "duration": 943884,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 202,
+        "reported": 2,
+        "test": 3,
+        "train": 32,
+        "validated": 35
+      },
+      "reportedSentences": 3,
+      "clips": 237,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.07, "twenties": 0.02, "thirties": 0.91 },
+        "gender": { "": 0.07, "male": 0.93 }
+      },
+      "users": 5,
+      "size": 5529362,
+      "checksum": "2c8e68f83c5ef0926855a6ede4a24bcca6f806293fffd952c6adf9a00782ffdc",
+      "avgDurationSecs": 3.983,
+      "validDurationSecs": 139.392,
+      "totalHrs": 0.26,
+      "validHrs": 0.03
+    },
+    "ko": {
+      "duration": 14055624,
+      "buckets": {
+        "dev": 105,
+        "invalidated": 97,
+        "other": 1746,
+        "reported": 13,
+        "test": 131,
+        "train": 192,
+        "validated": 429
+      },
+      "reportedSentences": 14,
+      "clips": 2272,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.14,
+          "thirties": 0.43,
+          "twenties": 0.35,
+          "teens": 0.04,
+          "fourties": 0.04
+        },
+        "gender": { "": 0.14, "male": 0.72, "female": 0.14, "other": 0 }
+      },
+      "users": 42,
+      "size": 81829460,
+      "checksum": "a308f2a8b7991716417c12aedba39dd4a93d2410a5a148531ddd5ecc89434af4",
+      "avgDurationSecs": 6.186,
+      "validDurationSecs": 2653.989,
+      "totalHrs": 3.9,
+      "validHrs": 0.73
+    },
+    "yo": {
+      "duration": 24984468,
+      "buckets": {
+        "dev": 554,
+        "invalidated": 151,
+        "other": 2082,
+        "reported": 17,
+        "test": 638,
+        "train": 797,
+        "validated": 1990
+      },
+      "reportedSentences": 18,
+      "clips": 4223,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "thirties": 0.02,
+          "twenties": 0.65,
+          "": 0.3,
+          "teens": 0.03,
+          "sixties": 0
+        },
+        "gender": { "male": 0.33, "": 0.3, "female": 0.37 }
+      },
+      "users": 93,
+      "size": 145667521,
+      "checksum": "9d10c538a7d0237e5f21d2c516e1c07957e0ae318c25203d33b5d5fedb2ac2c6",
+      "avgDurationSecs": 5.916,
+      "validDurationSecs": 11773.405,
+      "totalHrs": 6.94,
+      "validHrs": 3.27
+    },
+    "oc": {
+      "duration": 37154340,
+      "buckets": {
+        "dev": 173,
+        "invalidated": 129,
+        "other": 6647,
+        "reported": 8,
+        "test": 184,
+        "train": 208,
+        "validated": 840
+      },
+      "reportedSentences": 9,
+      "clips": 7616,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.37,
+          "fifties": 0.2,
+          "twenties": 0.01,
+          "thirties": 0.04,
+          "seventies": 0,
+          "fourties": 0.22,
+          "teens": 0.01,
+          "sixties": 0.14
+        },
+        "gender": { "": 0.39, "male": 0.09, "female": 0.52 }
+      },
+      "users": 138,
+      "size": 208779711,
+      "checksum": "e241c12159ac7b3d880f41d5e91d804775da188a3ac413c775341eef3406001b",
+      "avgDurationSecs": 4.878,
+      "validDurationSecs": 4097.905,
+      "totalHrs": 10.32,
+      "validHrs": 1.13
+    },
+    "tk": {
+      "duration": 6197616,
+      "buckets": {
+        "dev": 232,
+        "invalidated": 53,
+        "other": 270,
+        "reported": 5,
+        "test": 281,
+        "train": 383,
+        "validated": 896
+      },
+      "reportedSentences": 6,
+      "clips": 1219,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.08, "twenties": 0.75, "thirties": 0.18 },
+        "gender": { "": 0.08, "male": 0.29, "female": 0.63 }
+      },
+      "users": 14,
+      "size": 36062710,
+      "checksum": "5dcb82753e5192d731761b364836bb1fbc70b82e234a55f8e4a2168cca8746a8",
+      "avgDurationSecs": 5.084,
+      "validDurationSecs": 4555.426,
+      "totalHrs": 1.72,
+      "validHrs": 1.26
+    },
+    "vot": {
+      "duration": 1025976,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 324,
+        "other": 0,
+        "test": 6,
+        "train": 96,
+        "validated": 102
+      },
+      "clips": 426,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.25, "twenties": 0.73, "teens": 0.01 },
+        "gender": { "": 0.25, "male": 0.75 }
+      },
+      "users": 5,
+      "size": 7891176,
+      "checksum": "5ec41e90ea98ece390981fd44ca5b51728791988a2c116b52b2b3ad3b216c35f",
+      "avgDurationSecs": 2.408,
+      "validDurationSecs": 245.656,
+      "totalHrs": 0.28,
+      "validHrs": 0.06
+    },
+    "az": {
+      "duration": 1441620,
+      "buckets": {
+        "dev": 21,
+        "invalidated": 34,
+        "other": 149,
+        "reported": 0,
+        "test": 27,
+        "train": 39,
+        "validated": 87
+      },
+      "clips": 270,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.38,
+          "twenties": 0.37,
+          "fourties": 0.01,
+          "thirties": 0.24
+        },
+        "gender": { "": 0.38, "male": 0.62 }
+      },
+      "users": 21,
+      "size": 8439871,
+      "checksum": "dab12e4b9250a93cfdb89b97a038a616f5fc95c28b91bc0cfa966e313503bd9a",
+      "avgDurationSecs": 5.339,
+      "validDurationSecs": 464.522,
+      "totalHrs": 0.4,
+      "validHrs": 0.12
+    },
+    "ast": {
+      "duration": 4813164,
+      "buckets": {
+        "dev": 81,
+        "invalidated": 12,
+        "other": 684,
+        "test": 79,
+        "train": 205,
+        "validated": 365
+      },
+      "clips": 1061,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "": 0.25, "fourties": 0.42, "fifties": 0.33 },
+        "gender": { "": 0.25, "male": 0.75 }
+      },
+      "users": 12,
+      "size": 27001785,
+      "checksum": "c40efb1033e7ced0168637485bda22b2e60c53cab4cfe880b09b1ec0d80634bc",
+      "avgDurationSecs": 4.536,
+      "validDurationSecs": 1655.801,
+      "totalHrs": 1.33,
+      "validHrs": 0.45
+    },
+    "ne-NP": {
+      "duration": 2276280,
+      "buckets": {
+        "dev": 49,
+        "invalidated": 35,
+        "other": 245,
+        "test": 74,
+        "train": 173,
+        "validated": 296
+      },
+      "clips": 576,
+      "splits": {
+        "accent": { "": 1 },
+        "age": { "thirties": 0.29, "": 0.46, "twenties": 0.24 },
+        "gender": { "male": 0.54, "": 0.46 }
+      },
+      "users": 15,
+      "size": 13220758,
+      "checksum": "637db7008c47c43e3d0d10c097d7dd25a3e3a00a1849c9b8f1f06a56e06cde8b",
+      "avgDurationSecs": 3.952,
+      "validDurationSecs": 1169.755,
+      "totalHrs": 0.63,
+      "validHrs": 0.32
+    },
+    "quy": {
+      "duration": 4320,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "clips": 1,
+      "splits": { "accent": { "": 1 }, "age": { "": 1 }, "gender": { "": 1 } },
+      "users": 1,
+      "size": 25833,
+      "checksum": "f7b24f25235e87f58a0b89362e541255dc3bfb55f19f94d6a0caa352ef86b6eb",
+      "avgDurationSecs": 4.32,
+      "validDurationSecs": 4.32,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "lo": {
+      "duration": 294552,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 5,
+        "other": 1,
+        "test": 10,
+        "train": 28,
+        "validated": 38
+      },
+      "clips": 44,
+      "splits": {
+        "accent": { "": 1 },
+        "age": {
+          "": 0.25,
+          "twenties": 0.05,
+          "fourties": 0.02,
+          "thirties": 0.68
+        },
+        "gender": { "": 0.25, "male": 0.75 }
+      },
+      "users": 6,
+      "size": 1736458,
+      "checksum": "3e1cd64e6bcca689dce85e9b6c1f04a467c1e255041921d9563c99d5265b2c6b",
+      "avgDurationSecs": 6.694,
+      "validDurationSecs": 254.386,
+      "totalHrs": 0.08,
+      "validHrs": 0.07
+    },
+    "dyu": {
+      "duration": 6228,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "clips": 1,
+      "splits": { "accent": { "": 1 }, "age": { "": 1 }, "gender": { "": 1 } },
+      "users": 1,
+      "size": 37380,
+      "checksum": "767317573e21e6d5279d5499f3ec3402a24d7547218283a36c2148767a120422",
+      "avgDurationSecs": 6.228,
+      "validDurationSecs": 6.228,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "is": {
+      "duration": 70416,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 10,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "clips": 10,
+      "splits": { "accent": { "": 1 }, "age": { "": 1 }, "gender": { "": 1 } },
+      "users": 1,
+      "size": 410396,
+      "checksum": "48db6e809f5b6eb0c00b077e6b736aeeee5d544ee3f2fdd059244da88926c040",
+      "avgDurationSecs": 7.042,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    }
+  },
+  "totalDuration": 97709611853,
+  "totalValidDurationSecs": 63681475,
+  "totalHrs": 27141,
+  "totalValidHrs": 17689
+}
