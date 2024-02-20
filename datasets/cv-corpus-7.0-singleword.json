@@ -1,5 +1,4 @@
 {
-  "bundleURL": "https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-7.0-singleword/cv-corpus-7.0-singleword.tar.gz",
   "locales": {
     "es": {
       "clips": 70038,
