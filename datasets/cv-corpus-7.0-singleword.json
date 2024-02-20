@@ -1050,14 +1050,14 @@
       "validDurationSecs": 54.408,
       "totalHrs": 0.02,
       "validHrs": 0.01
-    },
+    }
   },
   "overall": {
     "size": 3766437719,
-    "checksum": "f96d00524f8859a8bd154eb98822ec06a9d451e5902a419deb5e1472f1d2c3ff",
+    "checksum": "f96d00524f8859a8bd154eb98822ec06a9d451e5902a419deb5e1472f1d2c3ff"
   },
   "totalDuration": 510515451,
   "totalValidDurationSecs": 296699,
   "totalHrs": 141,
-  "totalValidHrs": 82,
+  "totalValidHrs": 82
 }
