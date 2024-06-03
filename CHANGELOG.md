@@ -18,7 +18,7 @@
 - changed `times.txt` to `clip_durations.tsv` for consistency
 - `clip_durations.tsv` contains two columns: `clip` and `duration[ms]`
 
-### [Corpus 14.0](cv-corpus-14(datasets/cv-corpus-14.0-2023-06-23.json)
+### [Corpus 14.0](datasets/cv-corpus-14.0-2023-06-23.json)
 **Dataset Changes**
 - added `times.txt` containing mp3 filename and duration in ms
 
