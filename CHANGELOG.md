@@ -2,6 +2,12 @@
 
 ## Current release:
 
+### [Corpus 18.0](datasets/cv-corpus-18.0-2024-06-14.json)
+**Dataset Changes**
+- the `sentence_domain` column contains now up to three domains separated by a comma, e.g. `general,finance,news_current_affairs`
+- the domains `agriculture`, `automotive` and `food_service_retail` have been renamed to `agriculture_food`, `automotive_transport`, `service_retail` respectively
+
+## Past releases
 ### [Corpus 17.0](datasets/cv-corpus-17.0-2024-03-15.json)
 **Dataset Changes**
 - added `unvalidated_sentences.tsv` and `validated_sentences.tsv`
@@ -12,7 +18,6 @@
 - add `sentence_id` and `sentence_domain` to the [Corpora Creator](https://github.com/common-voice/CorporaCreator) files
 - the following [sentence domains](https://github.com/common-voice/common-voice/blob/f820e0fa3ec00fc6d49dae7e31bcebf9eb24878b/common/taxonomies.ts#L35) are supported
 
-## Past releases
 ### [Corpus 16.1](datasets/cv-corpus-16.1-2023-12-06.json)
 **Dataset Changes**
 - changed `times.txt` to `clip_durations.tsv` for consistency
