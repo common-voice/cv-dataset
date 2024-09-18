@@ -1,13 +1,23 @@
 # Changelog
 
 ## Current release:
+### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
+Regularly scheduled dataset release Q3 2024.
 
+- **Date released**: 18 September 2024
+- **Clip cut-off date**: 13 September 2024
+- **Total hours**: 32,584
+- **Total validated hours**: 21,593
+- **Number of languages**: 131
+
+**New languages since last major release**: Sindhi, Tsonga
+
+## Past releases
 ### [Corpus 18.0](datasets/cv-corpus-18.0-2024-06-14.json)
 **Dataset Changes**
 - the `sentence_domain` column contains now up to three domains separated by a comma, e.g. `general,finance,news_current_affairs`
 - the domains `agriculture`, `automotive` and `food_service_retail` have been renamed to `agriculture_food`, `automotive_transport`, `service_retail` respectively
 
-## Past releases
 ### [Corpus 17.0](datasets/cv-corpus-17.0-2024-03-15.json)
 **Dataset Changes**
 - added `unvalidated_sentences.tsv` and `validated_sentences.tsv`
