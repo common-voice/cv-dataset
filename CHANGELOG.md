@@ -1,6 +1,18 @@
 # Changelog
 
 ## Current release:
+### [Corpus 20.0](datasets/cv-corpus-20.0-2024-12-06.json)
+Regularly scheduled dataset release Q4 2024.
+
+- **Date released**: 11 December 2024
+- **Clip cut-off date**: 06 December 2024
+- **Total hours**: 33,150
+- **Total validated hours**: 22,108
+- **Number of languages**: 133
+
+**New languages since last major release**: Aragonese, IsiNdebele (South), Southern Sotho, Tupuri
+
+## Past releases
 ### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
 Regularly scheduled dataset release Q3 2024.
 
@@ -12,7 +24,6 @@ Regularly scheduled dataset release Q3 2024.
 
 **New languages since last major release**: Sindhi, Tsonga
 
-## Past releases
 ### [Corpus 18.0](datasets/cv-corpus-18.0-2024-06-14.json)
 **Dataset Changes**
 - the `sentence_domain` column contains now up to three domains separated by a comma, e.g. `general,finance,news_current_affairs`
