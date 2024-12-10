@@ -1,6 +1,63 @@
 # Changelog
 
-## Current releases:
+## Current release:
+### [Corpus 20.0](datasets/cv-corpus-20.0-2024-12-06.json)
+Regularly scheduled dataset release Q4 2024.
+
+- **Date released**: 11 December 2024
+- **Clip cut-off date**: 06 December 2024
+- **Total hours**: 33,150
+- **Total validated hours**: 22,108
+- **Number of languages**: 133
+
+**New languages since last major release**: Aragonese, IsiNdebele (South), Southern Sotho, Tupuri
+
+## Past releases
+### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
+Regularly scheduled dataset release Q3 2024.
+
+- **Date released**: 18 September 2024
+- **Clip cut-off date**: 13 September 2024
+- **Total hours**: 32,584
+- **Total validated hours**: 21,593
+- **Number of languages**: 131
+
+**New languages since last major release**: Sindhi, Tsonga
+
+### [Corpus 18.0](datasets/cv-corpus-18.0-2024-06-14.json)
+**Dataset Changes**
+- the `sentence_domain` column contains now up to three domains separated by a comma, e.g. `general,finance,news_current_affairs`
+- the domains `agriculture`, `automotive` and `food_service_retail` have been renamed to `agriculture_food`, `automotive_transport`, `service_retail` respectively
+
+### [Corpus 17.0](datasets/cv-corpus-17.0-2024-03-15.json)
+**Dataset Changes**
+- added `unvalidated_sentences.tsv` and `validated_sentences.tsv`
+- `unvalidated_sentences.tsv` contains sentences that do not have any votes yet, the columns are: `sentence_id`, `sentence`, `sentence_domain` and `source`
+- `validated_sentences.tsv`contains sentences that have at two up votes, it has two additional columns: `is_used` and `clips_count`
+- `is_used`: indicates whether or not the sentence is used on the speak page
+- `clips_count`: the number of clips that are associated with the sentence
+- add `sentence_id` and `sentence_domain` to the [Corpora Creator](https://github.com/common-voice/CorporaCreator) files
+- the following [sentence domains](https://github.com/common-voice/common-voice/blob/f820e0fa3ec00fc6d49dae7e31bcebf9eb24878b/common/taxonomies.ts#L35) are supported
+
+### [Corpus 16.1](datasets/cv-corpus-16.1-2023-12-06.json)
+**Dataset Changes**
+- changed `times.txt` to `clip_durations.tsv` for consistency
+- `clip_durations.tsv` contains two columns: `clip` and `duration[ms]`
+
+### [Corpus 14.0](datasets/cv-corpus-14.0-2023-06-23.json)
+**Dataset Changes**
+- added `times.txt` containing mp3 filename and duration in ms
+
+### [Corpus 13.0](datasets/cv-corpus-13.0-2023-03-09.json)
+**Dataset Changes**
+- added `variant` column to [Corpora Creator](https://github.com/common-voice/CorporaCreator)
+files
+
+### [Corpus 10.0](datasets/cv-corpus-10-2022-07-04.json)
+**Dataset Changes**
+- introduced delta segments
+- delta segment tar file naming is `cv-corpus-{releaseNumber}-delta-{YYYY-MM-DD}-{locale}.tar.gz`
+- delta segments contain the same files except for the training splits, i.e. `dev.tsv`, `test.tsv`, `train.tsv`
 
 ### [Corpus 9.0](datasets/cv-corpus-9.0-2022-04-27.json) - [Discourse](https://discourse.mozilla.org/c/voice/239)
 
@@ -26,8 +83,6 @@ Regularly scheduled dataset release.
 
 **New languages since last major release**: Igbo, Marathi, Danish, Norwegian Nynorsk, Central Kurdish, Malayalam, Swahili, Erzya, Moksha, Macedonian and Santali (Ol Chiki).
 
-## Past releases
-
 Note: minor variations in the validated hours of minor dot releases reflects the fact that labeling/validation happens on a different schedule than recording. In the timespan between dot releases the community will usually have performed additional validations, even if the clip cut-off date remains the same.
 
 ### [Corpus 7.0](datasets/cv-corpus-7.0-2021-07-21.json) - [Discourse Announcement](https://discourse.mozilla.org/t/common-voice-2021-mid-year-dataset-release/83812)
@@ -41,6 +96,10 @@ Regularly scheduled dataset release for H1 of 2021.
 - **Number of languages**: 76
 
 **New languages since last major release**: Basaa, Slovak, Northern Kurdish, Bulgarian, Kazakh, Bashkir, Galician, Uyghur, Armenian, Belarusian, Urdu, Guarani, Serbian, Uzbek, Azerbaijani, Hausa
+
+**Dataset Changes**
+- changed tar file naming from `cv-corpus-{releaseNumber}-{YYYY-MM-DD}_{locale}.tar.tar`
+  cv-corpus-{releaseNumber}-{YYYY-MM-DD}_cv-corpus-{releaseNumber}-{YYYY-MM-DD}-{locale}.tar.gz`, e.g. `cv-corpus-7.0-2021-07-21_cv-corpus-7.0-2021-07-21-tr.tar.gz`
 
 ### [Singleword Segment 7.0](datasets/cv-corpus-7.0-singleword.json)
 
@@ -126,6 +185,37 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
 
 **New languages since last major release**: Upper Sorbian, Romanian, Frisian, Czech, Greek, Romansh Vallader, Polish, Assamese, Ukranian, Maltese, Georgian, Punjabi, Odia, and Vietnamese
 
+**Dataset Changes**
+
+- changed archive folder structure: dataset release archive contains now a locale folder
+  before:
+  ```
+    cv-corpus-3_tr
+    ├── clips
+    ├── dev.tsv
+    ├── invalidated.tsv
+    ├── other.tsv
+    ├── test.tsv
+    ├── train.tsv
+    └── validated.tsv
+  ```
+  now:
+  ```
+  cv-corpus-5.1-2020-06-22
+  └── tr
+      ├── clips
+      ├── dev.tsv
+      ├── invalidated.tsv
+      ├── other.tsv
+      ├── reported.tsv
+      ├── test.tsv
+      ├── train.tsv
+      └── validated.tsv
+  ```
+- added `reported.tsv` containing sentences that have been reported by the community
+- added `locale` and `segment` columns to the [Corpora Creator](https://github.com/common-voice/CorporaCreator)
+ files
+
 ### [Singleword Segment 5.0](datasets/cv-corpus-5-singleword.json)
 
 This contains all of the voice data collected as part of the [Common Voice pilot target segment effort] collecting single-word utterances for a benchmark experiment.
@@ -147,6 +237,10 @@ Regularly scheduled dataset release for H2 of 2019.
 - **Number of languages**: 40
 
 **New languages since last major release**: Abkhazian, Arabic, Chinese (Hong Kong), Indonesian, Interlingua, Japanese, Latvian, Portuguese, Romansh (Sursilvan), Tamil, and Votic.
+
+**Dataset Changes**
+- changed tar file naming from `cv-corpus-{releaseNumber}_{locale}.tar.tar` to
+  `cv-corpus-{releaseNumber}-{YYYY-MM-DD}_{locale}.tar.tar`, e.g. cv-corpus-4-2019-12-10_tr.tar.tar`
 
 ### [Corpus 3](datasets/cv-corpus-3.json) - [Discourse Update](https://discourse.mozilla.org/t/common-voice-mid-year-release-more-data-more-languages/41409/16)
 
@@ -183,6 +277,23 @@ First multilingual release.
 - **Number of languages**: 19
 
 **New languages since last major release**: German, French, Welsh, Breton, Chuvash, Turkish, Tatar, Kyrgyz, Irish, Kabyle, Catalan, Chinese (Taiwan), Slovenian, Italian, Dutch, Hakka Chin, Esperanto, Estonian
+
+**Dataset Structure**
+- the dataset release folder structure is as follows:
+  ```
+    cv-corpus-1_tr
+    ├── clips
+    ├── dev.tsv
+    ├── invalidated.tsv
+    ├── other.tsv
+    ├── test.tsv
+    ├── train.tsv
+    └── validated.tsv
+  ```
+- to get more information about the files included in the dataset release, please see [Corpora Creator](https://github.com/common-voice/CorporaCreator)
+- in general the files `dev.tsv`, `test.tsv`, `train.tsv`, `validated.tsv`, `invalidated.tsv` and `other.tsv` are generated by the Corpora Creator
+- they contain the following columns: `client_id`, `path`, `sentence`, `up_votes`, `down_votes`, `age`, `gender`, `accent`
+
 
 ### English Corpus 1
 
