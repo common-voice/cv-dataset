@@ -6,11 +6,11 @@ Regularly scheduled dataset release Q4 2024.
 
 - **Date released**: 11 December 2024
 - **Clip cut-off date**: 06 December 2024
-- **Total hours**: 33,150
-- **Total validated hours**: 22,108
+- **Total hours**: 33,154
+- **Total validated hours**: 22,106
 - **Number of languages**: 133
 
-**New languages since last major release**: Aragonese, IsiNdebele (South), Southern Sotho, Tupuri
+**New languages since last major release**: IsiNdebele (South), Southern Sotho
 
 ## Past releases
 ### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
