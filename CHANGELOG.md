@@ -1,6 +1,18 @@
 # Changelog
 
 ## Current release:
+### [Corpus 21.0](datasets/cv-corpus-21.0-2025-03-14.json)
+Regularly scheduled dataset release Q1 2025.
+
+- **Date released**: 19 March 2025
+- **Clip cut-off date**: 14 March 2025
+- **Total hours**: 33,678
+- **Total validated hours**: 22,472
+- **Number of languages**: 145
+
+**New languages since last major release**: Kateviri, Dawoodi, Gujari, Gawri, Gawarbaiti, Lassi, Indus Kohistani, Norwegian Bokmål, Kohistani Shina, Ushojo, Wakhi, Kalkoti      
+
+## Past releases
 ### [Corpus 20.0](datasets/cv-corpus-20.0-2024-12-06.json)
 Regularly scheduled dataset release Q4 2024.
 
@@ -12,7 +24,6 @@ Regularly scheduled dataset release Q4 2024.
 
 **New languages since last major release**: IsiNdebele (South), Southern Sotho
 
-## Past releases
 ### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
 Regularly scheduled dataset release Q3 2024.
 
