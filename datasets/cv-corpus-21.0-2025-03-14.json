@@ -780,66 +780,6 @@
       "totalHrs": 28.17,
       "validHrs": 26.34
     },
-    "bsh": {
-      "buckets": {
-        "dev": 515,
-        "test": 693,
-        "train": 1420,
-        "validated": 6765,
-        "invalidated": 59,
-        "other": 38
-      },
-      "duration": 37426032,
-      "reportedSentences": 2,
-      "validatedSentences": 2646,
-      "unvalidatedSentences": 40,
-      "clips": 6862,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.15,
-          "twenties": 0.57,
-          "thirties": 0,
-          "teens": 0,
-          "fourties": 0,
-          "fifties": 0.28,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 6862,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 14,
-      "size": 220730799,
-      "checksum": "0a394e0ddc5be21fd26dfa0e4de5601a407b61226dfd348d867b345b7775d0db",
-      "avgDurationSecs": 5.454,
-      "validDurationSecs": 36896.984,
-      "totalHrs": 10.39,
-      "validHrs": 10.24
-    },
     "ca": {
       "buckets": {
         "dev": 16413,
@@ -1380,66 +1320,6 @@
       "validDurationSecs": 4891124.24,
       "totalHrs": 1451.98,
       "validHrs": 1358.64
-    },
-    "dmk": {
-      "buckets": {
-        "dev": 0,
-        "test": 933,
-        "train": 3205,
-        "validated": 10643,
-        "invalidated": 123,
-        "other": 26
-      },
-      "duration": 38273472,
-      "reportedSentences": 732,
-      "validatedSentences": 4139,
-      "unvalidatedSentences": 194,
-      "clips": 10792,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.04,
-          "twenties": 0.01,
-          "thirties": 0.15,
-          "teens": 0,
-          "fourties": 0.81,
-          "fifties": 0,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 0.95,
-          "male_masculine": 0,
-          "female_feminine": 0.05,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 10790,
-          "agriculture_food": 2,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 2,
-          "healthcare": 2,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 10,
-      "size": 223088731,
-      "checksum": "2f00d7d540463e2c90b1847521a015d36b90465290ae6afdb40b0c89015fbfe1",
-      "avgDurationSecs": 3.546,
-      "validDurationSecs": 37745.048,
-      "totalHrs": 10.63,
-      "validHrs": 10.48
     },
     "dv": {
       "buckets": {
@@ -2222,66 +2102,6 @@
       "totalHrs": 10.49,
       "validHrs": 6.04
     },
-    "gju": {
-      "buckets": {
-        "dev": 0,
-        "test": 752,
-        "train": 3078,
-        "validated": 10916,
-        "invalidated": 155,
-        "other": 670
-      },
-      "duration": 38540952,
-      "reportedSentences": 0,
-      "validatedSentences": 3852,
-      "unvalidatedSentences": 2,
-      "clips": 11741,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.22,
-          "twenties": 0,
-          "thirties": 0.01,
-          "teens": 0,
-          "fourties": 0.77,
-          "fifties": 0,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 11738,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 3,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 6,
-      "size": 220142661,
-      "checksum": "237d2fdeb71a6ab2c61ec4e4943b50c046bc96d77c550dc7d7fc5ea3f6c685f6",
-      "avgDurationSecs": 3.283,
-      "validDurationSecs": 35832.811,
-      "totalHrs": 10.7,
-      "validHrs": 9.95
-    },
     "gl": {
       "buckets": {
         "dev": 13228,
@@ -2401,126 +2221,6 @@
       "validDurationSecs": 13567.986,
       "totalHrs": 28.47,
       "validHrs": 3.76
-    },
-    "gwc": {
-      "buckets": {
-        "dev": 776,
-        "test": 918,
-        "train": 3268,
-        "validated": 7421,
-        "invalidated": 683,
-        "other": 1699
-      },
-      "duration": 57059136,
-      "reportedSentences": 1,
-      "validatedSentences": 5574,
-      "unvalidatedSentences": -1,
-      "clips": 9803,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.03,
-          "twenties": 0.34,
-          "thirties": 0,
-          "teens": 0,
-          "fourties": 0.48,
-          "fifties": 0.14,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 9803,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 22,
-      "size": 335355382,
-      "checksum": "0819794643ba863c9415549af8bbe55562dc10880a8847cf2fb04e0df7769105",
-      "avgDurationSecs": 5.821,
-      "validDurationSecs": 43194.517,
-      "totalHrs": 15.84,
-      "validHrs": 11.99
-    },
-    "gwt": {
-      "buckets": {
-        "dev": 0,
-        "test": 220,
-        "train": 3136,
-        "validated": 7681,
-        "invalidated": 57,
-        "other": 0
-      },
-      "duration": 44273880,
-      "reportedSentences": 0,
-      "validatedSentences": 3719,
-      "unvalidatedSentences": 2087,
-      "clips": 7738,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.16,
-          "twenties": 0,
-          "thirties": 0.4,
-          "teens": 0,
-          "fourties": 0,
-          "fifties": 0,
-          "sixties": 0.43,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 7738,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 5,
-      "size": 261946264,
-      "checksum": "119fae150bd8f940eaf986d85f4f6f68f741c272363c49fd077cf8c85bc7a155",
-      "avgDurationSecs": 5.722,
-      "validDurationSecs": 43947.748,
-      "totalHrs": 12.29,
-      "validHrs": 12.2
     },
     "ha": {
       "buckets": {
@@ -3903,66 +3603,6 @@
       "totalHrs": 0.39,
       "validHrs": 0.24
     },
-    "lss": {
-      "buckets": {
-        "dev": 474,
-        "test": 645,
-        "train": 903,
-        "validated": 10322,
-        "invalidated": 34,
-        "other": 98
-      },
-      "duration": 36300708,
-      "reportedSentences": 0,
-      "validatedSentences": 2029,
-      "unvalidatedSentences": -1,
-      "clips": 10454,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.04,
-          "twenties": 0.45,
-          "thirties": 0.33,
-          "teens": 0,
-          "fourties": 0.19,
-          "fifties": 0,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 0.7,
-          "male_masculine": 0,
-          "female_feminine": 0.19,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0.11
-        },
-        "sentence_domain": {
-          "": 10454,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 15,
-      "size": 183633813,
-      "checksum": "ee2439f995a36db4c2af511f0da4fda77c0b9a59db98e1a1e480f7e5f9b9ca69",
-      "avgDurationSecs": 3.472,
-      "validDurationSecs": 35842.348,
-      "totalHrs": 10.08,
-      "validHrs": 9.95
-    },
     "lt": {
       "buckets": {
         "dev": 5236,
@@ -4682,66 +4322,6 @@
       "validDurationSecs": 31296.43,
       "totalHrs": 17.44,
       "validHrs": 8.69
-    },
-    "mvy": {
-      "buckets": {
-        "dev": 1944,
-        "test": 2066,
-        "train": 2568,
-        "validated": 16538,
-        "invalidated": 590,
-        "other": 1271
-      },
-      "duration": 89628552,
-      "reportedSentences": 90,
-      "validatedSentences": 6634,
-      "unvalidatedSentences": 222,
-      "clips": 18399,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.04,
-          "twenties": 0.4,
-          "thirties": 0.47,
-          "teens": 0,
-          "fourties": 0.06,
-          "fifties": 0.03,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 18169,
-          "agriculture_food": 33,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 108,
-          "healthcare": 0,
-          "history_law_government": 78,
-          "language_fundamentals": 0,
-          "media_entertainment": 11,
-          "nature_environment": 7,
-          "news_current_affairs": 0,
-          "technology_robotics": 9
-        }
-      },
-      "users": 55,
-      "size": 474762058,
-      "checksum": "8ffdac9b35a82a5474b5707bb7017e7fd0b4bd4ffb722c985cd58a6d657d87b9",
-      "avgDurationSecs": 4.871,
-      "validDurationSecs": 80562.911,
-      "totalHrs": 24.89,
-      "validHrs": 22.37
     },
     "myv": {
       "buckets": {
@@ -5582,66 +5162,6 @@
       "validDurationSecs": 623782.07,
       "totalHrs": 185.24,
       "validHrs": 173.27
-    },
-    "plk": {
-      "buckets": {
-        "dev": 1236,
-        "test": 616,
-        "train": 2561,
-        "validated": 8965,
-        "invalidated": 960,
-        "other": 2010
-      },
-      "duration": 59980824,
-      "reportedSentences": 0,
-      "validatedSentences": 4657,
-      "unvalidatedSentences": -1,
-      "clips": 11935,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.14,
-          "twenties": 0,
-          "thirties": 0.16,
-          "teens": 0,
-          "fourties": 0,
-          "fifties": 0,
-          "sixties": 0.71,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 11935,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 10,
-      "size": 345842645,
-      "checksum": "8c7ecfc467bab12ef071504394bcac99386e76beafc92c522376b2a039257338",
-      "avgDurationSecs": 5.026,
-      "validDurationSecs": 45054.72,
-      "totalHrs": 16.66,
-      "validHrs": 12.51
     },
     "ps": {
       "buckets": {
@@ -7744,66 +7264,6 @@
       "totalHrs": 301.35,
       "validHrs": 81.22
     },
-    "ush": {
-      "buckets": {
-        "dev": 101,
-        "test": 360,
-        "train": 677,
-        "validated": 3761,
-        "invalidated": 80,
-        "other": 20
-      },
-      "duration": 23742288,
-      "reportedSentences": 0,
-      "validatedSentences": 1161,
-      "unvalidatedSentences": -1,
-      "clips": 3861,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.12,
-          "twenties": 0.24,
-          "thirties": 0.01,
-          "teens": 0.02,
-          "fourties": 0.61,
-          "fifties": 0,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 3858,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 3,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 22,
-      "size": 132346158,
-      "checksum": "816fbe69a06ddfec62b4f0838b870c632a6d2acf9926f6ef84b3a0bae711049b",
-      "avgDurationSecs": 6.149,
-      "validDurationSecs": 23127.362,
-      "totalHrs": 6.59,
-      "validHrs": 6.42
-    },
     "uz": {
       "buckets": {
         "dev": 12254,
@@ -7984,66 +7444,6 @@
       "totalHrs": 0.28,
       "validHrs": 0.06
     },
-    "wbl": {
-      "buckets": {
-        "dev": 1109,
-        "test": 1095,
-        "train": 2508,
-        "validated": 6325,
-        "invalidated": 89,
-        "other": 1691
-      },
-      "duration": 54891036,
-      "reportedSentences": 1,
-      "validatedSentences": 5493,
-      "unvalidatedSentences": 87,
-      "clips": 8105,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.21,
-          "twenties": 0,
-          "thirties": 0.01,
-          "teens": 0,
-          "fourties": 0,
-          "fifties": 0,
-          "sixties": 0.12,
-          "seventies": 0.66,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 0.88,
-          "male_masculine": 0.12,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 8102,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 0,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 3,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 11,
-      "size": 318458568,
-      "checksum": "0f3a58367f2c61a954c1f409155774c6b3c81e4423007906f3a5ea3271f1397a",
-      "avgDurationSecs": 6.772,
-      "validDurationSecs": 42836.003,
-      "totalHrs": 15.24,
-      "validHrs": 11.89
-    },
     "xh": {
       "buckets": {
         "dev": 0,
@@ -8103,66 +7503,6 @@
       "validDurationSecs": 6.276,
       "totalHrs": 0.02,
       "validHrs": 0
-    },
-    "xka": {
-      "buckets": {
-        "dev": 0,
-        "test": 400,
-        "train": 1570,
-        "validated": 11158,
-        "invalidated": 66,
-        "other": 588
-      },
-      "duration": 38274120,
-      "reportedSentences": 4,
-      "validatedSentences": 1980,
-      "unvalidatedSentences": 46,
-      "clips": 11853,
-      "splits": {
-        "accent": {},
-        "age": {
-          "": 0.01,
-          "twenties": 0.74,
-          "thirties": 0,
-          "teens": 0,
-          "fourties": 0,
-          "fifties": 0.25,
-          "sixties": 0,
-          "seventies": 0,
-          "eighties": 0,
-          "nineties": 0
-        },
-        "gender": {
-          "": 1,
-          "male_masculine": 0,
-          "female_feminine": 0,
-          "transgender": 0,
-          "non-binary": 0,
-          "do_not_wish_to_say": 0
-        },
-        "sentence_domain": {
-          "": 11827,
-          "agriculture_food": 0,
-          "automotive_transport": 0,
-          "finance": 0,
-          "service_retail": 0,
-          "general": 26,
-          "healthcare": 0,
-          "history_law_government": 0,
-          "language_fundamentals": 0,
-          "media_entertainment": 0,
-          "nature_environment": 0,
-          "news_current_affairs": 0,
-          "technology_robotics": 0
-        }
-      },
-      "users": 9,
-      "size": 203459191,
-      "checksum": "e1894b950ee37ffe61e4796f50a135e78722c59efd7a6b189c44a2719148b922",
-      "avgDurationSecs": 3.229,
-      "validDurationSecs": 36029.919,
-      "totalHrs": 10.63,
-      "validHrs": 10
     },
     "yi": {
       "buckets": {
@@ -8705,8 +8045,8 @@
       "validHrs": 1.77
     }
   },
-  "totalDuration": 121243656847,
-  "totalValidDurationSecs": 80900521,
-  "totalHrs": 33678,
-  "totalValidHrs": 22472
+  "totalDuration": 120725265847,
+  "totalValidDurationSecs": 80439450,
+  "totalHrs": 33534,
+  "totalValidHrs": 22344
 }
