@@ -6,8 +6,8 @@ Regularly scheduled dataset release Q1 2025.
 
 - **Date released**: 19 March 2025
 - **Clip cut-off date**: 14 March 2025
-- **Total hours**: 33,678
-- **Total validated hours**: 22,472
+- **Total hours**: 33,534
+- **Total validated hours**: 22,344
 - **Number of languages**: 134
 
 **New languages since last major release**: Norwegian Bokmål
