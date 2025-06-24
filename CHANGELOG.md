@@ -1,6 +1,17 @@
 # Changelog
 
 ## Current release:
+### [Corpus 22.0](datasets/cv-corpus-22.0-2025-06-20.json)
+Regularly scheduled dataset release Q2 2025.
+
+- **Date released**: 25 June 2025
+- **Clip cut-off date**: 20 June 2025
+- **Total hours**: 33,815
+- **Total validated hours**: 22,640
+- **Number of languages**: 137
+
+**New languages since last major release**: Aromanian, Arumanian, Macedo-Romanian language (rup), Tajik (tg), Venda/Tshivenda (ve)
+
 ### [Corpus 21.0](datasets/cv-corpus-21.0-2025-03-14.json)
 Regularly scheduled dataset release Q1 2025.
 
