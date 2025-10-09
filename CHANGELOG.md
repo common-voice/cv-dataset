@@ -1,6 +1,17 @@
 # Changelog
 
 ## Current release:
+### [Corpus 23.0](datasets/cv-corpus-23.0-2025-09-05.json)
+Regularly scheduled dataset release Q3 2025.
+
+- **Date released**: 17 September 2025
+- **Clip cut-off date**: 05 September 2025
+- **Total hours**: 35,921
+- **Total validated hours**: 24,600
+- **Number of languages**: 286
+
+**New languages since last major release**: Adamawa Fulfulde, Adja, Adyghe, Aragonese, Asheninka Perene, Asheninka South Ucayali, Atayal, Baatonum, Bafia, Bafut, Bakoko, Balti, Bamun, Bamvele, Bankon, Baoule, Batanga, Bateri, Borgu Fulfulde, Brahui, Brushaski, Bulu, Bunun, Cameroon Pidgin, Central Alaskan Yupʼik, Central Puebla Nahuatl, Central Tarahumara, Chokwe, Copainalá Zoque, Cornish, Dagbani, Dameli, Dargwa, Dawoodi, Dhatki, Duala, Eastern Balochi, Ebrie, Ekoti, Eton, Ewondo, Fang, Feʼefeʼe, Gawarbaiti, Gawri, Ghomala, Goaria, Guidar, Guiziga, Gujari, Gurgula, Hazargi, Huarijio, Huautla Mazatec, Ibibio, Indus Kohistani, Iñupiaq, Jaqaru, Kabardian, Kachhi, Kalasha, Kalkoti, Kateviri, Ketrani, Khowar, Kichwa, Kihemba, Kirombo, Kohistani Shina, Kom, Kotokoli, Kunabembe, Kwasio, Lassi, Loarki, Loja Highland Kichwa, Losso, Mada, Malay, Manx, Massa, Matses, Mbo, Mbum, Medumba, Mengambo, Mina, Mingrelian, Mokpwe, Moussey, Mpiemo, Mundang, Mungaka, Musgum, Ngiembon, Ngomba, Ngombale, Nigerian Pidgin English, Northern Hindko, Northwest Gbaya, Nuasue, Nyungwe, Nüpode Huitoto, Oadki, Orizaba Nahuatl, Ormuri, Ouldémé, Pahari-Pothwari, Paiwan, Pakistani Marwari, Palula, Parkari Koli, Puno Quechua, Quechua Ambo-Pasco, Quechua Arequipa-La Unión, Quechua Cajatambo, Quechua Chiquián, Quechua Corongo Ancash, Quechua Jauja Wanka, Quechua Pasco Santa Ana de Tusi, Quechua Santiago del Estero, Quechua Sihuas Ancash, Quechua Yanahuanca, Quechua Yauyos, Rukai, Sakizaya, Sansi, Seediq, Seri, Shina, Sindhi Bhili, Siswati, Southern Pastaza Quechua, Svan, Tepeuxila Cuicatec, Teutila Cuicatec, Tlingit, Torwali, Tshiluba, Tuki, Tunen, Tupuri, Tush, Ushojo, Wadiyara Koli, Wakhi, Western Highland Purepecha, Yadgha, Yaqui
+
 ### [Corpus 22.0](datasets/cv-corpus-22.0-2025-06-20.json)
 Regularly scheduled dataset release Q2 2025.
 
