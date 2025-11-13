@@ -61,7 +61,10 @@ Each test/train/dev set is generated non-deterministically, meaning that they wi
 
 ## Dataset access
 
-We're aware that downloading large files (> 1-2 GB) over HTTP is not ideal, and we are working on improving our dataset access mechanisms to make it easier for researchers and developers to make use of our corpus. In the meantime, if you find that you are experiencing interruptions to your download, we suggest using `curl` on the command line for this, so that you can resume interrupted downloads with the `-C` option. For more information on how to use `curl`, please see [the man page documentation](https://www.mit.edu/afs.new/sipb/user/ssen/src/curl-7.11.1/docs/curl.html).
+You can download the Common Voice datasets from the [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) platform with three different methods:
+- [Directly from the browser](https://datacollective.mozillafoundation.org/datasets).
+- [Using the MDC API](https://datacollective.mozillafoundation.org/api-reference).
+- [Using the MDC Python SDK](https://github.com/Mozilla-Data-Collective/datacollective-python) to directly load the datasets as pandas DataFrame in your Python codebase.
 
 ## Citation
 
