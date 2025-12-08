@@ -9,6 +9,18 @@ Any demographic split (i.e. sex, age, accent) is applied to **the entire dataset
 
 Please only use this repo to provide feedback on **technical issues** with the dataset, such as file corruptions, problems with the partitions, and so on. For more expansive discussions of qualitative discussions, please join us in [Discourse](https://discourse.mozilla.org/c/voice).
 
+## Generating dataset statistics
+
+Ensure the `stats-*` folder contains the stats downloaded from the bundler bucket for the release you are processing, and that each stats file follows the naming pattern `stats_{locale}.json`.
+
+To create a dataset statistics JSON file for a release, run the helper script and pipe it through `jq` to format the output:
+
+```bash
+node helpers/createStats.js stats-23.0 | jq . > datasets/cv-corpus-23.0-2025-09-05.json
+```
+
+Replace the corpus version (`stats-23.0`) and the output file name/date (`cv-corpus-23.0-2025-09-05.json`) to match the release you are generating.
+
 ## About the Dataset
 
 This dataset features contributions from the Common Voice community on our [web platform](https://commonvoice.mozilla.org). New datasets are released approximately every six months.
