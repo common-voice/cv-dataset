@@ -1,7 +1,23 @@
 # Changelog
 
-## Current release:
+## Current release
+
+### [Corpus 24.0](datasets/cv-corpus-24.0-2025-09-05.json)
+
+Regularly scheduled dataset release Q4 2025.
+
+- **Date released**: 17 December 2025
+- **Clip cut-off date**: 05 December 2025
+- **Total hours**: 38,932
+- **Total validated hours**: 25,886
+- **Number of languages**: 289
+
+**New languages since last major release**: Lower Sorbian (`dsb`), Alsatian (`gsw`), Laz (`lzz`)
+
+## Past releases
+
 ### [Corpus 23.0](datasets/cv-corpus-23.0-2025-09-05.json)
+
 Regularly scheduled dataset release Q3 2025.
 
 - **Date released**: 17 September 2025
@@ -13,6 +29,7 @@ Regularly scheduled dataset release Q3 2025.
 **New languages since last major release**: Adamawa Fulfulde, Adja, Adyghe, Aragonese, Asheninka Perene, Asheninka South Ucayali, Atayal, Baatonum, Bafia, Bafut, Bakoko, Balti, Bamun, Bamvele, Bankon, Baoule, Batanga, Bateri, Borgu Fulfulde, Brahui, Brushaski, Bulu, Bunun, Cameroon Pidgin, Central Alaskan Yupʼik, Central Puebla Nahuatl, Central Tarahumara, Chokwe, Copainalá Zoque, Cornish, Dagbani, Dameli, Dargwa, Dawoodi, Dhatki, Duala, Eastern Balochi, Ebrie, Ekoti, Eton, Ewondo, Fang, Feʼefeʼe, Gawarbaiti, Gawri, Ghomala, Goaria, Guidar, Guiziga, Gujari, Gurgula, Hazargi, Huarijio, Huautla Mazatec, Ibibio, Indus Kohistani, Iñupiaq, Jaqaru, Kabardian, Kachhi, Kalasha, Kalkoti, Kateviri, Ketrani, Khowar, Kichwa, Kihemba, Kirombo, Kohistani Shina, Kom, Kotokoli, Kunabembe, Kwasio, Lassi, Loarki, Loja Highland Kichwa, Losso, Mada, Malay, Manx, Massa, Matses, Mbo, Mbum, Medumba, Mengambo, Mina, Mingrelian, Mokpwe, Moussey, Mpiemo, Mundang, Mungaka, Musgum, Ngiembon, Ngomba, Ngombale, Nigerian Pidgin English, Northern Hindko, Northwest Gbaya, Nuasue, Nyungwe, Nüpode Huitoto, Oadki, Orizaba Nahuatl, Ormuri, Ouldémé, Pahari-Pothwari, Paiwan, Pakistani Marwari, Palula, Parkari Koli, Puno Quechua, Quechua Ambo-Pasco, Quechua Arequipa-La Unión, Quechua Cajatambo, Quechua Chiquián, Quechua Corongo Ancash, Quechua Jauja Wanka, Quechua Pasco Santa Ana de Tusi, Quechua Santiago del Estero, Quechua Sihuas Ancash, Quechua Yanahuanca, Quechua Yauyos, Rukai, Sakizaya, Sansi, Seediq, Seri, Shina, Sindhi Bhili, Siswati, Southern Pastaza Quechua, Svan, Tepeuxila Cuicatec, Teutila Cuicatec, Tlingit, Torwali, Tshiluba, Tuki, Tunen, Tupuri, Tush, Ushojo, Wadiyara Koli, Wakhi, Western Highland Purepecha, Yadgha, Yaqui
 
 ### [Corpus 22.0](datasets/cv-corpus-22.0-2025-06-20.json)
+
 Regularly scheduled dataset release Q2 2025.
 
 - **Date released**: 25 June 2025
@@ -24,6 +41,7 @@ Regularly scheduled dataset release Q2 2025.
 **New languages since last major release**: Aromanian, Arumanian, Macedo-Romanian language (rup), Tajik (tg), Venda/Tshivenda (ve)
 
 ### [Corpus 21.0](datasets/cv-corpus-21.0-2025-03-14.json)
+
 Regularly scheduled dataset release Q1 2025.
 
 - **Date released**: 19 March 2025
@@ -34,8 +52,8 @@ Regularly scheduled dataset release Q1 2025.
 
 **New languages since last major release**: Norwegian Bokmål
 
-## Past releases
 ### [Corpus 20.0](datasets/cv-corpus-20.0-2024-12-06.json)
+
 Regularly scheduled dataset release Q4 2024.
 
 - **Date released**: 11 December 2024
@@ -47,6 +65,7 @@ Regularly scheduled dataset release Q4 2024.
 **New languages since last major release**: IsiNdebele (South), Southern Sotho
 
 ### [Corpus 19.0](datasets/cv-corpus-19.0-2024-09-13.json)
+
 Regularly scheduled dataset release Q3 2024.
 
 - **Date released**: 18 September 2024
@@ -58,12 +77,16 @@ Regularly scheduled dataset release Q3 2024.
 **New languages since last major release**: Sindhi, Tsonga
 
 ### [Corpus 18.0](datasets/cv-corpus-18.0-2024-06-14.json)
+
 **Dataset Changes**
+
 - the `sentence_domain` column contains now up to three domains separated by a comma, e.g. `general,finance,news_current_affairs`
 - the domains `agriculture`, `automotive` and `food_service_retail` have been renamed to `agriculture_food`, `automotive_transport`, `service_retail` respectively
 
 ### [Corpus 17.0](datasets/cv-corpus-17.0-2024-03-15.json)
+
 **Dataset Changes**
+
 - added `unvalidated_sentences.tsv` and `validated_sentences.tsv`
 - `unvalidated_sentences.tsv` contains sentences that do not have any votes yet, the columns are: `sentence_id`, `sentence`, `sentence_domain` and `source`
 - `validated_sentences.tsv`contains sentences that have at two up votes, it has two additional columns: `is_used` and `clips_count`
@@ -73,21 +96,29 @@ Regularly scheduled dataset release Q3 2024.
 - the following [sentence domains](https://github.com/common-voice/common-voice/blob/f820e0fa3ec00fc6d49dae7e31bcebf9eb24878b/common/taxonomies.ts#L35) are supported
 
 ### [Corpus 16.1](datasets/cv-corpus-16.1-2023-12-06.json)
+
 **Dataset Changes**
+
 - changed `times.txt` to `clip_durations.tsv` for consistency
 - `clip_durations.tsv` contains two columns: `clip` and `duration[ms]`
 
 ### [Corpus 14.0](datasets/cv-corpus-14.0-2023-06-23.json)
+
 **Dataset Changes**
+
 - added `times.txt` containing mp3 filename and duration in ms
 
 ### [Corpus 13.0](datasets/cv-corpus-13.0-2023-03-09.json)
+
 **Dataset Changes**
+
 - added `variant` column to [Corpora Creator](https://github.com/common-voice/CorporaCreator)
-files
+  files
 
 ### [Corpus 10.0](datasets/cv-corpus-10-2022-07-04.json)
+
 **Dataset Changes**
+
 - introduced delta segments
 - delta segment tar file naming is `cv-corpus-{releaseNumber}-delta-{YYYY-MM-DD}-{locale}.tar.gz`
 - delta segments contain the same files except for the training splits, i.e. `dev.tsv`, `test.tsv`, `train.tsv`
@@ -131,8 +162,9 @@ Regularly scheduled dataset release for H1 of 2021.
 **New languages since last major release**: Basaa, Slovak, Northern Kurdish, Bulgarian, Kazakh, Bashkir, Galician, Uyghur, Armenian, Belarusian, Urdu, Guarani, Serbian, Uzbek, Azerbaijani, Hausa
 
 **Dataset Changes**
+
 - changed tar file naming from `cv-corpus-{releaseNumber}-{YYYY-MM-DD}_{locale}.tar.tar`
-  cv-corpus-{releaseNumber}-{YYYY-MM-DD}_cv-corpus-{releaseNumber}-{YYYY-MM-DD}-{locale}.tar.gz`, e.g. `cv-corpus-7.0-2021-07-21_cv-corpus-7.0-2021-07-21-tr.tar.gz`
+  cv-corpus-{releaseNumber}-{YYYY-MM-DD}\_cv-corpus-{releaseNumber}-{YYYY-MM-DD}-{locale}.tar.gz`, e.g.`cv-corpus-7.0-2021-07-21_cv-corpus-7.0-2021-07-21-tr.tar.gz`
 
 ### [Singleword Segment 7.0](datasets/cv-corpus-7.0-singleword.json)
 
@@ -222,7 +254,8 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
 
 - changed archive folder structure: dataset release archive contains now a locale folder
   before:
-  ```
+
+  ```txt
     cv-corpus-3_tr
     ├── clips
     ├── dev.tsv
@@ -232,8 +265,10 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
     ├── train.tsv
     └── validated.tsv
   ```
+
   now:
-  ```
+
+  ```txt
   cv-corpus-5.1-2020-06-22
   └── tr
       ├── clips
@@ -245,9 +280,10 @@ Regularly scheduled dataset release for H1 of 2020. This release introduced sha2
       ├── train.tsv
       └── validated.tsv
   ```
+
 - added `reported.tsv` containing sentences that have been reported by the community
 - added `locale` and `segment` columns to the [Corpora Creator](https://github.com/common-voice/CorporaCreator)
- files
+  files
 
 ### [Singleword Segment 5.0](datasets/cv-corpus-5-singleword.json)
 
@@ -272,6 +308,7 @@ Regularly scheduled dataset release for H2 of 2019.
 **New languages since last major release**: Abkhazian, Arabic, Chinese (Hong Kong), Indonesian, Interlingua, Japanese, Latvian, Portuguese, Romansh (Sursilvan), Tamil, and Votic.
 
 **Dataset Changes**
+
 - changed tar file naming from `cv-corpus-{releaseNumber}_{locale}.tar.tar` to
   `cv-corpus-{releaseNumber}-{YYYY-MM-DD}_{locale}.tar.tar`, e.g. cv-corpus-4-2019-12-10_tr.tar.tar`
 
@@ -312,8 +349,10 @@ First multilingual release.
 **New languages since last major release**: German, French, Welsh, Breton, Chuvash, Turkish, Tatar, Kyrgyz, Irish, Kabyle, Catalan, Chinese (Taiwan), Slovenian, Italian, Dutch, Hakka Chin, Esperanto, Estonian
 
 **Dataset Structure**
+
 - the dataset release folder structure is as follows:
-  ```
+
+  ```txt
     cv-corpus-1_tr
     ├── clips
     ├── dev.tsv
@@ -323,10 +362,10 @@ First multilingual release.
     ├── train.tsv
     └── validated.tsv
   ```
+
 - to get more information about the files included in the dataset release, please see [Corpora Creator](https://github.com/common-voice/CorporaCreator)
 - in general the files `dev.tsv`, `test.tsv`, `train.tsv`, `validated.tsv`, `invalidated.tsv` and `other.tsv` are generated by the Corpora Creator
 - they contain the following columns: `client_id`, `path`, `sentence`, `up_votes`, `down_votes`, `age`, `gender`, `accent`
-
 
 ### English Corpus 1
 
