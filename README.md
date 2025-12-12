@@ -1,9 +1,10 @@
 # Common Voice Dataset
-This repo contains release details and metadata for the Common Voice dataset. Please visit https://commonvoice.mozilla.org/datasets to download the full dataset.
+
+This repo contains release details and metadata for the Common Voice dataset. Please visit <https://commonvoice.mozilla.org/datasets> to download the full dataset.
 
 ## About this repo
 
-This repo contains [statistics for each dataset](datasets) we have released in JSON format, as well as a [changelog](CHANGELOG.md) with brief summaries of the release. The JSON structure may have changed slightly from release-to-release, so if you plan on doing any comparisons you may need to normalize them between versions. Currently, changelogs and statistics from datasets released in the last year are available, and we are working to backfill this information for older versions as well. 
+This repo contains [statistics for each dataset](datasets) we have released in JSON format, as well as a [changelog](CHANGELOG.md) with brief summaries of the release. The JSON structure may have changed slightly from release-to-release, so if you plan on doing any comparisons you may need to normalize them between versions. Currently, changelogs and statistics from datasets released in the last year are available, and we are working to backfill this information for older versions as well.
 
 Any demographic split (i.e. sex, age, accent) is applied to **the entire dataset**, not just the validated set. Unless otherwise indicated, durations are measured in miliseconds, and file sizes are measured in bytes.
 
@@ -29,7 +30,7 @@ All voice contributions are released as part of datasets, regardless of validati
 
 Each downloaded `.tar.gz` file will have the following structure, where `[lang]` represents the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language:
 
-```
+```txt
 [lang].tar.gz/
 ├── clips/
 │   ├── *.mp3 files
@@ -44,26 +45,27 @@ Each downloaded `.tar.gz` file will have the following structure, where `[lang]`
 
 Each `.tsv` file contains a list of files, the annotation (original source sentence) for that clip, a hashed `client_id`, validation data, as well as any relevant demographics. If a language has fewer than 5 unique speakers, demographic data is removed to preserve privacy.
 
-* `validated` contains a list of all clips that have received two or more validations where `up_votes` > `down_votes`
-* `invalidated` contains a list of all clips that have received two or more validations where `down_votes` > `up_votes`, or clips that have received three or more validations where `down_votes` = `up_votes`
-* `other` contains a list of all clips that have not received sufficient validations to determine their status
+- `validated` contains a list of all clips that have received two or more validations where `up_votes` > `down_votes`
+- `invalidated` contains a list of all clips that have received two or more validations where `down_votes` > `up_votes`, or clips that have received three or more validations where `down_votes` = `up_votes`
+- `other` contains a list of all clips that have not received sufficient validations to determine their status
 
 As of Corpus 5.0, we are publishing a list of all of the sentences that have been flagged or reported by our contributors for each language, at the request of language communities that wish to use this data to do better quality control on their source sentences.
 
 ## Fields
+
 Each row of a tsv file represents a single audio clip, and contains the following information:
 
-* client_id - hashed UUID of a given user
-* path - relative path of the audio file
-* text - supposed transcription of the audio
-* up_votes - number of people who said audio matches the text
-* down_votes - number of people who said audio does not match text
-* age - age of the speaker*
-* gender - gender of the speaker*
-* accent - accent of the speaker*
-* segment - if sentence belongs to a custom dataset segment, it will be listed here
+- client_id - hashed UUID of a given user
+- path - relative path of the audio file
+- text - supposed transcription of the audio
+- up_votes - number of people who said audio matches the text
+- down_votes - number of people who said audio does not match text
+- age - age of the speaker\*
+- gender - gender of the speaker\*
+- accent - accent of the speaker\*
+- segment - if sentence belongs to a custom dataset segment, it will be listed here
 
-*For a full list of age, gender, and accent options, see the [demograpics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
+\*For a full list of age, gender, and accent options, see the [demograpics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
 
 ## Use for machine-learning
 
@@ -83,7 +85,7 @@ If you use the data in a published academic work we would appreciate if you cite
 
 The BiBTex is:
 
-```
+```txt
 @inproceedings{commonvoice:2020,
   author = {Ardila, R. and Branson, M. and Davis, K. and Henretty, M. and Kohler, M. and Meyer, J. and Morais, R. and Saunders, L. and Tyers, F. M. and Weber, G.},
   title = {Common Voice: A Massively-Multilingual Speech Corpus},
@@ -91,8 +93,4 @@ The BiBTex is:
   pages = {4211--4215},
   year = 2020
 }
-```
-
-```
-
 ```
