@@ -11662,24 +11662,24 @@
       "splits": {
         "accent": {},
         "age": {
-          "": 132867,
-          "twenties": 1433630,
-          "thirties": 472795,
-          "teens": 191562,
-          "fourties": 90848,
-          "fifties": 83885,
-          "sixties": 2123,
-          "seventies": 89,
+          "": 0.06,
+          "twenties": 0.6,
+          "thirties": 0.2,
+          "teens": 0.08,
+          "fourties": 0.04,
+          "fifties": 0.03,
+          "sixties": 0,
+          "seventies": 0,
           "eighties": 0,
           "nineties": 0
         },
         "gender": {
-          "": 1010482,
-          "male_masculine": 6244,
-          "female_feminine": 1390861,
+          "": 0.42,
+          "male_masculine": 0,
+          "female_feminine": 0.58,
           "transgender": 0,
           "non-binary": 0,
-          "do_not_wish_to_say": 212
+          "do_not_wish_to_say": 0
         },
         "sentence_domain": {
           "": 2053505,
