@@ -1,5 +1,5 @@
 # Common Voice Dataset
-This repo contains release details and metadata for the Common Voice dataset. Please visit https://commonvoice.mozilla.org/datasets to download the full dataset.
+This repo contains release details and metadata for the Common Voice datasets. Please visit [Mozilla Data Collective Common Voice section](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk) to download the latest full dataset.
 
 ## About this repo
 
@@ -62,7 +62,7 @@ Each test/train/dev set is generated non-deterministically, meaning that they wi
 ## Dataset access
 
 You can download the Common Voice datasets from the [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) platform with three different methods:
-- [Directly from the browser](https://datacollective.mozillafoundation.org/datasets).
+- [Directly from the browser](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk).
 - [Using the MDC API](https://datacollective.mozillafoundation.org/api-reference).
 - [Using the MDC Python SDK](https://github.com/Mozilla-Data-Collective/datacollective-python) to directly load the datasets as pandas DataFrame in your Python codebase.
 
