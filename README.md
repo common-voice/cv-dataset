@@ -1,4 +1,5 @@
 # Common Voice Dataset
+
 This repo contains release details and metadata for the Common Voice datasets. Please visit [Mozilla Data Collective Common Voice section](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk) to download the latest full dataset.
 
 ## About this repo
@@ -11,15 +12,19 @@ Please only use this repo to provide feedback on **technical issues** with the d
 
 ## Generating dataset statistics
 
+**Note:** The helper scripts are currently being refactored to support multiple dataset types (scripted-speech, spontaneous-speech, code-switching). More changes are coming. See [helpers/README.md](helpers/README.md) for detailed documentation.
+
 Ensure the `stats-*` folder contains the stats downloaded from the bundler bucket for the release you are processing, and that each stats file follows the naming pattern `stats_{locale}.json`.
 
-To create a dataset statistics JSON file for a release, run the helper script and pipe it through `jq` to format the output:
+To create a dataset statistics JSON file for a release, run the helper script with the dataset type and pipe through `jq` to format:
 
 ```bash
-node helpers/createStats.js stats-23.0 | jq . > datasets/cv-corpus-23.0-2025-09-05.json
+node helpers/createStats.js scripted-speech stats-23.0 | jq . > datasets/scripted-speech/cv-corpus-23.0-2025-09-05.json
 ```
 
-Replace the corpus version (`stats-23.0`) and the output file name/date (`cv-corpus-23.0-2025-09-05.json`) to match the release you are generating.
+The helper scripts now accept a dataset type as the first parameter and automatically prefix paths. The `.json` extension is optional for dataset names.
+
+For more examples and information about available helper scripts, see the [helpers documentation](helpers/README.md).
 
 ## About the Dataset
 
@@ -75,6 +80,7 @@ Each test/train/dev set is generated non-deterministically, meaning that they wi
 ## Dataset access
 
 You can download the Common Voice datasets from the [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) platform with three different methods:
+
 - [Directly from the browser](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk).
 - [Using the MDC API](https://datacollective.mozillafoundation.org/api-reference).
 - [Using the MDC Python SDK](https://github.com/Mozilla-Data-Collective/datacollective-python) to directly load the datasets as pandas DataFrame in your Python codebase.
