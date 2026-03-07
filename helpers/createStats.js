@@ -49,11 +49,11 @@ const scriptedSpeech = async (statsFolder) => {
     const localeSplits = l.splits;
 
     for (const [key, value] of Object.entries(localeSplits.age)) {
-      localeSplits.age[key] = Number((value / numOfClips).toFixed(2));
+      localeSplits.age[key] = Number((value / numOfClips).toFixed(4));
     }
 
     for (const [key, value] of Object.entries(localeSplits.gender)) {
-      localeSplits.gender[key] = Number((value / numOfClips).toFixed(2));
+      localeSplits.gender[key] = Number((value / numOfClips).toFixed(4));
     }
 
     completeStats["locales"][locale] = l;
