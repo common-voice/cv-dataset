@@ -1,13 +1,6 @@
 const fs = require("fs");
-const path = require("path");
 const args = process.argv.slice(2);
-
-const DATASET_TYPES = [
-  "scripted-speech",
-  "spontaneous-speech",
-  "code-switching",
-];
-const READY_TYPES = ["scripted-speech"];
+const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
 const getDiffs = (a, b) => {
   const obj = {};
@@ -18,13 +11,6 @@ const getDiffs = (a, b) => {
   return obj;
 };
 
-const buildPath = (datasetType, datasetName) => {
-  const filename = datasetName.endsWith(".json")
-    ? datasetName
-    : `${datasetName}.json`;
-  return path.join(__dirname, "..", "datasets", datasetType, filename);
-};
-
 const showUsage = () => {
   console.log(
     "\nUsage: node helpers/compareReleases.js <dataset-type> <dataset-1> <dataset-2> [output-file]",
@@ -33,16 +19,11 @@ const showUsage = () => {
   console.log(
     "  node helpers/compareReleases.js scripted-speech cv-corpus-24.0-2025-12-05 cv-corpus-23.0-2025-09-05",
   );
-  console.log("\nDataset Types:");
-  console.log("  Ready: " + READY_TYPES.join(", "));
-  console.log(
-    "  Upcoming: " +
-      DATASET_TYPES.filter((t) => !READY_TYPES.includes(t)).join(", "),
-  );
+  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
   console.log();
 };
 
-const scriptedSpeech = (aPath, bPath, reportPath) => {
+const compareLocales = (aPath, bPath, reportPath) => {
   const newLanguages = [];
   const removedLanguages = [];
   const aFile = JSON.parse(fs.readFileSync(aPath, "utf-8"));
@@ -105,27 +86,21 @@ const scriptedSpeech = (aPath, bPath, reportPath) => {
 
 const main = (datasetType, dataset1, dataset2, outputFile) => {
   showUsage();
+  validateDatasetType(datasetType);
 
-  if (!DATASET_TYPES.includes(datasetType)) {
-    throw new Error(`"${datasetType}" is not a valid dataset type`);
-  }
-
-  if (!READY_TYPES.includes(datasetType)) {
-    throw new Error(`Dataset type "${datasetType}" is not ready yet`);
-  }
-
-  const aPath = buildPath(datasetType, dataset1);
-  const bPath = buildPath(datasetType, dataset2);
+  const aPath = buildFilePath(datasetType, dataset1);
+  const bPath = buildFilePath(datasetType, dataset2);
   const reportPath = outputFile
-    ? buildPath(datasetType, outputFile)
+    ? buildFilePath(datasetType, outputFile)
     : undefined;
 
   switch (datasetType) {
     case "scripted-speech":
-      scriptedSpeech(aPath, bPath, reportPath);
+    case "spontaneous-speech":
+      compareLocales(aPath, bPath, reportPath);
       break;
     default:
-      throw new Error(`Dataset type "${datasetType}" is not ready yet`);
+      throw new Error(`No handler for dataset type "${datasetType}"`);
   }
 };
 
