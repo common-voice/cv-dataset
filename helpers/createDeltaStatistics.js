@@ -1,22 +1,8 @@
 const fs = require("fs");
-const path = require("path");
 const args = process.argv.slice(2);
-
-const DATASET_TYPES = [
-  "scripted-speech",
-  "spontaneous-speech",
-  "code-switching",
-];
-const READY_TYPES = ["scripted-speech"];
+const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
 const getDiffs = (a, b) => +(a - b).toFixed(2);
-
-const buildPath = (datasetType, datasetName) => {
-  const filename = datasetName.endsWith(".json")
-    ? datasetName
-    : `${datasetName}.json`;
-  return path.join(__dirname, "..", "datasets", datasetType, filename);
-};
 
 const showUsage = () => {
   console.log(
@@ -26,36 +12,25 @@ const showUsage = () => {
   console.log(
     "  node helpers/createDeltaStatistics.js scripted-speech cv-corpus-24.0-2025-12-05 cv-corpus-23.0-2025-09-05",
   );
-  console.log("\nDataset Types:");
-  console.log("  Ready: " + READY_TYPES.join(", "));
-  console.log(
-    "  Upcoming: " +
-      DATASET_TYPES.filter((t) => !READY_TYPES.includes(t)).join(", "),
-  );
+  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
   console.log();
 };
 
-const scriptedSpeech = (aPath, bPath, reportPath) => {
+const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
   const newLanguages = [];
   const removedLanguages = [];
-  const newerReleaseData = JSON.parse(fs.readFileSync(aPath, "utf-8"));
-  const olderReleaseData = JSON.parse(fs.readFileSync(bPath, "utf-8"));
   const diffStats = {};
-  const newerStatsFile = newerReleaseData.locales;
-  const olderStatsFile = olderReleaseData.locales;
 
   for (const locale of Object.keys(newerStatsFile)) {
-    const aStats = newerStatsFile[locale]; // points to "en" -> {"users","totalHrs", etc}
+    const aStats = newerStatsFile[locale];
     const bStats = olderStatsFile[locale];
 
     if (!bStats) {
-      //language was added in newest release
       newLanguages.push(locale);
       continue;
     }
 
     if (!aStats) {
-      // language no longer exists in newest release
       removedLanguages.push(locale);
       continue;
     }
@@ -85,16 +60,11 @@ const scriptedSpeech = (aPath, bPath, reportPath) => {
       return stats;
     }, {});
   }
-  const totalStats = {
-    totalDuration:
-      newerReleaseData.totalDuration - olderReleaseData.totalDuration,
-    totalValidDurationSecs:
-      newerReleaseData.totalValidDurationSecs -
-      olderReleaseData.totalValidDurationSecs,
-    totalHrs: newerReleaseData.totalHrs - olderReleaseData.totalHrs,
-    totalValidHrs:
-      newerReleaseData.totalValidHrs - olderReleaseData.totalValidHrs,
-  };
+
+  return { diffStats, newLanguages, removedLanguages };
+};
+
+const writeOrPrint = (reportPath, diffStats, totalStats, newLanguages, removedLanguages) => {
   console.log(totalStats);
   console.log("New Languages: ", newLanguages);
   console.log("Removed Languages: ", removedLanguages);
@@ -109,29 +79,63 @@ const scriptedSpeech = (aPath, bPath, reportPath) => {
   }
 };
 
+const scriptedSpeech = (aPath, bPath, reportPath) => {
+  const newerReleaseData = JSON.parse(fs.readFileSync(aPath, "utf-8"));
+  const olderReleaseData = JSON.parse(fs.readFileSync(bPath, "utf-8"));
+  const { diffStats, newLanguages, removedLanguages } = computeLocaleDiffs(
+    newerReleaseData.locales, olderReleaseData.locales,
+  );
+  const totalStats = {
+    totalDuration:
+      newerReleaseData.totalDuration - olderReleaseData.totalDuration,
+    totalValidDurationSecs:
+      newerReleaseData.totalValidDurationSecs -
+      olderReleaseData.totalValidDurationSecs,
+    totalHrs: newerReleaseData.totalHrs - olderReleaseData.totalHrs,
+    totalValidHrs:
+      newerReleaseData.totalValidHrs - olderReleaseData.totalValidHrs,
+  };
+  writeOrPrint(reportPath, diffStats, totalStats, newLanguages, removedLanguages);
+};
+
+const spontaneousSpeech = (aPath, bPath, reportPath) => {
+  const newerReleaseData = JSON.parse(fs.readFileSync(aPath, "utf-8"));
+  const olderReleaseData = JSON.parse(fs.readFileSync(bPath, "utf-8"));
+  const { diffStats, newLanguages, removedLanguages } = computeLocaleDiffs(
+    newerReleaseData.locales, olderReleaseData.locales,
+  );
+  const totalStats = {
+    totalDurationMs:
+      newerReleaseData.totalDurationMs - olderReleaseData.totalDurationMs,
+    totalValidDurationMs:
+      newerReleaseData.totalValidDurationMs -
+      olderReleaseData.totalValidDurationMs,
+    totalHrs: newerReleaseData.totalHrs - olderReleaseData.totalHrs,
+    totalValidHrs:
+      newerReleaseData.totalValidHrs - olderReleaseData.totalValidHrs,
+  };
+  writeOrPrint(reportPath, diffStats, totalStats, newLanguages, removedLanguages);
+};
+
 const main = (datasetType, dataset1, dataset2, outputFile) => {
   showUsage();
+  validateDatasetType(datasetType);
 
-  if (!DATASET_TYPES.includes(datasetType)) {
-    throw new Error(`"${datasetType}" is not a valid dataset type`);
-  }
-
-  if (!READY_TYPES.includes(datasetType)) {
-    throw new Error(`Dataset type "${datasetType}" is not ready yet`);
-  }
-
-  const aPath = buildPath(datasetType, dataset1);
-  const bPath = buildPath(datasetType, dataset2);
+  const aPath = buildFilePath(datasetType, dataset1);
+  const bPath = buildFilePath(datasetType, dataset2);
   const reportPath = outputFile
-    ? buildPath(datasetType, outputFile)
+    ? buildFilePath(datasetType, outputFile)
     : undefined;
 
   switch (datasetType) {
     case "scripted-speech":
       scriptedSpeech(aPath, bPath, reportPath);
       break;
+    case "spontaneous-speech":
+      spontaneousSpeech(aPath, bPath, reportPath);
+      break;
     default:
-      throw new Error(`Dataset type "${datasetType}" is not ready yet`);
+      throw new Error(`No handler for dataset type "${datasetType}"`);
   }
 };
 

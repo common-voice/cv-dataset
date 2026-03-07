@@ -1,20 +1,12 @@
 const fs = require("fs/promises");
 const path = require("path");
 const process = require("node:process");
-
-const DATASET_TYPES = [
-  "scripted-speech",
-  "spontaneous-speech",
-  "code-switching",
-];
-const READY_TYPES = ["scripted-speech"];
-
-const getLocaleFromFilename = (filename) =>
-  filename.split(".json")[0].split("_")[1];
-
-const buildPath = (datasetType, folderName) => {
-  return path.join(__dirname, "..", "datasets", datasetType, folderName);
-};
+const {
+  DATASET_TYPES,
+  buildFolderPath,
+  getLocaleFromFilename,
+  validateDatasetType,
+} = require("./common");
 
 const showUsage = () => {
   console.log(
@@ -22,12 +14,7 @@ const showUsage = () => {
   );
   console.log("\nExample:");
   console.log("  node helpers/createStats.js scripted-speech stats-folder");
-  console.log("\nDataset Types:");
-  console.log("  Ready: " + READY_TYPES.join(", "));
-  console.log(
-    "  Upcoming: " +
-      DATASET_TYPES.filter((t) => !READY_TYPES.includes(t)).join(", "),
-  );
+  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
   console.log();
 };
 
@@ -82,6 +69,56 @@ const scriptedSpeech = async (statsFolder) => {
   console.log(JSON.stringify(result));
 };
 
+const spontaneousSpeech = async (statsFolder) => {
+  const stats = await fs.readdir(statsFolder);
+
+  const completeStats = { locales: {} };
+
+  for (const file of stats) {
+    const locale = getLocaleFromFilename(file);
+
+    const content = await fs.readFile(path.join(statsFolder, file), {
+      encoding: "utf-8",
+    });
+
+    const json = JSON.parse(content);
+    const l = json.locales[locale];
+    const numOfClips = l.clips;
+
+    for (const [key, value] of Object.entries(l.demographics.age)) {
+      l.demographics.age[key] = Number((value / numOfClips).toFixed(4));
+    }
+
+    for (const [key, value] of Object.entries(l.demographics.gender)) {
+      l.demographics.gender[key] = Number((value / numOfClips).toFixed(4));
+    }
+
+    completeStats["locales"][locale] = l;
+  }
+
+  let totalDurationMs = 0;
+  let totalValidDurationMs = 0;
+  let totalHrs = 0;
+  let totalValidHrs = 0;
+
+  Object.keys(completeStats.locales).forEach((locale) => {
+    totalDurationMs += completeStats.locales[locale].duration.total_ms;
+    totalValidDurationMs += completeStats.locales[locale].duration.validated_ms;
+    totalHrs += completeStats.locales[locale].duration.total_hrs;
+    totalValidHrs += completeStats.locales[locale].duration.validated_hrs;
+  });
+
+  const result = {
+    ...completeStats,
+    totalDurationMs: Math.round(totalDurationMs),
+    totalValidDurationMs: Math.round(totalValidDurationMs),
+    totalHrs: Math.round(totalHrs),
+    totalValidHrs: Math.round(totalValidHrs),
+  };
+
+  console.log(JSON.stringify(result));
+};
+
 const main = async () => {
   const args = process.argv;
   const datasetType = args[2];
@@ -93,22 +130,19 @@ const main = async () => {
     throw new Error("Must provide dataset type and stats folder");
   }
 
-  if (!DATASET_TYPES.includes(datasetType)) {
-    throw new Error(`"${datasetType}" is not a valid dataset type`);
-  }
+  validateDatasetType(datasetType);
 
-  if (!READY_TYPES.includes(datasetType)) {
-    throw new Error(`Dataset type "${datasetType}" is not ready yet`);
-  }
-
-  const folderPath = buildPath(datasetType, statsFolder);
+  const folderPath = buildFolderPath(datasetType, statsFolder);
 
   switch (datasetType) {
     case "scripted-speech":
       await scriptedSpeech(folderPath);
       break;
+    case "spontaneous-speech":
+      await spontaneousSpeech(folderPath);
+      break;
     default:
-      throw new Error(`Dataset type "${datasetType}" is not ready yet`);
+      throw new Error(`No handler for dataset type "${datasetType}"`);
   }
 };
 
