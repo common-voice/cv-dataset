@@ -1,48 +1,70 @@
 const fs = require("fs");
 const path = require("path");
 const args = process.argv.slice(2);
-
-const DATASET_TYPES = [
-  "scripted-speech",
-  "spontaneous-speech",
-  "code-switching",
-];
-const READY_TYPES = ["scripted-speech"];
+const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
 const getDiffs = (a, b) => {
   const obj = {};
   const diff = a - b;
 
   obj["delta"] = diff;
-  obj["percentage"] = +((diff / b) * 100).toFixed(0);
+  obj["percentage"] = b === 0 ? (diff === 0 ? 0 : null) : +((diff / b) * 100).toFixed(0);
   return obj;
 };
 
-const buildPath = (datasetType, datasetName) => {
-  const filename = datasetName.endsWith(".json")
-    ? datasetName
-    : `${datasetName}.json`;
-  return path.join(__dirname, "..", "datasets", datasetType, filename);
-};
+const USAGE = "Usage: node helpers/compareReleases.js <dataset-type> <dataset-1> <dataset-2> [output-file]";
 
 const showUsage = () => {
-  console.log(
-    "\nUsage: node helpers/compareReleases.js <dataset-type> <dataset-1> <dataset-2> [output-file]",
-  );
-  console.log("\nExample:");
-  console.log(
+  console.error("\n" + USAGE);
+  console.error("\nExample:");
+  console.error(
     "  node helpers/compareReleases.js scripted-speech cv-corpus-24.0-2025-12-05 cv-corpus-23.0-2025-09-05",
   );
-  console.log("\nDataset Types:");
-  console.log("  Ready: " + READY_TYPES.join(", "));
-  console.log(
-    "  Upcoming: " +
-      DATASET_TYPES.filter((t) => !READY_TYPES.includes(t)).join(", "),
-  );
-  console.log();
+  console.error("\nDataset Types: " + DATASET_TYPES.join(", "));
+  console.error();
 };
 
-const scriptedSpeech = (aPath, bPath, reportPath) => {
+const diffValues = (a, b) => {
+  if (typeof a === "number" && typeof b === "number") {
+    return getDiffs(a, b);
+  }
+  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+    const result = {};
+    for (const key of Object.keys(a)) {
+      if (!(key in b)) continue;
+      const d = diffValues(a[key], b[key]);
+      if (d !== undefined) result[key] = d;
+    }
+    return Object.keys(result).length > 0 ? result : undefined;
+  }
+  return undefined;
+};
+
+const NON_ADDITIVE_KEYS = new Set([
+  "splits", "demographics", "avgDurationSecs",
+  "avg_ms", "min_ms", "max_ms", "avg_chars_per_sec",
+  "avg_recordings_per_question", "edited_pct",
+]);
+
+const accumulateTotal = (totals, key, a, b) => {
+  if (NON_ADDITIVE_KEYS.has(key)) return;
+  if (typeof a === "number" && typeof b === "number") {
+    if (!totals[key]) totals[key] = { new: 0, old: 0 };
+    totals[key]["new"] += a;
+    totals[key]["old"] += b;
+    totals[key]["diffs"] = getDiffs(totals[key]["new"], totals[key]["old"]);
+    return;
+  }
+  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+    if (!totals[key]) totals[key] = {};
+    for (const subKey of Object.keys(a)) {
+      if (!(subKey in b)) continue;
+      accumulateTotal(totals[key], subKey, a[subKey], b[subKey]);
+    }
+  }
+};
+
+const compareLocales = (aPath, bPath, reportPath) => {
   const newLanguages = [];
   const removedLanguages = [];
   const aFile = JSON.parse(fs.readFileSync(aPath, "utf-8"));
@@ -60,42 +82,33 @@ const scriptedSpeech = (aPath, bPath, reportPath) => {
       continue;
     }
 
-    if (!aStats) {
-      removedLanguages.push(locale);
-      continue;
-    }
-
-    diffStats[locale] = Object.keys(aStats).reduce((stats, key) => {
+    diffStats[locale] = {};
+    for (const key of Object.keys(aStats)) {
       const a = aStats[key];
       const b = bStats[key];
 
-      if (typeof a !== "number" || typeof b !== "number") return stats;
+      const d = diffValues(a, b);
+      if (d !== undefined) diffStats[locale][key] = d;
 
-      if (!totalStats[key]) {
-        totalStats[key] = {};
-        totalStats[key]["new"] = 0;
-        totalStats[key]["old"] = 0;
-      }
-
-      totalStats[key]["new"] += +a;
-      totalStats[key]["old"] += +b;
-      totalStats[key]["diffs"] = getDiffs(
-        totalStats[key]["new"],
-        totalStats[key]["old"],
-      );
-      stats[key] = getDiffs(a, b);
-      return stats;
-    }, {});
+      accumulateTotal(totalStats, key, a, b);
+    }
   }
 
-  console.log(totalStats);
-  console.log("New Languages: ", newLanguages);
-  console.log("Removed Languages: ", removedLanguages);
+  for (const locale of Object.keys(bLocales)) {
+    if (!aLocales[locale]) {
+      removedLanguages.push(locale);
+    }
+  }
+
+  console.error(totalStats);
+  console.error("New Languages: ", newLanguages);
+  console.error("Removed Languages: ", removedLanguages);
 
   if (reportPath) {
     fs.writeFileSync(reportPath, JSON.stringify(totalStats));
+    const parsed = path.parse(reportPath);
     fs.writeFileSync(
-      reportPath.split(".")[0] + "-total.json",
+      path.join(parsed.dir, parsed.name + "-total.json"),
       JSON.stringify(diffStats),
     );
   } else {
@@ -104,31 +117,25 @@ const scriptedSpeech = (aPath, bPath, reportPath) => {
 };
 
 const main = (datasetType, dataset1, dataset2, outputFile) => {
-  showUsage();
+  validateDatasetType(datasetType);
 
-  if (!DATASET_TYPES.includes(datasetType)) {
-    throw new Error(`"${datasetType}" is not a valid dataset type`);
-  }
-
-  if (!READY_TYPES.includes(datasetType)) {
-    throw new Error(`Dataset type "${datasetType}" is not ready yet`);
-  }
-
-  const aPath = buildPath(datasetType, dataset1);
-  const bPath = buildPath(datasetType, dataset2);
+  const aPath = buildFilePath(datasetType, dataset1);
+  const bPath = buildFilePath(datasetType, dataset2);
   const reportPath = outputFile
-    ? buildPath(datasetType, outputFile)
+    ? buildFilePath(datasetType, outputFile)
     : undefined;
 
   switch (datasetType) {
     case "scripted-speech":
-      scriptedSpeech(aPath, bPath, reportPath);
+    case "spontaneous-speech":
+      compareLocales(aPath, bPath, reportPath);
       break;
     default:
-      throw new Error(`Dataset type "${datasetType}" is not ready yet`);
+      throw new Error(`No handler for dataset type "${datasetType}"`);
   }
 };
 
+console.error(USAGE);
 try {
   if (args.length < 3) {
     showUsage();
@@ -136,6 +143,7 @@ try {
   }
   main(...args);
 } catch (error) {
+  if (error.message.includes("not a valid dataset type")) showUsage();
   console.error(error);
   process.exit(1);
 }
