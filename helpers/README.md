@@ -74,9 +74,10 @@ node helpers/compareReleases.js spontaneous-speech sps-corpus-3.0-2026-03-05 sps
 **What it does:**
 
 - Compares two dataset releases (works for both SCS and SPS)
-- Calculates delta and percentage changes for each top-level numeric metric
+- Recursively calculates delta and percentage changes for all numeric metrics, including nested fields (e.g., `duration`, `buckets`, `questions`)
+- Skips non-additive fields (ratios, averages) when accumulating cross-locale totals
 - Identifies new and removed languages
-- Outputs statistics to console or file
+- Outputs per-locale diffs as JSON to stdout; summary totals and language changes to stderr
 
 ---
 
@@ -100,9 +101,10 @@ node helpers/createDeltaStatistics.js spontaneous-speech sps-corpus-3.0-2026-03-
 **What it does:**
 
 - Generates delta statistics between two releases
-- Shows absolute differences for each metric
+- Recursively computes absolute differences for all numeric metrics, including nested fields
 - Lists new and removed languages
 - Calculates total statistics across all locales (SCS: `totalDuration/totalValidDurationSecs`, SPS: `totalDurationMs/totalValidDurationMs`)
+- Outputs diff JSON to stdout; summary totals and language changes to stderr
 
 ---
 
@@ -128,7 +130,7 @@ node helpers/recalculateStats.js spontaneous-speech sps-corpus-2.0-2026-01-15
 - Reads a dataset statistics file
 - Recalculates total duration, valid duration, hours, and valid hours
 - Verifies statistics integrity
-- Outputs recalculated totals
+- Outputs recalculated totals as JSON to stdout; per-locale duration arrays to stderr
 
 ---
 
@@ -136,5 +138,5 @@ node helpers/recalculateStats.js spontaneous-speech sps-corpus-2.0-2026-01-15
 
 - All file paths are relative to the `datasets/<dataset-type>/` directory
 - The `.json` extension is optional in command arguments
-- Each command displays usage information on invalid arguments
+- Each command prints a usage line to stderr on every run, and full usage details on missing or invalid arguments
 - SCS and SPS stats have different field structures — the handlers map to the correct fields for each type

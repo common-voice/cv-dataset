@@ -8,14 +8,14 @@ const {
   validateDatasetType,
 } = require("./common");
 
+const USAGE = "Usage: node helpers/createStats.js <dataset-type> <stats-folder>";
+
 const showUsage = () => {
-  console.log(
-    "\nUsage: node helpers/createStats.js <dataset-type> <stats-folder>",
-  );
-  console.log("\nExample:");
-  console.log("  node helpers/createStats.js scripted-speech stats-folder");
-  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
-  console.log();
+  console.error("\n" + USAGE);
+  console.error("\nExample:");
+  console.error("  node helpers/createStats.js scripted-speech stats-folder");
+  console.error("\nDataset Types: " + DATASET_TYPES.join(", "));
+  console.error();
 };
 
 const scriptedSpeech = async (statsFolder) => {
@@ -145,7 +145,9 @@ const main = async () => {
   }
 };
 
+console.error(USAGE);
 main().catch((error) => {
+  if (error.message.includes("not a valid dataset type")) showUsage();
   console.error(error);
   process.exit(1);
 });

@@ -5,16 +5,16 @@ const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common"
 
 const getDiffs = (a, b) => +(a - b).toFixed(2);
 
+const USAGE = "Usage: node helpers/createDeltaStatistics.js <dataset-type> <dataset-1> <dataset-2> [output-file]";
+
 const showUsage = () => {
-  console.log(
-    "\nUsage: node helpers/createDeltaStatistics.js <dataset-type> <dataset-1> <dataset-2> [output-file]",
-  );
-  console.log("\nExample:");
-  console.log(
+  console.error("\n" + USAGE);
+  console.error("\nExample:");
+  console.error(
     "  node helpers/createDeltaStatistics.js scripted-speech cv-corpus-24.0-2025-12-05 cv-corpus-23.0-2025-09-05",
   );
-  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
-  console.log();
+  console.error("\nDataset Types: " + DATASET_TYPES.join(", "));
+  console.error();
 };
 
 const diffValues = (a, b) => {
@@ -67,9 +67,9 @@ const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
 };
 
 const writeOrPrint = (reportPath, diffStats, totalStats, newLanguages, removedLanguages) => {
-  console.log(totalStats);
-  console.log("New Languages: ", newLanguages);
-  console.log("Removed Languages: ", removedLanguages);
+  console.error(totalStats);
+  console.error("New Languages: ", newLanguages);
+  console.error("Removed Languages: ", removedLanguages);
 
   if (reportPath) {
     const parsed = path.parse(reportPath);
@@ -141,6 +141,7 @@ const main = (datasetType, dataset1, dataset2, outputFile) => {
   }
 };
 
+console.error(USAGE);
 try {
   if (args.length < 3) {
     showUsage();
@@ -148,6 +149,7 @@ try {
   }
   main(...args);
 } catch (error) {
+  if (error.message.includes("not a valid dataset type")) showUsage();
   console.error(error);
   process.exit(1);
 }

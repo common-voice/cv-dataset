@@ -2,16 +2,16 @@ const fs = require("fs");
 const args = process.argv.slice(2);
 const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
+const USAGE = "Usage: node helpers/recalculateStats.js <dataset-type> <dataset>";
+
 const showUsage = () => {
-  console.log(
-    "\nUsage: node helpers/recalculateStats.js <dataset-type> <dataset>",
-  );
-  console.log("\nExample:");
-  console.log(
+  console.error("\n" + USAGE);
+  console.error("\nExample:");
+  console.error(
     "  node helpers/recalculateStats.js scripted-speech cv-corpus-24.0-2025-12-05",
   );
-  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
-  console.log();
+  console.error("\nDataset Types: " + DATASET_TYPES.join(", "));
+  console.error();
 };
 
 const scriptedSpeech = (filePath) => {
@@ -33,8 +33,8 @@ const scriptedSpeech = (filePath) => {
   const a = Object.keys(data).map((s) => {
     return +data[s].validDurationSecs;
   });
-  console.log(a.sort((a, b) => a - b));
-  console.log(JSON.stringify(calc));
+  console.error(a.sort((a, b) => a - b));
+  process.stdout.write(JSON.stringify(calc));
 };
 
 const spontaneousSpeech = (filePath) => {
@@ -56,8 +56,8 @@ const spontaneousSpeech = (filePath) => {
   const a = Object.keys(data).map((s) => {
     return +data[s].duration.validated_ms;
   });
-  console.log(a.sort((a, b) => a - b));
-  console.log(JSON.stringify(calc));
+  console.error(a.sort((a, b) => a - b));
+  process.stdout.write(JSON.stringify(calc));
 };
 
 const main = (datasetType, dataset) => {
@@ -77,6 +77,7 @@ const main = (datasetType, dataset) => {
   }
 };
 
+console.error(USAGE);
 try {
   if (args.length < 2) {
     showUsage();
@@ -84,6 +85,7 @@ try {
   }
   main(...args);
 } catch (error) {
+  if (error.message.includes("not a valid dataset type")) showUsage();
   console.error(error);
   process.exit(1);
 }

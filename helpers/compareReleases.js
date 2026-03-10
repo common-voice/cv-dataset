@@ -8,20 +8,20 @@ const getDiffs = (a, b) => {
   const diff = a - b;
 
   obj["delta"] = diff;
-  obj["percentage"] = b === 0 ? (diff === 0 ? 0 : Infinity) : +((diff / b) * 100).toFixed(0);
+  obj["percentage"] = b === 0 ? (diff === 0 ? 0 : null) : +((diff / b) * 100).toFixed(0);
   return obj;
 };
 
+const USAGE = "Usage: node helpers/compareReleases.js <dataset-type> <dataset-1> <dataset-2> [output-file]";
+
 const showUsage = () => {
-  console.log(
-    "\nUsage: node helpers/compareReleases.js <dataset-type> <dataset-1> <dataset-2> [output-file]",
-  );
-  console.log("\nExample:");
-  console.log(
+  console.error("\n" + USAGE);
+  console.error("\nExample:");
+  console.error(
     "  node helpers/compareReleases.js scripted-speech cv-corpus-24.0-2025-12-05 cv-corpus-23.0-2025-09-05",
   );
-  console.log("\nDataset Types: " + DATASET_TYPES.join(", "));
-  console.log();
+  console.error("\nDataset Types: " + DATASET_TYPES.join(", "));
+  console.error();
 };
 
 const diffValues = (a, b) => {
@@ -40,7 +40,14 @@ const diffValues = (a, b) => {
   return undefined;
 };
 
+const NON_ADDITIVE_KEYS = new Set([
+  "splits", "demographics", "avgDurationSecs",
+  "avg_ms", "min_ms", "max_ms", "avg_chars_per_sec",
+  "avg_recordings_per_question", "edited_pct",
+]);
+
 const accumulateTotal = (totals, key, a, b) => {
+  if (NON_ADDITIVE_KEYS.has(key)) return;
   if (typeof a === "number" && typeof b === "number") {
     if (!totals[key]) totals[key] = { new: 0, old: 0 };
     totals[key]["new"] += a;
@@ -93,9 +100,9 @@ const compareLocales = (aPath, bPath, reportPath) => {
     }
   }
 
-  console.log(totalStats);
-  console.log("New Languages: ", newLanguages);
-  console.log("Removed Languages: ", removedLanguages);
+  console.error(totalStats);
+  console.error("New Languages: ", newLanguages);
+  console.error("Removed Languages: ", removedLanguages);
 
   if (reportPath) {
     fs.writeFileSync(reportPath, JSON.stringify(totalStats));
@@ -128,6 +135,7 @@ const main = (datasetType, dataset1, dataset2, outputFile) => {
   }
 };
 
+console.error(USAGE);
 try {
   if (args.length < 3) {
     showUsage();
@@ -135,6 +143,7 @@ try {
   }
   main(...args);
 } catch (error) {
+  if (error.message.includes("not a valid dataset type")) showUsage();
   console.error(error);
   process.exit(1);
 }
