@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 const args = process.argv.slice(2);
 const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
@@ -30,11 +31,6 @@ const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
       continue;
     }
 
-    if (!aStats) {
-      removedLanguages.push(locale);
-      continue;
-    }
-
     diffStats[locale] = Object.keys(aStats).reduce((stats, key) => {
       const a = aStats[key];
       const b = bStats[key];
@@ -61,6 +57,12 @@ const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
     }, {});
   }
 
+  for (const locale of Object.keys(olderStatsFile)) {
+    if (!newerStatsFile[locale]) {
+      removedLanguages.push(locale);
+    }
+  }
+
   return { diffStats, newLanguages, removedLanguages };
 };
 
@@ -70,8 +72,9 @@ const writeOrPrint = (reportPath, diffStats, totalStats, newLanguages, removedLa
   console.log("Removed Languages: ", removedLanguages);
 
   if (reportPath) {
+    const parsed = path.parse(reportPath);
     fs.writeFileSync(
-      reportPath.split(".")[0] + "-total.json",
+      path.join(parsed.dir, parsed.name + "-total.json"),
       JSON.stringify({ locales: { ...diffStats }, ...totalStats }),
     );
   } else {
@@ -118,7 +121,6 @@ const spontaneousSpeech = (aPath, bPath, reportPath) => {
 };
 
 const main = (datasetType, dataset1, dataset2, outputFile) => {
-  showUsage();
   validateDatasetType(datasetType);
 
   const aPath = buildFilePath(datasetType, dataset1);

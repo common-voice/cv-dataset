@@ -23,14 +23,14 @@ const scriptedSpeech = (filePath) => {
     totalHrs: 0,
     totalValidHrs: 0,
   };
-  Object.keys(data).map((s) => {
+  Object.keys(data).forEach((s) => {
     calc.totalValidDurationSecs += +data[s].validDurationSecs;
     calc.totalDuration += +data[s].duration;
     calc.totalHrs += +data[s].totalHrs;
     calc.totalValidHrs += +data[s].validHrs;
   });
 
-  let a = Object.keys(data).map((s) => {
+  const a = Object.keys(data).map((s) => {
     return +data[s].validDurationSecs;
   });
   console.log(a.sort((a, b) => a - b));
@@ -46,14 +46,14 @@ const spontaneousSpeech = (filePath) => {
     totalHrs: 0,
     totalValidHrs: 0,
   };
-  Object.keys(data).map((s) => {
+  Object.keys(data).forEach((s) => {
     calc.totalValidDurationMs += +data[s].duration.validated_ms;
     calc.totalDurationMs += +data[s].duration.total_ms;
     calc.totalHrs += +data[s].duration.total_hrs;
     calc.totalValidHrs += +data[s].duration.validated_hrs;
   });
 
-  let a = Object.keys(data).map((s) => {
+  const a = Object.keys(data).map((s) => {
     return +data[s].duration.validated_ms;
   });
   console.log(a.sort((a, b) => a - b));
@@ -61,7 +61,6 @@ const spontaneousSpeech = (filePath) => {
 };
 
 const main = (datasetType, dataset) => {
-  showUsage();
   validateDatasetType(datasetType);
 
   const filePath = buildFilePath(datasetType, dataset);

@@ -136,5 +136,5 @@ node helpers/recalculateStats.js spontaneous-speech sps-corpus-2.0-2026-01-15
 
 - All file paths are relative to the `datasets/<dataset-type>/` directory
 - The `.json` extension is optional in command arguments
-- Each command displays usage information when run
+- Each command displays usage information on invalid arguments
 - SCS and SPS stats have different field structures — the handlers map to the correct fields for each type

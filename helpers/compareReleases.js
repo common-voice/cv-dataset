@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 const args = process.argv.slice(2);
 const { DATASET_TYPES, buildFilePath, validateDatasetType } = require("./common");
 
@@ -7,7 +8,7 @@ const getDiffs = (a, b) => {
   const diff = a - b;
 
   obj["delta"] = diff;
-  obj["percentage"] = +((diff / b) * 100).toFixed(0);
+  obj["percentage"] = b === 0 ? (diff === 0 ? 0 : Infinity) : +((diff / b) * 100).toFixed(0);
   return obj;
 };
 
@@ -41,11 +42,6 @@ const compareLocales = (aPath, bPath, reportPath) => {
       continue;
     }
 
-    if (!aStats) {
-      removedLanguages.push(locale);
-      continue;
-    }
-
     diffStats[locale] = Object.keys(aStats).reduce((stats, key) => {
       const a = aStats[key];
       const b = bStats[key];
@@ -69,14 +65,21 @@ const compareLocales = (aPath, bPath, reportPath) => {
     }, {});
   }
 
+  for (const locale of Object.keys(bLocales)) {
+    if (!aLocales[locale]) {
+      removedLanguages.push(locale);
+    }
+  }
+
   console.log(totalStats);
   console.log("New Languages: ", newLanguages);
   console.log("Removed Languages: ", removedLanguages);
 
   if (reportPath) {
     fs.writeFileSync(reportPath, JSON.stringify(totalStats));
+    const parsed = path.parse(reportPath);
     fs.writeFileSync(
-      reportPath.split(".")[0] + "-total.json",
+      path.join(parsed.dir, parsed.name + "-total.json"),
       JSON.stringify(diffStats),
     );
   } else {
@@ -85,7 +88,6 @@ const compareLocales = (aPath, bPath, reportPath) => {
 };
 
 const main = (datasetType, dataset1, dataset2, outputFile) => {
-  showUsage();
   validateDatasetType(datasetType);
 
   const aPath = buildFilePath(datasetType, dataset1);

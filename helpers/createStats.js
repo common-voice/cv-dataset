@@ -124,9 +124,8 @@ const main = async () => {
   const datasetType = args[2];
   const statsFolder = args[3];
 
-  showUsage();
-
   if (!datasetType || !statsFolder) {
+    showUsage();
     throw new Error("Must provide dataset type and stats folder");
   }
 
