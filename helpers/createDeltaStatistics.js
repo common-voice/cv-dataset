@@ -17,6 +17,25 @@ const showUsage = () => {
   console.log();
 };
 
+const diffValues = (a, b) => {
+  if (typeof a === "number" && typeof b === "number") {
+    if (a && !b) return a;
+    if (b && !a) return -b;
+    return getDiffs(a, b);
+  }
+  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+    const result = {};
+    for (const key of Object.keys(a)) {
+      if (!(key in b)) continue;
+      const d = diffValues(a[key], b[key]);
+      if (d !== undefined) result[key] = d;
+    }
+    return Object.keys(result).length > 0 ? result : undefined;
+  }
+  if (typeof a === "string") return a;
+  return undefined;
+};
+
 const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
   const newLanguages = [];
   const removedLanguages = [];
@@ -31,30 +50,11 @@ const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
       continue;
     }
 
-    diffStats[locale] = Object.keys(aStats).reduce((stats, key) => {
-      const a = aStats[key];
-      const b = bStats[key];
-
-      if (typeof a === "string") {
-        stats[key] = a;
-        return stats;
-      }
-
-      if (typeof a !== "number" || typeof b !== "number") return stats;
-      if (a && !b) {
-        stats[key] = a;
-        return stats;
-      }
-
-      if (b && !a) {
-        stats[key] = -b;
-      }
-
-      stats[key] = getDiffs(a, b);
-      if (key === "avgDurationSecs") stats[key] = a;
-
-      return stats;
-    }, {});
+    diffStats[locale] = {};
+    for (const key of Object.keys(aStats)) {
+      const d = diffValues(aStats[key], bStats[key]);
+      if (d !== undefined) diffStats[locale][key] = d;
+    }
   }
 
   for (const locale of Object.keys(olderStatsFile)) {

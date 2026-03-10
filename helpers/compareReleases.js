@@ -24,6 +24,39 @@ const showUsage = () => {
   console.log();
 };
 
+const diffValues = (a, b) => {
+  if (typeof a === "number" && typeof b === "number") {
+    return getDiffs(a, b);
+  }
+  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+    const result = {};
+    for (const key of Object.keys(a)) {
+      if (!(key in b)) continue;
+      const d = diffValues(a[key], b[key]);
+      if (d !== undefined) result[key] = d;
+    }
+    return Object.keys(result).length > 0 ? result : undefined;
+  }
+  return undefined;
+};
+
+const accumulateTotal = (totals, key, a, b) => {
+  if (typeof a === "number" && typeof b === "number") {
+    if (!totals[key]) totals[key] = { new: 0, old: 0 };
+    totals[key]["new"] += a;
+    totals[key]["old"] += b;
+    totals[key]["diffs"] = getDiffs(totals[key]["new"], totals[key]["old"]);
+    return;
+  }
+  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+    if (!totals[key]) totals[key] = {};
+    for (const subKey of Object.keys(a)) {
+      if (!(subKey in b)) continue;
+      accumulateTotal(totals[key], subKey, a[subKey], b[subKey]);
+    }
+  }
+};
+
 const compareLocales = (aPath, bPath, reportPath) => {
   const newLanguages = [];
   const removedLanguages = [];
@@ -42,27 +75,16 @@ const compareLocales = (aPath, bPath, reportPath) => {
       continue;
     }
 
-    diffStats[locale] = Object.keys(aStats).reduce((stats, key) => {
+    diffStats[locale] = {};
+    for (const key of Object.keys(aStats)) {
       const a = aStats[key];
       const b = bStats[key];
 
-      if (typeof a !== "number" || typeof b !== "number") return stats;
+      const d = diffValues(a, b);
+      if (d !== undefined) diffStats[locale][key] = d;
 
-      if (!totalStats[key]) {
-        totalStats[key] = {};
-        totalStats[key]["new"] = 0;
-        totalStats[key]["old"] = 0;
-      }
-
-      totalStats[key]["new"] += +a;
-      totalStats[key]["old"] += +b;
-      totalStats[key]["diffs"] = getDiffs(
-        totalStats[key]["new"],
-        totalStats[key]["old"],
-      );
-      stats[key] = getDiffs(a, b);
-      return stats;
-    }, {});
+      accumulateTotal(totalStats, key, a, b);
+    }
   }
 
   for (const locale of Object.keys(bLocales)) {
