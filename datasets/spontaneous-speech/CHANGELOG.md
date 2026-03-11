@@ -1,4 +1,4 @@
-# Spontaneous Speech Changelog
+# Spontaneous Speech (SPS) Changelog
 
 ## Major Changes (March 2026)
 
@@ -54,7 +54,7 @@ Starting with v3.0, the per-locale statistics JSON has the following structure d
 
 - `duration` is a nested object: `total_ms`, `total_hrs`, `validated_ms`, `validated_hrs`, `avg_ms`, `min_ms`, `max_ms`, `avg_chars_per_sec`.
 - `buckets` contains per-split detail: `train`, `dev`, `test`, each with `clips`, `users`, `duration_ms`, `duration_hrs`.
-- `demographics` replaces the SCS `splits` key, with `age`, `gender`, and `variant` breakdowns.
+- `demographics` replaces the SCS `splits` key, with `age`, `gender`, `accent`, and `variant` breakdowns.
 - SPS-specific objects: `questions`, `audios`, `transcriptions`, `reported` (with `reasons` breakdown).
 - `generated_at` timestamp is included.
 

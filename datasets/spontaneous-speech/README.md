@@ -2,7 +2,7 @@
 
 Spontaneous Speech is a newer Common Voice modality where contributors respond to open-ended questions in their own words, producing natural, unscripted audio. The community validates recordings and transcriptions. Releases are produced using the SPS Bundler.
 
-All audio contributions are released under the [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/). Clips are only removed at the request of the contributor, and problematic content flagged by the community via Report button are also excluded from the datasets.
+All audio contributions are released under the [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/). Clips are only removed at the request of the contributor, and problematic content flagged by the community via the Report button is also excluded from the datasets.
 
 ## Release History
 

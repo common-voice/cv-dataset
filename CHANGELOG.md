@@ -12,7 +12,7 @@ The March 2026 release cycle (SCS v25.0 / SPS v3.0) introduces significant infra
 
 - **Multi-modality dataset statistics.** This repository (`cv-dataset`) now tracks release statistics for all dataset types (SCS, SPS, CS). Helper scripts (`createStats.js`, `compareReleases.js`, `createDeltaStatistics.js`, `recalculateStats.js`) were refactored to handle both SCS and SPS data formats, with per-type handlers and recursive comparison for nested SPS objects.
 
-- **SCS & SPS Bundler changes** The Scripted Speech bundler is augmented with new `variant` option, and ability to handle licensed datasets. The Spontaneous Speech bundler reached its first production release matching SPS counterpart where possible, with four release types (`full`, `delta`, `variants`, `statistics`) and includes graceful delta release support with passive locale skipping for locales with zero new activity.
+- **SCS & SPS Bundler changes** The Scripted Speech bundler is augmented with new `variant` option, and ability to handle licensed datasets. The Spontaneous Speech bundler reached its first production release matching SCS counterpart where possible, with four release types (`full`, `delta`, `variants`, `statistics`) and includes graceful delta release support with passive locale skipping for locales with zero new activity.
 
 - **Embedded QA pipeline.** The SPS bundler now embeds the quality-control-data-pipeline as a `PostProcessCorpus` step. This applies disfluency standardization, quality tagging, and generates a per-locale QA summary JSON included in each release archive.
 

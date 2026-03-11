@@ -1,4 +1,4 @@
-# Scripted Speech Changelog
+# Scripted Speech (SCS) Changelog
 
 ## Major Changes (March 2026)
 
@@ -22,11 +22,11 @@ Regularly scheduled dataset release Q1 2026.
 
 - **Date released**: 18 March 2026
 - **Clip cut-off date**: 09 March 2026
-- **Total hours**:
-- **Total validated hours**:
-- **Number of languages**:
+- **Total hours**: TBD
+- **Total validated hours**: TBD
+- **Number of languages**: TBD
 
-**New languages since last major release**:
+**New languages since last major release**: TBD
 
 #### Dataset Changes in Corpus 25.0
 

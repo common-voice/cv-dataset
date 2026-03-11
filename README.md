@@ -14,6 +14,38 @@ Common Voice collects voice data through multiple modalities. Each dataset type 
 
 See each dataset type's documentation for detailed information about data structures, fields in metadata files (`.tsv`), archive contents, and release changelogs. Note that the "date" in releases represents the cut-off date for data collection and validation, not the actual release date of the dataset.
 
+## Data Pipeline
+
+```mermaid
+flowchart LR
+    SCS_DB[("SCS DB")]
+    DS["cv-datasheets"]
+    SPS_DB[("SPS DB")]
+    MDC[["MDC (downloads)"]]
+    CDS[["cv-dataset ◀"]]
+
+    subgraph SCS_B["SCS Bundler"]
+        CC["CorporaCreator"]
+    end
+
+    subgraph SPS_B["SPS Bundler"]
+        QA["QA Pipeline"]
+    end
+
+    SCS_DB --> SCS_B
+    SPS_DB --> SPS_B
+    DS -->|templates| SCS_B
+    DS -->|templates| SPS_B
+    SCS_B -->|datasets| MDC
+    SPS_B -->|datasets| MDC
+    SCS_B -->|stats| CDS
+    SPS_B -->|stats| CDS
+
+    style CDS fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
+    style CC fill:#333,stroke:#fefefe,stroke-width:1px
+    style QA fill:#333,stroke:#fefefe,stroke-width:1px
+```
+
 ## Overview
 
 ### Scripted Speech (SCS)
