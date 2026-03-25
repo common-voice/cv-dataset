@@ -104,9 +104,9 @@
           "different_language": 1
         }
       },
-      "size": 5342238,
-      "checksum": "822be87a63cb2bdd724b3ec02915e6c6fc9f550ebc8085cbd0de10fba6f4ca3f",
-      "generated_at": "2026-03-10T20:45:35.786Z"
+      "size": 5342216,
+      "checksum": "1011243fccd070a49cd2bed1abc71c654147afdf01fcfa220f72154e6f21fbed",
+      "generated_at": "2026-03-15T02:04:47.473Z"
     },
     "an": {
       "locale": "an",
@@ -197,9 +197,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 37190122,
-      "checksum": "e66b86ce70ed623d49fb23de50c215d22ec1028a23a6da3df3ab62967baf3526",
-      "generated_at": "2026-03-10T20:39:46.837Z"
+      "size": 37190086,
+      "checksum": "4424a1d187b02c5828c7f3eeada29b22d207f9cb0e4a6cdc9d38f13aba5d1ff9",
+      "generated_at": "2026-03-15T02:01:39.194Z"
     },
     "br": {
       "locale": "br",
@@ -292,9 +292,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 308213,
-      "checksum": "783592ee27053cf9f5b2264096b122ea5fe3a918301a0c26c5b4e57d9b190470",
-      "generated_at": "2026-03-10T20:45:44.761Z"
+      "size": 308211,
+      "checksum": "a0aecc35007f659107507f4827bd0764ce181f6d456c60ee54f9dbe5905741d3",
+      "generated_at": "2026-03-15T02:04:54.499Z"
     },
     "ca": {
       "locale": "ca",
@@ -399,9 +399,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 1187080,
-      "checksum": "ff4f6fe95151d881632d7e8e47a817fde2c1d8c9e54b19de4e12aa18d744d5fb",
-      "generated_at": "2026-03-10T20:45:46.566Z"
+      "size": 1187087,
+      "checksum": "ae878b6ba6ec707dd885911fb78dc7ec91ac9967f81844bc837561ba35986565",
+      "generated_at": "2026-03-15T02:04:56.050Z"
     },
     "cdo": {
       "locale": "cdo",
@@ -491,9 +491,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 65718,
-      "checksum": "5a10828b004728b0ef369ce4a91a55e79cf343d3c44435f0585f4d1225d6a14c",
-      "generated_at": "2026-03-10T20:39:19.843Z"
+      "size": 65722,
+      "checksum": "57cca02074fc25611d893ccc6ea3617fa0af565d763509299a97fd7933a83182",
+      "generated_at": "2026-03-15T02:01:22.489Z"
     },
     "cy": {
       "locale": "cy",
@@ -589,9 +589,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 745369,
-      "checksum": "4b3119468204fe151d5bde3d59e78f27227d36a56f3699efeff2aac1bc6eadf4",
-      "generated_at": "2026-03-10T20:45:41.974Z"
+      "size": 745371,
+      "checksum": "4ec793ca1ce2e121de330d5c15133a6dd1c1fa59d5e1c1f9e88f15bab4f9f321",
+      "generated_at": "2026-03-15T02:04:51.989Z"
     },
     "da": {
       "locale": "da",
@@ -681,9 +681,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 61155,
-      "checksum": "d2b693b3c50f60061fc4ab005756d4dc7e3026649ddb4dbbe019ffc883595fba",
-      "generated_at": "2026-03-10T20:45:43.311Z"
+      "size": 61145,
+      "checksum": "25894a541d09d6b6cfe002ab27c2c310ca55d37eadc6598935b85687e17f1775",
+      "generated_at": "2026-03-15T02:04:53.295Z"
     },
     "de": {
       "locale": "de",
@@ -803,44 +803,44 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 1746699,
-      "checksum": "8ed8e9ebd75a788d6ac2bc286272e34a0e6eb1c3a9ff33c223f1220d369d12b7",
-      "generated_at": "2026-03-10T20:48:45.327Z"
+      "size": 1746690,
+      "checksum": "73de26bbb7b2dde05476189812aff81958337c1a73b66efd801da84f948067c6",
+      "generated_at": "2026-03-15T02:06:23.996Z"
     },
     "en": {
       "locale": "en",
-      "clips": 2183,
+      "clips": 2180,
       "users": 294,
       "questions": {
         "total": 527,
-        "validated": 332,
-        "invalidated": 36,
+        "validated": 330,
+        "invalidated": 38,
         "other": 159,
         "has_audio": 448,
         "avg_recordings_per_question": 4.87
       },
       "audios": {
-        "total": 2183,
-        "transcribed_validated": 599,
-        "transcribed_pending": 68,
-        "not_transcribed": 1516
+        "total": 2180,
+        "transcribed_validated": 617,
+        "transcribed_pending": 54,
+        "not_transcribed": 1509
       },
       "transcriptions": {
-        "total": 667,
-        "validated": 599,
-        "not_yet_validated": 68,
-        "edited": 44,
-        "edited_pct": 6.6
+        "total": 671,
+        "validated": 617,
+        "not_yet_validated": 54,
+        "edited": 50,
+        "edited_pct": 7.45
       },
       "duration": {
-        "total_ms": 21240360,
-        "total_hrs": 5.9,
-        "validated_ms": 4061340,
-        "validated_hrs": 1.12,
-        "avg_ms": 9730,
+        "total_ms": 21202704,
+        "total_hrs": 5.88,
+        "validated_ms": 4152168,
+        "validated_hrs": 1.15,
+        "avg_ms": 9726,
         "min_ms": 180,
         "max_ms": 294408,
-        "avg_chars_per_sec": 6.92
+        "avg_chars_per_sec": 6.81
       },
       "buckets": {
         "train": {
@@ -864,24 +864,24 @@
       },
       "demographics": {
         "age": {
-          "": 0.0838,
-          "teens": 0.1067,
-          "twenties": 0.4581,
-          "thirties": 0.1287,
-          "fourties": 0.016,
-          "fifties": 0.1567,
+          "": 0.0839,
+          "teens": 0.1064,
+          "twenties": 0.4587,
+          "thirties": 0.1284,
+          "fourties": 0.0161,
+          "fifties": 0.1564,
           "sixties": 0.0486,
           "seventies": 0.0005,
           "eighties": 0.0005,
           "nineties": 0.0005
         },
         "gender": {
-          "": 0.5085,
+          "": 0.5083,
           "male_masculine": 0.0307,
-          "female_feminine": 0.4324,
+          "female_feminine": 0.4326,
           "intersex": 0.005,
           "transgender": 0.0023,
-          "non-binary": 0.0027,
+          "non-binary": 0.0028,
           "do_not_wish_to_say": 0.0183
         },
         "accent": {
@@ -902,23 +902,23 @@
           "us": 61,
           "wales": 0,
           "user_defined": 232,
-          "": 1960
+          "": 1957
         },
         "variant": {
-          "": 2183
+          "": 2180
         }
       },
       "reported": {
-        "clips": 328,
+        "clips": 331,
         "reasons": {
-          "different_language": 313,
-          "other": 14,
+          "different_language": 315,
+          "other": 15,
           "offensive_speech": 1
         }
       },
-      "size": 137813310,
-      "checksum": "6dd2a5ed091aaa76bafb92e378f2230c5d86ecd13e41ff044d7a76326c5aeb1f",
-      "generated_at": "2026-03-10T20:39:10.493Z"
+      "size": 137813177,
+      "checksum": "699e64e34bbfdd2d9571219b24e8867e7b838b63f17c8b265dbd87fd821d3602",
+      "generated_at": "2026-03-15T02:01:13.073Z"
     },
     "eo": {
       "locale": "eo",
@@ -1010,9 +1010,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 13089924,
-      "checksum": "24299c8bd7fad0f37fa8cfb887f7ff9316b8ace4438bd2b32a17faaf6c54c00e",
-      "generated_at": "2026-03-10T20:50:26.303Z"
+      "size": 13089902,
+      "checksum": "6461ab1c10cac639a468a6e8f81b0206ea57ef738ce3208d16624b92b92971f4",
+      "generated_at": "2026-03-15T02:07:27.357Z"
     },
     "es": {
       "locale": "es",
@@ -1116,9 +1116,9 @@
           "different_language": 3
         }
       },
-      "size": 12439011,
-      "checksum": "7e8541b7351950d175441905c9fd7656ae847b6c2fa28026bca8530709bd420c",
-      "generated_at": "2026-03-10T20:46:30.849Z"
+      "size": 12438875,
+      "checksum": "ed9d7b98fcd7f7e0cbc9103fb9b33cf91341c89c762feed72a019840a59b6218",
+      "generated_at": "2026-03-15T02:05:18.999Z"
     },
     "fr": {
       "locale": "fr",
@@ -1267,9 +1267,9 @@
           "different_language": 1
         }
       },
-      "size": 6910799,
-      "checksum": "28301f360885b375a77473caedaf4e5509145f3a968a6ccaeaddae75308a797f",
-      "generated_at": "2026-03-10T20:39:29.108Z"
+      "size": 6910708,
+      "checksum": "337cba8dc4c1b3b63f22ce77494448a59af8a759d4c54e0ca78ff51037b2b205",
+      "generated_at": "2026-03-15T02:01:28.786Z"
     },
     "gl": {
       "locale": "gl",
@@ -1286,15 +1286,15 @@
       "audios": {
         "total": 2094,
         "transcribed_validated": 38,
-        "transcribed_pending": 685,
-        "not_transcribed": 1371
+        "transcribed_pending": 905,
+        "not_transcribed": 1151
       },
       "transcriptions": {
-        "total": 723,
+        "total": 943,
         "validated": 38,
-        "not_yet_validated": 685,
+        "not_yet_validated": 905,
         "edited": 18,
-        "edited_pct": 2.49
+        "edited_pct": 1.91
       },
       "duration": {
         "total_ms": 17206776,
@@ -1304,7 +1304,7 @@
         "avg_ms": 8217,
         "min_ms": 180,
         "max_ms": 497700,
-        "avg_chars_per_sec": 7.54
+        "avg_chars_per_sec": 7.49
       },
       "buckets": {
         "train": {
@@ -1367,9 +1367,9 @@
           "other": 1
         }
       },
-      "size": 96744355,
-      "checksum": "c789664c64ca765ea8440cc6800629eca0fd99fd1b3dfeeb3ad40bd22f4e1c3f",
-      "generated_at": "2026-03-10T20:48:37.098Z"
+      "size": 96754096,
+      "checksum": "e17f4a81143b46085eb6b3f77a22916ad118adf5a940b0290e61ce41b0284dd1",
+      "generated_at": "2026-03-15T02:06:16.288Z"
     },
     "gsw": {
       "locale": "gsw",
@@ -1467,9 +1467,9 @@
           "different_language": 3
         }
       },
-      "size": 37267006,
-      "checksum": "5a774db70e51caac2082c05f0b31c79084f08ba3cf0d8836bb1d79ce12a47e5c",
-      "generated_at": "2026-03-10T20:46:08.309Z"
+      "size": 37266943,
+      "checksum": "4e9bfe87ca5543908841d416c780ce94a1e6f6cd5c3650be6c524f2aec0bd977",
+      "generated_at": "2026-03-15T02:05:06.989Z"
     },
     "hr": {
       "locale": "hr",
@@ -1559,9 +1559,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 289164,
-      "checksum": "4254900d7984fef5a4dc1c9157a0dc655d14aee5a72def620ffb258dc0799762",
-      "generated_at": "2026-03-10T20:51:09.395Z"
+      "size": 289156,
+      "checksum": "dcc1a5157a53d4d0e88646ec6d1272e465d2ab2fe4c5570057254677ef578e79",
+      "generated_at": "2026-03-15T02:07:52.816Z"
     },
     "jv": {
       "locale": "jv",
@@ -1654,9 +1654,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 3844323,
-      "checksum": "d2919209436cdffa9d1de8a375a467f15ce1cb4ccd0e998dc83d31fa5956cd02",
-      "generated_at": "2026-03-10T20:51:07.693Z"
+      "size": 3844316,
+      "checksum": "b3ddb18698da5b7ab8649557bcef674d993dbeea0bffa89c6ec991cd61aad11d",
+      "generated_at": "2026-03-15T02:07:50.956Z"
     },
     "kbd": {
       "locale": "kbd",
@@ -1759,9 +1759,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 6783487,
-      "checksum": "253a04ad7f86c4136616e817d8f31525824adce673f95db512a527d057f2fb85",
-      "generated_at": "2026-03-10T20:45:29.479Z"
+      "size": 6783481,
+      "checksum": "f2d8a757004f1556ce08cc8357dfb43dd3c7894f58adfc404828c812a7063415",
+      "generated_at": "2026-03-15T02:04:43.635Z"
     },
     "lv": {
       "locale": "lv",
@@ -1852,9 +1852,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 7150198,
-      "checksum": "d90d91c9d648930cbcb61a8b23626a09a9857090645fb0ed323fbce32818616e",
-      "generated_at": "2026-03-10T20:45:39.821Z"
+      "size": 7150196,
+      "checksum": "debc5423bcb04df3dd9fc4ef08a37c74fe944677705039ca5bd5e58400adf2c3",
+      "generated_at": "2026-03-15T02:04:50.382Z"
     },
     "ms-MY": {
       "locale": "ms-MY",
@@ -1944,9 +1944,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 289121,
-      "checksum": "9022bee23cfdd1929c957852ffe4daac1f76fac4fe6f69aab8dff1f3a748ab20",
-      "generated_at": "2026-03-10T20:39:21.408Z"
+      "size": 289119,
+      "checksum": "987f8699a405e7c2f2331c554b4c7e8a4199258187dfc063c089784f85a23c0a",
+      "generated_at": "2026-03-15T02:01:23.934Z"
     },
     "nl": {
       "locale": "nl",
@@ -2046,9 +2046,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 2533815,
-      "checksum": "c178247580a2651656ff661cd300f781349b6b656b3018685e3b849ccc736ee5",
-      "generated_at": "2026-03-10T20:50:20.753Z"
+      "size": 2533832,
+      "checksum": "c73d1b6d2073a72e8f6484cf51a17cc87ed6d133bf77e284815bb7578fdf2163",
+      "generated_at": "2026-03-15T02:07:24.131Z"
     },
     "ps": {
       "locale": "ps",
@@ -2141,9 +2141,9 @@
           "other": 4
         }
       },
-      "size": 203997356,
-      "checksum": "ba8aca268cd679afe41525ac79565d3969f0a9ee4407bcc90acf5a62a45687e9",
-      "generated_at": "2026-03-10T20:50:09.198Z"
+      "size": 203997185,
+      "checksum": "c2454fe6cb43336629c2f1dd217b4c3571e11692d7fbf737679a8efa93f4f513",
+      "generated_at": "2026-03-15T02:07:12.468Z"
     },
     "qxp": {
       "locale": "qxp",
@@ -2151,9 +2151,9 @@
       "users": 94,
       "questions": {
         "total": 164,
-        "validated": 109,
-        "invalidated": 1,
-        "other": 54,
+        "validated": 110,
+        "invalidated": 2,
+        "other": 52,
         "has_audio": 150,
         "avg_recordings_per_question": 34.01
       },
@@ -2234,9 +2234,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 544762821,
-      "checksum": "fab0b686b4207012f0f61b3a8739d8e668a1291c0c5fee22a3c4731843eb2ae5",
-      "generated_at": "2026-03-10T20:44:56.202Z"
+      "size": 544762623,
+      "checksum": "2a0eb5a15f3b4c4cae51a5a95212e49bef16b549c2b256a5bd992f1ae6105cb9",
+      "generated_at": "2026-03-15T02:04:12.096Z"
     },
     "rki": {
       "locale": "rki",
@@ -2326,9 +2326,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 11713125,
-      "checksum": "eccb6f8494ddbbfa4b2cfab555e1407c0dd5522f03394481fe26dd8169d0aa45",
-      "generated_at": "2026-03-10T20:50:39.114Z"
+      "size": 11713058,
+      "checksum": "a9de0bda8aa074001d57ae00922a3c4f0e9bf29960f96ebb19e1eb9418cab4f7",
+      "generated_at": "2026-03-15T02:07:34.221Z"
     },
     "ru": {
       "locale": "ru",
@@ -2345,15 +2345,15 @@
       "audios": {
         "total": 176,
         "transcribed_validated": 109,
-        "transcribed_pending": 42,
-        "not_transcribed": 25
+        "transcribed_pending": 52,
+        "not_transcribed": 15
       },
       "transcriptions": {
-        "total": 151,
+        "total": 161,
         "validated": 109,
-        "not_yet_validated": 42,
+        "not_yet_validated": 52,
         "edited": 34,
-        "edited_pct": 22.52
+        "edited_pct": 21.12
       },
       "duration": {
         "total_ms": 3668364,
@@ -2363,7 +2363,7 @@
         "avg_ms": 20843,
         "min_ms": 2448,
         "max_ms": 72576,
-        "avg_chars_per_sec": 8.36
+        "avg_chars_per_sec": 8.45
       },
       "buckets": {
         "train": {
@@ -2419,9 +2419,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 21479363,
-      "checksum": "3f2704057f082d7f77e876839d618d00a4f88377c595881dc18076b939fba139",
-      "generated_at": "2026-03-10T20:48:57.511Z"
+      "size": 21481414,
+      "checksum": "0f2a392a54fc66cb68b2d9014622a89ae26d80637bb772d7fb30e98ebf28a926",
+      "generated_at": "2026-03-15T02:06:31.023Z"
     },
     "shi": {
       "locale": "shi",
@@ -2511,9 +2511,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 30331138,
-      "checksum": "279274923f25b28ee36db96afc30fbc161b8df26c5f309715b7e27e3d4a47f89",
-      "generated_at": "2026-03-10T20:49:13.615Z"
+      "size": 30331184,
+      "checksum": "3533e6ccddf612fba0633e74a03124fbc86b8bba6cdfc61b67d2b0c9c72c7d50",
+      "generated_at": "2026-03-15T02:06:41.412Z"
     },
     "si": {
       "locale": "si",
@@ -2603,9 +2603,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 2634056,
-      "checksum": "ab41f716b95568317e7d4ba99085518afaaf3158d97630d127c4a0465d95d73d",
-      "generated_at": "2026-03-10T20:50:49.986Z"
+      "size": 2634068,
+      "checksum": "aec1577de9d059f52fbe52ccafa4265c4bf3017dc27ef91e0b40de418afdfb89",
+      "generated_at": "2026-03-15T02:07:41.074Z"
     },
     "su": {
       "locale": "su",
@@ -2695,9 +2695,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 13391802,
-      "checksum": "537ef36d190caffe8f8bb148be1d2971af961f96baad59ad144300bde755e06e",
-      "generated_at": "2026-03-10T20:51:03.941Z"
+      "size": 13391810,
+      "checksum": "408178a4f4ea7a4992f8378e913ddae4875c918806632dae29717366ec1a83a7",
+      "generated_at": "2026-03-15T02:07:48.018Z"
     },
     "th": {
       "locale": "th",
@@ -2788,9 +2788,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 915239,
-      "checksum": "c55d40196f1f3a12b2b405c5fc69ee93b6a97139cc49d6f15c1d6f46b663e80f",
-      "generated_at": "2026-03-10T20:49:00.701Z"
+      "size": 915232,
+      "checksum": "51a1c800149d190b8fa5a53136d292a25a81d6185aa663897ab5563a4ae21c13",
+      "generated_at": "2026-03-15T02:06:33.908Z"
     },
     "tr": {
       "locale": "tr",
@@ -2798,9 +2798,9 @@
       "users": 4,
       "questions": {
         "total": 141,
-        "validated": 0,
+        "validated": 1,
         "invalidated": 0,
-        "other": 141,
+        "other": 140,
         "has_audio": 41,
         "avg_recordings_per_question": 0.39
       },
@@ -2881,9 +2881,9 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 1426300,
-      "checksum": "2254631c2ef5435c92f4bbe227eed747ccf7b684e084e78762c12c7b548b4cd9",
-      "generated_at": "2026-03-10T20:39:31.776Z"
+      "size": 1426301,
+      "checksum": "b7974bfa907f001b4d509708d7078b192ba0ebdc2a82f419ddca528f34c99eee",
+      "generated_at": "2026-03-15T02:01:31.090Z"
     },
     "tuq": {
       "locale": "tuq",
@@ -2973,13 +2973,13 @@
         "clips": 0,
         "reasons": {}
       },
-      "size": 14240942,
-      "checksum": "3afb893e0a500c674ae1c3d8db30e8b496ae1cbbbcb3e48990dd37cd78e8cddb",
-      "generated_at": "2026-03-10T20:50:46.666Z"
+      "size": 14240916,
+      "checksum": "0be8d0c8fc8011818198d490606d8193d4098fb1528a8a575521d9019137115c",
+      "generated_at": "2026-03-15T02:07:38.686Z"
     }
   },
-  "totalDurationMs": 208648044,
-  "totalValidDurationMs": 9637776,
+  "totalDurationMs": 208610388,
+  "totalValidDurationMs": 9728604,
   "totalHrs": 58,
   "totalValidHrs": 3
 }
