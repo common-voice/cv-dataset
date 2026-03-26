@@ -2,7 +2,7 @@
 
 Changelogs are maintained per dataset type:
 
-- [Scripted Speech (SCS)](datasets/scripted-speech/CHANGELOG.md) -- 24 releases (v1 through v24.0)
+- [Scripted Speech (SCS)](datasets/scripted-speech/CHANGELOG.md) -- 25 releases (v1 through v25.0)
 - [Spontaneous Speech (SPS)](datasets/spontaneous-speech/CHANGELOG.md) -- 3 releases (v1.0 through v3.0)
 - [Code Switching (CS)](datasets/code-switching/README.md) -- planned, no releases yet
 

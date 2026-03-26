@@ -10,7 +10,7 @@ Common Voice collects voice data through multiple modalities. Each dataset type 
 | -------------------------------------------------- | ----- | ------- | -------: | :--------------: | --------: |
 | [Scripted Speech](datasets/scripted-speech/)       | SCS   | Active  |       25 |      v25.0       |       290 |
 | [Spontaneous Speech](datasets/spontaneous-speech/) | SPS   | Active  |        3 |       v3.0       |        72 |
-| [Code Switching](datasets/code-switching/)         | CS    | Planned |       -- |        --        |        -- |
+| [Code Switching](datasets/code-switching/)         | CS    | Alpha   |       -- |        --        |        -- |
 
 See each dataset type's documentation for detailed information about data structures, fields in metadata files (`.tsv`), archive contents, and release changelogs. Note that the "date" in releases represents the cut-off date for data collection and validation, not the actual release date of the dataset.
 
