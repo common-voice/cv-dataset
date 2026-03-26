@@ -1,6 +1,6 @@
 # Spontaneous Speech (SPS)
 
-Spontaneous Speech is a newer Common Voice modality where contributors respond to open-ended questions in their own words, producing natural, unscripted audio. The community validates recordings and transcriptions. Releases are produced using the SPS Bundler.
+Spontaneous Speech is a newer Common Voice modality where contributors respond to open-ended questions in their own words, producing natural, unscripted audio. The community validates recordings, transcribes the audio, and reviews the transcriptions. Releases are produced using the SPS Bundler.
 
 All audio contributions are released under the [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/). Clips are only removed at the request of the contributor, and problematic content flagged by the community via the Report button is also excluded from the datasets.
 
@@ -41,7 +41,7 @@ xychart-beta
     bar [1060,1571,2043]
 ```
 
-### Language Count
+### Dataset Count
 
 ```mermaid
 ---
@@ -51,9 +51,9 @@ config:
         height: 250
 ---
 xychart-beta
-    title "Spontaneous Speech: Languages per Release"
+    title "Spontaneous Speech: Dataset Count per Release"
     x-axis ["v1.0","v2.0","v3.0"]
-    y-axis "Languages" 0 --> 85
+    y-axis "Datasets" 0 --> 85
     line [58,62,72]
 ```
 
@@ -96,17 +96,17 @@ Each row represents a single audio recording:
 - `prompt` -- the question text asked to the speaker
 - `transcription` -- transcription of the speaker's response (may contain `[disfluency]`, `[noise]`, etc. tags)
 - `votes` -- number of validation votes received
-- `age` -- age bracket of the speaker\*
-- `gender` -- gender of the speaker\*
-- `accents` -- accent codes (comma-separated)
-- `variant` -- language variant codes of the speaker
+- `age` -- age bracket of the speaker\* (since v3.0, cross-referenced from SCS profiles when available)
+- `gender` -- gender of the speaker\* (since v3.0, cross-referenced from SCS profiles when available)
+- `accents` -- accent codes (comma-separated; since v3.0, cross-referenced from SCS profiles when available)
+- `variant` -- language variant codes of the speaker (since v3.0, cross-referenced from SCS profiles when available)
 - `language` -- language name
 - `prompt_upvotes` -- number of upvotes on the prompt
 - `prompt_reports` -- number of reports on the prompt
 - `is_edited` -- `0` or `1`, indicates if transcription was edited
 - `split` -- dataset partition: `train`, `dev`, `test`, or `unassigned`
 - `char_per_sec` -- characters per second of transcription relative to audio duration
-- `quality_tags` -- pipe-separated quality flags (e.g., `transcription-length|speech-rate|short-audio|long-audio`)
+- `quality_tags` -- pipe-separated quality flags applied during post-processing (see [Quality Tags](#quality-tags) below)
 
 \*For a full list of age and gender options, see the [demographics spec](https://github.com/common-voice/spontaneous-speech/blob/main/web/src/stores/demographics.ts). These are only reported if the speaker opted in.
 
@@ -124,6 +124,8 @@ Each row represents a reported audio clip:
 - `comment` -- free-text comment from the reporter
 - `language` -- language name
 
+Note: reported audios (regardless of reason) are excluded from the main corpus TSV. However, their metadata and audio files are still present in the release archive under `ss-reported-audios-{locale}.tsv` and `audios/`. `personally_identifiable_information` reports will be excluded in the following releases.
+
 ### QA Summary File: `ss-corpus-{locale}.qa-summary.json`
 
 Quality assurance metadata documenting the processing pipeline:
@@ -132,18 +134,62 @@ Quality assurance metadata documenting the processing pipeline:
 - How many rows were affected by each processing step
 - Quality tagging results and problem clip counts
 
-## Validation and Transcription Categories
+### Quality Tags
 
-SPS audio goes through a multi-stage pipeline:
+The `quality_tags` field contains pipe-separated flags assigned during the post-processing QA step. A clip may have zero, one, or multiple tags. Tags are informational and do not exclude clips from the dataset.
 
-1. **Recording** -- contributors answer questions spontaneously
-2. **Transcription** -- community members transcribe the audio
-3. **Validation** -- transcriptions are reviewed, possibly edited, and validated
+#### Audio duration tags
 
-Audio status categories in statistics:
+| Tag           | Condition             | Description                     |
+| ------------- | --------------------- | ------------------------------- |
+| `short-audio` | duration < 2,000 ms   | Audio is shorter than 2 seconds |
+| `long-audio`  | duration > 300,000 ms | Audio is longer than 5 minutes  |
+
+#### Transcription quality tags
+
+| Tag                    | Condition        | Description                                                 |
+| ---------------------- | ---------------- | ----------------------------------------------------------- |
+| `transcription-length` | chars/sec < 3.0  | Transcription is unusually short relative to audio duration |
+| `speech-rate`          | chars/sec > 30.0 | Transcription is unusually long relative to audio duration  |
+
+#### Script and language tags
+
+| Tag                               | Description                                                               |
+| --------------------------------- | ------------------------------------------------------------------------- |
+| `non-allowed-script`              | Transcription uses a writing system not in the language's allowed scripts |
+| `mixed-script-words`              | A single word/token contains characters from multiple writing systems     |
+| `mixed-script-transcription`      | Transcription contains tokens from multiple writing systems               |
+| `dataset-language-audio-mismatch` | Audio language verification did not match the expected dataset language   |
+
+## Data Pipeline
+
+SPS data goes through a multi-stage community pipeline:
+
+1. **Question submission** -- community members submit open-ended prompts/questions
+2. **Question validation** -- questions are upvoted or reported by the community
+3. **Recording** -- contributors answer validated questions spontaneously
+4. **Transcription** -- community members transcribe the audio
+5. **Transcription validation** -- transcriptions are reviewed, possibly edited, and accepted when ready
+
+### Question status categories in statistics (`questions`)
+
+- `validated` -- questions accepted by the community (sufficient upvotes)
+- `invalidated` -- questions rejected (reported or downvoted)
+- `other` -- questions not yet fully validated
+- `has_audio` -- questions that have at least one recording
+- `avg_recordings_per_question` -- average number of audio recordings per question
+
+### Audio status categories in statistics (`audios`)
 
 - `transcribed_validated` -- audio with reviewed and accepted transcriptions
 - `transcribed_pending` -- audio transcribed but not yet validated
 - `not_transcribed` -- audio without any transcription yet
 
-Dataset split (`train`/`dev`/`test`) is assigned only to validated audio. Unvalidated audio has this field blank.
+### Transcription status categories in statistics (`transcriptions`)
+
+- `validated` -- transcriptions that have been reviewed and accepted
+- `not_yet_validated` -- transcriptions awaiting review
+- `edited` -- transcriptions that were modified during validation
+- `edited_pct` -- percentage of transcriptions that were edited
+
+Dataset split (`train`/`dev`/`test`) is assigned only to audio with validated transcriptions. Other audio has the `split` field set to `unassigned`.
