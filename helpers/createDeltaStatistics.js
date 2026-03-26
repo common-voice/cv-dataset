@@ -47,6 +47,7 @@ const computeLocaleDiffs = (newerStatsFile, olderStatsFile) => {
 
     if (!bStats) {
       newLanguages.push(locale);
+      diffStats[locale] = { ...aStats };
       continue;
     }
 
