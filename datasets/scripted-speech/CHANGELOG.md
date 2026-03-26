@@ -1,19 +1,5 @@
 # Scripted Speech (SCS) Changelog
 
-## Major Changes (March 2026)
-
-The following changes affect SCS datasets starting with Corpus 25.0.
-
-**Datasheets**: Each locale archive now includes a `README.md` datasheet -- a Markdown document describing the language, dataset statistics, demographic breakdowns, text sources, and community-contributed context. Datasheets are auto-generated during the bundler run using templates and community content from the [cv-datasheets](https://github.com/common-voice/cv-datasheets) repository (schema v2.0.0). The datasheet is placed at the root of the locale directory inside the archive:
-
-```txt
-cv-corpus-{version}-{YYYY-MM-DD}/{lang}/
-├── README.md      <-- new: locale datasheet
-├── clips/
-├── dev.tsv
-├── ...
-```
-
 ## Current Release
 
 ### [Corpus 25.0](cv-corpus-25.0-2026-03-09.json)
@@ -22,14 +8,15 @@ Regularly scheduled dataset release Q1 2026.
 
 - **Date released**: 18 March 2026
 - **Clip cut-off date**: 09 March 2026
-- **Total hours**: TBD
-- **Total validated hours**: TBD
-- **Number of languages**: TBD
+- **Total hours**: 41,792
+- **Total validated hours**: 28,377
+- **Number of languages**: 290
 
-**New languages since last major release**: TBD
+**New languages since last major release**: Croatian (`hr`)
 
 #### Dataset Changes in Corpus 25.0
 
+- added `README.md` datasheet per locale -- a Markdown document with language description, dataset statistics, demographic breakdowns, and community context (generated from [cv-datasheets](https://github.com/common-voice/cv-datasheets), schema v2.0.0)
 - added `variant` column to `validated_sentences.tsv` (after `sentence`), containing the language variant token for the sentence (empty if none)
 - added `variant` column to `unvalidated_sentences.tsv` (after `sentence`)
 - added `up_votes`, `down_votes`, and `status` columns to `unvalidated_sentences.tsv`
@@ -123,8 +110,8 @@ Regularly scheduled dataset release Q3 2024.
 #### Dataset Changes in Corpus 17.0
 
 - added `unvalidated_sentences.tsv` and `validated_sentences.tsv`
-- `unvalidated_sentences.tsv` contains sentences that do not have any votes yet, the columns are: `sentence_id`, `sentence`, `sentence_domain` and `source`
-- `validated_sentences.tsv` contains sentences that have at two up votes, it has two additional columns: `is_used` and `clips_count`
+- `unvalidated_sentences.tsv` contains sentences that have not reached the validated threshold (including those with votes but insufficient up votes), the columns are: `sentence_id`, `sentence`, `sentence_domain` and `source`
+- `validated_sentences.tsv` contains sentences that have two or more up votes, it has two additional columns: `is_used` and `clips_count`
 - `is_used`: indicates whether or not the sentence is used on the speak page
 - `clips_count`: the number of clips that are associated with the sentence
 - added `sentence_id` and `sentence_domain` to the [Corpora Creator](https://github.com/common-voice/CorporaCreator) files
