@@ -1,64 +1,31 @@
 # Spontaneous Speech (SPS) Changelog
 
-## Major Changes (March 2026)
+## Dataset Changes in Corpus 3.0
 
-The following changes affect SPS datasets starting with Corpus 3.0.
+The following changes affect SPS datasets starting with Corpus 3.0. For bundler internals, see the [SPS Bundler documentation](https://github.com/common-voice/spontaneous-speech/tree/main/spontaneous-speech-bundler).
 
-The SPS bundler reached its first production release, nearing SCS counterpart's capabilities. It is a standalone CLI tool with per-locale pipeline. Key capabilities:
+### New files in archive
 
-- **Release types**: `full`, `delta`, `variants` (stub for now), and `statistics` releases, controlled via CLI flags (`-t`, `-f`, `-u`, `-p`).
-- **Delta releases**: produce archives containing only locales with new audio or new validation votes since the previous release. Locales with zero activity are automatically skipped.
-- **Problem clip detection**: audio files that fail download or are too small (0-byte) are detected, logged, and excluded from the release.
-- **Process logging**: each bundler run generates a structured TSV process log uploaded alongside the release artifacts.
+- **Datasheets**: each locale archive now includes a `README.md` datasheet with language description, statistics, and community context (generated from [cv-datasheets](https://github.com/common-voice/cv-datasheets), schema v2.0.0). Full releases only.
+- **QA summary**: `ss-corpus-{locale}.qa-summary.json` with processing metrics per locale.
 
-### Datasheets
+### TSV field changes
 
-Each full release archive now includes a `README.md` datasheet per locale -- a Markdown document with language description, dataset statistics, and community-contributed context. Datasheets are generated using templates from the [cv-datasheets](https://github.com/common-voice/cv-datasheets) repository (schema v2.0.0). The datasheet is placed at the root of the locale directory:
+- added `age`, `gender`, `accents`, `variant` columns -- demographics are cross-referenced from SCS profiles when the contributor has one, with SCS data taking priority
+- added `char_per_sec` column -- characters per second of transcription relative to audio duration
+- added `quality_tags` column -- pipe-separated quality flags (see [Quality Tags](README.md#quality-tags) in the README)
+- disfluency markers in `transcription` are now standardized to `[disfluency]` tags
 
-```txt
-sps-corpus-{version}-{YYYY-MM-DD}-{locale}/
-├── README.md          <-- new: locale datasheet
-├── audios/
-├── ss-corpus-{locale}.tsv
-├── ...
-```
+### Statistics structure
 
-Datasheets are included in full releases only; delta releases omit them.
+The per-locale statistics JSON differs from SCS (relevant for programmatic consumers):
 
-### QA Pipeline Integration
-
-The SPS bundler now embeds the external Quality Control Data Pipeline which was run after a release, as a `PostProcessCorpus` step. This applies:
-
-- **Disfluency standardization**: normalizes disfluency markers (`<disfluency>` tags) across all transcriptions.
-- **Quality tagging**: flags clips with potential issues (e.g., `transcription-length`, `speech-rate`, `short-audio`, `long-audio`) in the `quality_tags` column.
-- **QA summary**: generates a per-locale `ss-corpus-{locale}.qa-summary.json` with processing metrics (rows processed, disfluency application status, problem clip counts).
-
-### SPS-SCS Data Bridge
-
-The SPS bundler can cross-reference the Scripted Speech (SCS) database to enrich demographic data. User identity is bridged via `provider_id` (SPS) ↔ `client_id` (SCS). When a contributor has a profile on the classic Common Voice platform, their age, gender, and accent data from SCS is merged into the SPS release, with SCS profile data taking priority over SPS-recorded demographics.
-
-### Accent and Variant Token System
-
-Accents and language variants are stored as human-readable names in the TSV files, but as machine tokens in the statistics JSON. Each locale has a set of predefined accent/variant tokens; non-predefined values are grouped as `user_defined` in statistics. This enables consistent demographic analysis across releases.
-
-### Bundler Optimizations
-
-- **Conditional gzip compression**: full archives (containing MP3 audio) use compression level 1 (~3.5x faster); delta archives (text-heavy) use level 6.
-- **Locale cleanup**: cached locale directories are removed after upload to prevent memory exhaustion.
-- **`--force` flag**: skips GCS existence checks for crash recovery, allowing re-runs without re-uploading completed locales.
-- **Dynamic progress logging**: targets ~5 log lines per batch regardless of batch size.
-
-### Metadata Structure Changes
-
-Starting with v3.0, the per-locale statistics JSON has the following structure differences from SCS (relevant for anyone processing statistics programmatically):
-
-- `duration` is a nested object: `total_ms`, `total_hrs`, `validated_ms`, `validated_hrs`, `avg_ms`, `min_ms`, `max_ms`, `avg_chars_per_sec`.
-- `buckets` contains per-split detail: `train`, `dev`, `test`, each with `clips`, `users`, `duration_ms`, `duration_hrs`.
-- `demographics` replaces the SCS `splits` key, with `age`, `gender`, `accent`, and `variant` breakdowns.
-- SPS-specific objects: `questions`, `audios`, `transcriptions`, `reported` (with `reasons` breakdown).
-- `generated_at` timestamp is included.
-
-See the [SPS README](README.md) for the full statistics and TSV field documentation.
+- `duration` is a nested object: `total_ms`, `total_hrs`, `validated_ms`, `validated_hrs`, `avg_ms`, `min_ms`, `max_ms`, `avg_chars_per_sec`
+- `buckets` contains per-split detail: `train`, `dev`, `test`, each with `clips`, `users`, `duration_ms`, `duration_hrs`
+- `demographics` replaces the SCS `splits` key, with `age`, `gender`, `accent`, and `variant` breakdowns
+- SPS-specific objects: `questions`, `audios`, `transcriptions`, `reported` (with `reasons` breakdown)
+- accents and variants use machine tokens in statistics; non-predefined values are grouped as `user_defined`
+- `generated_at` timestamp is included
 
 ## Current Release
 
