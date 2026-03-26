@@ -57,6 +57,18 @@ xychart-beta
     line [58,62,72]
 ```
 
+### Release Summary
+
+<div align="center">
+
+| Release | Date       | Languages | Total Hours | Validated Hours |
+| ------- | ---------- | --------: | ----------: | --------------: |
+| v1.0    | 2025-09-05 |        58 |         428 |             263 |
+| v2.0    | 2025-12-05 |        62 |         454 |             268 |
+| v3.0    | 2026-03-09 |        72 |         508 |             269 |
+
+</div>
+
 ## About the Statistics
 
 Statistics for each release are stored as JSON files in this directory. Durations are measured in milliseconds and file sizes in bytes unless otherwise noted.
