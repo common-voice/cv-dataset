@@ -1,0 +1,6189 @@
+{
+  "locales": {
+    "ab": {
+      "buckets": {
+        "dev": 12419,
+        "invalidated": 14978,
+        "other": 345,
+        "test": 12448,
+        "train": 50489,
+        "validated": 78839
+      },
+      "duration": 539435376,
+      "reportedSentences": 123,
+      "validatedSentences": 1046833,
+      "unvalidatedSentences": 14,
+      "clips": 94162,
+      "splits": {
+        "accent": {
+          "": 45
+        },
+        "variant": {},
+        "age": {
+          "": 0.1247,
+          "twenties": 0.1227,
+          "thirties": 0.0618,
+          "teens": 0.6391,
+          "fourties": 0.0299,
+          "nineties": 0.0001,
+          "fifties": 0.0196,
+          "sixties": 0.002,
+          "seventies": 0.0001
+        },
+        "gender": {
+          "": 0.2738,
+          "female_feminine": 0.7107,
+          "transgender": 0.0001,
+          "male_masculine": 0.0042,
+          "do_not_wish_to_say": 0.0111
+        },
+        "sentence_domain": {
+          "nature_environment": 1,
+          "automotive_transport": 2,
+          "agriculture_food": 1,
+          "history_law_government": 2
+        }
+      },
+      "users": 878,
+      "size": 3198369258,
+      "checksum": "20e9b811a7edee42d5e1583df949b2418f968f454e5bbec272cdee05b43edbdf",
+      "avgDurationSecs": 5.729,
+      "validDurationSecs": 451652.956,
+      "totalHrs": 149.84,
+      "validHrs": 125.45
+    },
+    "ady": {
+      "buckets": {
+        "dev": 844,
+        "invalidated": 1024,
+        "other": 9054,
+        "test": 968,
+        "train": 1159,
+        "validated": 4809
+      },
+      "duration": 87547320,
+      "reportedSentences": 792,
+      "validatedSentences": 11364,
+      "unvalidatedSentences": 2734,
+      "clips": 14887,
+      "splits": {
+        "accent": {
+          "abzakh": 1318,
+          "bzhedug": 358,
+          "temirgoy": 1944,
+          "shapsug": 2623,
+          "": 105
+        },
+        "variant": {
+          "ady-RU": 3608,
+          "ady-Cyrl": 1706,
+          "ady-Cyrl-TR": 1008,
+          "ady-Latn-TR-t-ady-cyrl": 29
+        },
+        "age": {
+          "teens": 0.0146,
+          "fifties": 0.1021,
+          "twenties": 0.3926,
+          "thirties": 0.4628,
+          "": 0.0109,
+          "fourties": 0.0124,
+          "seventies": 0.0046
+        },
+        "gender": {
+          "": 0.1098,
+          "female_feminine": 0.8902
+        },
+        "sentence_domain": {
+          "general": 23413,
+          "service_retail": 12,
+          "language_fundamentals": 71,
+          "healthcare": 8,
+          "agriculture_food": 9,
+          "news_current_affairs": 17,
+          "media_entertainment": 14,
+          "nature_environment": 3,
+          "technology_robotics": 54
+        }
+      },
+      "users": 45,
+      "size": 502284350,
+      "checksum": "1aa018119f30b8f658b8007f9893e7a7f705fca705c15a173f2f8a45d1a91ab8",
+      "avgDurationSecs": 5.881,
+      "validDurationSecs": 28280.719,
+      "totalHrs": 24.31,
+      "validHrs": 7.85
+    },
+    "af": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 7920,
+      "reportedSentences": 0,
+      "validatedSentences": 4805,
+      "unvalidatedSentences": 16562,
+      "clips": 1,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 1630425,
+      "checksum": "4b16c053301b4542741d53538f7998d692c521355a825aa7e2275f275e512670",
+      "avgDurationSecs": 7.92,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ajg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 3213,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 139906,
+      "checksum": "6daaa6c3cbc5e8f39bf2eeb6b65b7ac8862e4946245582f0a0c8f423d9c72392",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "am": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 20,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 201528,
+      "reportedSentences": 0,
+      "validatedSentences": 2208,
+      "unvalidatedSentences": 15,
+      "clips": 20,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.25,
+          "fourties": 0.25,
+          "thirties": 0.5
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "history_law_government": 1
+        }
+      },
+      "users": 3,
+      "size": 1311321,
+      "checksum": "9c26ba8041e8a833d5739d2a5d66f3594b3c452409e1461dc54bffaaaa81918d",
+      "avgDurationSecs": 10.076,
+      "validDurationSecs": 0,
+      "totalHrs": 0.05,
+      "validHrs": 0
+    },
+    "an": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 10454,
+      "unvalidatedSentences": 357,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 668828,
+      "checksum": "e6897db054a7dfbf515a8156504a808ff69c802e9c9b7c0addd36cbb5e232395",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ar": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 100,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 448812,
+      "reportedSentences": 0,
+      "validatedSentences": 59434,
+      "unvalidatedSentences": 1742117,
+      "clips": 100,
+      "splits": {
+        "accent": {
+          "": 5
+        },
+        "variant": {},
+        "age": {
+          "": 0.6,
+          "thirties": 0.1,
+          "twenties": 0.3
+        },
+        "gender": {
+          "": 0.6,
+          "female_feminine": 0.4
+        },
+        "sentence_domain": {}
+      },
+      "users": 13,
+      "size": 127489553,
+      "checksum": "e253f74d125766ef095e2f53ae483b5ba1460a0479296f810159603606abd2e8",
+      "avgDurationSecs": 4.488,
+      "validDurationSecs": 0,
+      "totalHrs": 0.12,
+      "validHrs": 0
+    },
+    "as": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 26172,
+      "reportedSentences": 0,
+      "validatedSentences": 7171,
+      "unvalidatedSentences": 3344,
+      "clips": 5,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "fourties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 2,
+          "technology_robotics": 2
+        }
+      },
+      "users": 1,
+      "size": 942430,
+      "checksum": "c5515469291e03271c8cca8478908748fd27eb68b0ea0ce8c84743b22670064c",
+      "avgDurationSecs": 5.234,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ast": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 10,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 45000,
+      "reportedSentences": 0,
+      "validatedSentences": 1645,
+      "unvalidatedSentences": 287,
+      "clips": 10,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 382615,
+      "checksum": "4a84afc9b564455650b4c94c759a5885bf522efecb38d8c2ee9eaa8511cbb570",
+      "avgDurationSecs": 4.5,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "az": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 93161,
+      "unvalidatedSentences": 1862,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 6316658,
+      "checksum": "2a4f7ac49c9dedcb94faa4ecd293c75d3343e97857e34680f43fdcb8e72201d7",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ba": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 153968,
+      "unvalidatedSentences": 5,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 10314872,
+      "checksum": "61f56527592149b6661ef7536cf47cab28f29f9f95b7154d5b46de25669fb395",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "bbl": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 160,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1305576,
+      "reportedSentences": 0,
+      "validatedSentences": 1661,
+      "unvalidatedSentences": 580,
+      "clips": 160,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 131,
+          "agriculture_food": 17
+        }
+      },
+      "users": 2,
+      "size": 7960082,
+      "checksum": "64aafac251715629f133e21a847702145ca86385f6829297698f9be1f363f1ef",
+      "avgDurationSecs": 8.16,
+      "validDurationSecs": 0,
+      "totalHrs": 0.36,
+      "validHrs": 0
+    },
+    "bci": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2448,
+      "reportedSentences": 0,
+      "validatedSentences": 876,
+      "unvalidatedSentences": 0,
+      "clips": 1,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "fourties": 1
+        },
+        "gender": {
+          "female_feminine": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 66788,
+      "checksum": "951fa0873755af48e2f4875b70ac606cfeda20a425a290ae5c95f8edfa06a324",
+      "avgDurationSecs": 2.448,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "be": {
+      "buckets": {
+        "dev": 5,
+        "invalidated": 0,
+        "other": 1922,
+        "test": 10,
+        "train": 21,
+        "validated": 38
+      },
+      "duration": 10835856,
+      "reportedSentences": 19,
+      "validatedSentences": 379562,
+      "unvalidatedSentences": 1917,
+      "clips": 1960,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.9745,
+          "teens": 0.0128,
+          "twenties": 0.0128
+        },
+        "gender": {
+          "": 0.9872,
+          "male_masculine": 0.0128
+        },
+        "sentence_domain": {
+          "history_law_government": 14,
+          "news_current_affairs": 1,
+          "technology_robotics": 1
+        }
+      },
+      "users": 17,
+      "size": 87449064,
+      "checksum": "fb91ec50bb025a233cc6c1bb682e35a90b1e72fb4914a7044db7a4e20cb53201",
+      "avgDurationSecs": 5.528,
+      "validDurationSecs": 210.083,
+      "totalHrs": 3,
+      "validHrs": 0.05
+    },
+    "bft": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 15,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 95904,
+      "reportedSentences": 0,
+      "validatedSentences": 7968,
+      "unvalidatedSentences": 12,
+      "clips": 15,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 1102389,
+      "checksum": "7f33733b421b5aecf8c233723a73d1dfadb12f074d0d9c613e92ee924e55b551",
+      "avgDurationSecs": 6.394,
+      "validDurationSecs": 0,
+      "totalHrs": 0.02,
+      "validHrs": 0
+    },
+    "bg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 53,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "duration": 345420,
+      "reportedSentences": 3,
+      "validatedSentences": 39572,
+      "unvalidatedSentences": 3,
+      "clips": 55,
+      "splits": {
+        "accent": {
+          "": 50
+        },
+        "variant": {},
+        "age": {
+          "fifties": 0.9091,
+          "": 0.0909
+        },
+        "gender": {
+          "female_feminine": 0.9091,
+          "": 0.0909
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 4997824,
+      "checksum": "6bacbba2c3173f79f3886fa224067f529a50a493f587ec74613c1b7985bb3837",
+      "avgDurationSecs": 6.28,
+      "validDurationSecs": 6.28,
+      "totalHrs": 0.09,
+      "validHrs": 0
+    },
+    "bgp": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 648,
+        "test": 0,
+        "train": 8,
+        "validated": 8
+      },
+      "duration": 3963420,
+      "reportedSentences": 0,
+      "validatedSentences": 6997,
+      "unvalidatedSentences": 0,
+      "clips": 656,
+      "splits": {
+        "accent": {
+          "": 10
+        },
+        "variant": {},
+        "age": {
+          "": 0.0305,
+          "thirties": 0.9695
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 23850375,
+      "checksum": "993d68d7f13ccba167e1c07da4296175d0a8cc668fb23d3c0484a2ef2aae3a13",
+      "avgDurationSecs": 6.042,
+      "validDurationSecs": 48.334,
+      "totalHrs": 1.1,
+      "validHrs": 0.01
+    },
+    "bn": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 38,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 221076,
+      "reportedSentences": 0,
+      "validatedSentences": 562831,
+      "unvalidatedSentences": 94115,
+      "clips": 38,
+      "splits": {
+        "accent": {
+          "": 5
+        },
+        "variant": {},
+        "age": {
+          "": 0.8684,
+          "twenties": 0.1316
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 52831974,
+      "checksum": "38192a8de3794c059a9220405fe200d42555bffd197956506f34b69a93f1db32",
+      "avgDurationSecs": 5.818,
+      "validDurationSecs": 0,
+      "totalHrs": 0.06,
+      "validHrs": 0
+    },
+    "br": {
+      "buckets": {
+        "dev": 70,
+        "invalidated": 0,
+        "other": 31,
+        "test": 64,
+        "train": 111,
+        "validated": 245
+      },
+      "duration": 1001448,
+      "reportedSentences": 0,
+      "validatedSentences": 23284,
+      "unvalidatedSentences": 18486,
+      "clips": 276,
+      "splits": {
+        "accent": {
+          "leoneg": 25,
+          "kerneveg": 60,
+          "gwenedeg": 111,
+          "": 30
+        },
+        "variant": {},
+        "age": {
+          "": 0.3804,
+          "fifties": 0.0181,
+          "thirties": 0.4022,
+          "fourties": 0.163,
+          "sixties": 0.0362
+        },
+        "gender": {
+          "": 0.8188,
+          "female_feminine": 0.1812
+        },
+        "sentence_domain": {
+          "general": 212,
+          "finance": 3
+        }
+      },
+      "users": 15,
+      "size": 8229886,
+      "checksum": "7980a3be991c410305efed21a980c7e311a2139103516105494eb272c1e9aa53",
+      "avgDurationSecs": 3.628,
+      "validDurationSecs": 888.967,
+      "totalHrs": 0.27,
+      "validHrs": 0.24
+    },
+    "brh": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 3095,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 224071,
+      "checksum": "2ab31742c0b634c24906320342cb68d6c78fae6e756c2dfbd48914cf1eaea3b2",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "bsk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 2447,
+      "unvalidatedSentences": 22,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 135165,
+      "checksum": "24b7a09c5352a9f971ff43fc00ae60f3082041a5712faa6fce07be06222bdb51",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "btv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1053,
+      "unvalidatedSentences": 9,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 60546,
+      "checksum": "f54458e1f97900aa8397fbabb3fa743cd801f9b1d35e62b66e6619cd66a4c9dc",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ca": {
+      "buckets": {
+        "dev": 83,
+        "invalidated": 21,
+        "other": 19546,
+        "test": 80,
+        "train": 101,
+        "validated": 264
+      },
+      "duration": 93465432,
+      "reportedSentences": 389,
+      "validatedSentences": 1306364,
+      "unvalidatedSentences": 3204,
+      "clips": 19831,
+      "splits": {
+        "accent": {
+          "northwestern": 2702,
+          "central": 1758,
+          "valencian": 5,
+          "": 50,
+          "balearic": 30
+        },
+        "variant": {
+          "ca-central": 13997,
+          "ca-nwestern": 2702,
+          "ca-valencia-southern": 5,
+          "ca-valencia-tortosi": 7,
+          "ca-balear": 30
+        },
+        "age": {
+          "fifties": 0.4773,
+          "sixties": 0.34,
+          "fourties": 0.02,
+          "seventies": 0.1289,
+          "": 0.0316,
+          "thirties": 0.0023
+        },
+        "gender": {
+          "male_masculine": 0.6207,
+          "female_feminine": 0.3477,
+          "": 0.0316
+        },
+        "sentence_domain": {
+          "agriculture_food": 13,
+          "general": 1279,
+          "language_fundamentals": 5,
+          "technology_robotics": 7,
+          "healthcare": 5,
+          "nature_environment": 15,
+          "automotive_transport": 9,
+          "history_law_government": 5,
+          "media_entertainment": 11,
+          "news_current_affairs": 5,
+          "service_retail": 1
+        }
+      },
+      "users": 60,
+      "size": 642389599,
+      "checksum": "d1d5961a34880d6777425a74cfd5fe02f4a2e390a9a796a0e5517afd60eae530",
+      "avgDurationSecs": 4.713,
+      "validDurationSecs": 1244.258,
+      "totalHrs": 25.96,
+      "validHrs": 0.34
+    },
+    "ckb": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 1288,
+        "test": 0,
+        "train": 10,
+        "validated": 10
+      },
+      "duration": 6369804,
+      "reportedSentences": 29,
+      "validatedSentences": 19446,
+      "unvalidatedSentences": 15087,
+      "clips": 1299,
+      "splits": {
+        "accent": {
+          "": 15
+        },
+        "variant": {},
+        "age": {
+          "": 0.1093,
+          "sixties": 0.1794,
+          "fifties": 0.0038,
+          "twenties": 0.107,
+          "thirties": 0.5774,
+          "fourties": 0.0231
+        },
+        "gender": {
+          "": 0.7998,
+          "male_masculine": 0.2002
+        },
+        "sentence_domain": {
+          "general": 14,
+          "media_entertainment": 8
+        }
+      },
+      "users": 32,
+      "size": 35737457,
+      "checksum": "72da8efd6f4d0b3e92707cba8c5e65083363e980adcc0fe736f04f4b7f35d790",
+      "avgDurationSecs": 4.904,
+      "validDurationSecs": 49.036,
+      "totalHrs": 1.76,
+      "validHrs": 0.01
+    },
+    "cnh": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 9576,
+      "reportedSentences": 0,
+      "validatedSentences": 5218,
+      "unvalidatedSentences": 0,
+      "clips": 1,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 335165,
+      "checksum": "cea011c60ae655b889c341cfd0d087657ce7cef4edad7b1e8ccc82b8e75a7f22",
+      "avgDurationSecs": 9.576,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "cs": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 26,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 129492,
+      "reportedSentences": 0,
+      "validatedSentences": 451253,
+      "unvalidatedSentences": 105,
+      "clips": 26,
+      "splits": {
+        "accent": {
+          "": 20
+        },
+        "variant": {},
+        "age": {
+          "": 0.8077,
+          "thirties": 0.1923
+        },
+        "gender": {
+          "": 0.8077,
+          "male_masculine": 0.1923
+        },
+        "sentence_domain": {}
+      },
+      "users": 6,
+      "size": 31433345,
+      "checksum": "63ec6a63f257f90916be896dbb070efac4ed2c56fcb19e4e6a9d05b0eded7cdf",
+      "avgDurationSecs": 4.98,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "cv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4382,
+      "unvalidatedSentences": 4,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 320068,
+      "checksum": "69ccf37af867d78a449762470c21a3ca2f52802a61466f0fc2f2097da6e4e3dc",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "cy": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 100,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 524916,
+      "reportedSentences": 0,
+      "validatedSentences": 118044,
+      "unvalidatedSentences": 15,
+      "clips": 100,
+      "splits": {
+        "accent": {
+          "united_kingdom": 99
+        },
+        "variant": {
+          "cy-northwes": 1
+        },
+        "age": {
+          "": 0.01,
+          "fourties": 0.84,
+          "twenties": 0.15
+        },
+        "gender": {
+          "": 0.01,
+          "male_masculine": 0.84,
+          "female_feminine": 0.15
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 10934669,
+      "checksum": "676b1f1eef56aa96a81db9edc174beb37ed065fa87504edb0e01afbcc72224c8",
+      "avgDurationSecs": 5.249,
+      "validDurationSecs": 0,
+      "totalHrs": 0.14,
+      "validHrs": 0
+    },
+    "da": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 227,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1083672,
+      "reportedSentences": 6,
+      "validatedSentences": 20986,
+      "unvalidatedSentences": 173,
+      "clips": 227,
+      "splits": {
+        "accent": {
+          "": 60
+        },
+        "variant": {},
+        "age": {
+          "": 0.1278,
+          "thirties": 0.1586,
+          "fourties": 0.7137
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "automotive_transport": 7,
+          "general": 11,
+          "media_entertainment": 8,
+          "technology_robotics": 2,
+          "language_fundamentals": 3
+        }
+      },
+      "users": 4,
+      "size": 7709652,
+      "checksum": "02fe09d707157198dbe2bf6096bdeb5907714791157bfbcd613bab05e37ee530",
+      "avgDurationSecs": 4.774,
+      "validDurationSecs": 0,
+      "totalHrs": 0.3,
+      "validHrs": 0
+    },
+    "dag": {
+      "buckets": {
+        "dev": 75,
+        "invalidated": 18,
+        "other": 1504,
+        "test": 70,
+        "train": 107,
+        "validated": 290
+      },
+      "duration": 7701768,
+      "reportedSentences": 23,
+      "validatedSentences": 5603,
+      "unvalidatedSentences": 15134,
+      "clips": 1812,
+      "splits": {
+        "accent": {
+          "": 111
+        },
+        "variant": {},
+        "age": {
+          "fourties": 0.0028,
+          "thirties": 0.3791,
+          "twenties": 0.6153,
+          "": 0.0028
+        },
+        "gender": {
+          "": 0.5971,
+          "female_feminine": 0.4001,
+          "male_masculine": 0.0028
+        },
+        "sentence_domain": {
+          "general": 16,
+          "agriculture_food": 1,
+          "nature_environment": 6,
+          "finance": 7,
+          "news_current_affairs": 4,
+          "language_fundamentals": 3
+        }
+      },
+      "users": 19,
+      "size": 42586487,
+      "checksum": "ef46caa566e3ef30a35534046469b8543d193b69f56aaf7ea2c8abadbbdc9770",
+      "avgDurationSecs": 4.25,
+      "validDurationSecs": 1232.623,
+      "totalHrs": 2.13,
+      "validHrs": 0.34
+    },
+    "dar": {
+      "buckets": {
+        "dev": 533,
+        "invalidated": 96,
+        "other": 2611,
+        "test": 701,
+        "train": 1220,
+        "validated": 4120
+      },
+      "duration": 40751028,
+      "reportedSentences": 48,
+      "validatedSentences": 5960,
+      "unvalidatedSentences": 993,
+      "clips": 6827,
+      "splits": {
+        "accent": {
+          "": 280
+        },
+        "variant": {},
+        "age": {
+          "": 0.2369,
+          "twenties": 0.1548,
+          "teens": 0.0195,
+          "fourties": 0.2909,
+          "thirties": 0.0103,
+          "fifties": 0.2877
+        },
+        "gender": {
+          "female_feminine": 0.4415,
+          "": 0.5585
+        },
+        "sentence_domain": {
+          "general": 6057,
+          "healthcare": 67,
+          "media_entertainment": 2939,
+          "news_current_affairs": 2789,
+          "history_law_government": 1476,
+          "language_fundamentals": 45,
+          "agriculture_food": 448
+        }
+      },
+      "users": 34,
+      "size": 237985622,
+      "checksum": "02e2b7ab4a33d043a3e2e1df057e67052af3181a7f63c2feb5ffc2c00eaf49d7",
+      "avgDurationSecs": 5.969,
+      "validDurationSecs": 24592.681,
+      "totalHrs": 11.31,
+      "validHrs": 6.83
+    },
+    "de": {
+      "buckets": {
+        "dev": 99,
+        "invalidated": 109,
+        "other": 81,
+        "test": 491,
+        "train": 1013,
+        "validated": 1603
+      },
+      "duration": 10378764,
+      "reportedSentences": 73,
+      "validatedSentences": 2058021,
+      "unvalidatedSentences": 1621,
+      "clips": 1793,
+      "splits": {
+        "accent": {
+          "germany": 1547,
+          "switzerland": 49,
+          "": 25
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.0892,
+          "": 0.1818,
+          "fourties": 0.6146,
+          "fifties": 0.0335,
+          "twenties": 0.0502,
+          "sixties": 0.0056,
+          "teens": 0.0251
+        },
+        "gender": {
+          "": 0.2432,
+          "male_masculine": 0.696,
+          "female_feminine": 0.0608
+        },
+        "sentence_domain": {
+          "general": 1
+        }
+      },
+      "users": 65,
+      "size": 209135884,
+      "checksum": "572f0feda2057ac9cec56d522dddb94a1c5e6f9c07c2f46c543e4564e91d5d97",
+      "avgDurationSecs": 5.788,
+      "validDurationSecs": 9278.951,
+      "totalHrs": 2.88,
+      "validHrs": 2.57
+    },
+    "dml": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5670,
+      "unvalidatedSentences": 676,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 407139,
+      "checksum": "63ef03bb0a0ef1b9a92d7aa5fd014651f8bf98e89bdeff978b8a8568a700b4e5",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "dsb": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 796,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 57206,
+      "checksum": "1b34be4786ea92c87de9096b2d8de589a242f4b7ed936d6ad33dd2fcd4afe3b2",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "dv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 23,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 117360,
+      "reportedSentences": 0,
+      "validatedSentences": 7174,
+      "unvalidatedSentences": 9,
+      "clips": 23,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 1207629,
+      "checksum": "bafcd8e73bf0034f30be5f32cf40fe638bfbac55b0eced3de2faae936a8ade9e",
+      "avgDurationSecs": 5.103,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "ebr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 4968,
+      "reportedSentences": 0,
+      "validatedSentences": 872,
+      "unvalidatedSentences": 3,
+      "clips": 1,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 76177,
+      "checksum": "d7c5feb1e1fe24534db809e744910219cdde90f9f2a4c237566a118af41bbd92",
+      "avgDurationSecs": 4.968,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "el": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 1001,
+        "test": 0,
+        "train": 9,
+        "validated": 9
+      },
+      "duration": 4182300,
+      "reportedSentences": 0,
+      "validatedSentences": 8323,
+      "unvalidatedSentences": 3395,
+      "clips": 1011,
+      "splits": {
+        "accent": {
+          "": 961
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.9505,
+          "": 0.0247,
+          "fourties": 0.0247
+        },
+        "gender": {
+          "male_masculine": 0.9505,
+          "": 0.0247,
+          "female_feminine": 0.0247
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 25176917,
+      "checksum": "5ada3f647934569af523faceb64598b83b01cc8f9fe256889dd4f978ba94ce7b",
+      "avgDurationSecs": 4.137,
+      "validDurationSecs": 37.231,
+      "totalHrs": 1.16,
+      "validHrs": 0.01
+    },
+    "en": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 6283,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 39203820,
+      "reportedSentences": 39,
+      "validatedSentences": 1681626,
+      "unvalidatedSentences": 38860,
+      "clips": 6283,
+      "splits": {
+        "accent": {
+          "us": 786,
+          "": 138,
+          "indian": 489,
+          "canada": 883,
+          "england": 120,
+          "malaysia": 70,
+          "african": 30,
+          "ireland": 20,
+          "australia": 65,
+          "hongkong": 5,
+          "scotland": 40,
+          "bermuda": 5,
+          "philippines": 15
+        },
+        "variant": {},
+        "age": {
+          "": 0.2823,
+          "fourties": 0.0845,
+          "twenties": 0.1982,
+          "sixties": 0.1359,
+          "fifties": 0.1437,
+          "thirties": 0.0493,
+          "teens": 0.1046,
+          "seventies": 0.0013,
+          "eighties": 0.0002
+        },
+        "gender": {
+          "": 0.4881,
+          "female_feminine": 0.1265,
+          "male_masculine": 0.3381,
+          "do_not_wish_to_say": 0.0344,
+          "non-binary": 0.007,
+          "transgender": 0.0059
+        },
+        "sentence_domain": {
+          "general": 16,
+          "nature_environment": 6,
+          "media_entertainment": 2,
+          "history_law_government": 3,
+          "agriculture_food": 5,
+          "technology_robotics": 3,
+          "healthcare": 1,
+          "service_retail": 2,
+          "language_fundamentals": 1
+        }
+      },
+      "users": 458,
+      "size": 348680812,
+      "checksum": "f6e34487c05f184cc6353d8e3d01f89c466a4cf31ff2458d669d8ad576d84504",
+      "avgDurationSecs": 6.24,
+      "validDurationSecs": 0,
+      "totalHrs": 10.88,
+      "validHrs": 0
+    },
+    "eo": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5702,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 40955508,
+      "reportedSentences": 11,
+      "validatedSentences": 181254,
+      "unvalidatedSentences": 21774,
+      "clips": 5702,
+      "splits": {
+        "accent": {
+          "internacia": 3698
+        },
+        "variant": {},
+        "age": {
+          "": 0.0465,
+          "sixties": 0.0044,
+          "eighties": 0.6433,
+          "fifties": 0.2997,
+          "twenties": 0.0053,
+          "fourties": 0.0009
+        },
+        "gender": {
+          "": 0.0509,
+          "male_masculine": 0.9474,
+          "female_feminine": 0.0018
+        },
+        "sentence_domain": {}
+      },
+      "users": 19,
+      "size": 255116436,
+      "checksum": "893bf242421c7ade5f4e7e8a94f465d04c19fca4697ba206c014e6f75bee7f4a",
+      "avgDurationSecs": 7.183,
+      "validDurationSecs": 0,
+      "totalHrs": 11.37,
+      "validHrs": 0
+    },
+    "es": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 2682,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 15050268,
+      "reportedSentences": 5,
+      "validatedSentences": 1082350,
+      "unvalidatedSentences": 4883,
+      "clips": 2682,
+      "splits": {
+        "accent": {
+          "canario": 349,
+          "centrosurpeninsular": 167,
+          "rioplatense": 49,
+          "mexicano": 10,
+          "andino": 5,
+          "surpeninsular": 1482,
+          "nortepeninsular": 394,
+          "": 399,
+          "chileno": 10
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.1342,
+          "teens": 0.1536,
+          "": 0.1577,
+          "fifties": 0.0261,
+          "sixties": 0.5283
+        },
+        "gender": {
+          "": 0.456,
+          "female_feminine": 0.0101,
+          "male_masculine": 0.5339
+        },
+        "sentence_domain": {
+          "history_law_government": 4,
+          "general": 3,
+          "news_current_affairs": 1,
+          "nature_environment": 1,
+          "finance": 1
+        }
+      },
+      "users": 62,
+      "size": 162315844,
+      "checksum": "9e509c007795ea1c567595c00e527d02b5781f0c7fd76b73599826a235d6b2b7",
+      "avgDurationSecs": 5.612,
+      "validDurationSecs": 0,
+      "totalHrs": 4.18,
+      "validHrs": 0
+    },
+    "esu": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 6929,
+      "unvalidatedSentences": 5,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 315041,
+      "checksum": "b68960248bb8370fe04c5d38d848a25d2a03d61bfeb7ae910f8a2f198ac2a68a",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "et": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 11090,
+      "unvalidatedSentences": 1876,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 1116287,
+      "checksum": "9b4445b9069ec7f690142d89d931d27e2d11f4bff4150ad9e5647d41273535a6",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "eto": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 966,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 47123,
+      "checksum": "000418278bbe31e3e93049d218f75d16dd83f49fe0b805a4739a099604064cc4",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "eu": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 281,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1625076,
+      "reportedSentences": 0,
+      "validatedSentences": 1018163,
+      "unvalidatedSentences": 12815,
+      "clips": 281,
+      "splits": {
+        "accent": {
+          "mendebalekoa": 135,
+          "erdialdekoa_nafarra": 26
+        },
+        "variant": {},
+        "age": {
+          "": 0.4484,
+          "fourties": 0.5516
+        },
+        "gender": {
+          "": 0.4484,
+          "male_masculine": 0.4804,
+          "female_feminine": 0.0712
+        },
+        "sentence_domain": {
+          "general": 284
+        }
+      },
+      "users": 6,
+      "size": 77168125,
+      "checksum": "191344386999daf84d4435948599b10d7226a60be281919352ad6bcb44854b9d",
+      "avgDurationSecs": 5.783,
+      "validDurationSecs": 0,
+      "totalHrs": 0.45,
+      "validHrs": 0
+    },
+    "fa": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 886,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2428236,
+      "reportedSentences": 7,
+      "validatedSentences": 57812,
+      "unvalidatedSentences": 283439,
+      "clips": 886,
+      "splits": {
+        "accent": {
+          "": 1168
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.8307,
+          "teens": 0.0023,
+          "": 0.1445,
+          "thirties": 0.0226
+        },
+        "gender": {
+          "": 0.3409,
+          "male_masculine": 0.6591
+        },
+        "sentence_domain": {
+          "nature_environment": 1,
+          "general": 1,
+          "automotive_transport": 1
+        }
+      },
+      "users": 17,
+      "size": 31139265,
+      "checksum": "95e09979cff6c52b2f131b38b4c428e07df0698c8f239a07cd28592d7aa8eef7",
+      "avgDurationSecs": 2.741,
+      "validDurationSecs": 0,
+      "totalHrs": 0.67,
+      "validHrs": 0
+    },
+    "fan": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1005,
+      "unvalidatedSentences": 1,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 49060,
+      "checksum": "908cad9aa0b7350bfb7bb2254f7b3d43741b2c4cb5032d28ad12ad75a948f2a9",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "fi": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 35,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 200232,
+      "reportedSentences": 0,
+      "validatedSentences": 5865,
+      "unvalidatedSentences": 49163,
+      "clips": 35,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.4286,
+          "fourties": 0.5714
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 4999288,
+      "checksum": "03dd288fa2fb305b57b502d5a2280a5dcd9df1a0935788d93ee3cbdd089a5b66",
+      "avgDurationSecs": 5.721,
+      "validDurationSecs": 0,
+      "totalHrs": 0.05,
+      "validHrs": 0
+    },
+    "fr": {
+      "buckets": {
+        "dev": 199,
+        "invalidated": 86,
+        "other": 7720,
+        "test": 231,
+        "train": 323,
+        "validated": 753
+      },
+      "duration": 44964180,
+      "reportedSentences": 24,
+      "validatedSentences": 1649097,
+      "unvalidatedSentences": 43765,
+      "clips": 8559,
+      "splits": {
+        "accent": {
+          "martinique": 10,
+          "fr-metro-east": 5,
+          "fr-metro-west": 34,
+          "fr-metro-south": 55,
+          "canada": 110,
+          "belgium": 23,
+          "": 285,
+          "tunisia": 25,
+          "fr-metro-north": 5,
+          "algeria": 5,
+          "morocco": 15,
+          "switzerland": 5
+        },
+        "variant": {
+          "fr-metro": 7740,
+          "fr-europe": 137,
+          "fr-namerica": 110,
+          "fr-nafrica": 40
+        },
+        "age": {
+          "fifties": 0.083,
+          "": 0.0672,
+          "fourties": 0.7781,
+          "thirties": 0.0285,
+          "teens": 0.0025,
+          "twenties": 0.0383,
+          "sixties": 0.0025
+        },
+        "gender": {
+          "male_masculine": 0.8691,
+          "": 0.1168,
+          "female_feminine": 0.014
+        },
+        "sentence_domain": {
+          "media_entertainment": 1
+        }
+      },
+      "users": 87,
+      "size": 380533321,
+      "checksum": "b19cf28336e60c76ccea67140885d8ca898f59bd824552a6ab3df28f93c8cce0",
+      "avgDurationSecs": 5.253,
+      "validDurationSecs": 3955.839,
+      "totalHrs": 12.49,
+      "validHrs": 1.09
+    },
+    "fub": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 55,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 160704,
+      "reportedSentences": 0,
+      "validatedSentences": 1067,
+      "unvalidatedSentences": 0,
+      "clips": 55,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "twenties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 1005713,
+      "checksum": "afceb52744d66111128b1bd3f73c4021ca8a2fb3e5aeb9efc44108eea6f6c06d",
+      "avgDurationSecs": 2.922,
+      "validDurationSecs": 0,
+      "totalHrs": 0.04,
+      "validHrs": 0
+    },
+    "fy-NL": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 14,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 56340,
+      "reportedSentences": 1,
+      "validatedSentences": 10902,
+      "unvalidatedSentences": 15,
+      "clips": 14,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "agriculture_food": 13,
+          "history_law_government": 9,
+          "media_entertainment": 13,
+          "language_fundamentals": 4,
+          "news_current_affairs": 1,
+          "finance": 1,
+          "general": 1
+        }
+      },
+      "users": 1,
+      "size": 1021699,
+      "checksum": "a42cc3bc49e99313a7ba015801e45502b30b811d56378177d358d8bfd94c7a1e",
+      "avgDurationSecs": 4.024,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "ga-IE": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 100,
+        "test": 0,
+        "train": 4,
+        "validated": 4
+      },
+      "duration": 680580,
+      "reportedSentences": 0,
+      "validatedSentences": 4883,
+      "unvalidatedSentences": 1471,
+      "clips": 105,
+      "splits": {
+        "accent": {
+          "cainteoir_líofa_ní_ó_dhúchas": 35,
+          "cainteoir_dúchais_gaeltacht": 35
+        },
+        "variant": {
+          "ga-IE-chonnact": 10,
+          "ga-IE-mumhan": 60
+        },
+        "age": {
+          "": 0.6667,
+          "fourties": 0.3333
+        },
+        "gender": {
+          "": 0.6667,
+          "female_feminine": 0.3333
+        },
+        "sentence_domain": {
+          "general": 9,
+          "news_current_affairs": 2,
+          "history_law_government": 2,
+          "media_entertainment": 2,
+          "automotive_transport": 1,
+          "agriculture_food": 1,
+          "service_retail": 2
+        }
+      },
+      "users": 9,
+      "size": 4143437,
+      "checksum": "10aa15e6beb4296205741335b93a0b77c065d4443021b4e04b4424febdc89770",
+      "avgDurationSecs": 6.482,
+      "validDurationSecs": 25.927,
+      "totalHrs": 0.18,
+      "validHrs": 0
+    },
+    "gjk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 2004,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 118386,
+      "checksum": "ef2c0e7ad7a7bf178c13e118b378de3d0de9bd6fe6cdaa97374d85be3b691a0a",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "gju": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 3888,
+      "reportedSentences": 0,
+      "validatedSentences": 3852,
+      "unvalidatedSentences": 2,
+      "clips": 1,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "twenties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 243368,
+      "checksum": "224afb93352f334e2c814809e03f0aa1dde53e9baaaecbb32a7d035015775912",
+      "avgDurationSecs": 3.888,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "gl": {
+      "buckets": {
+        "dev": 1237,
+        "invalidated": 495,
+        "other": 10941,
+        "test": 1815,
+        "train": 4159,
+        "validated": 7211
+      },
+      "duration": 98078076,
+      "reportedSentences": 83,
+      "validatedSentences": 1002019,
+      "unvalidatedSentences": 3817,
+      "clips": 18647,
+      "splits": {
+        "accent": {
+          "central": 5880,
+          "normativo": 4265,
+          "oriental": 160,
+          "atlantico": 5363,
+          "neofalante": 1367,
+          "": 15
+        },
+        "variant": {},
+        "age": {
+          "fifties": 0.2453,
+          "": 0.0829,
+          "teens": 0.2245,
+          "twenties": 0.4209,
+          "fourties": 0.0046,
+          "thirties": 0.0048,
+          "sixties": 0.0169
+        },
+        "gender": {
+          "": 0.5542,
+          "female_feminine": 0.4458
+        },
+        "sentence_domain": {
+          "general": 5,
+          "agriculture_food": 1
+        }
+      },
+      "users": 203,
+      "size": 647743404,
+      "checksum": "ab3895555077841aa76659f7fb5a84c201498e8b57ef6ccf7986bb8ca55cfc3b",
+      "avgDurationSecs": 5.26,
+      "validDurationSecs": 37927.871,
+      "totalHrs": 27.24,
+      "validHrs": 10.53
+    },
+    "gn": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5894,
+      "unvalidatedSentences": 301,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 345415,
+      "checksum": "bff89885263971fa32424cc35188812a693c4b2266b3f55b942f407f7517da05",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "gsw": {
+      "buckets": {
+        "dev": 9,
+        "invalidated": 2,
+        "other": 277,
+        "test": 9,
+        "train": 14,
+        "validated": 63
+      },
+      "duration": 1953612,
+      "reportedSentences": 0,
+      "validatedSentences": 87,
+      "unvalidatedSentences": 5,
+      "clips": 342,
+      "splits": {
+        "accent": {},
+        "variant": {
+          "gsw-FR-nordalem": 158,
+          "gsw-FR-sudnalem": 5,
+          "gsw-FR-rhinfran": 38
+        },
+        "age": {
+          "fourties": 0.1316,
+          "sixties": 0.5175,
+          "thirties": 0.1257,
+          "fifties": 0.2105,
+          "": 0.0146
+        },
+        "gender": {
+          "": 0.5585,
+          "female_feminine": 0.4415
+        },
+        "sentence_domain": {
+          "media_entertainment": 181,
+          "general": 154,
+          "service_retail": 14,
+          "news_current_affairs": 10,
+          "healthcare": 13,
+          "history_law_government": 2
+        }
+      },
+      "users": 14,
+      "size": 11460447,
+      "checksum": "0c44c4976bc48bfbc403377fc6b17fd30e2f9f742f96ed6b1736928bd65cfed1",
+      "avgDurationSecs": 5.712,
+      "validDurationSecs": 359.876,
+      "totalHrs": 0.54,
+      "validHrs": 0.09
+    },
+    "gv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4219,
+      "unvalidatedSentences": 21,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 296539,
+      "checksum": "eeeaf5fe44ef8b97f3f57821852af43e28bcb7b27a9a04065aca37e789360769",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "haz": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 24156,
+      "reportedSentences": 0,
+      "validatedSentences": 1361,
+      "unvalidatedSentences": 0,
+      "clips": 5,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "twenties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 225655,
+      "checksum": "c2bcaef5d3dfc2e36b3bb5cbd36a1aafb4ee34de7c08df29889a6bacf719906c",
+      "avgDurationSecs": 4.831,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "he": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 34,
+        "test": 0,
+        "train": 2,
+        "validated": 2
+      },
+      "duration": 170856,
+      "reportedSentences": 0,
+      "validatedSentences": 4188,
+      "unvalidatedSentences": 6836,
+      "clips": 36,
+      "splits": {
+        "accent": {
+          "": 48
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.4444,
+          "twenties": 0.1389,
+          "": 0.4167
+        },
+        "gender": {
+          "male_masculine": 0.4444,
+          "female_feminine": 0.1389,
+          "": 0.4167
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 1810591,
+      "checksum": "b6067a9e98c1496def4fabf18fbd6562bcb20782c1ee30328d8cc7d4cd4d5db5",
+      "avgDurationSecs": 4.746,
+      "validDurationSecs": 9.492,
+      "totalHrs": 0.04,
+      "validHrs": 0
+    },
+    "hi": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 525,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 3170340,
+      "reportedSentences": 0,
+      "validatedSentences": 32204,
+      "unvalidatedSentences": 9965,
+      "clips": 525,
+      "splits": {
+        "accent": {
+          "": 10
+        },
+        "variant": {},
+        "age": {
+          "": 0.0286,
+          "fourties": 0.9714
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 4,
+      "size": 21636029,
+      "checksum": "9786ea917b771acfb1f62c85a80b1c8cfbd0c25d0957b551e5247f4203cc8f8e",
+      "avgDurationSecs": 6.039,
+      "validDurationSecs": 0,
+      "totalHrs": 0.88,
+      "validHrs": 0
+    },
+    "hsb": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 2221,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 18995400,
+      "reportedSentences": 0,
+      "validatedSentences": 7182,
+      "unvalidatedSentences": 540,
+      "clips": 2221,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "fifties": 0.0252,
+          "": 0.9703,
+          "fourties": 0.0045
+        },
+        "gender": {
+          "female_feminine": 0.0297,
+          "": 0.9703
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 113087808,
+      "checksum": "3948668a6aee7ff3a07b9a1d2c8e94b216de746ef1c3fe8dade7d9cce1226fe9",
+      "avgDurationSecs": 8.553,
+      "validDurationSecs": 0,
+      "totalHrs": 5.27,
+      "validHrs": 0
+    },
+    "ht": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 76,
+      "unvalidatedSentences": 1629,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 104563,
+      "checksum": "7466b216c60b685ec58c658e0757865ff7d01b4dc1c42ad9c289c3b567a225fa",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "hu": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 36,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 228024,
+      "reportedSentences": 0,
+      "validatedSentences": 326531,
+      "unvalidatedSentences": 232,
+      "clips": 36,
+      "splits": {
+        "accent": {
+          "": 30
+        },
+        "variant": {},
+        "age": {
+          "": 0.4167,
+          "eighties": 0.0278,
+          "fourties": 0.1389,
+          "sixties": 0.1389,
+          "fifties": 0.2778
+        },
+        "gender": {
+          "": 0.5556,
+          "male_masculine": 0.1667,
+          "female_feminine": 0.2778
+        },
+        "sentence_domain": {
+          "general": 4,
+          "history_law_government": 1
+        }
+      },
+      "users": 5,
+      "size": 23390263,
+      "checksum": "b5d15819541c59f46af285b246ccdd870cab4acc434104f8046e874d9472c74b",
+      "avgDurationSecs": 6.334,
+      "validDurationSecs": 0,
+      "totalHrs": 0.06,
+      "validHrs": 0
+    },
+    "hy-AM": {
+      "buckets": {
+        "dev": 1,
+        "invalidated": 3,
+        "other": 809,
+        "test": 1,
+        "train": 2,
+        "validated": 4
+      },
+      "duration": 4512312,
+      "reportedSentences": 1,
+      "validatedSentences": 237419,
+      "unvalidatedSentences": 1377,
+      "clips": 816,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.9461,
+          "teens": 0.0539
+        },
+        "gender": {
+          "": 0.989,
+          "male_masculine": 0.011
+        },
+        "sentence_domain": {}
+      },
+      "users": 145,
+      "size": 44492527,
+      "checksum": "53f3b83f290e012be25d8c4677c285b8f241e9bc0244edae058b0cb48f2846c7",
+      "avgDurationSecs": 5.53,
+      "validDurationSecs": 22.119,
+      "totalHrs": 1.25,
+      "validHrs": 0
+    },
+    "ia": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 9069,
+      "unvalidatedSentences": 144,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 510707,
+      "checksum": "6d26381acdb788717283097fcf646c1434bd1588cd50b635f9efb3b905394bf1",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "id": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 900,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2826684,
+      "reportedSentences": 0,
+      "validatedSentences": 13321,
+      "unvalidatedSentences": 11861,
+      "clips": 900,
+      "splits": {
+        "accent": {
+          "": 50
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.8278,
+          "": 0.1111,
+          "thirties": 0.0611
+        },
+        "gender": {
+          "": 0.8622,
+          "female_feminine": 0.1267,
+          "do_not_wish_to_say": 0.0111
+        },
+        "sentence_domain": {}
+      },
+      "users": 13,
+      "size": 17991685,
+      "checksum": "f6dd5e2c9d2814210061b321be1521f1f81be9293cb81adb814eaee9e5564e11",
+      "avgDurationSecs": 3.141,
+      "validDurationSecs": 0,
+      "totalHrs": 0.78,
+      "validHrs": 0
+    },
+    "ig": {
+      "buckets": {
+        "dev": 37,
+        "invalidated": 12,
+        "other": 3444,
+        "test": 65,
+        "train": 130,
+        "validated": 232
+      },
+      "duration": 19626480,
+      "reportedSentences": 26,
+      "validatedSentences": 15294,
+      "unvalidatedSentences": 3099,
+      "clips": 3688,
+      "splits": {
+        "accent": {
+          "": 996
+        },
+        "variant": {},
+        "age": {
+          "": 0.0241,
+          "teens": 0.1762,
+          "twenties": 0.5488,
+          "thirties": 0.2508
+        },
+        "gender": {
+          "": 0.1329,
+          "female_feminine": 0.8671
+        },
+        "sentence_domain": {
+          "agriculture_food": 1,
+          "media_entertainment": 1,
+          "language_fundamentals": 1
+        }
+      },
+      "users": 26,
+      "size": 111667171,
+      "checksum": "e0af5fcd2bcad7455d56149ad2e352f836ef440a68289572bbf624ed02a8fac6",
+      "avgDurationSecs": 5.322,
+      "validDurationSecs": 1234.638,
+      "totalHrs": 5.45,
+      "validHrs": 0.34
+    },
+    "is": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5083,
+      "unvalidatedSentences": 113,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 379284,
+      "checksum": "efe4ae19b47fc5772f9ab254bda4265a736c2bd90deed6f90497af64d6b3f266",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "it": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1601,
+        "test": 2,
+        "train": 20,
+        "validated": 22
+      },
+      "duration": 9336456,
+      "reportedSentences": 0,
+      "validatedSentences": 925138,
+      "unvalidatedSentences": 908,
+      "clips": 1623,
+      "splits": {
+        "accent": {
+          "": 227
+        },
+        "variant": {},
+        "age": {
+          "sixties": 0.5742,
+          "": 0.2914,
+          "fourties": 0.0123,
+          "twenties": 0.1066,
+          "fifties": 0.0062,
+          "teens": 0.0092
+        },
+        "gender": {
+          "male_masculine": 0.5835,
+          "": 0.4165
+        },
+        "sentence_domain": {}
+      },
+      "users": 19,
+      "size": 119182588,
+      "checksum": "56f8695881ba684a95df8457bd1150c86cbac718d6ff1f5f66ebc5887c403cce",
+      "avgDurationSecs": 5.753,
+      "validDurationSecs": 126.557,
+      "totalHrs": 2.59,
+      "validHrs": 0.03
+    },
+    "ja": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 249,
+        "other": 26657,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 113164416,
+      "reportedSentences": 6,
+      "validatedSentences": 43942,
+      "unvalidatedSentences": 7265,
+      "clips": 26906,
+      "splits": {
+        "accent": {
+          "": 3197
+        },
+        "variant": {},
+        "age": {
+          "fifties": 0.0827,
+          "": 0.1658,
+          "fourties": 0.1247,
+          "twenties": 0.4505,
+          "thirties": 0.1076,
+          "teens": 0.0293,
+          "sixties": 0.0394
+        },
+        "gender": {
+          "female_feminine": 0.4866,
+          "do_not_wish_to_say": 0.0234,
+          "": 0.4706,
+          "non-binary": 0.0044,
+          "intersex": 0.0027,
+          "male_masculine": 0.0123
+        },
+        "sentence_domain": {
+          "general": 2817,
+          "agriculture_food": 1021,
+          "automotive_transport": 242,
+          "healthcare": 379,
+          "nature_environment": 222,
+          "media_entertainment": 299,
+          "language_fundamentals": 296,
+          "finance": 209,
+          "news_current_affairs": 97,
+          "history_law_government": 229,
+          "service_retail": 90,
+          "technology_robotics": 32
+        }
+      },
+      "users": 338,
+      "size": 667850538,
+      "checksum": "b76d4a72b8f65bdf4e36e3ad8cc28260fbead7094b775fb94f5b176af6576ca8",
+      "avgDurationSecs": 4.206,
+      "validDurationSecs": 0,
+      "totalHrs": 31.43,
+      "validHrs": 0
+    },
+    "ka": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 59,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 365040,
+      "reportedSentences": 0,
+      "validatedSentences": 132630,
+      "unvalidatedSentences": 1891,
+      "clips": 59,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 0.1695,
+          "teens": 0.0169,
+          "": 0.8136
+        },
+        "gender": {
+          "female_feminine": 0.1695,
+          "male_masculine": 0.0169,
+          "": 0.8136
+        },
+        "sentence_domain": {
+          "automotive_transport": 1
+        }
+      },
+      "users": 9,
+      "size": 13029189,
+      "checksum": "c5a14653c6efc68373cf7f1dbe39be86d6a6620d08ff5561bcc0e62c79d86d97",
+      "avgDurationSecs": 6.187,
+      "validDurationSecs": 0,
+      "totalHrs": 0.1,
+      "validHrs": 0
+    },
+    "kab": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 38,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 218916,
+      "reportedSentences": 14,
+      "validatedSentences": 182810,
+      "unvalidatedSentences": 205847,
+      "clips": 38,
+      "splits": {
+        "accent": {
+          "": 5
+        },
+        "variant": {},
+        "age": {
+          "": 0.6053,
+          "twenties": 0.3947
+        },
+        "gender": {
+          "": 0.6053,
+          "male_masculine": 0.3947
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 24184598,
+      "checksum": "fc6c2b714dc3f536faca87e4160c409b64c85fd8e3dc0b442760592b873f4e73",
+      "avgDurationSecs": 5.761,
+      "validDurationSecs": 0,
+      "totalHrs": 0.06,
+      "validHrs": 0
+    },
+    "kbd": {
+      "buckets": {
+        "dev": 6039,
+        "invalidated": 74,
+        "other": 8376,
+        "test": 6749,
+        "train": 13886,
+        "validated": 47672
+      },
+      "duration": 350012088,
+      "reportedSentences": 636,
+      "validatedSentences": 30253,
+      "unvalidatedSentences": 2390,
+      "clips": 56122,
+      "splits": {
+        "accent": {
+          "bakhsan": 9795,
+          "terek": 8202,
+          "": 5,
+          "kuban_zelenchuk": 1206,
+          "kuban": 150,
+          "malka": 35,
+          "besleney": 6
+        },
+        "variant": {
+          "kbd-Cyrl": 34472,
+          "kbd-RU": 1322
+        },
+        "age": {
+          "fifties": 0.2327,
+          "": 0.1179,
+          "twenties": 0.3424,
+          "thirties": 0.202,
+          "fourties": 0.0637,
+          "sixties": 0.0019,
+          "teens": 0.0395
+        },
+        "gender": {
+          "": 0.6869,
+          "female_feminine": 0.313,
+          "male_masculine": 0.0001
+        },
+        "sentence_domain": {
+          "general": 58162,
+          "history_law_government": 44,
+          "agriculture_food": 3,
+          "nature_environment": 2,
+          "media_entertainment": 2,
+          "news_current_affairs": 1,
+          "automotive_transport": 1
+        }
+      },
+      "users": 97,
+      "size": 2014820740,
+      "checksum": "7b6c8bcec05f59338ac7cff86d333288e3405eb3209dcfa3450d4e6e802eff4d",
+      "avgDurationSecs": 6.237,
+      "validDurationSecs": 297312.574,
+      "totalHrs": 97.22,
+      "validHrs": 82.58
+    },
+    "khw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 7051,
+      "unvalidatedSentences": 200,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 547008,
+      "checksum": "d0a5d99abd16419bea97c3174e2d33b991f5382cf3f9ca9fe76e05ef720d2960",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "kk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 4,
+        "other": 74,
+        "test": 0,
+        "train": 6,
+        "validated": 6
+      },
+      "duration": 454572,
+      "reportedSentences": 1,
+      "validatedSentences": 6229,
+      "unvalidatedSentences": 241,
+      "clips": 84,
+      "splits": {
+        "accent": {
+          "": 59
+        },
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 8,
+      "size": 3087610,
+      "checksum": "10a2eca0d05077de517d3672e4e6cdb7608ff603959cdbbdb76d97371c1795ec",
+      "avgDurationSecs": 5.412,
+      "validDurationSecs": 32.469,
+      "totalHrs": 0.12,
+      "validHrs": 0
+    },
+    "kls": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 3912,
+      "unvalidatedSentences": 4,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 182167,
+      "checksum": "dfe6d0e5d9921b45666ea93838ebd30f10831ebf0cd528b403f30eca5d0686dc",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "kmr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1073,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 6316776,
+      "reportedSentences": 2,
+      "validatedSentences": 17030,
+      "unvalidatedSentences": 1132,
+      "clips": 1073,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "fourties": 0.0186,
+          "": 0.0261,
+          "fifties": 0.2283,
+          "twenties": 0.7269
+        },
+        "gender": {
+          "male_masculine": 0.0186,
+          "": 0.9814
+        },
+        "sentence_domain": {
+          "nature_environment": 2,
+          "general": 2,
+          "healthcare": 1,
+          "agriculture_food": 1,
+          "media_entertainment": 1
+        }
+      },
+      "users": 9,
+      "size": 38234707,
+      "checksum": "0e524bcd1c5380f9067b727789455f3a327b2d94a5304ceefa22f4a949a5d82f",
+      "avgDurationSecs": 5.887,
+      "validDurationSecs": 0,
+      "totalHrs": 1.75,
+      "validHrs": 0
+    },
+    "ko": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 105,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 363132,
+      "reportedSentences": 0,
+      "validatedSentences": 7401,
+      "unvalidatedSentences": 2623,
+      "clips": 106,
+      "splits": {
+        "accent": {
+          "": 11
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.3868,
+          "": 0.6132
+        },
+        "gender": {
+          "female_feminine": 0.0943,
+          "": 0.9057
+        },
+        "sentence_domain": {}
+      },
+      "users": 6,
+      "size": 2759111,
+      "checksum": "0697b919890c81e3376e2b3145ac3df99495977f4b93fd59997bbf90f2a6bc92",
+      "avgDurationSecs": 3.426,
+      "validDurationSecs": 0,
+      "totalHrs": 0.1,
+      "validHrs": 0
+    },
+    "ky": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 27828,
+      "reportedSentences": 0,
+      "validatedSentences": 5047,
+      "unvalidatedSentences": 240,
+      "clips": 5,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 526683,
+      "checksum": "7935c37242cff7ed11ea110ce6a1a844fc472bfa04e19cc9a4cff89bb3fb0c04",
+      "avgDurationSecs": 5.566,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "lg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 10,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 71172,
+      "reportedSentences": 0,
+      "validatedSentences": 191409,
+      "unvalidatedSentences": 179,
+      "clips": 10,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 12708652,
+      "checksum": "e9a1884c2881c9d31024b8b2fcac5b7a730efae6cc1e81544052fad68e5fe951",
+      "avgDurationSecs": 7.117,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "lo": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5145,
+      "unvalidatedSentences": 5926,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 873643,
+      "checksum": "b8fc68296422ca249667bb23ce5ec23ea3024233425db2082862ac8688d6ba24",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "lt": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 24,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 149112,
+      "reportedSentences": 0,
+      "validatedSentences": 129304,
+      "unvalidatedSentences": 4821,
+      "clips": 24,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.625,
+          "fourties": 0.375
+        },
+        "gender": {
+          "": 0.625,
+          "male_masculine": 0.375
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 9654441,
+      "checksum": "118b4b717a2d52e4c5146962b10bc9839f9a94d2c218e4786cacf5d2907f68c0",
+      "avgDurationSecs": 6.213,
+      "validDurationSecs": 0,
+      "totalHrs": 0.04,
+      "validHrs": 0
+    },
+    "ltg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 113,
+        "test": 0,
+        "train": 3,
+        "validated": 3
+      },
+      "duration": 833400,
+      "reportedSentences": 1,
+      "validatedSentences": 15086,
+      "unvalidatedSentences": 2268,
+      "clips": 116,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 0.7845,
+          "": 0.2155
+        },
+        "gender": {
+          "female_feminine": 0.7845,
+          "": 0.2155
+        },
+        "sentence_domain": {
+          "general": 138,
+          "agriculture_food": 1,
+          "history_law_government": 23,
+          "service_retail": 1
+        }
+      },
+      "users": 6,
+      "size": 6152790,
+      "checksum": "a7fb80061ece7239b20047135af2e7bc27a75526b3103c0735301f6eceb1678d",
+      "avgDurationSecs": 7.184,
+      "validDurationSecs": 21.553,
+      "totalHrs": 0.23,
+      "validHrs": 0
+    },
+    "lv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 946,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 6078600,
+      "reportedSentences": 0,
+      "validatedSentences": 34635,
+      "unvalidatedSentences": 64972,
+      "clips": 946,
+      "splits": {
+        "accent": {
+          "": 155
+        },
+        "variant": {},
+        "age": {
+          "": 0.1184,
+          "thirties": 0.1057,
+          "fifties": 0.0211,
+          "fourties": 0.0899,
+          "twenties": 0.6649
+        },
+        "gender": {
+          "": 0.2188,
+          "female_feminine": 0.7548,
+          "male_masculine": 0.0264
+        },
+        "sentence_domain": {
+          "general": 28,
+          "technology_robotics": 2,
+          "nature_environment": 1,
+          "history_law_government": 1,
+          "media_entertainment": 1
+        }
+      },
+      "users": 21,
+      "size": 40953596,
+      "checksum": "536fe8e784704957cdfd81cfed38052faf6e8c0a783b3744ec7259e41a1a436f",
+      "avgDurationSecs": 6.426,
+      "validDurationSecs": 0,
+      "totalHrs": 1.68,
+      "validHrs": 0
+    },
+    "lzz": {
+      "buckets": {
+        "dev": 2700,
+        "invalidated": 535,
+        "other": 862,
+        "test": 3187,
+        "train": 4473,
+        "validated": 14293
+      },
+      "duration": 74556324,
+      "reportedSentences": 16,
+      "validatedSentences": 30216,
+      "unvalidatedSentences": 16402,
+      "clips": 15690,
+      "splits": {
+        "accent": {
+          "vitzuri": 2496,
+          "xopuri": 4325,
+          "": 3983,
+          "atinuri": 593,
+          "arkaburi": 162,
+          "artaşenuri": 2667
+        },
+        "variant": {
+          "lzz-arkaburi": 2904,
+          "lzz-xopuri": 4812,
+          "lzz-atinuri": 4274
+        },
+        "age": {
+          "sixties": 0.2081,
+          "fifties": 0.2693,
+          "fourties": 0.1115,
+          "": 0.3474,
+          "thirties": 0.0369,
+          "twenties": 0.0256,
+          "teens": 0.001,
+          "seventies": 0.0002
+        },
+        "gender": {
+          "": 0.7602,
+          "female_feminine": 0.2398
+        },
+        "sentence_domain": {
+          "general": 16252,
+          "nature_environment": 850,
+          "news_current_affairs": 232,
+          "language_fundamentals": 37,
+          "finance": 4,
+          "agriculture_food": 6,
+          "healthcare": 4,
+          "automotive_transport": 4
+        }
+      },
+      "users": 84,
+      "size": 427822859,
+      "checksum": "46014a19d0ca2834a2bea0d180a6f914661f50f4d0e8899366181a58e631610b",
+      "avgDurationSecs": 4.752,
+      "validDurationSecs": 67918.008,
+      "totalHrs": 20.71,
+      "validHrs": 18.86
+    },
+    "mcf": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 997,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 47883,
+      "checksum": "536d9a0199ffdc005fa9ed53220b5bcdcff5e9ff274102ea09ff626f9be69570",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "mcn": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 959,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 54119,
+      "checksum": "a74bcebbe2f6b4e7827fc4ee23a2b510cd9fa88b234919a571725e91ae7d8c95",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "mgg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 30348,
+      "reportedSentences": 0,
+      "validatedSentences": 991,
+      "unvalidatedSentences": 0,
+      "clips": 5,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 209303,
+      "checksum": "e47579c1f2e74652b21576309c50496062dbc40a8ae48acaadd132293d5e75af",
+      "avgDurationSecs": 6.07,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "mk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 227,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1101600,
+      "reportedSentences": 0,
+      "validatedSentences": 6123,
+      "unvalidatedSentences": 571,
+      "clips": 227,
+      "splits": {
+        "accent": {
+          "": 66
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.1013,
+          "": 0.0661,
+          "twenties": 0.8326
+        },
+        "gender": {
+          "male_masculine": 0.1013,
+          "": 0.8987
+        },
+        "sentence_domain": {
+          "history_law_government": 2,
+          "general": 8,
+          "technology_robotics": 1
+        }
+      },
+      "users": 3,
+      "size": 6976707,
+      "checksum": "9f219159c8c2a979c70eb0766ab3c1a620427b27206a1386c852da73b4d74936",
+      "avgDurationSecs": 4.853,
+      "validDurationSecs": 0,
+      "totalHrs": 0.3,
+      "validHrs": 0
+    },
+    "mki": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 2055,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 102551,
+      "checksum": "cc8449fe73e20ecdd3ccc00d2194859299fb2df7747ba8bd69b3f0760fac393a",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ml": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5487,
+      "unvalidatedSentences": 4728,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 797795,
+      "checksum": "712a9391a15b5f4979fe84b03b39b0144bc76886657fccf3f76c52ce5b618781",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "mn": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 14,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 72396,
+      "reportedSentences": 0,
+      "validatedSentences": 6099,
+      "unvalidatedSentences": 15,
+      "clips": 14,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "twenties": 0.5714,
+          "": 0.4286
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "healthcare": 2,
+          "history_law_government": 1,
+          "general": 2,
+          "nature_environment": 4,
+          "media_entertainment": 1,
+          "language_fundamentals": 1,
+          "news_current_affairs": 1
+        }
+      },
+      "users": 3,
+      "size": 906606,
+      "checksum": "23b3173b107929f514b666b6c5b12b056c3c9853f77745daf9474a8b20217453",
+      "avgDurationSecs": 5.171,
+      "validDurationSecs": 0,
+      "totalHrs": 0.02,
+      "validHrs": 0
+    },
+    "mr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 6717,
+      "unvalidatedSentences": 12102,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 1547961,
+      "checksum": "d6a11c4600ee939e2cc1a1b2bcd14cac58719b1d1fa60aedb8f57945bc10063a",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ms": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 35,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 259056,
+      "reportedSentences": 0,
+      "validatedSentences": 257,
+      "unvalidatedSentences": 41,
+      "clips": 35,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 1191423,
+      "checksum": "2bfb74cfda180b1430c5c516baf4df1e5b2cf36f3466497b37fcef980734b4a5",
+      "avgDurationSecs": 7.402,
+      "validDurationSecs": 0,
+      "totalHrs": 0.07,
+      "validHrs": 0
+    },
+    "mt": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 140,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 572652,
+      "reportedSentences": 0,
+      "validatedSentences": 5274,
+      "unvalidatedSentences": 11772,
+      "clips": 140,
+      "splits": {
+        "accent": {
+          "": 140
+        },
+        "variant": {},
+        "age": {
+          "": 0.0714,
+          "twenties": 0.9286
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 4507545,
+      "checksum": "a39d43501fda697e86d9f278afd6fe5eef9cda0d4020c8d9dca74448f3a24781",
+      "avgDurationSecs": 4.09,
+      "validDurationSecs": 0,
+      "totalHrs": 0.15,
+      "validHrs": 0
+    },
+    "mua": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 995,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 53699,
+      "checksum": "3c74be9ea0e4250290031ddb7cf8ed06f0505eb0db7cff0c16bd53483cefc492",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "mvy": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 6634,
+      "unvalidatedSentences": 222,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 459128,
+      "checksum": "9e3791acbe36de80e0c6e16e54d103036ce0f209dcd72ed0265dc15cdbb04389",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "myv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 5066,
+      "unvalidatedSentences": 7,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 373629,
+      "checksum": "2c61bf5a86d30065c617e771962cbf9d036a29004a82c5acb8414216161d42f9",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "nan-tw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 2,
+        "other": 177,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "duration": 706176,
+      "reportedSentences": 0,
+      "validatedSentences": 26907,
+      "unvalidatedSentences": 370,
+      "clips": 180,
+      "splits": {
+        "accent": {
+          "": 235
+        },
+        "variant": {
+          "nan-TW-tailo": 145
+        },
+        "age": {
+          "": 0.0278,
+          "thirties": 0.1667,
+          "teens": 0.8056
+        },
+        "gender": {
+          "": 0.8333,
+          "male_masculine": 0.1667
+        },
+        "sentence_domain": {
+          "general": 180
+        }
+      },
+      "users": 3,
+      "size": 4612672,
+      "checksum": "202daf592df3bf01d639aede8310a5619282d955fc7fcad254f3fad42a149b89",
+      "avgDurationSecs": 3.923,
+      "validDurationSecs": 3.923,
+      "totalHrs": 0.19,
+      "validHrs": 0
+    },
+    "nb-NO": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4403,
+      "unvalidatedSentences": 3665,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 513288,
+      "checksum": "86f91e972daf3873fb80344f32c7bd284ba514fc114ff00742386e3d176d6947",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ncx": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1518,
+      "unvalidatedSentences": 5,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 82145,
+      "checksum": "80bb0db439316bb459611dc75367543c636361827ef82bffd885e72544ade540",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ne-NP": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1316,
+      "unvalidatedSentences": 30,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 88910,
+      "checksum": "2f542af55f15602c0f795f2bc2cb6a8d36d576bea16e81983a558f9fe5785c54",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "nl": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 2,
+        "other": 382,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "duration": 1728288,
+      "reportedSentences": 2,
+      "validatedSentences": 260894,
+      "unvalidatedSentences": 10519,
+      "clips": 385,
+      "splits": {
+        "accent": {
+          "belgium": 10,
+          "netherlands": 355
+        },
+        "variant": {},
+        "age": {
+          "": 0.1299,
+          "twenties": 0.1299,
+          "fourties": 0.7403
+        },
+        "gender": {
+          "": 0.2597,
+          "male_masculine": 0.7403
+        },
+        "sentence_domain": {
+          "general": 87,
+          "language_fundamentals": 4,
+          "news_current_affairs": 1,
+          "agriculture_food": 2,
+          "finance": 1,
+          "nature_environment": 1,
+          "history_law_government": 4,
+          "media_entertainment": 1
+        }
+      },
+      "users": 10,
+      "size": 27545782,
+      "checksum": "41cf57b90dad910664976313b02137c6e47835c06b0569aba5c12a5e498e65f6",
+      "avgDurationSecs": 4.489,
+      "validDurationSecs": 4.489,
+      "totalHrs": 0.48,
+      "validHrs": 0
+    },
+    "nn-NO": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 179,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 869184,
+      "reportedSentences": 18,
+      "validatedSentences": 5318,
+      "unvalidatedSentences": 6,
+      "clips": 179,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 5423488,
+      "checksum": "a3b858358c9c0a70e05bbac09812ac73b2d2b1481f0287ddcfb153ed34ace41d",
+      "avgDurationSecs": 4.856,
+      "validDurationSecs": 0,
+      "totalHrs": 0.24,
+      "validHrs": 0
+    },
+    "nso": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 2247,
+      "unvalidatedSentences": 14224,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 1020016,
+      "checksum": "d1a6bdf04509f618da67d2ee5fe243c217f3c26dd96272cb8320bbb000283921",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "oc": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4934,
+      "unvalidatedSentences": 14,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 303525,
+      "checksum": "98b2b0b6359cc5afeef62853f660bd4af64fe1f0095e3c30d15c2733dda1095f",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "or": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 102,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 605772,
+      "reportedSentences": 0,
+      "validatedSentences": 6201,
+      "unvalidatedSentences": 86,
+      "clips": 103,
+      "splits": {
+        "accent": {
+          "": 118
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.8544,
+          "fourties": 0.1456
+        },
+        "gender": {
+          "male_masculine": 0.8544,
+          "": 0.1456
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 4030814,
+      "checksum": "006ea36c10871e179f2fd944b29c3d2151c068bc0ba00e89ea1b3561748a4766",
+      "avgDurationSecs": 5.881,
+      "validDurationSecs": 0,
+      "totalHrs": 0.16,
+      "validHrs": 0
+    },
+    "oru": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 10,
+        "other": 0,
+        "test": 90,
+        "train": 1700,
+        "validated": 1790
+      },
+      "duration": 12731148,
+      "reportedSentences": 0,
+      "validatedSentences": 7355,
+      "unvalidatedSentences": 902,
+      "clips": 1800,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 11,
+          "agriculture_food": 11,
+          "language_fundamentals": 11
+        }
+      },
+      "users": 2,
+      "size": 75919389,
+      "checksum": "07155e2d40c3f475d0d5433de7930844a3173246c21989d3f6a773f1ba03598d",
+      "avgDurationSecs": 7.073,
+      "validDurationSecs": 12660.419,
+      "totalHrs": 3.53,
+      "validHrs": 3.51
+    },
+    "os": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1888,
+      "unvalidatedSentences": 34,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 145530,
+      "checksum": "d3334af4fa0502264dba9f9f0cfeedd46ecdcef6d27ae04f5b0069998c031194",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "phl": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4745,
+      "unvalidatedSentences": 1184,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 376745,
+      "checksum": "93c3ebff294c4781041b4d3ed4c05594720d61e440e01bdb698ec019bf663ef4",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "pl": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 14,
+        "other": 499,
+        "test": 8,
+        "train": 194,
+        "validated": 202
+      },
+      "duration": 3155616,
+      "reportedSentences": 0,
+      "validatedSentences": 230282,
+      "unvalidatedSentences": 23597,
+      "clips": 715,
+      "splits": {
+        "accent": {
+          "": 620
+        },
+        "variant": {},
+        "age": {
+          "": 0.1455,
+          "fifties": 0.0629,
+          "twenties": 0.7636,
+          "thirties": 0.007,
+          "teens": 0.021
+        },
+        "gender": {
+          "": 0.9161,
+          "female_feminine": 0.0629,
+          "transgender": 0.021
+        },
+        "sentence_domain": {
+          "finance": 1,
+          "technology_robotics": 1,
+          "agriculture_food": 3,
+          "general": 1
+        }
+      },
+      "users": 11,
+      "size": 36402818,
+      "checksum": "b6003d257715f8f915e73a1a79a6ed235955cff9ec4cf923d276d0962f91c34a",
+      "avgDurationSecs": 4.413,
+      "validDurationSecs": 891.517,
+      "totalHrs": 0.87,
+      "validHrs": 0.24
+    },
+    "ps": {
+      "buckets": {
+        "dev": 13514,
+        "invalidated": 74228,
+        "other": 1900301,
+        "test": 13567,
+        "train": 73714,
+        "validated": 470713
+      },
+      "duration": 9308562948,
+      "reportedSentences": 1931,
+      "validatedSentences": 334539,
+      "unvalidatedSentences": 116181,
+      "clips": 2445242,
+      "splits": {
+        "accent": {
+          "": 250584
+        },
+        "variant": {},
+        "age": {
+          "": 0.0234,
+          "thirties": 0.1708,
+          "twenties": 0.6239,
+          "teens": 0.1463,
+          "fourties": 0.0218,
+          "fifties": 0.0137,
+          "sixties": 0.0002,
+          "seventies": 0
+        },
+        "gender": {
+          "": 0.3157,
+          "female_feminine": 0.6756,
+          "male_masculine": 0.0077,
+          "do_not_wish_to_say": 0.001
+        },
+        "sentence_domain": {
+          "general": 287888,
+          "nature_environment": 67529,
+          "service_retail": 10349,
+          "automotive_transport": 2431,
+          "history_law_government": 94535,
+          "language_fundamentals": 33571,
+          "technology_robotics": 15638,
+          "agriculture_food": 17553,
+          "media_entertainment": 17719,
+          "healthcare": 77755,
+          "finance": 4001,
+          "news_current_affairs": 8001
+        }
+      },
+      "users": 1905,
+      "size": 51980581747,
+      "checksum": "4744522fd2f5c345e6a982af40d9c181bcc92fc90b69030276dc1ff56203a13c",
+      "avgDurationSecs": 3.807,
+      "validDurationSecs": 1791913.271,
+      "totalHrs": 2585.71,
+      "validHrs": 497.75
+    },
+    "pt": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 506,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2276784,
+      "reportedSentences": 0,
+      "validatedSentences": 43613,
+      "unvalidatedSentences": 108,
+      "clips": 506,
+      "splits": {
+        "accent": {
+          "": 105
+        },
+        "variant": {
+          "pt-BR": 120,
+          "pt-PT": 325
+        },
+        "age": {
+          "": 0.1502,
+          "thirties": 0.1087,
+          "sixties": 0.0296,
+          "fourties": 0.6423,
+          "fifties": 0.0099,
+          "twenties": 0.0593
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "technology_robotics": 12,
+          "general": 69,
+          "healthcare": 15,
+          "agriculture_food": 51,
+          "media_entertainment": 6,
+          "nature_environment": 4,
+          "service_retail": 1,
+          "history_law_government": 1
+        }
+      },
+      "users": 14,
+      "size": 15877618,
+      "checksum": "b21bbc1079ede6cfd73d2f14637eff991efab6be05672a2c95ef95094f82e57e",
+      "avgDurationSecs": 4.5,
+      "validDurationSecs": 0,
+      "totalHrs": 0.63,
+      "validHrs": 0
+    },
+    "qvi": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1149,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 62961,
+      "checksum": "708c13b0b9ef3df1cd0bcc10c2c001a4fc5c6d9b811a7561ce040fccd409c616",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "qwa": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1000,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 53365,
+      "checksum": "768a1ecf3b429540a70b2dbcc6658fb77df3ca10585626ddcefd0b22e2008d31",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "qxa": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 999,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 53301,
+      "checksum": "04c1e9105a996809c9c0c141928d3eb574b5c3a6245464e1729e752298b5e8ba",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "qxp": {
+      "buckets": {
+        "dev": 679,
+        "invalidated": 2319,
+        "other": 83,
+        "test": 679,
+        "train": 709,
+        "validated": 13947
+      },
+      "duration": 83444796,
+      "reportedSentences": 144,
+      "validatedSentences": 2067,
+      "unvalidatedSentences": 3,
+      "clips": 16349,
+      "splits": {
+        "accent": {
+          "": 2079
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.4099,
+          "thirties": 0.2902,
+          "fourties": 0.1427,
+          "": 0.0121,
+          "fifties": 0.1188,
+          "sixties": 0.0109,
+          "teens": 0.0154
+        },
+        "gender": {
+          "female_feminine": 0.7924,
+          "": 0.1841,
+          "male_masculine": 0.0235
+        },
+        "sentence_domain": {
+          "healthcare": 12779,
+          "general": 12755,
+          "agriculture_food": 16259,
+          "nature_environment": 6264,
+          "history_law_government": 857,
+          "news_current_affairs": 103,
+          "finance": 68
+        }
+      },
+      "users": 68,
+      "size": 479174917,
+      "checksum": "cde3bc13bfe18692e9d9070a1534ad6efa9b0fb705aea9932a163806d3496fa1",
+      "avgDurationSecs": 5.104,
+      "validDurationSecs": 71185.061,
+      "totalHrs": 23.17,
+      "validHrs": 19.77
+    },
+    "rm-sursilv": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 459,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2029860,
+      "reportedSentences": 2,
+      "validatedSentences": 9333,
+      "unvalidatedSentences": 7170,
+      "clips": 459,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.0218,
+          "twenties": 0.9782
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 12946628,
+      "checksum": "be0cc726c10fd2725bf37b5c799fc4aafa8fb2d7f580d8d3cb6adb5a0704d8f4",
+      "avgDurationSecs": 4.422,
+      "validDurationSecs": 0,
+      "totalHrs": 0.56,
+      "validHrs": 0
+    },
+    "ro": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 840,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 3704796,
+      "reportedSentences": 31,
+      "validatedSentences": 13755,
+      "unvalidatedSentences": 89202,
+      "clips": 840,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 27661146,
+      "checksum": "0fc4d20c5e07078547ed72146658844273c41e5cadd73bd15cabaca2724ae438",
+      "avgDurationSecs": 4.41,
+      "validDurationSecs": 0,
+      "totalHrs": 1.02,
+      "validHrs": 0
+    },
+    "ru": {
+      "buckets": {
+        "dev": 1,
+        "invalidated": 3,
+        "other": 638,
+        "test": 1,
+        "train": 3,
+        "validated": 5
+      },
+      "duration": 3716820,
+      "reportedSentences": 2,
+      "validatedSentences": 47850,
+      "unvalidatedSentences": 242,
+      "clips": 646,
+      "splits": {
+        "accent": {
+          "": 46
+        },
+        "variant": {},
+        "age": {
+          "": 0.5604,
+          "twenties": 0.0542,
+          "thirties": 0.291,
+          "teens": 0.0851,
+          "fourties": 0.0077,
+          "sixties": 0.0015
+        },
+        "gender": {
+          "": 0.6749,
+          "male_masculine": 0.2755,
+          "female_feminine": 0.0495
+        },
+        "sentence_domain": {
+          "media_entertainment": 4,
+          "general": 2,
+          "healthcare": 1,
+          "technology_robotics": 7,
+          "news_current_affairs": 2,
+          "history_law_government": 4,
+          "nature_environment": 1
+        }
+      },
+      "users": 62,
+      "size": 25219746,
+      "checksum": "4cf52f61e5e19263a88370f9c3259c2d7725a9c63f15587cc73a61839b1f97f9",
+      "avgDurationSecs": 5.754,
+      "validDurationSecs": 28.768,
+      "totalHrs": 1.03,
+      "validHrs": 0
+    },
+    "rup": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 110,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 837360,
+      "reportedSentences": 0,
+      "validatedSentences": 3507,
+      "unvalidatedSentences": 0,
+      "clips": 110,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 1
+        },
+        "gender": {
+          "female_feminine": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 5185101,
+      "checksum": "497ccb803c4ce67becf511391646fa49240820c8bbc21b5ec8236fb8324ca303",
+      "avgDurationSecs": 7.612,
+      "validDurationSecs": 0,
+      "totalHrs": 0.23,
+      "validHrs": 0
+    },
+    "rw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 30,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 202212,
+      "reportedSentences": 0,
+      "validatedSentences": 1404857,
+      "unvalidatedSentences": 28,
+      "clips": 30,
+      "splits": {
+        "accent": {
+          "": 25
+        },
+        "variant": {},
+        "age": {
+          "": 0.3333,
+          "twenties": 0.6667
+        },
+        "gender": {
+          "": 0.3333,
+          "female_feminine": 0.6667
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 89237875,
+      "checksum": "11ca8c60bc25a55e47851734bbed2d38b25e00b6af760066c29d6df4b862381e",
+      "avgDurationSecs": 6.74,
+      "validDurationSecs": 0,
+      "totalHrs": 0.05,
+      "validHrs": 0
+    },
+    "sah": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 75,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 595584,
+      "reportedSentences": 0,
+      "validatedSentences": 6079,
+      "unvalidatedSentences": 382,
+      "clips": 75,
+      "splits": {
+        "accent": {
+          "": 50
+        },
+        "variant": {},
+        "age": {
+          "": 0.3333,
+          "fifties": 0.6,
+          "fourties": 0.0667
+        },
+        "gender": {
+          "": 0.4,
+          "female_feminine": 0.6
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 3594686,
+      "checksum": "85324cf3f8b667487f913861d147a518d21a2c9379d1536e420c2295091198da",
+      "avgDurationSecs": 7.941,
+      "validDurationSecs": 0,
+      "totalHrs": 0.16,
+      "validHrs": 0
+    },
+    "sat": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 25164,
+      "reportedSentences": 0,
+      "validatedSentences": 5421,
+      "unvalidatedSentences": 540,
+      "clips": 5,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 426421,
+      "checksum": "947e82fcca0d65fefd6aa4c6ace740114321c82c95bab8f39e4c5222d5ff611a",
+      "avgDurationSecs": 5.033,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "sc": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 7,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 54036,
+      "reportedSentences": 0,
+      "validatedSentences": 5489,
+      "unvalidatedSentences": 349,
+      "clips": 7,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.2857,
+          "sixties": 0.7143
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 685386,
+      "checksum": "eb5badb408865ae135f2d8afc12daa2bc380f6abc41ea59b3b6759b93c1bae53",
+      "avgDurationSecs": 7.719,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "sd": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 35,
+        "other": 7200,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 28352808,
+      "reportedSentences": 3,
+      "validatedSentences": 13348,
+      "unvalidatedSentences": 71,
+      "clips": 7235,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 0.2556,
+          "fourties": 0.7385,
+          "": 0.0059
+        },
+        "gender": {
+          "male_masculine": 0.2556,
+          "": 0.7444
+        },
+        "sentence_domain": {
+          "general": 21
+        }
+      },
+      "users": 7,
+      "size": 149729813,
+      "checksum": "bed7e64c7fac815cf5b9c81bc833234c3ca8dfff005dc7058ae4d7b8c74c4c60",
+      "avgDurationSecs": 3.919,
+      "validDurationSecs": 0,
+      "totalHrs": 7.87,
+      "validHrs": 0
+    },
+    "sei": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 50,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 114480,
+      "reportedSentences": 0,
+      "validatedSentences": 1615,
+      "unvalidatedSentences": 0,
+      "clips": 50,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "twenties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 759555,
+      "checksum": "f9d97644f74906e2ab9fd29863e018a07431fabcd12c5a4f7d4ae52c22dc6530",
+      "avgDurationSecs": 2.29,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "sk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 10,
+        "other": 0,
+        "test": 272,
+        "train": 1709,
+        "validated": 1981
+      },
+      "duration": 9274392,
+      "reportedSentences": 2,
+      "validatedSentences": 21980,
+      "unvalidatedSentences": 1006,
+      "clips": 1991,
+      "splits": {
+        "accent": {
+          "": 1976
+        },
+        "variant": {},
+        "age": {
+          "": 0.0075,
+          "fifties": 0.8624,
+          "fourties": 0.1301
+        },
+        "gender": {
+          "": 0.8699,
+          "male_masculine": 0.1301
+        },
+        "sentence_domain": {
+          "general": 1944,
+          "history_law_government": 1253,
+          "media_entertainment": 50,
+          "technology_robotics": 50,
+          "news_current_affairs": 52,
+          "language_fundamentals": 21,
+          "nature_environment": 29,
+          "automotive_transport": 8,
+          "finance": 1
+        }
+      },
+      "users": 5,
+      "size": 55931656,
+      "checksum": "d2d3d57f518245c06c63a92a7896b6252db8a2527372137632f1e94a2c01f8e2",
+      "avgDurationSecs": 4.658,
+      "validDurationSecs": 9227.81,
+      "totalHrs": 2.57,
+      "validHrs": 2.56
+    },
+    "skr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 6011,
+      "unvalidatedSentences": 93,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 371413,
+      "checksum": "7854291e98b8160c5b5599ca0f22ef72017ea28ad72c80084d9f8d0b71c56a54",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "sl": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4209,
+      "unvalidatedSentences": 29,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 245605,
+      "checksum": "d07d67789ba26f84451ee1a83542285a5738d38ce5e1eea896696528e53794dc",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "sq": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 0,
+        "test": 0,
+        "train": 15,
+        "validated": 15
+      },
+      "duration": 89784,
+      "reportedSentences": 0,
+      "validatedSentences": 50009,
+      "unvalidatedSentences": 2635,
+      "clips": 16,
+      "splits": {
+        "accent": {
+          "": 5
+        },
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "history_law_government": 15,
+          "general": 1
+        }
+      },
+      "users": 4,
+      "size": 4083732,
+      "checksum": "ea99684d4d7fad94a7e1c97d41463e512e7077906fb9f3b00a9281c34857721e",
+      "avgDurationSecs": 5.612,
+      "validDurationSecs": 84.173,
+      "totalHrs": 0.02,
+      "validHrs": 0.02
+    },
+    "sr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 296,
+        "test": 0,
+        "train": 8,
+        "validated": 8
+      },
+      "duration": 1091628,
+      "reportedSentences": 5,
+      "validatedSentences": 8155,
+      "unvalidatedSentences": 572,
+      "clips": 305,
+      "splits": {
+        "accent": {
+          "": 245
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.0721,
+          "twenties": 0.9279
+        },
+        "gender": {
+          "": 0.2689,
+          "male_masculine": 0.7311
+        },
+        "sentence_domain": {
+          "history_law_government": 1,
+          "language_fundamentals": 2,
+          "technology_robotics": 2,
+          "general": 1,
+          "nature_environment": 3
+        }
+      },
+      "users": 3,
+      "size": 6867527,
+      "checksum": "4af63356aeb9ea4b267a85de1ff7c19c3bbe30e68218eccd8655e95d1dc4c831",
+      "avgDurationSecs": 3.579,
+      "validDurationSecs": 28.633,
+      "totalHrs": 0.3,
+      "validHrs": 0
+    },
+    "sv-SE": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 25,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 141696,
+      "reportedSentences": 0,
+      "validatedSentences": 26876,
+      "unvalidatedSentences": 6596,
+      "clips": 25,
+      "splits": {
+        "accent": {
+          "": 95
+        },
+        "variant": {},
+        "age": {
+          "": 0.2,
+          "thirties": 0.8
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 2937627,
+      "checksum": "6b460f52c99095f843bde66f637facf0614e475a8bb93379fa5c1513bd63451d",
+      "avgDurationSecs": 5.668,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "sw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 2517,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 16300080,
+      "reportedSentences": 3,
+      "validatedSentences": 134729,
+      "unvalidatedSentences": 5757,
+      "clips": 2517,
+      "splits": {
+        "accent": {
+          "": 250
+        },
+        "variant": {
+          "sw-baratz": 373
+        },
+        "age": {
+          "": 0.4128,
+          "twenties": 0.557,
+          "thirties": 0.0302
+        },
+        "gender": {
+          "": 0.9702,
+          "female_feminine": 0.0298
+        },
+        "sentence_domain": {}
+      },
+      "users": 23,
+      "size": 103332463,
+      "checksum": "464cf878971bf620dc407808f2dfebb8058309a899fb97d723eacfda4be4f60b",
+      "avgDurationSecs": 6.476,
+      "validDurationSecs": 0,
+      "totalHrs": 4.52,
+      "validHrs": 0
+    },
+    "ta": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 130,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 806508,
+      "reportedSentences": 0,
+      "validatedSentences": 118292,
+      "unvalidatedSentences": 550,
+      "clips": 130,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 0.0385,
+          "teens": 0.0769,
+          "fourties": 0.7692,
+          "": 0.1154
+        },
+        "gender": {
+          "male_masculine": 0.6923,
+          "": 0.3077
+        },
+        "sentence_domain": {}
+      },
+      "users": 5,
+      "size": 14085479,
+      "checksum": "37b4474698ef4327a3f8e2298fade6e69b8837162e53be3b9c68caccc5334dd8",
+      "avgDurationSecs": 6.204,
+      "validDurationSecs": 0,
+      "totalHrs": 0.22,
+      "validHrs": 0
+    },
+    "tar": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1258,
+      "unvalidatedSentences": 0,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 72169,
+      "checksum": "6407f6495f831c4df668f69c97f5d0d2960012f34c5ff28a7c897a87dc829e17",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "te": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 52,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "duration": 229176,
+      "reportedSentences": 14,
+      "validatedSentences": 370,
+      "unvalidatedSentences": 19699,
+      "clips": 53,
+      "splits": {
+        "accent": {
+          "": 144
+        },
+        "variant": {},
+        "age": {
+          "twenties": 0.9057,
+          "": 0.0943
+        },
+        "gender": {
+          "male_masculine": 0.9057,
+          "": 0.0943
+        },
+        "sentence_domain": {
+          "language_fundamentals": 1,
+          "healthcare": 1
+        }
+      },
+      "users": 2,
+      "size": 2654734,
+      "checksum": "e40bc14b1e52856114c8686152a0d8ebb22a471b538efe9141382f8bb5f3dcdd",
+      "avgDurationSecs": 4.324,
+      "validDurationSecs": 4.324,
+      "totalHrs": 0.06,
+      "validHrs": 0
+    },
+    "tg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 36,
+        "test": 0,
+        "train": 2,
+        "validated": 2
+      },
+      "duration": 229572,
+      "reportedSentences": 0,
+      "validatedSentences": 4000,
+      "unvalidatedSentences": 6771,
+      "clips": 38,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "seventies": 0.0526,
+          "twenties": 0.9474
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "media_entertainment": 6,
+          "language_fundamentals": 22,
+          "news_current_affairs": 3,
+          "general": 9,
+          "service_retail": 1,
+          "healthcare": 1,
+          "history_law_government": 2,
+          "automotive_transport": 1
+        }
+      },
+      "users": 2,
+      "size": 2156935,
+      "checksum": "e1d01f2e8ffcb6186195796bb71b280a7f7e69069b27cbb0e25d17db4cb202c0",
+      "avgDurationSecs": 6.041,
+      "validDurationSecs": 12.083,
+      "totalHrs": 0.06,
+      "validHrs": 0
+    },
+    "th": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 108,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 417060,
+      "reportedSentences": 1,
+      "validatedSentences": 64491,
+      "unvalidatedSentences": 121701,
+      "clips": 108,
+      "splits": {
+        "accent": {
+          "": 55
+        },
+        "variant": {},
+        "age": {
+          "": 0.2315,
+          "twenties": 0.7685
+        },
+        "gender": {
+          "": 0.2315,
+          "transgender": 0.1852,
+          "male_masculine": 0.5833
+        },
+        "sentence_domain": {}
+      },
+      "users": 6,
+      "size": 14610859,
+      "checksum": "d5535f8e0ed1338ce9091b0b4b07b9fe0c494ab5fab34f93d04b963e6dfe0d8a",
+      "avgDurationSecs": 3.862,
+      "validDurationSecs": 0,
+      "totalHrs": 0.11,
+      "validHrs": 0
+    },
+    "ti": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 4571,
+      "unvalidatedSentences": 382,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 346251,
+      "checksum": "b4026cbbc8575e41d30666511290acbef0a751810090ee833d02dea0b219bbf7",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "tig": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 20,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 112248,
+      "reportedSentences": 0,
+      "validatedSentences": 5417,
+      "unvalidatedSentences": 90,
+      "clips": 20,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "thirties": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "language_fundamentals": 2
+        }
+      },
+      "users": 1,
+      "size": 935039,
+      "checksum": "c015960a371b5bc33fc3b18efd4910b263e7b96583ae8ba91f1fab14d1bb3ecb",
+      "avgDurationSecs": 5.612,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "tk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 75,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 457992,
+      "reportedSentences": 0,
+      "validatedSentences": 2494,
+      "unvalidatedSentences": 238,
+      "clips": 75,
+      "splits": {
+        "accent": {
+          "": 20
+        },
+        "variant": {},
+        "age": {
+          "": 0.6,
+          "twenties": 0.4
+        },
+        "gender": {
+          "": 0.8667,
+          "female_feminine": 0.1333
+        },
+        "sentence_domain": {}
+      },
+      "users": 6,
+      "size": 2766851,
+      "checksum": "1a0ee27a18a65c3cafe69fee50f873711b13d166ccdd97041c81b3eed337cd2a",
+      "avgDurationSecs": 6.107,
+      "validDurationSecs": 0,
+      "totalHrs": 0.12,
+      "validHrs": 0
+    },
+    "tok": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 11,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 40968,
+      "reportedSentences": 0,
+      "validatedSentences": 7512,
+      "unvalidatedSentences": 2248,
+      "clips": 11,
+      "splits": {
+        "accent": {
+          "": 11
+        },
+        "variant": {},
+        "age": {
+          "teens": 1
+        },
+        "gender": {
+          "male_masculine": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 748259,
+      "checksum": "f6a4fb95f08c1eee9478b2729a9a24a3973b0dcfbd1f98558c05726fcec038c9",
+      "avgDurationSecs": 3.724,
+      "validDurationSecs": 0,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "tr": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 43,
+        "other": 462,
+        "test": 28,
+        "train": 108,
+        "validated": 136
+      },
+      "duration": 3982932,
+      "reportedSentences": 2,
+      "validatedSentences": 410410,
+      "unvalidatedSentences": 3490,
+      "clips": 641,
+      "splits": {
+        "accent": {
+          "": 516
+        },
+        "variant": {},
+        "age": {
+          "thirties": 0.064,
+          "": 0.1248,
+          "sixties": 0.78,
+          "fifties": 0.0156,
+          "twenties": 0.0156
+        },
+        "gender": {
+          "": 0.1888,
+          "male_masculine": 0.7722,
+          "female_feminine": 0.039
+        },
+        "sentence_domain": {
+          "general": 1
+        }
+      },
+      "users": 24,
+      "size": 52379416,
+      "checksum": "04295ad8d8f068ec5823732f9e8457d6ea09504c6c319b7f0f1746e4fcb5f661",
+      "avgDurationSecs": 6.214,
+      "validDurationSecs": 845.053,
+      "totalHrs": 1.1,
+      "validHrs": 0.23
+    },
+    "trw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 7770,
+      "unvalidatedSentences": 27,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 556914,
+      "checksum": "05449a413cd2e9757dcc81fc70b64e7852b6fe0013a6d90797d6abfba42edeb0",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "tt": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 153,
+        "test": 0,
+        "train": 10,
+        "validated": 10
+      },
+      "duration": 746244,
+      "reportedSentences": 0,
+      "validatedSentences": 18051,
+      "unvalidatedSentences": 32,
+      "clips": 163,
+      "splits": {
+        "accent": {
+          "": 65
+        },
+        "variant": {},
+        "age": {
+          "": 0.6626,
+          "sixties": 0.3374
+        },
+        "gender": {
+          "": 0.6626,
+          "female_feminine": 0.3374
+        },
+        "sentence_domain": {
+          "general": 3
+        }
+      },
+      "users": 5,
+      "size": 4289693,
+      "checksum": "5fa402d5c1839571d9f5bfda685fdcd68ed02e4d1707cc2b144e136fe6bc6e81",
+      "avgDurationSecs": 4.578,
+      "validDurationSecs": 45.782,
+      "totalHrs": 0.2,
+      "validHrs": 0.01
+    },
+    "tui": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 2,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 25236,
+      "reportedSentences": 0,
+      "validatedSentences": 1971,
+      "unvalidatedSentences": 5,
+      "clips": 2,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 268076,
+      "checksum": "3b9b625538ff39e979765b50e164d81809f2e7b6b93baa355503f5fc4cd062c8",
+      "avgDurationSecs": 12.618,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "tw": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 49165,
+      "unvalidatedSentences": 23,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 2754629,
+      "checksum": "656bcbded803e326c13fe93a48c0f1437294f70d4fdd8278264350ac6451320f",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "ug": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 19,
+        "other": 1433,
+        "test": 24,
+        "train": 698,
+        "validated": 722
+      },
+      "duration": 24621444,
+      "reportedSentences": 9,
+      "validatedSentences": 231441,
+      "unvalidatedSentences": 11020,
+      "clips": 2174,
+      "splits": {
+        "accent": {
+          "": 1730
+        },
+        "variant": {
+          "ug-Arab": 595
+        },
+        "age": {
+          "teens": 0.1532,
+          "twenties": 0.7958,
+          "": 0.0511
+        },
+        "gender": {
+          "female_feminine": 0.1532,
+          "": 0.8468
+        },
+        "sentence_domain": {
+          "general": 33,
+          "media_entertainment": 1
+        }
+      },
+      "users": 12,
+      "size": 164205784,
+      "checksum": "a3cabc54faf51e192506cfe25d73fe9b7ac235cfeb7451556389fa02d813141c",
+      "avgDurationSecs": 11.325,
+      "validDurationSecs": 8176.947,
+      "totalHrs": 6.83,
+      "validHrs": 2.27
+    },
+    "uk": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 1289,
+        "test": 1,
+        "train": 5,
+        "validated": 6
+      },
+      "duration": 6260076,
+      "reportedSentences": 0,
+      "validatedSentences": 212668,
+      "unvalidatedSentences": 1661,
+      "clips": 1295,
+      "splits": {
+        "accent": {
+          "": 50
+        },
+        "variant": {},
+        "age": {
+          "": 0.0927,
+          "teens": 0.8803,
+          "thirties": 0.0193,
+          "twenties": 0.0077
+        },
+        "gender": {
+          "": 0.973,
+          "male_masculine": 0.027
+        },
+        "sentence_domain": {}
+      },
+      "users": 11,
+      "size": 50524152,
+      "checksum": "6704c972515cbfb42d9dfab1fb59155a354100b18bd5f0955606615d86fdef49",
+      "avgDurationSecs": 4.834,
+      "validDurationSecs": 29.004,
+      "totalHrs": 1.73,
+      "validHrs": 0
+    },
+    "ur": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 21,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 131832,
+      "reportedSentences": 7,
+      "validatedSentences": 21706,
+      "unvalidatedSentences": 48257,
+      "clips": 21,
+      "splits": {
+        "accent": {
+          "": 8
+        },
+        "variant": {},
+        "age": {
+          "": 0.9524,
+          "twenties": 0.0476
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 1,
+          "media_entertainment": 1
+        }
+      },
+      "users": 4,
+      "size": 5721080,
+      "checksum": "4c964e48ff01fd05c169c6f9e794b9cf0617cfaf5587673c4ab6edd547c8366b",
+      "avgDurationSecs": 6.278,
+      "validDurationSecs": 0,
+      "totalHrs": 0.03,
+      "validHrs": 0
+    },
+    "uz": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 203,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1089828,
+      "reportedSentences": 0,
+      "validatedSentences": 148738,
+      "unvalidatedSentences": 137888,
+      "clips": 203,
+      "splits": {
+        "accent": {
+          "": 77
+        },
+        "variant": {},
+        "age": {
+          "": 0.3448,
+          "twenties": 0.4828,
+          "thirties": 0.1478,
+          "teens": 0.0246
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 18,
+      "size": 25480306,
+      "checksum": "a46a53a1bf2b5369411a4e641204ee86e833d5679b4eff51e98263735703e369",
+      "avgDurationSecs": 5.369,
+      "validDurationSecs": 0,
+      "totalHrs": 0.3,
+      "validHrs": 0
+    },
+    "ve": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 5,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 30240,
+      "reportedSentences": 0,
+      "validatedSentences": 1735,
+      "unvalidatedSentences": 7843,
+      "clips": 5,
+      "splits": {
+        "accent": {
+          "": 5
+        },
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 788193,
+      "checksum": "1deff463fddde59fae11f7bcbe38d039ad73c6acd2bb560b956e8030e39efe54",
+      "avgDurationSecs": 6.048,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "vi": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 586,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 2585988,
+      "reportedSentences": 0,
+      "validatedSentences": 13337,
+      "unvalidatedSentences": 5485,
+      "clips": 586,
+      "splits": {
+        "accent": {},
+        "variant": {
+          "vi-huett": 469,
+          "vi-hanoi": 5,
+          "vi-saigon": 97
+        },
+        "age": {
+          "": 0.6297,
+          "twenties": 0.1826,
+          "seventies": 0.1792,
+          "fifties": 0.0085
+        },
+        "gender": {
+          "": 0.8635,
+          "female_feminine": 0.1365
+        },
+        "sentence_domain": {
+          "general": 580
+        }
+      },
+      "users": 7,
+      "size": 16314780,
+      "checksum": "5cb046af7a1a5121c2e89f3ee60c64d7af941aed0523d0e83cb6916310646847",
+      "avgDurationSecs": 4.413,
+      "validDurationSecs": 0,
+      "totalHrs": 0.71,
+      "validHrs": 0
+    },
+    "xmf": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 3,
+        "other": 7,
+        "test": 1,
+        "train": 9,
+        "validated": 10
+      },
+      "duration": 155484,
+      "reportedSentences": 0,
+      "validatedSentences": 1004,
+      "unvalidatedSentences": 36,
+      "clips": 20,
+      "splits": {
+        "accent": {
+          "senak": 10
+        },
+        "variant": {
+          "xmf-senmar": 10
+        },
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 2,
+      "size": 1008299,
+      "checksum": "d2d1ea146d09531ff5f7fcb833c7680f9b421c4abaedc5e6409d580e6f20a5e9",
+      "avgDurationSecs": 7.774,
+      "validDurationSecs": 77.742,
+      "totalHrs": 0.04,
+      "validHrs": 0.02
+    },
+    "ydg": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 261,
+        "test": 0,
+        "train": 1,
+        "validated": 1
+      },
+      "duration": 1183356,
+      "reportedSentences": 0,
+      "validatedSentences": 1937,
+      "unvalidatedSentences": 169,
+      "clips": 262,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 3,
+      "size": 6801833,
+      "checksum": "f7792059438df13ff826e347672bc1bdbf3f5bd6799504fac33222cbe5ad3fb1",
+      "avgDurationSecs": 4.517,
+      "validDurationSecs": 4.517,
+      "totalHrs": 0.32,
+      "validHrs": 0
+    },
+    "yi": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1550,
+      "unvalidatedSentences": 85,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 107237,
+      "checksum": "3ffcafce0ac4e7103e0154140adff1765d530ee8712e0fda055eadce989590d3",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "yo": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 2,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 6444,
+      "reportedSentences": 0,
+      "validatedSentences": 5419,
+      "unvalidatedSentences": 17,
+      "clips": 2,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 1
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {}
+      },
+      "users": 1,
+      "size": 426576,
+      "checksum": "69ea11bfa32a3d4ef2ee2630ea13e515a757885ab3054a7853799b1f2bdb6d96",
+      "avgDurationSecs": 3.222,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "yue": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 100,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 326880,
+      "reportedSentences": 0,
+      "validatedSentences": 18556,
+      "unvalidatedSentences": 10171,
+      "clips": 100,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {
+          "": 0.25,
+          "twenties": 0.75
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "service_retail": 6,
+          "general": 4,
+          "automotive_transport": 1
+        }
+      },
+      "users": 5,
+      "size": 3594220,
+      "checksum": "96250e6aee65b031989c92cb4ac8001ea3f911a6ff6977914f80decb5e08bc10",
+      "avgDurationSecs": 3.269,
+      "validDurationSecs": 0,
+      "totalHrs": 0.09,
+      "validHrs": 0
+    },
+    "zgh": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 37,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 290448,
+      "reportedSentences": 1,
+      "validatedSentences": 2740,
+      "unvalidatedSentences": 356,
+      "clips": 37,
+      "splits": {
+        "accent": {},
+        "variant": {
+          "zgh-tzm": 7
+        },
+        "age": {
+          "thirties": 0.0541,
+          "": 0.9459
+        },
+        "gender": {
+          "male_masculine": 0.0541,
+          "": 0.9459
+        },
+        "sentence_domain": {
+          "agriculture_food": 1,
+          "general": 1
+        }
+      },
+      "users": 10,
+      "size": 1857795,
+      "checksum": "0dbdee7ca116598946bb815900daeaa3b2ed229bcc2628b83e03694f395a4a8d",
+      "avgDurationSecs": 7.85,
+      "validDurationSecs": 0,
+      "totalHrs": 0.08,
+      "validHrs": 0
+    },
+    "zh-CN": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 255,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1406088,
+      "reportedSentences": 18,
+      "validatedSentences": 59143,
+      "unvalidatedSentences": 902,
+      "clips": 255,
+      "splits": {
+        "accent": {
+          "150000": 5,
+          "210000": 5,
+          "310000": 100,
+          "350000": 5,
+          "360000": 54,
+          "430000": 5,
+          "440000": 3
+        },
+        "variant": {},
+        "age": {
+          "teens": 0.1922,
+          "": 0.2314,
+          "twenties": 0.5529,
+          "thirties": 0.0235
+        },
+        "gender": {
+          "": 0.5059,
+          "female_feminine": 0.102,
+          "male_masculine": 0.3922
+        },
+        "sentence_domain": {
+          "language_fundamentals": 16,
+          "news_current_affairs": 16,
+          "general": 61,
+          "nature_environment": 10,
+          "media_entertainment": 81,
+          "history_law_government": 25,
+          "healthcare": 7,
+          "technology_robotics": 13,
+          "finance": 10,
+          "agriculture_food": 4,
+          "automotive_transport": 4
+        }
+      },
+      "users": 24,
+      "size": 12535318,
+      "checksum": "49e7905b506d2dc160bf4b13a8b2d78b7fba7d3d0fc9f091c61213823b8cb0d8",
+      "avgDurationSecs": 5.514,
+      "validDurationSecs": 0,
+      "totalHrs": 0.39,
+      "validHrs": 0
+    },
+    "zh-HK": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 399,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1833372,
+      "reportedSentences": 0,
+      "validatedSentences": 20148,
+      "unvalidatedSentences": 60,
+      "clips": 399,
+      "splits": {
+        "accent": {
+          "": 317
+        },
+        "variant": {},
+        "age": {
+          "fourties": 0.7945,
+          "twenties": 0.2005,
+          "": 0.005
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 107,
+          "technology_robotics": 9,
+          "service_retail": 22,
+          "language_fundamentals": 3,
+          "finance": 2,
+          "healthcare": 4,
+          "history_law_government": 12,
+          "nature_environment": 4,
+          "automotive_transport": 2,
+          "news_current_affairs": 1
+        }
+      },
+      "users": 3,
+      "size": 11962513,
+      "checksum": "1973a7c1ce3dff66543e0472ff0420f08194b0f0e8ac4c64944440e7d6b00c19",
+      "avgDurationSecs": 4.595,
+      "validDurationSecs": 0,
+      "totalHrs": 0.5,
+      "validHrs": 0
+    },
+    "zh-TW": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 407,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 1220724,
+      "reportedSentences": 0,
+      "validatedSentences": 20786,
+      "unvalidatedSentences": 977,
+      "clips": 407,
+      "splits": {
+        "accent": {
+          "tainan_city": 6,
+          "penghu_county": 20,
+          "": 1,
+          "changhua_county": 133,
+          "kaohsiung_city": 75,
+          "taipei_city": 5
+        },
+        "variant": {},
+        "age": {
+          "": 0.5111,
+          "twenties": 0.3292,
+          "teens": 0.1597
+        },
+        "gender": {
+          "": 1
+        },
+        "sentence_domain": {
+          "general": 399,
+          "technology_robotics": 234,
+          "automotive_transport": 4,
+          "nature_environment": 2,
+          "history_law_government": 3,
+          "media_entertainment": 3,
+          "service_retail": 1,
+          "healthcare": 3,
+          "news_current_affairs": 1,
+          "finance": 2
+        }
+      },
+      "users": 13,
+      "size": 7771443,
+      "checksum": "b516a5719a8cc27d6c5d9a51987305ef0b60e582d0a5b19617080e4af98b4c5a",
+      "avgDurationSecs": 2.999,
+      "validDurationSecs": 0,
+      "totalHrs": 0.33,
+      "validHrs": 0
+    },
+    "zu": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 0,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 0,
+      "reportedSentences": 0,
+      "validatedSentences": 1320,
+      "unvalidatedSentences": 19379,
+      "clips": 0,
+      "splits": {
+        "accent": {},
+        "variant": {},
+        "age": {},
+        "gender": {},
+        "sentence_domain": {}
+      },
+      "users": 0,
+      "size": 1448647,
+      "checksum": "e0f4f2720a9655fc6a62d6bf312ff998991630a5f9adb7f5891de52becee593e",
+      "avgDurationSecs": 0,
+      "validDurationSecs": 0,
+      "totalHrs": 0,
+      "validHrs": 0
+    },
+    "zza": {
+      "buckets": {
+        "dev": 0,
+        "invalidated": 0,
+        "other": 195,
+        "test": 0,
+        "train": 0,
+        "validated": 0
+      },
+      "duration": 646380,
+      "reportedSentences": 0,
+      "validatedSentences": 5657,
+      "unvalidatedSentences": 989,
+      "clips": 195,
+      "splits": {
+        "accent": {
+          "": 175
+        },
+        "variant": {},
+        "age": {
+          "": 0.1538,
+          "twenties": 0.8462
+        },
+        "gender": {
+          "": 0.1538,
+          "do_not_wish_to_say": 0.8462
+        },
+        "sentence_domain": {
+          "general": 97,
+          "language_fundamentals": 2,
+          "healthcare": 3,
+          "service_retail": 1
+        }
+      },
+      "users": 3,
+      "size": 4130735,
+      "checksum": "40a1ca8deca39438db068cbd40ef99baf0f94865ab336fa6f7ad116d5230bfeb",
+      "avgDurationSecs": 3.315,
+      "validDurationSecs": 0,
+      "totalHrs": 0.17,
+      "validHrs": 0
+    }
+  },
+  "totalDuration": 11198548944,
+  "totalValidDurationSecs": 2821693,
+  "totalHrs": 3110,
+  "totalValidHrs": 784
+}

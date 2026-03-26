@@ -46,6 +46,16 @@ const NON_ADDITIVE_KEYS = new Set([
   "avg_recordings_per_question", "edited_pct",
 ]);
 
+const zeroLike = (val) => {
+  if (typeof val === "number") return 0;
+  if (val && typeof val === "object" && !Array.isArray(val)) {
+    const result = {};
+    for (const key of Object.keys(val)) result[key] = zeroLike(val[key]);
+    return result;
+  }
+  return val;
+};
+
 const accumulateTotal = (totals, key, a, b) => {
   if (NON_ADDITIVE_KEYS.has(key)) return;
   if (typeof a === "number" && typeof b === "number") {
@@ -55,11 +65,12 @@ const accumulateTotal = (totals, key, a, b) => {
     totals[key]["diffs"] = getDiffs(totals[key]["new"], totals[key]["old"]);
     return;
   }
-  if (a && b && typeof a === "object" && typeof b === "object" && !Array.isArray(a)) {
+  if (a && typeof a === "object" && !Array.isArray(a)) {
+    const bObj = (b && typeof b === "object" && !Array.isArray(b)) ? b : zeroLike(a);
     if (!totals[key]) totals[key] = {};
     for (const subKey of Object.keys(a)) {
-      if (!(subKey in b)) continue;
-      accumulateTotal(totals[key], subKey, a[subKey], b[subKey]);
+      if (!(subKey in bObj)) continue;
+      accumulateTotal(totals[key], subKey, a[subKey], bObj[subKey]);
     }
   }
 };
@@ -79,6 +90,9 @@ const compareLocales = (aPath, bPath, reportPath) => {
     const bStats = bLocales[locale];
     if (!bStats) {
       newLanguages.push(locale);
+      for (const key of Object.keys(aStats)) {
+        accumulateTotal(totalStats, key, aStats[key], 0);
+      }
       continue;
     }
 

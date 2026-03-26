@@ -1,0 +1,2339 @@
+{
+  "locales": {
+    "ady": {
+      "locale": "ady",
+      "clips": 26,
+      "users": 6,
+      "questions": {
+        "total": 128,
+        "validated": 34,
+        "invalidated": 0,
+        "other": 94,
+        "has_audio": 127,
+        "avg_recordings_per_question": 0.2
+      },
+      "audios": {
+        "total": 26,
+        "transcribed_validated": 14,
+        "transcribed_pending": 8,
+        "not_transcribed": 4
+      },
+      "transcriptions": {
+        "total": 22,
+        "validated": 14,
+        "not_yet_validated": 8,
+        "edited": 3,
+        "edited_pct": 13.64
+      },
+      "duration": {
+        "total_ms": 400212,
+        "total_hrs": 0.11,
+        "validated_ms": 202536,
+        "validated_hrs": 0.05,
+        "avg_ms": 15393,
+        "min_ms": 3060,
+        "max_ms": 45288,
+        "avg_chars_per_sec": 6.22
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.0769,
+          "thirties": 0.5385,
+          "fourties": 0,
+          "fifties": 0.3077,
+          "sixties": 0.0769,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0,
+          "male_masculine": 0.3846,
+          "female_feminine": 0.6154,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "abzakh": 18,
+          "bzhedug": 1,
+          "hatikuay": 0,
+          "shapsug": 12,
+          "temirgoy": 10,
+          "ubykh": 0,
+          "": 5
+        },
+        "variant": {
+          "ady-Cyrl": 5,
+          "ady-Cyrl-JOR": 0,
+          "ady-Cyrl-SY": 0,
+          "ady-Cyrl-TR": 10,
+          "ady-Latn-TR-t-ady-cyrl": 0,
+          "ady-RU": 11
+        }
+      },
+      "reported": {
+        "clips": 1,
+        "reasons": {
+          "other": 1
+        }
+      },
+      "size": 2570786,
+      "checksum": "f84d0861bbf5bd3e3099bd82c97bda7ad3dbb7a7077c4fa54f0e0cba2c78c409",
+      "generated_at": "2026-03-10T10:14:10.252Z"
+    },
+    "ba": {
+      "locale": "ba",
+      "clips": 27,
+      "users": 3,
+      "questions": {
+        "total": 167,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 167,
+        "has_audio": 108,
+        "avg_recordings_per_question": 0.25
+      },
+      "audios": {
+        "total": 27,
+        "transcribed_validated": 0,
+        "transcribed_pending": 21,
+        "not_transcribed": 6
+      },
+      "transcriptions": {
+        "total": 21,
+        "validated": 0,
+        "not_yet_validated": 21,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 249012,
+        "total_hrs": 0.06,
+        "validated_ms": 0,
+        "validated_hrs": 0,
+        "avg_ms": 9223,
+        "min_ms": 3096,
+        "max_ms": 30528,
+        "avg_chars_per_sec": 7.8
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.2593,
+          "thirties": 0,
+          "fourties": 0.1852,
+          "fifties": 0.5556,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0,
+          "male_masculine": 1,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 27
+        },
+        "variant": {
+          "": 27
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 1473766,
+      "checksum": "265543699d2fa8b2953ddf444361fb49183cd3e5128bfec8fd31e945d4b4c88c",
+      "generated_at": "2026-03-10T10:16:26.117Z"
+    },
+    "br": {
+      "locale": "br",
+      "clips": 221,
+      "users": 12,
+      "questions": {
+        "total": 76,
+        "validated": 5,
+        "invalidated": 0,
+        "other": 71,
+        "has_audio": 62,
+        "avg_recordings_per_question": 3.56
+      },
+      "audios": {
+        "total": 221,
+        "transcribed_validated": 51,
+        "transcribed_pending": 52,
+        "not_transcribed": 118
+      },
+      "transcriptions": {
+        "total": 103,
+        "validated": 51,
+        "not_yet_validated": 52,
+        "edited": 9,
+        "edited_pct": 8.74
+      },
+      "duration": {
+        "total_ms": 2229948,
+        "total_hrs": 0.61,
+        "validated_ms": 476136,
+        "validated_hrs": 0.13,
+        "avg_ms": 10090,
+        "min_ms": 1980,
+        "max_ms": 49788,
+        "avg_chars_per_sec": 6.44
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.0317,
+          "thirties": 0.2896,
+          "fourties": 0.2986,
+          "fifties": 0.0271,
+          "sixties": 0.2127,
+          "seventies": 0.1403,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.991,
+          "male_masculine": 0,
+          "female_feminine": 0.009,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "gwenedeg": 1,
+          "kerneveg": 59,
+          "leoneg": 102,
+          "tregerieg": 114,
+          "user_defined": 45,
+          "": 4
+        },
+        "variant": {
+          "": 221
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 12614503,
+      "checksum": "b9bdff44e6432953e31a108155952379153e063c44fc9394eac6140722e9d04a",
+      "generated_at": "2026-03-10T10:14:41.238Z"
+    },
+    "ca": {
+      "locale": "ca",
+      "clips": 82,
+      "users": 8,
+      "questions": {
+        "total": 74,
+        "validated": 14,
+        "invalidated": 0,
+        "other": 60,
+        "has_audio": 57,
+        "avg_recordings_per_question": 1.44
+      },
+      "audios": {
+        "total": 82,
+        "transcribed_validated": 66,
+        "transcribed_pending": 16,
+        "not_transcribed": 0
+      },
+      "transcriptions": {
+        "total": 82,
+        "validated": 66,
+        "not_yet_validated": 16,
+        "edited": 36,
+        "edited_pct": 43.9
+      },
+      "duration": {
+        "total_ms": 1323936,
+        "total_hrs": 0.36,
+        "validated_ms": 973620,
+        "validated_hrs": 0.27,
+        "avg_ms": 16146,
+        "min_ms": 2916,
+        "max_ms": 72180,
+        "avg_chars_per_sec": 6.88
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0.0488,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0.1098,
+          "fourties": 0.622,
+          "fifties": 0.1951,
+          "sixties": 0.0244,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.0488,
+          "male_masculine": 0.5488,
+          "female_feminine": 0.4024,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "balearic": 0,
+          "central": 0,
+          "learner_es": 0,
+          "learner_other": 0,
+          "northern": 0,
+          "northwestern": 0,
+          "valencian": 19,
+          "user_defined": 32,
+          "": 31
+        },
+        "variant": {
+          "ca-algueres": 0,
+          "ca-balear": 0,
+          "ca-central": 42,
+          "ca-northern": 0,
+          "ca-nwestern": 0,
+          "ca-valencia-alacant": 0,
+          "ca-valencia-central": 0,
+          "ca-valencia-northern": 0,
+          "ca-valencia-southern": 0,
+          "ca-valencia-tortosi": 0,
+          "": 40
+        }
+      },
+      "reported": {
+        "clips": 2,
+        "reasons": {
+          "other": 2
+        }
+      },
+      "size": 7989910,
+      "checksum": "5bf32b2e9b52a6d91cf5701d3029ce75c60f6a68988be5a51d5c43b73b27ea95",
+      "generated_at": "2026-03-10T10:14:48.510Z"
+    },
+    "cy": {
+      "locale": "cy",
+      "clips": 3,
+      "users": 1,
+      "questions": {
+        "total": 60,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 60,
+        "has_audio": 11,
+        "avg_recordings_per_question": 0.27
+      },
+      "audios": {
+        "total": 3,
+        "transcribed_validated": 0,
+        "transcribed_pending": 3,
+        "not_transcribed": 0
+      },
+      "transcriptions": {
+        "total": 3,
+        "validated": 0,
+        "not_yet_validated": 3,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 10944,
+        "total_hrs": 0,
+        "validated_ms": 0,
+        "validated_hrs": 0,
+        "avg_ms": 3648,
+        "min_ms": 2808,
+        "max_ms": 4320,
+        "avg_chars_per_sec": 6.68
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0,
+          "fourties": 0,
+          "fifties": 1,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 1,
+          "male_masculine": 0,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "united_kingdom": 3
+        },
+        "variant": {
+          "cy-midwales": 0,
+          "cy-northeas": 0,
+          "cy-northwes": 0,
+          "cy-southeas": 0,
+          "cy-southwes": 0,
+          "cy-wladfa": 0,
+          "": 3
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 64595,
+      "checksum": "f3058406b27173cf0123602f7a1c78b0691d81350c0d0d8a821f1297f39675f0",
+      "generated_at": "2026-03-10T10:14:23.599Z"
+    },
+    "de": {
+      "locale": "de",
+      "clips": 175,
+      "users": 16,
+      "questions": {
+        "total": 92,
+        "validated": 26,
+        "invalidated": 6,
+        "other": 60,
+        "has_audio": 79,
+        "avg_recordings_per_question": 2.22
+      },
+      "audios": {
+        "total": 175,
+        "transcribed_validated": 33,
+        "transcribed_pending": 5,
+        "not_transcribed": 137
+      },
+      "transcriptions": {
+        "total": 38,
+        "validated": 33,
+        "not_yet_validated": 5,
+        "edited": 12,
+        "edited_pct": 31.58
+      },
+      "duration": {
+        "total_ms": 2799468,
+        "total_hrs": 0.77,
+        "validated_ms": 345096,
+        "validated_hrs": 0.09,
+        "avg_ms": 15997,
+        "min_ms": 3096,
+        "max_ms": 140976,
+        "avg_chars_per_sec": 10.52
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0.16,
+          "twenties": 0.0229,
+          "thirties": 0.1714,
+          "fourties": 0.0686,
+          "fifties": 0.3657,
+          "sixties": 0.2114,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.36,
+          "male_masculine": 0.12,
+          "female_feminine": 0.52,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "austria": 0,
+          "belgium": 0,
+          "brazil": 0,
+          "bulgaria": 0,
+          "canada": 0,
+          "czechia": 0,
+          "denmark": 0,
+          "finland": 0,
+          "france": 0,
+          "germany": 107,
+          "greece": 0,
+          "hungary": 0,
+          "italy": 0,
+          "kazakhstan": 0,
+          "liechtenstein": 0,
+          "lithuania": 0,
+          "luxembourg": 0,
+          "namibia": 0,
+          "netherlands": 0,
+          "paraguay": 0,
+          "poland": 0,
+          "romania": 0,
+          "russia": 0,
+          "slovakia": 0,
+          "slovenia": 0,
+          "switzerland": 2,
+          "turkey": 0,
+          "united_kingdom": 0,
+          "united_states": 0,
+          "user_defined": 1,
+          "": 66
+        },
+        "variant": {
+          "": 175
+        }
+      },
+      "reported": {
+        "clips": 2,
+        "reasons": {
+          "other": 1,
+          "different_language": 1
+        }
+      },
+      "size": 16352084,
+      "checksum": "b9d4b61353489801efe87ef6809a3801d5cc1b2b2b1699569b99aa56cc0adf76",
+      "generated_at": "2026-03-10T10:16:21.402Z"
+    },
+    "en": {
+      "locale": "en",
+      "clips": 4291,
+      "users": 421,
+      "questions": {
+        "total": 423,
+        "validated": 245,
+        "invalidated": 31,
+        "other": 147,
+        "has_audio": 337,
+        "avg_recordings_per_question": 12.73
+      },
+      "audios": {
+        "total": 4291,
+        "transcribed_validated": 1303,
+        "transcribed_pending": 52,
+        "not_transcribed": 2936
+      },
+      "transcriptions": {
+        "total": 1355,
+        "validated": 1303,
+        "not_yet_validated": 52,
+        "edited": 104,
+        "edited_pct": 7.68
+      },
+      "duration": {
+        "total_ms": 36590184,
+        "total_hrs": 10.16,
+        "validated_ms": 14872500,
+        "validated_hrs": 4.13,
+        "avg_ms": 8527,
+        "min_ms": 108,
+        "max_ms": 400320,
+        "avg_chars_per_sec": 7.1
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0.0792,
+          "teens": 0.1454,
+          "twenties": 0.5635,
+          "thirties": 0.0755,
+          "fourties": 0.0114,
+          "fifties": 0.0151,
+          "sixties": 0.0918,
+          "seventies": 0.0091,
+          "eighties": 0.0082,
+          "nineties": 0.0007
+        },
+        "gender": {
+          "": 0.5362,
+          "male_masculine": 0.0727,
+          "female_feminine": 0.3319,
+          "intersex": 0.0387,
+          "transgender": 0.0077,
+          "non-binary": 0.0016,
+          "do_not_wish_to_say": 0.0112
+        },
+        "accent": {
+          "african": 15,
+          "australia": 3,
+          "bermuda": 0,
+          "canada": 1,
+          "england": 85,
+          "hongkong": 0,
+          "indian": 12,
+          "ireland": 0,
+          "malaysia": 0,
+          "newzealand": 0,
+          "philippines": 1,
+          "scotland": 0,
+          "singapore": 2,
+          "southatlandtic": 0,
+          "us": 153,
+          "wales": 0,
+          "user_defined": 759,
+          "": 3815
+        },
+        "variant": {
+          "": 4291
+        }
+      },
+      "reported": {
+        "clips": 502,
+        "reasons": {
+          "different_language": 451,
+          "other": 50,
+          "offensive_speech": 1
+        }
+      },
+      "size": 233642883,
+      "checksum": "c7c62294bca14ea2ff6cf7946d2b3640e1e48a573cd17a16b4dcce33b000c3d8",
+      "generated_at": "2026-03-10T10:11:45.381Z"
+    },
+    "es": {
+      "locale": "es",
+      "clips": 12,
+      "users": 3,
+      "questions": {
+        "total": 90,
+        "validated": 25,
+        "invalidated": 0,
+        "other": 65,
+        "has_audio": 12,
+        "avg_recordings_per_question": 1
+      },
+      "audios": {
+        "total": 12,
+        "transcribed_validated": 12,
+        "transcribed_pending": 0,
+        "not_transcribed": 0
+      },
+      "transcriptions": {
+        "total": 12,
+        "validated": 12,
+        "not_yet_validated": 0,
+        "edited": 2,
+        "edited_pct": 16.67
+      },
+      "duration": {
+        "total_ms": 110988,
+        "total_hrs": 0.03,
+        "validated_ms": 110988,
+        "validated_hrs": 0.03,
+        "avg_ms": 9249,
+        "min_ms": 1980,
+        "max_ms": 24480,
+        "avg_chars_per_sec": 8.9
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0.9167,
+          "fourties": 0.0833,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.1667,
+          "male_masculine": 0.8333,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "americacentral": 0,
+          "andino": 0,
+          "canario": 0,
+          "caribe": 0,
+          "centrosurpeninsular": 0,
+          "chileno": 0,
+          "filipinas": 0,
+          "mexicano": 0,
+          "nortepeninsular": 1,
+          "rioplatense": 11,
+          "surpeninsular": 0
+        },
+        "variant": {
+          "": 12
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 655122,
+      "checksum": "b5d640fbf709248a497da66103dfd3a2edfa5f402d9ef7e2106a53db085ac8ab",
+      "generated_at": "2026-03-10T10:15:58.344Z"
+    },
+    "fr": {
+      "locale": "fr",
+      "clips": 232,
+      "users": 29,
+      "questions": {
+        "total": 147,
+        "validated": 46,
+        "invalidated": 3,
+        "other": 98,
+        "has_audio": 129,
+        "avg_recordings_per_question": 1.8
+      },
+      "audios": {
+        "total": 232,
+        "transcribed_validated": 67,
+        "transcribed_pending": 0,
+        "not_transcribed": 165
+      },
+      "transcriptions": {
+        "total": 67,
+        "validated": 67,
+        "not_yet_validated": 0,
+        "edited": 12,
+        "edited_pct": 17.91
+      },
+      "duration": {
+        "total_ms": 3082932,
+        "total_hrs": 0.85,
+        "validated_ms": 949284,
+        "validated_hrs": 0.26,
+        "avg_ms": 13289,
+        "min_ms": 288,
+        "max_ms": 90180,
+        "avg_chars_per_sec": 9.59
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.3233,
+          "thirties": 0.1078,
+          "fourties": 0.0431,
+          "fifties": 0.1422,
+          "sixties": 0.0345,
+          "seventies": 0.3491,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.3491,
+          "male_masculine": 0.3966,
+          "female_feminine": 0.1983,
+          "intersex": 0,
+          "transgender": 0.0129,
+          "non-binary": 0.0431,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "algeria": 1,
+          "belgium": 0,
+          "benin": 0,
+          "cameroon": 0,
+          "canada": 0,
+          "central_african_republic": 0,
+          "comoros": 0,
+          "congo_kinshasa": 0,
+          "cote_d_ivoire": 0,
+          "cyprus": 0,
+          "djibouti": 0,
+          "equatorial_guinea": 0,
+          "fr-metro-east": 10,
+          "fr-metro-north": 0,
+          "fr-metro-south": 0,
+          "fr-metro-west": 0,
+          "french_guiana": 0,
+          "french_polynesia": 0,
+          "germany": 3,
+          "guadeloupe": 11,
+          "haiti": 0,
+          "italy": 0,
+          "luxembourg": 0,
+          "madagascar": 0,
+          "mali": 0,
+          "martinique": 0,
+          "mauritania": 0,
+          "mauritius": 0,
+          "mayotte": 0,
+          "monaco": 0,
+          "morocco": 0,
+          "netherlands": 0,
+          "new_caledonia": 0,
+          "niger": 0,
+          "reunion": 0,
+          "romania": 0,
+          "senegal": 0,
+          "seychelles": 0,
+          "st_barthelemy": 0,
+          "st_martin": 0,
+          "st_pierre_et_miquelon": 0,
+          "switzerland": 0,
+          "syria": 0,
+          "togo": 0,
+          "tunisia": 0,
+          "united_kingdom": 0,
+          "united_states": 0,
+          "vanuatu": 0,
+          "wallis_et_futuna": 0,
+          "user_defined": 1,
+          "": 206
+        },
+        "variant": {
+          "fr-asia": 0,
+          "fr-droum": 11,
+          "fr-europe": 0,
+          "fr-metro": 163,
+          "fr-nafrica": 1,
+          "fr-namerica": 0,
+          "fr-safrica": 0,
+          "fr-samerica": 0,
+          "": 57
+        }
+      },
+      "reported": {
+        "clips": 13,
+        "reasons": {
+          "different_language": 12,
+          "other": 1
+        }
+      },
+      "size": 16894840,
+      "checksum": "318551526204692734d49dca0de1e59e645d20eb348eae29d6cceaa9a10e19e0",
+      "generated_at": "2026-03-10T10:12:26.199Z"
+    },
+    "ga-IE": {
+      "locale": "ga-IE",
+      "clips": 23,
+      "users": 4,
+      "questions": {
+        "total": 104,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 104,
+        "has_audio": 32,
+        "avg_recordings_per_question": 0.72
+      },
+      "audios": {
+        "total": 23,
+        "transcribed_validated": 1,
+        "transcribed_pending": 4,
+        "not_transcribed": 18
+      },
+      "transcriptions": {
+        "total": 5,
+        "validated": 1,
+        "not_yet_validated": 4,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 347508,
+        "total_hrs": 0.09,
+        "validated_ms": 3816,
+        "validated_hrs": 0,
+        "avg_ms": 15109,
+        "min_ms": 3816,
+        "max_ms": 54108,
+        "avg_chars_per_sec": 10
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0.0435,
+          "fourties": 0.5652,
+          "fifties": 0.3913,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.087,
+          "male_masculine": 0.5652,
+          "female_feminine": 0.3478,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "cainteoir_dúchais_gaeltacht": 10,
+          "cainteoir_dúchais_lasmuigh_den_ghaeltacht": 0,
+          "cainteoir_líofa_ní_ó_dhúchas": 0,
+          "foghlaimeoir_fásta_ó_bhéarla": 0,
+          "foghlaimeoir_fásta_ó_theanga_eile": 0,
+          "foghlaimeoir_i_ngaelscoil": 0,
+          "": 13
+        },
+        "variant": {
+          "ga-IE-caighd": 0,
+          "ga-IE-chonnact": 3,
+          "ga-IE-mumhan": 7,
+          "ga-IE-uladh": 0,
+          "": 13
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 2043473,
+      "checksum": "8a347c255a6de102f9e2a8335f1d5197aa0fbead23fadcb5499ee3f95ab30ba7",
+      "generated_at": "2026-03-10T10:16:29.146Z"
+    },
+    "gl": {
+      "locale": "gl",
+      "clips": 87,
+      "users": 13,
+      "questions": {
+        "total": 288,
+        "validated": 19,
+        "invalidated": 0,
+        "other": 269,
+        "has_audio": 166,
+        "avg_recordings_per_question": 0.52
+      },
+      "audios": {
+        "total": 87,
+        "transcribed_validated": 43,
+        "transcribed_pending": 44,
+        "not_transcribed": 0
+      },
+      "transcriptions": {
+        "total": 87,
+        "validated": 43,
+        "not_yet_validated": 44,
+        "edited": 28,
+        "edited_pct": 32.18
+      },
+      "duration": {
+        "total_ms": 1130868,
+        "total_hrs": 0.31,
+        "validated_ms": 452304,
+        "validated_hrs": 0.12,
+        "avg_ms": 12998,
+        "min_ms": 2520,
+        "max_ms": 85536,
+        "avg_chars_per_sec": 8.89
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.4943,
+          "thirties": 0.023,
+          "fourties": 0.4253,
+          "fifties": 0.0575,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.0115,
+          "male_masculine": 0.3333,
+          "female_feminine": 0.2644,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0.3908
+        },
+        "accent": {
+          "atlantico": 1,
+          "central": 4,
+          "neofalante": 10,
+          "normativo": 57,
+          "oriental": 20,
+          "": 1
+        },
+        "variant": {
+          "": 87
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 6548126,
+      "checksum": "02f06bc63c23014703ac1f8baa3325d7125fe68c54194b42634e64d0d54b852e",
+      "generated_at": "2026-03-10T10:16:04.651Z"
+    },
+    "gsw": {
+      "locale": "gsw",
+      "clips": 840,
+      "users": 47,
+      "questions": {
+        "total": 65,
+        "validated": 3,
+        "invalidated": 0,
+        "other": 62,
+        "has_audio": 63,
+        "avg_recordings_per_question": 13.33
+      },
+      "audios": {
+        "total": 840,
+        "transcribed_validated": 46,
+        "transcribed_pending": 122,
+        "not_transcribed": 672
+      },
+      "transcriptions": {
+        "total": 168,
+        "validated": 46,
+        "not_yet_validated": 122,
+        "edited": 46,
+        "edited_pct": 27.38
+      },
+      "duration": {
+        "total_ms": 16747164,
+        "total_hrs": 4.65,
+        "validated_ms": 635904,
+        "validated_hrs": 0.17,
+        "avg_ms": 19937,
+        "min_ms": 468,
+        "max_ms": 141732,
+        "avg_chars_per_sec": 7.41
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0.0714,
+          "teens": 0,
+          "twenties": 0.056,
+          "thirties": 0.0452,
+          "fourties": 0.1476,
+          "fifties": 0.1869,
+          "sixties": 0.3679,
+          "seventies": 0.125,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.6512,
+          "male_masculine": 0,
+          "female_feminine": 0.331,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0.0179
+        },
+        "accent": {
+          "user_defined": 32,
+          "": 808
+        },
+        "variant": {
+          "gsw-FR-hochalem": 11,
+          "gsw-FR-nordalem": 156,
+          "gsw-FR-rhinfran": 0,
+          "gsw-FR-sudnalem": 3,
+          "gsw-FR-sudrfran": 19,
+          "": 651
+        }
+      },
+      "reported": {
+        "clips": 25,
+        "reasons": {
+          "other": 18,
+          "offensive_speech": 3,
+          "different_language": 4
+        }
+      },
+      "size": 89921631,
+      "checksum": "13fb06a91b915f608236d9902b1ad9d852f4fa6166ef36d19530cd06c393a1f0",
+      "generated_at": "2026-03-10T10:15:48.329Z"
+    },
+    "kbd": {
+      "locale": "kbd",
+      "clips": 150,
+      "users": 16,
+      "questions": {
+        "total": 155,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 155,
+        "has_audio": 154,
+        "avg_recordings_per_question": 0.97
+      },
+      "audios": {
+        "total": 150,
+        "transcribed_validated": 4,
+        "transcribed_pending": 0,
+        "not_transcribed": 146
+      },
+      "transcriptions": {
+        "total": 4,
+        "validated": 4,
+        "not_yet_validated": 0,
+        "edited": 2,
+        "edited_pct": 50
+      },
+      "duration": {
+        "total_ms": 3917736,
+        "total_hrs": 1.08,
+        "validated_ms": 90972,
+        "validated_hrs": 0.02,
+        "avg_ms": 26118,
+        "min_ms": 3348,
+        "max_ms": 130104,
+        "avg_chars_per_sec": 8.15
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0.1467,
+          "teens": 0,
+          "twenties": 0.38,
+          "thirties": 0.3267,
+          "fourties": 0.1133,
+          "fifties": 0.0333,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.3867,
+          "male_masculine": 0,
+          "female_feminine": 0.6133,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "bakhsan": 0,
+          "besleney": 0,
+          "kuban": 0,
+          "kuban_zelenchuk": 1,
+          "malka": 0,
+          "mozdok": 0,
+          "terek": 61,
+          "": 88
+        },
+        "variant": {
+          "kbd-Cyrl": 104,
+          "kbd-Cyrl-JOR": 0,
+          "kbd-Cyrl-SY": 0,
+          "kbd-Cyrl-TR": 0,
+          "kbd-Latn-TR-t-kbd-cyrl": 0,
+          "kbd-RU": 1,
+          "": 45
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 22871408,
+      "checksum": "152b91e7eec0b0a10739e4514b66d7db232d4cb24f224f68cb8616d389dd3e2c",
+      "generated_at": "2026-03-10T10:14:05.400Z"
+    },
+    "lij": {
+      "locale": "lij",
+      "clips": 95,
+      "users": 4,
+      "questions": {
+        "total": 169,
+        "validated": 2,
+        "invalidated": 0,
+        "other": 167,
+        "has_audio": 164,
+        "avg_recordings_per_question": 0.58
+      },
+      "audios": {
+        "total": 95,
+        "transcribed_validated": 38,
+        "transcribed_pending": 6,
+        "not_transcribed": 51
+      },
+      "transcriptions": {
+        "total": 44,
+        "validated": 38,
+        "not_yet_validated": 6,
+        "edited": 28,
+        "edited_pct": 63.64
+      },
+      "duration": {
+        "total_ms": 3261420,
+        "total_hrs": 0.9,
+        "validated_ms": 1367064,
+        "validated_hrs": 0.37,
+        "avg_ms": 34331,
+        "min_ms": 8532,
+        "max_ms": 118044,
+        "avg_chars_per_sec": 7.37
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0.6947,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0.2421,
+          "seventies": 0.0632,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.0632,
+          "male_masculine": 0.6947,
+          "female_feminine": 0.2421,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 95
+        },
+        "variant": {
+          "": 95
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 19370634,
+      "checksum": "e597882a56aa8c6197c189e494d4534fc2e53a8819fd8e020234cd6512ba5622",
+      "generated_at": "2026-03-10T10:14:18.123Z"
+    },
+    "lv": {
+      "locale": "lv",
+      "clips": 6,
+      "users": 3,
+      "questions": {
+        "total": 101,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 101,
+        "has_audio": 22,
+        "avg_recordings_per_question": 0.27
+      },
+      "audios": {
+        "total": 6,
+        "transcribed_validated": 1,
+        "transcribed_pending": 1,
+        "not_transcribed": 4
+      },
+      "transcriptions": {
+        "total": 2,
+        "validated": 1,
+        "not_yet_validated": 1,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 204948,
+        "total_hrs": 0.05,
+        "validated_ms": 23976,
+        "validated_hrs": 0,
+        "avg_ms": 34158,
+        "min_ms": 13500,
+        "max_ms": 86796,
+        "avg_chars_per_sec": 8.26
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0.3333,
+          "twenties": 0,
+          "thirties": 0.6667,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.3333,
+          "male_masculine": 0,
+          "female_feminine": 0.6667,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "user_defined": 2,
+          "": 4
+        },
+        "variant": {
+          "": 6
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 1217992,
+      "checksum": "1471e019fe03acbe65d668ff9cf09bf9f16fb0963cd9948d07f68ae90c15c52e",
+      "generated_at": "2026-03-10T10:14:21.722Z"
+    },
+    "ms-MY": {
+      "locale": "ms-MY",
+      "clips": 3,
+      "users": 1,
+      "questions": {
+        "total": 119,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 119,
+        "has_audio": 119,
+        "avg_recordings_per_question": 0.03
+      },
+      "audios": {
+        "total": 3,
+        "transcribed_validated": 0,
+        "transcribed_pending": 0,
+        "not_transcribed": 3
+      },
+      "transcriptions": {
+        "total": 0,
+        "validated": 0,
+        "not_yet_validated": 0,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 9756,
+        "total_hrs": 0,
+        "validated_ms": 0,
+        "validated_hrs": 0,
+        "avg_ms": 3252,
+        "min_ms": 1800,
+        "max_ms": 4500,
+        "avg_chars_per_sec": 0
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 1,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0,
+          "male_masculine": 0,
+          "female_feminine": 1,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 3
+        },
+        "variant": {
+          "": 3
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 54764,
+      "checksum": "07fd5c7bfc41df2ce568b88dea0613fb862df720e63d855e68b22a799042909c",
+      "generated_at": "2026-03-10T10:12:08.853Z"
+    },
+    "qxp": {
+      "locale": "qxp",
+      "clips": 1143,
+      "users": 15,
+      "questions": {
+        "total": 152,
+        "validated": 109,
+        "invalidated": 1,
+        "other": 42,
+        "has_audio": 150,
+        "avg_recordings_per_question": 7.62
+      },
+      "audios": {
+        "total": 1143,
+        "transcribed_validated": 2,
+        "transcribed_pending": 21,
+        "not_transcribed": 1120
+      },
+      "transcriptions": {
+        "total": 23,
+        "validated": 2,
+        "not_yet_validated": 21,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 15234732,
+        "total_hrs": 4.23,
+        "validated_ms": 18036,
+        "validated_hrs": 0,
+        "avg_ms": 13329,
+        "min_ms": 1620,
+        "max_ms": 83088,
+        "avg_chars_per_sec": 8.58
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0.1855,
+          "twenties": 0.2213,
+          "thirties": 0.3018,
+          "fourties": 0.1592,
+          "fifties": 0.0726,
+          "sixties": 0.0595,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.6509,
+          "male_masculine": 0,
+          "female_feminine": 0.3491,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "user_defined": 110,
+          "": 1033
+        },
+        "variant": {
+          "": 1143
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 84965376,
+      "checksum": "bbcb25e717a8a092b6ae42d3df0e7db9ab4f66f9d5759b639a6181417c5b5611",
+      "generated_at": "2026-03-10T10:13:46.123Z"
+    },
+    "ru": {
+      "locale": "ru",
+      "clips": 415,
+      "users": 11,
+      "questions": {
+        "total": 656,
+        "validated": 587,
+        "invalidated": 1,
+        "other": 68,
+        "has_audio": 274,
+        "avg_recordings_per_question": 1.51
+      },
+      "audios": {
+        "total": 415,
+        "transcribed_validated": 382,
+        "transcribed_pending": 26,
+        "not_transcribed": 7
+      },
+      "transcriptions": {
+        "total": 408,
+        "validated": 382,
+        "not_yet_validated": 26,
+        "edited": 64,
+        "edited_pct": 15.69
+      },
+      "duration": {
+        "total_ms": 8960688,
+        "total_hrs": 2.48,
+        "validated_ms": 7841736,
+        "validated_hrs": 2.17,
+        "avg_ms": 21592,
+        "min_ms": 2448,
+        "max_ms": 94608,
+        "avg_chars_per_sec": 9.68
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0.0024,
+          "twenties": 0.9639,
+          "thirties": 0.0337,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.812,
+          "male_masculine": 0.1157,
+          "female_feminine": 0.0723,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "user_defined": 186,
+          "": 236
+        },
+        "variant": {
+          "": 415
+        }
+      },
+      "reported": {
+        "clips": 12,
+        "reasons": {
+          "different_language": 10,
+          "offensive_speech": 1,
+          "other": 1
+        }
+      },
+      "size": 52373629,
+      "checksum": "65439081a67b7125ec452dcad08acac51b4d02894bacc88c4a9b2e3cdd013b2e",
+      "generated_at": "2026-03-10T10:16:59.633Z"
+    },
+    "seh": {
+      "locale": "seh",
+      "clips": 263,
+      "users": 5,
+      "questions": {
+        "total": 61,
+        "validated": 0,
+        "invalidated": 2,
+        "other": 59,
+        "has_audio": 58,
+        "avg_recordings_per_question": 4.53
+      },
+      "audios": {
+        "total": 263,
+        "transcribed_validated": 0,
+        "transcribed_pending": 0,
+        "not_transcribed": 263
+      },
+      "transcriptions": {
+        "total": 0,
+        "validated": 0,
+        "not_yet_validated": 0,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 4499172,
+        "total_hrs": 1.24,
+        "validated_ms": 0,
+        "validated_hrs": 0,
+        "avg_ms": 17107,
+        "min_ms": 1368,
+        "max_ms": 78696,
+        "avg_chars_per_sec": 0
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.2205,
+          "thirties": 0.3384,
+          "fourties": 0,
+          "fifties": 0.2205,
+          "sixties": 0.2205,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.5589,
+          "male_masculine": 0,
+          "female_feminine": 0.4411,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 263
+        },
+        "variant": {
+          "": 263
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 19111834,
+      "checksum": "f21898694fcc641c0319563f33c8b94fd13f501030ac019136a6d6eca8604b4e",
+      "generated_at": "2026-03-10T10:17:22.579Z"
+    },
+    "shi": {
+      "locale": "shi",
+      "clips": 39,
+      "users": 4,
+      "questions": {
+        "total": 60,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 60,
+        "has_audio": 34,
+        "avg_recordings_per_question": 1.15
+      },
+      "audios": {
+        "total": 39,
+        "transcribed_validated": 2,
+        "transcribed_pending": 2,
+        "not_transcribed": 35
+      },
+      "transcriptions": {
+        "total": 4,
+        "validated": 2,
+        "not_yet_validated": 2,
+        "edited": 1,
+        "edited_pct": 25
+      },
+      "duration": {
+        "total_ms": 1151064,
+        "total_hrs": 0.31,
+        "validated_ms": 26496,
+        "validated_hrs": 0,
+        "avg_ms": 29514,
+        "min_ms": 5040,
+        "max_ms": 90540,
+        "avg_chars_per_sec": 7.59
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.8205,
+          "thirties": 0.1795,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.8205,
+          "male_masculine": 0.1795,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 39
+        },
+        "variant": {
+          "": 39
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 6822400,
+      "checksum": "ecf23b5617e304f34d05947e45402c6efdd014e0f5a490fb887defb1aa76bd6d",
+      "generated_at": "2026-03-10T10:17:32.728Z"
+    },
+    "sn": {
+      "locale": "sn",
+      "clips": 6,
+      "users": 2,
+      "questions": {
+        "total": 60,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 60,
+        "has_audio": 6,
+        "avg_recordings_per_question": 1
+      },
+      "audios": {
+        "total": 6,
+        "transcribed_validated": 0,
+        "transcribed_pending": 0,
+        "not_transcribed": 6
+      },
+      "transcriptions": {
+        "total": 0,
+        "validated": 0,
+        "not_yet_validated": 0,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 270108,
+        "total_hrs": 0.07,
+        "validated_ms": 0,
+        "validated_hrs": 0,
+        "avg_ms": 45018,
+        "min_ms": 13536,
+        "max_ms": 74880,
+        "avg_chars_per_sec": 0
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0.1667,
+          "thirties": 0,
+          "fourties": 0,
+          "fifties": 0.8333,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.1667,
+          "male_masculine": 0,
+          "female_feminine": 0.8333,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "": 6
+        },
+        "variant": {
+          "": 6
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 1603300,
+      "checksum": "df0b38ca79e41df69c1118f92e7348a7d056b0f1b8c2fc00065beb5a2f7f8bc4",
+      "generated_at": "2026-03-10T10:17:26.362Z"
+    },
+    "th": {
+      "locale": "th",
+      "clips": 6,
+      "users": 1,
+      "questions": {
+        "total": 61,
+        "validated": 1,
+        "invalidated": 0,
+        "other": 60,
+        "has_audio": 6,
+        "avg_recordings_per_question": 1
+      },
+      "audios": {
+        "total": 6,
+        "transcribed_validated": 3,
+        "transcribed_pending": 0,
+        "not_transcribed": 3
+      },
+      "transcriptions": {
+        "total": 3,
+        "validated": 3,
+        "not_yet_validated": 0,
+        "edited": 0,
+        "edited_pct": 0
+      },
+      "duration": {
+        "total_ms": 19584,
+        "total_hrs": 0,
+        "validated_ms": 11124,
+        "validated_hrs": 0,
+        "avg_ms": 3264,
+        "min_ms": 2016,
+        "max_ms": 4248,
+        "avg_chars_per_sec": 6.41
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 1,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 1,
+          "male_masculine": 0,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "user_defined": 6
+        },
+        "variant": {
+          "": 6
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 90200,
+      "checksum": "02839bff1e273695f9c71bde23713144f8482f7657867fae4c96e7a6a1b5101c",
+      "generated_at": "2026-03-10T10:17:28.394Z"
+    },
+    "tr": {
+      "locale": "tr",
+      "clips": 7,
+      "users": 2,
+      "questions": {
+        "total": 140,
+        "validated": 0,
+        "invalidated": 0,
+        "other": 140,
+        "has_audio": 30,
+        "avg_recordings_per_question": 0.23
+      },
+      "audios": {
+        "total": 7,
+        "transcribed_validated": 1,
+        "transcribed_pending": 0,
+        "not_transcribed": 6
+      },
+      "transcriptions": {
+        "total": 1,
+        "validated": 1,
+        "not_yet_validated": 0,
+        "edited": 1,
+        "edited_pct": 100
+      },
+      "duration": {
+        "total_ms": 192384,
+        "total_hrs": 0.05,
+        "validated_ms": 4428,
+        "validated_hrs": 0,
+        "avg_ms": 27483,
+        "min_ms": 4428,
+        "max_ms": 40500,
+        "avg_chars_per_sec": 7.45
+      },
+      "buckets": {
+        "train": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "dev": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        },
+        "test": {
+          "clips": 0,
+          "users": 0,
+          "duration_ms": 0,
+          "duration_hrs": 0
+        }
+      },
+      "demographics": {
+        "age": {
+          "": 0,
+          "teens": 0,
+          "twenties": 0,
+          "thirties": 0.1429,
+          "fourties": 0,
+          "fifties": 0,
+          "sixties": 0.8571,
+          "seventies": 0,
+          "eighties": 0,
+          "nineties": 0
+        },
+        "gender": {
+          "": 0.1429,
+          "male_masculine": 0.8571,
+          "female_feminine": 0,
+          "intersex": 0,
+          "transgender": 0,
+          "non-binary": 0,
+          "do_not_wish_to_say": 0
+        },
+        "accent": {
+          "user_defined": 6,
+          "": 1
+        },
+        "variant": {
+          "": 7
+        }
+      },
+      "reported": {
+        "clips": 0,
+        "reasons": {}
+      },
+      "size": 1134902,
+      "checksum": "44486e47011ae3e37b92a9f4d48b84b462c436baccc54b7eac0299126ef1a3ca",
+      "generated_at": "2026-03-10T10:12:30.029Z"
+    }
+  },
+  "totalDurationMs": 102744756,
+  "totalValidDurationMs": 28406016,
+  "totalHrs": 28,
+  "totalValidHrs": 8
+}
