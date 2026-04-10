@@ -1,16 +1,16 @@
 # Common Voice Datasets
 
-This repo contains release details and metadata for the [Common Voice](https://commonvoice.mozilla.org) datasets. Please visit the [Mozilla Data Collective Common Voice section](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk) to download the latest datasets.
+This repo contains release details and metadata for the [Common Voice](https://commonvoice.mozilla.org) datasets. Please visit the [Mozilla Data Collective Common Voice section](https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk) to download the latest datasets.
 
 ## Dataset Types
 
 Common Voice collects voice data through multiple modalities. Each dataset type has its own release information, data structure, and documentation.
 
-| Type                                               | Alias | Status  | Releases | Latest (2026-03) | Languages |
-| -------------------------------------------------- | ----- | ------- | -------: | :--------------: | --------: |
-| [Scripted Speech](datasets/scripted-speech/)       | SCS   | Active  |       25 |      v25.0       |       290 |
-| [Spontaneous Speech](datasets/spontaneous-speech/) | SPS   | Active  |        3 |       v3.0       |        72 |
-| [Code Switching](datasets/code-switching/)         | CS    | Alpha   |       -- |        --        |        -- |
+| Type                                               | Alias | Status | Releases | Latest (2026-03) | Languages |
+| -------------------------------------------------- | ----- | ------ | -------: | :--------------: | --------: |
+| [Scripted Speech](datasets/scripted-speech/)       | SCS   | Active |       25 |      v25.0       |       290 |
+| [Spontaneous Speech](datasets/spontaneous-speech/) | SPS   | Active |        3 |       v3.0       |        72 |
+| [Code Switching](datasets/code-switching/)         | CS    | Alpha  |       -- |        --        |        -- |
 
 See each dataset type's documentation for detailed information about data structures, fields in metadata files (`.tsv`), archive contents, and release changelogs. Note that the "date" in releases represents the cut-off date for data collection and validation, not the actual release date of the dataset.
 
@@ -106,10 +106,10 @@ For details see: [Spontaneous Speech documentation](datasets/spontaneous-speech/
 
 ## Dataset Access
 
-You can download the Common Voice datasets from the [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) platform:
+You can download the Common Voice datasets from the [Mozilla Data Collective](https://mozilladatacollective.com/) (MDC) platform:
 
-- [Directly from the browser](https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk)
-- [Using the MDC API](https://datacollective.mozillafoundation.org/api-reference)
+- [Directly from the browser](https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk)
+- [Using the MDC API](https://mozilladatacollective.com/api-reference)
 - [Using the MDC Python SDK](https://github.com/Mozilla-Data-Collective/datacollective-python) to directly load the datasets as pandas DataFrame in your Python codebase
 
 ## Generating Dataset Statistics
