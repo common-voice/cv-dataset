@@ -2,6 +2,20 @@
 
 ## Current Release
 
+### [Corpus 26.0](cv-corpus-26.0-2026-06-12.json)
+
+Regularly scheduled dataset release Q2 2026.
+
+- **Date released**: 17 June 2026
+- **Clip cut-off date**: 12 June 2026
+- **Total hours**: 42,388
+- **Total validated hours**: 28,893
+- **Number of languages**: 294
+
+**New languages since last major release**: Abaza (`abq`), Khakas (`kjh`), Khmer (`km`), Afaan Oromo (`om`)
+
+## Past Releases
+
 ### [Corpus 25.0](cv-corpus-25.0-2026-03-09.json)
 
 Regularly scheduled dataset release Q1 2026.
@@ -23,8 +37,6 @@ Regularly scheduled dataset release Q1 2026.
 - `status` is `pending` (not-yet-validated) or `rejected` (when `down_votes` >= 2 and `down_votes` > `up_votes`)
 - the `unvalidated_sentences.tsv` description is corrected: it contains sentences that have not reached the validated threshold, not only sentences without any votes
 - added `variant` and `locale` columns to [Corpora Creator](https://github.com/common-voice/CorporaCreator) clip files
-
-## Past Releases
 
 ### [Corpus 24.0](cv-corpus-24.0-2025-12-05.json)
 

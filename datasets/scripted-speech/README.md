@@ -16,13 +16,16 @@ config:
     xyChart:
         width: 900
         height: 400
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8, #34a853"
 ---
 xychart-beta
     title "Scripted Speech: Total & Validated Hours"
-    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25"]
-    y-axis "Hours" 0 --> 42000
-    bar [1368,2366,2454,4257,7226,9283,13905,18243,20217,20817,24231,26119,27141,28117,28750,30328,31175,32121,32584,33154,33534,33815,35921,38932,41792]
-    bar [1096,1872,1979,3401,5671,7335,11192,14122,14973,15234,16429,17127,17689,18651,19159,19915,20408,20943,21593,22106,22344,22640,24600,25886,28377]
+    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25","26"]
+    y-axis "Hours" 0 --> 43000
+    bar [1368,2366,2454,4257,7226,9283,13905,18243,20217,20817,24231,26119,27141,28117,28750,30328,31175,32121,32584,33154,33534,33815,35921,38932,41792,42388]
+    bar [1096,1872,1979,3401,5671,7335,11192,14122,14973,15234,16429,17127,17689,18651,19159,19915,20408,20943,21593,22106,22344,22640,24600,25886,28377,28893]
 ```
 
 ### Contributors
@@ -33,12 +36,15 @@ config:
     xyChart:
         width: 900
         height: 400
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8"
 ---
 xychart-beta
     title "Scripted Speech: Total Contributors"
-    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25"]
+    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25","26"]
     y-axis "Users" 0 --> 500000
-    bar [42109,56059,57420,95798,138225,151434,191622,207602,252576,263879,271817,281069,288617,298724,302232,319703,330323,335780,338378,345996,350098,356074,361614,371058,375673]
+    bar [42109,56059,57420,95798,138225,151434,191622,207602,252576,263879,271817,281069,288617,298724,302232,319703,330323,335780,338378,345996,350098,356074,361614,371058,375673,378025]
 ```
 
 _Counts are summed per language — contributors active in multiple languages are counted once per language._
@@ -51,12 +57,15 @@ config:
     xyChart:
         width: 900
         height: 400
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8"
 ---
 xychart-beta
     title "Scripted Speech: Languages per Release"
-    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25"]
+    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25","26"]
     y-axis "Languages" 0 --> 310
-    line [19,28,29,40,54,60,76,87,93,96,100,104,108,112,114,120,124,129,131,133,134,137,286,289,290]
+    line [19,28,29,40,54,60,76,87,93,96,100,104,108,112,114,120,124,129,131,133,134,137,286,289,290,294]
 ```
 
 ### Release Summary
@@ -90,6 +99,7 @@ xychart-beta
 | v23.0   | 2025-09-05 |       286 |      35,921 |          24,600 |
 | v24.0   | 2025-12-05 |       289 |      38,932 |          25,886 |
 | v25.0   | 2026-03-09 |       290 |      41,792 |          28,377 |
+| v26.0   | 2026-06-12 |       294 |      42,388 |          28,893 |
 
 </div>
 
@@ -128,8 +138,8 @@ Each row of a clip TSV file (`validated.tsv`, `invalidated.tsv`, `other.tsv`, `t
 
 - `client_id` -- hashed UUID of a given user
 - `path` -- relative path of the audio file
-- `sentence` -- transcription of the audio to be read aloud by the contributor
 - `sentence_id` -- unique identifier for the sentence (since Corpus 17.0)
+- `sentence` -- transcription of the audio to be read aloud by the contributor
 - `sentence_domain` -- domain classification(s) of the sentence (since Corpus 17.0)
 - `up_votes` -- number of people who said audio matches the sentence
 - `down_votes` -- number of people who said audio does not match the sentence
@@ -180,8 +190,8 @@ The `train.tsv`, `dev.tsv`, and `test.tsv` splits are produced by [CorporaCreato
 
 **`reported.tsv`** (since Corpus 5.0) -- sentences flagged by contributors:
 
-- `sentence` -- text of the reported sentence
 - `sentence_id` -- unique identifier for the sentence
+- `sentence` -- text of the reported sentence
 - `locale` -- locale code
 - `reason` -- report reason: `offensive-language`, `grammar-or-spelling`, `different-language`, `difficult-pronounce`
 
