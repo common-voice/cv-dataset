@@ -6,10 +6,10 @@ This repo contains release details and metadata for the [Common Voice](https://c
 
 Common Voice collects voice data through multiple modalities. Each dataset type has its own release information, data structure, and documentation.
 
-| Type                                               | Alias | Status | Releases | Latest (2026-03) | Languages |
+| Type                                               | Alias | Status | Releases | Latest (2026-06) | Languages |
 | -------------------------------------------------- | ----- | ------ | -------: | :--------------: | --------: |
-| [Scripted Speech](datasets/scripted-speech/)       | SCS   | Active |       25 |      v25.0       |       290 |
-| [Spontaneous Speech](datasets/spontaneous-speech/) | SPS   | Active |        3 |       v3.0       |        72 |
+| [Scripted Speech](datasets/scripted-speech/)       | SCS   | Active |       26 |      v26.0       |       294 |
+| [Spontaneous Speech](datasets/spontaneous-speech/) | SPS   | Active |        4 |       v4.0       |        78 |
 | [Code Switching](datasets/code-switching/)         | CS    | Alpha  |       -- |        --        |        -- |
 
 See each dataset type's documentation for detailed information about data structures, fields in metadata files (`.tsv`), archive contents, and release changelogs. Note that the "date" in releases represents the cut-off date for data collection and validation, not the actual release date of the dataset.
@@ -74,13 +74,16 @@ config:
     xyChart:
         width: 900
         height: 400
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8, #34a853"
 ---
 xychart-beta
     title "Scripted Speech: Total & Validated Hours"
-    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25"]
-    y-axis "Hours" 0 --> 42000
-    bar [1368,2366,2454,4257,7226,9283,13905,18243,20217,20817,24231,26119,27141,28117,28750,30328,31175,32121,32584,33154,33534,33815,35921,38932,41792]
-    bar [1096,1872,1979,3401,5671,7335,11192,14122,14973,15234,16429,17127,17689,18651,19159,19915,20408,20943,21593,22106,22344,22640,24600,25886,28377]
+    x-axis ["1","2","3","4","5.1","6.1","7","8","9","10","11","12","13","14","15","16.1","17","18","19","20","21","22","23","24","25","26"]
+    y-axis "Hours" 0 --> 43000
+    bar [1368,2366,2454,4257,7226,9283,13905,18243,20217,20817,24231,26119,27141,28117,28750,30328,31175,32121,32584,33154,33534,33815,35921,38932,41792,42388]
+    bar [1096,1872,1979,3401,5671,7335,11192,14122,14973,15234,16429,17127,17689,18651,19159,19915,20408,20943,21593,22106,22344,22640,24600,25886,28377,28893]
 ```
 
 For details see: [Scripted Speech documentation](datasets/scripted-speech/)
@@ -93,13 +96,16 @@ config:
     xyChart:
         width: 600
         height: 350
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8, #34a853"
 ---
 xychart-beta
     title "Spontaneous Speech: Total vs Validated Hours"
-    x-axis ["v1.0","v2.0","v3.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0"]
     y-axis "Hours" 0 --> 600
-    bar [428,454,508]
-    bar [263,268,269]
+    bar [428,454,508,515]
+    bar [263,268,269,273]
 ```
 
 For details see: [Spontaneous Speech documentation](datasets/spontaneous-speech/)
