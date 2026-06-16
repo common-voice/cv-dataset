@@ -1,33 +1,18 @@
 # Spontaneous Speech (SPS) Changelog
 
-## Dataset Changes in Corpus 3.0
-
-The following changes affect SPS datasets starting with Corpus 3.0. For bundler internals, see the [SPS Bundler documentation](https://github.com/common-voice/spontaneous-speech/tree/main/spontaneous-speech-bundler).
-
-### New files in archive
-
-- **Datasheets**: each locale archive now includes a `README.md` datasheet with language description, statistics, and community context (generated from [cv-datasheets](https://github.com/common-voice/cv-datasheets), schema v2.0.0). Full releases only.
-- **QA summary**: `ss-corpus-{locale}.qa-summary.json` with processing metrics per locale.
-
-### TSV field changes
-
-- added `age`, `gender`, `accents`, `variant` columns -- demographics are cross-referenced from SCS profiles when the contributor has one, with SCS data taking priority
-- added `char_per_sec` column -- characters per second of transcription relative to audio duration
-- added `quality_tags` column -- pipe-separated quality flags (see [Quality Tags](README.md#quality-tags) in the README)
-- disfluency markers in `transcription` are now standardized to `[disfluency]` tags
-
-### Statistics structure
-
-The per-locale statistics JSON differs from SCS (relevant for programmatic consumers):
-
-- `duration` is a nested object: `total_ms`, `total_hrs`, `validated_ms`, `validated_hrs`, `avg_ms`, `min_ms`, `max_ms`, `avg_chars_per_sec`
-- `buckets` contains per-split detail: `train`, `dev`, `test`, each with `clips`, `users`, `duration_ms`, `duration_hrs`
-- `demographics` replaces the SCS `splits` key, with `age`, `gender`, `accent`, and `variant` breakdowns
-- SPS-specific objects: `questions`, `audios`, `transcriptions`, `reported` (with `reasons` breakdown)
-- accents and variants use machine tokens in statistics; non-predefined values are grouped as `user_defined`
-- `generated_at` timestamp is included
-
 ## Current Release
+
+### [Corpus 4.0](sps-corpus-4.0-2026-06-12.json)
+
+- **Date released**: 17 June 2026
+- **Clip cut-off date**: 12 June 2026
+- **Total hours**: 515
+- **Total validated hours**: 273
+- **Number of languages**: 78
+
+**New languages since last release**: Amharic (`am`), Lango (`laj`), Mon (`mnw`), Afaan Oromo (`om`), Shimaore (`swb`), Tatar (`tt`)
+
+## Past Releases
 
 ### [Corpus 3.0](sps-corpus-3.0-2026-03-09.json)
 
@@ -39,7 +24,32 @@ The per-locale statistics JSON differs from SCS (relevant for programmatic consu
 
 **New languages since last release**: Danish (`da`), Esperanto (`eo`), Croatian (`hr`), Javanese (`jv`), Dutch (`nl`), Pashto (`ps`), Rakhine (`rki`), Sinhala (`si`), Sundanese (`su`), Tudaga (`tuq`)
 
-## Past Releases
+#### Dataset Changes in Corpus 3.0
+
+The following changes affect SPS datasets starting with Corpus 3.0. For bundler internals, see the [SPS Bundler documentation](https://github.com/common-voice/spontaneous-speech/tree/main/spontaneous-speech-bundler).
+
+##### New files in archive
+
+- **Datasheets**: each locale archive now includes a `README.md` datasheet with language description, statistics, and community context (generated from [cv-datasheets](https://github.com/common-voice/cv-datasheets), schema v2.0.0). Full releases only.
+- **QA summary**: `ss-corpus-{locale}.qa-summary.json` with processing metrics per locale.
+
+##### TSV field changes
+
+- added `age`, `gender`, `accents`, `variant` columns -- demographics are cross-referenced from SCS profiles when the contributor has one, with SCS data taking priority
+- added `char_per_sec` column -- characters per second of transcription relative to audio duration
+- added `quality_tags` column -- pipe-separated quality flags (see [Quality Tags](README.md#quality-tags) in the README)
+- disfluency markers in `transcription` are now standardized to `[disfluency]` tags
+
+##### Statistics structure
+
+The per-locale statistics JSON differs from SCS (relevant for programmatic consumers):
+
+- `duration` is a nested object: `total_ms`, `total_hrs`, `validated_ms`, `validated_hrs`, `avg_ms`, `min_ms`, `max_ms`, `avg_chars_per_sec`
+- `buckets` contains per-split detail: `train`, `dev`, `test`, each with `clips`, `users`, `duration_ms`, `duration_hrs`
+- `demographics` replaces the SCS `splits` key, with `age`, `gender`, `accent`, and `variant` breakdowns
+- SPS-specific objects: `questions`, `audios`, `transcriptions`, `reported` (with `reasons` breakdown)
+- accents and variants use machine tokens in statistics; non-predefined values are grouped as `user_defined`
+- `generated_at` timestamp is included
 
 ### [Corpus 2.0](sps-corpus-2.0-2025-12-05.json)
 

@@ -16,13 +16,16 @@ config:
     xyChart:
         width: 600
         height: 350
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8, #34a853"
 ---
 xychart-beta
     title "Spontaneous Speech: Total vs Validated Hours"
-    x-axis ["v1.0","v2.0","v3.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0"]
     y-axis "Hours" 0 --> 600
-    bar [428,454,508]
-    bar [263,268,269]
+    bar [428,454,508,515]
+    bar [263,268,269,273]
 ```
 
 ### Contributors
@@ -33,12 +36,15 @@ config:
     xyChart:
         width: 600
         height: 350
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8"
 ---
 xychart-beta
     title "Spontaneous Speech: Total Contributors"
-    x-axis ["v1.0","v2.0","v3.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0"]
     y-axis "Users" 0 --> 2500
-    bar [1060,1571,2043]
+    bar [1060,1571,2042,2105]
 ```
 
 ### Dataset Count
@@ -49,12 +55,15 @@ config:
     xyChart:
         width: 600
         height: 250
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#1a73e8"
 ---
 xychart-beta
     title "Spontaneous Speech: Dataset Count per Release"
-    x-axis ["v1.0","v2.0","v3.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0"]
     y-axis "Datasets" 0 --> 85
-    line [58,62,72]
+    line [58,62,72,78]
 ```
 
 ### Release Summary
@@ -66,6 +75,7 @@ xychart-beta
 | v1.0    | 2025-09-05 |        58 |         428 |             263 |
 | v2.0    | 2025-12-05 |        62 |         454 |             268 |
 | v3.0    | 2026-03-09 |        72 |         508 |             269 |
+| v4.0    | 2026-06-12 |        78 |         515 |             273 |
 
 </div>
 
