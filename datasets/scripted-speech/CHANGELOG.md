@@ -2,6 +2,20 @@
 
 ## Current Release
 
+### [Corpus 27.0](cv-corpus-27.0-2026-09-11.json)
+
+Regularly scheduled dataset release Q3 2026.
+
+- **Date released**: 16 September 2026
+- **Clip cut-off date**: 11 September 2026
+- **Total hours**: 42,593
+- **Total validated hours**: 29,295
+- **Number of languages**: 295
+
+**New languages since last major release**: Pa'O (`blk`)
+
+## Past Releases
+
 ### [Corpus 26.0](cv-corpus-26.0-2026-06-12.json)
 
 Regularly scheduled dataset release Q2 2026.
@@ -13,8 +27,6 @@ Regularly scheduled dataset release Q2 2026.
 - **Number of languages**: 294
 
 **New languages since last major release**: Abaza (`abq`), Khakas (`kjh`), Khmer (`km`), Afaan Oromo (`om`)
-
-## Past Releases
 
 ### [Corpus 25.0](cv-corpus-25.0-2026-03-09.json)
 
