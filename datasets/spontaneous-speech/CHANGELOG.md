@@ -2,24 +2,38 @@
 
 ## Current Release
 
+### [Corpus 5.0](sps-corpus-5.0-2026-09-11.json)
+
+- **Date released**: 16 September 2026
+- **Clip cut-off date**: 11 September 2026
+- **Total hours**: 541
+- **Total validated hours**: 302
+- **Number of languages**: 80
+
+**New languages since last release**: Swahili (`sw`), Chinese (China) (`zh-CN`)
+
+#### Statistics Corrections for Corpus 1.0 to 4.0
+
+- The statistics of Corpus 1.0, 2.0, 3.0 and 4.0 counted some recordings of Bukusu (`bxk`), Kabardian (`kbd`), and Papantla Totonac (`top`) multiple times, because of a bug. This happened for a single user per dataset, where the user changed their demographics during the initial period of SPS data collection where SCS profiles were not yet available. The bug is found and fixed in v5.0, and for completeness we also updated the statistics of older datasets to match the reality.
+
+## Past Releases
+
 ### [Corpus 4.0](sps-corpus-4.0-2026-06-12.json)
 
 - **Date released**: 17 June 2026
 - **Clip cut-off date**: 12 June 2026
-- **Total hours**: 515
-- **Total validated hours**: 273
+- **Total hours**: 509
+- **Total validated hours**: 269
 - **Number of languages**: 78
 
 **New languages since last release**: Amharic (`am`), Lango (`laj`), Mon (`mnw`), Afaan Oromo (`om`), Shimaore (`swb`), Tatar (`tt`)
-
-## Past Releases
 
 ### [Corpus 3.0](sps-corpus-3.0-2026-03-09.json)
 
 - **Date released**: 18 March 2026
 - **Clip cut-off date**: 09 March 2026
-- **Total hours**: 508
-- **Total validated hours**: 269
+- **Total hours**: 502
+- **Total validated hours**: 265
 - **Number of languages**: 72
 
 **New languages since last release**: Danish (`da`), Esperanto (`eo`), Croatian (`hr`), Javanese (`jv`), Dutch (`nl`), Pashto (`ps`), Rakhine (`rki`), Sinhala (`si`), Sundanese (`su`), Tudaga (`tuq`)
@@ -55,8 +69,8 @@ The per-locale statistics JSON differs from SCS (relevant for programmatic consu
 
 - **Date released**: 17 December 2025
 - **Clip cut-off date**: 05 December 2025
-- **Total hours**: 454
-- **Total validated hours**: 268
+- **Total hours**: 447
+- **Total validated hours**: 263
 - **Number of languages**: 62
 
 **New languages since last release**: Spanish (`es`), Tashlhiyt (`shi`), Shona (`sn`), Thai (`th`)
@@ -67,8 +81,8 @@ First Spontaneous Speech release.
 
 - **Date released**: 17 September 2025
 - **Clip cut-off date**: 05 September 2025
-- **Total hours**: 428
-- **Total validated hours**: 263
+- **Total hours**: 422
+- **Total validated hours**: 258
 - **Number of languages**: 58
 
 **Languages**: Arvanitika (`aat`), Adyghe (`ady`), Gheg Albanian (`aln`), Aragonese (`an`), Bashkir (`ba`), Basaa (`bas`), Betawi (`bew`), Breton (`br`), Bodo (`brx`), Sabah Bisaya (`bsy`), Bukusu (`bxk`), Catalan (`ca`), Eastern Min (`cdo`), Chiga (`cgg`), Heng Hua (`cpx`), Welsh (`cy`), German (`de`), Cypriot Greek (`el-CY`), English (`en`), French (`fr`), Frisian (`fy-NL`), Irish (`ga-IE`), Galician (`gl`), Alsatian (`gsw`), Manx (`gv`), Gorani (`hac`), Wixarika (`hch`), Georgian (`ka`), Kabardian (`kbd`), Nubi (`kcn`), Konzo (`koo`), Kelabit (`kzi`), Lendu (`led`), Ligurian (`lij`), Kenyi (`lke`), Thur (`lth`), Latvian (`lv`), Mixteco Yucuhiti (`meh`), Melanau (`mel`), Michoacan Mazahua (`mmc`), Sabah Malay (`msi`), Bahasa Malay (`ms-MY`), Western Penan (`pne`), Puno Quechua (`qxp`), Russian (`ru`), Ruuli (`ruc`), Amba (`rwm`), Scots (`sco`), Serian Bidayuh (`sdo`), Sena (`seh`), Sa'ban (`snv`), Toba Qom (`tob`), Papantla Totonac (`top`), Turkish (`tr`), Rutoro (`ttj`), Kuku (`ukv`), Ushojo (`ush`), Kenyah (`xkl`)
