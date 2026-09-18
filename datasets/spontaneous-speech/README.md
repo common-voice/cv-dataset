@@ -22,10 +22,10 @@ config:
 ---
 xychart-beta
     title "Spontaneous Speech: Total vs Validated Hours"
-    x-axis ["v1.0","v2.0","v3.0","v4.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0","v5.0"]
     y-axis "Hours" 0 --> 600
-    bar [428,454,508,515]
-    bar [263,268,269,273]
+    bar [422,447,502,509,541]
+    bar [258,263,265,269,302]
 ```
 
 ### Contributors
@@ -42,9 +42,9 @@ config:
 ---
 xychart-beta
     title "Spontaneous Speech: Total Contributors"
-    x-axis ["v1.0","v2.0","v3.0","v4.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0","v5.0"]
     y-axis "Users" 0 --> 2500
-    bar [1060,1571,2042,2105]
+    bar [1060,1571,2042,2105,2202]
 ```
 
 ### Dataset Count
@@ -61,9 +61,9 @@ config:
 ---
 xychart-beta
     title "Spontaneous Speech: Dataset Count per Release"
-    x-axis ["v1.0","v2.0","v3.0","v4.0"]
+    x-axis ["v1.0","v2.0","v3.0","v4.0","v5.0"]
     y-axis "Datasets" 0 --> 85
-    line [58,62,72,78]
+    line [58,62,72,78,80]
 ```
 
 ### Release Summary
@@ -72,10 +72,11 @@ xychart-beta
 
 | Release | Date       | Languages | Total Hours | Validated Hours |
 | ------- | ---------- | --------: | ----------: | --------------: |
-| v1.0    | 2025-09-05 |        58 |         428 |             263 |
-| v2.0    | 2025-12-05 |        62 |         454 |             268 |
-| v3.0    | 2026-03-09 |        72 |         508 |             269 |
-| v4.0    | 2026-06-12 |        78 |         515 |             273 |
+| v1.0    | 2025-09-05 |        58 |         422 |             258 |
+| v2.0    | 2025-12-05 |        62 |         447 |             263 |
+| v3.0    | 2026-03-09 |        72 |         502 |             265 |
+| v4.0    | 2026-06-12 |        78 |         509 |             269 |
+| v5.0    | 2026-09-11 |        80 |         541 |             302 |
 
 </div>
 
